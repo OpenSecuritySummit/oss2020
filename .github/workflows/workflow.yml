@@ -16,15 +16,13 @@ jobs:
           submodules: true
       - name: Publish Site
         uses: chabad360/hugo-gh-pages@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           githubToken: ${{ secrets.PERSONAL_TOKEN }}
           # cname: mysite.com # Or anything else
           # Use if you have a custom domain for your site.
-          branch: master
+          # branch: gh-pages
           # Use if your site is not hosted on the gh-pages branch.
-          repo: OpenSecuritySummit/oss2020.github.io
+          # repo: OpenSecuritySummit/oss2020
           # Use if your pushing to a different repo.
           # Dont add ".git" to the end of the URL (youl'll get 404s).
           hugoVersion: extended_0.58.3
