@@ -1,4 +1,4 @@
-# Open Security Summit 2019
+# Open Security Summit 2020
 
 This is the source code for the web pages in https://open-security-summit.org
 
