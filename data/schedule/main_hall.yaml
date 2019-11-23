@@ -1,0 +1,4 @@
+main-stage:
+  title    : Main Stage
+  layout   : table
+  capacity : 100
