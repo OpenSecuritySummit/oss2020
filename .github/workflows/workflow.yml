@@ -16,6 +16,8 @@ jobs:
           submodules: true
       - name: Publish Site
         uses: chabad360/hugo-gh-pages@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           githubToken: ${{ secrets.PERSONAL_TOKEN }}
           # cname: mysite.com # Or anything else
