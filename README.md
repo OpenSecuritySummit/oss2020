@@ -1,10 +1,10 @@
-## Open Security Summit 2019 ![Build Status](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoib0FLRjdEWEpmY0NCVGxzbE9Qa0gwTHlhdFpWblFZTTl5UmsxNjBjSzY5cFdYQmVqNkI3eTQyVy9Qa2lFbkVFUU5sdURZZUxieU9wZG9POWpvNGVVT044PSIsIml2UGFyYW1ldGVyU3BlYyI6ImRKTm1WNEtzcis4cFBGcWMiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)
+## Open Security Summit 2020
 
-Welcome to the home page of the Open Security Summit 2019
+Welcome to the home page of the Open Security Summit 2020
 
-Registration is open [On EventBrite](https://eventbrite.be/tickets-external?eid=39825671656&ref=etckt) 
+Registration is open [On EventBrite](https://eventbrite.co.uk/tickets-external?eid=61289312985&ref=etckt) 
 
-**Open Security Summit 2019, England, 3-7 June 2019**
+**Open Security Summit 2020, England, 15-19 June 2020**
 The Open Security Summit is focused on the collaboration between Developers and Application Security.
 
 This is not a conference with uni-directional presentations, this is a working summit with working sessions on areas like:
