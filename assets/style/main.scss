@@ -39,117 +39,117 @@ a.nav {
 }
 
 .background-photogrid {
-  background: url(/img/pages/photogrid.jpg) center center repeat;
+  background: url("#{$base-url}/img/pages/photogrid.jpg") center center repeat;
 }
 
 .background-venue {
-  background: url(/img/pages/venue.jpg) center center repeat;
+  background: url("#{$base-url}/img/pages/venue.jpg") center center repeat;
 }
 
 .inner_main_venue {
   height: 284px;
   position: relative;
-  background: url(/img/pages/venue.jpg) no-repeat center bottom;
+  background: url("#{$base-url}/img/pages/venue.jpg") no-repeat center bottom;
   background-size: cover;
 }
 
 .inner_main_tickets {
   height: 284px;
   position: relative;
-  background: url(/img/pages/tickets.jpg) no-repeat center bottom;
+  background: url("#{$base-url}/img/pages/tickets.jpg") no-repeat center bottom;
   background-size: cover;
 }
 
 .background-tickets {
-  background: url(/img/pages/tickets.jpg) center center repeat;
+  background: url("#{$base-url}/img/pages/tickets.jpg") center center repeat;
 }
 
 .inner_main_sponsors {
   height: 284px;
   position: relative;
-  background: url(/img/pages/sponsors.jpg) no-repeat center bottom;
+  background: url("#{$base-url}/img/pages/sponsors.jpg") no-repeat center bottom;
   background-size: cover;
 }
 
 .background-sponsors {
-  background: url(/img/pages/sponsors.jpg) center center repeat;
+  background: url("#{$base-url}/img/pages/sponsors.jpg") center center repeat;
 }
 
 .inner_main_about {
   height: 284px;
   position: relative;
-  background: url(/img/pages/about.jpg) no-repeat center bottom;
+  background: url("#{$base-url}/img/pages/about.jpg") no-repeat center bottom;
   background-size: cover;
 }
 
 .background-about {
-  background: url(/img/pages/about.jpg) center center repeat;
+  background: url("#{$base-url}/img/pages/about.jpg") center center repeat;
 }
 
 .background-working-sessions {
-  background: url(/img/pages/working_sessions.jpg) center center repeat;
+  background: url("#{$base-url}/img/pages/working_sessions.jpg") center center repeat;
 }
 
 .inner_main_working_sessions {
   height: 284px;
   position: relative;
-  background: url(/img/pages/working_sessions.jpg) no-repeat center bottom;
+  background: url("#{$base-url}/img/pages/working_sessions.jpg") no-repeat center bottom;
   background-size: cover;
 }
 
 .background-participants {
-  background: url(/img/pages/participants.jpg) center center repeat;
+  background: url("#{$base-url}/img/pages/participants.jpg") center center repeat;
 }
 
 .inner_main_participants {
   height: 284px;
   position: relative;
-  background: url(/img/pages/participants.jpg) no-repeat center bottom;
+  background: url("#{$base-url}/img/pages/participants.jpg") no-repeat center bottom;
   background-size: cover;
 }
 
 .background-FAQs {
-  background: url(/img/pages/FAQs.jpg) center center repeat;
+  background: url("#{$base-url}/img/pages/FAQs.jpg") center center repeat;
 }
 
 .inner_main_FAQs {
   height: 284px;
   position: relative;
-  background: url(/img/pages/FAQs.jpg) no-repeat center bottom;
+  background: url("#{$base-url}/img/pages/FAQs.jpg") no-repeat center bottom;
   background-size: cover;
 }
 
 .background-tracks {
-  background: url(/img/pages/tracks.jpg) center center repeat;
+  background: url("#{$base-url}/img/pages/tracks.jpg") center center repeat;
 }
 
 .inner_main_tracks {
   height: 284px;
   position: relative;
-  background: url(/img/pages/tracks.jpg) no-repeat center bottom;
+  background: url("#{$base-url}/img/pages/tracks.jpg") no-repeat center bottom;
   background-size: cover;
 }
 
 .background-teams {
-  background: url(/img/pages/teams.jpg) center center repeat;
+  background: url("#{$base-url}/img/pages/teams.jpg") center center repeat;
 }
 
 .inner_main_teams {
   height: 284px;
   position: relative;
-  background: url(/img/pages/teams.jpg) no-repeat center bottom;
+  background: url("#{$base-url}/img/pages/teams.jpg") no-repeat center bottom;
   background-size: cover;
 }
 
 .inner_main_schedule {
   height: 284px;
   position: relative;
-  background: url(/img/pages/schedule.jpg) no-repeat center bottom;
+  background: url("#{$base-url}/img/pages/schedule.jpg") no-repeat center bottom;
   background-size: cover;
 }
 
 .background-schedule {
-  background: url(/img/pages/schedule.jpg) center center repeat;
+  background: url("#{$base-url}/img/pages/schedule.jpg") center center repeat;
 }
 
 .inner_main_product_sessions {
@@ -162,22 +162,22 @@ a.nav {
 .inner_main_outcomes {
   height: 284px;
   position: relative;
-  background: url(/img/pages/outcomes.png) no-repeat center bottom;
+  background: url("#{$base-url}/img/pages/outcomes.png") no-repeat center bottom;
   background-size: cover;
 }
 
 .background-outcomes {
-  background: url(/img/pages/outcomes.png) center center repeat;
+  background: url("#{$base-url}/img/pages/outcomes.png") center center repeat;
 }
 
 .background-default {
-  background: url(/img/banners/default.png) center center repeat;
+  background: url("#{$base-url}/img/banners/default.png") center center repeat;
 }
 
 .inner_main_default {
   height: 284px;
   position: relative;
-  background: url(/img/banners/default.png) no-repeat center bottom;
+  background: url("#{$base-url}/img/banners/default.png") no-repeat center bottom;
   background-size: cover;
 }
 
@@ -433,7 +433,7 @@ div.google-map {
 /* Features style */
 .bar.bg-features {
   margin-bottom: 0;
-  background: url(../img/feature-bg.png) no-repeat center bottom;
+  background: url("#{$base-url}/img/feature-bg.png") no-repeat center bottom;
   background-size: contain;
 }
 
@@ -512,32 +512,32 @@ div.google-map {
 }
 
 .icon-tickets {
-  background: url(../img/features/tickets.png) no-repeat;
+  background: url("#{$base-url}/img/features/tickets.png") no-repeat;
   background-size: contain;
 }
 
 .icon-venue {
-  background: url(../img/features/venue.png) no-repeat;
+  background: url("#{$base-url}/img/features/venue.png") no-repeat;
   background-size: contain;
 }
 
 .icon-tracks {
-  background: url(../img/features/tracks.png) no-repeat;
+  background: url("#{$base-url}/img/features/tracks.png") no-repeat;
   background-size: contain;
 }
 
 .icon-faq {
-  background: url(../img/features/faq.png) no-repeat;
+  background: url("#{$base-url}/img/features/faq.png") no-repeat;
   background-size: contain;
 }
 
 .icon-participants {
-  background: url(../img/features/participants.png) no-repeat;
+  background: url("#{$base-url}/img/features/participants.png") no-repeat;
   background-size: contain;
 }
 
 .icon-blog {
-  background: url(../img/features/blog.png) no-repeat;
+  background: url("#{$base-url}/img/features/blog.png") no-repeat;
   background-size: contain;
 }
 
@@ -965,7 +965,7 @@ hr.container.no-margin {
 .inner_main_title2 {
   height: 350px;
   position: relative;
-  background: url(../images/pricing_banner_bg.jpg) no-repeat right bottom;
+  background: url("#{$base-url}/images/pricing_banner_bg.jpg") no-repeat right bottom;
   background-size: cover;
 }
 
@@ -1259,7 +1259,7 @@ hr.container.no-margin {
 .inner_main_title3 {
   height: 350px;
   position: relative;
-  background: url(../images/participate.jpg) no-repeat right top;
+  background: url("#{$base-url}/images/participate.jpg") no-repeat right top;
   background-size: cover;
 }
 
