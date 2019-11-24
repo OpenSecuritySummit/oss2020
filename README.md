@@ -13,7 +13,8 @@ This is not a conference with uni-directional presentations, this is a working s
 * Risk & Governance, Privacy & CTO/CISO requirements
 * Secure Design, Bug-bounties
 * Browser Security, AI for Attack & Defence
-* DDoS, Cyber Warfare, AppSec Standards; 
+* DDoS, Cyber Warfare, AppSec Standards
+* Use of strategic tools and frameworks (Wardley Mapping, Cynefin); 
 
 .. and of course, working sessions on popular OWASP projects (lead by its leaders) such as:
 * ZAP, Top 10, Dependency Check, Juice Shop
@@ -25,7 +26,7 @@ Using the same model as the past OWASP Summits in Portugal and the UK, this 5 da
 
 If you care about Application Security and want to collaborate with the key players in this industry, this is the event to be.
 
-The Summit will occur in England, 3-7 June 2019.
+The Summit will occur in England, 15-19 June 2020.
 
 If you want to be involved, add you name to the [participants](content/participant) page.
 
