@@ -163,7 +163,7 @@ paginate = 10
 [[menu.topbar]]
     weight = 1
     name = "GitHub"
-    url = "https://github.com/OpenSecuritySummit/oss2019"
+    url = "https://github.com/OpenSecuritySummit/oss2020"
     pre = "<i class='fa fa-2x fa-github'></i>"
 
 [[menu.topbar]]
