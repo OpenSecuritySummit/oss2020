@@ -139,11 +139,11 @@ paginate = 10
     weight = 22
     parent = "about"
     url = "/faq/"
-[[menu.main]]
-    name = "Sponsors"
-    identifier = "sponsors"
-    weight = 11
-    url = "/sponsors/"
+#[[menu.main]]
+#    name = "Sponsors"
+#    identifier = "sponsors"
+#    weight = 11
+#    url = "/sponsors/"
 [[menu.main]]
     name = "Partners"
     identifier = "partners"
