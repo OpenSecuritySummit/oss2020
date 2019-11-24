@@ -6,7 +6,7 @@
           <img src="{{ . }}"/>
         {{ end }}
       {{ else }}
-        <img src="/img/px.gif"/>
+        <img src="{{ .Site.BaseURL }}/img/px.gif"/>
       {{ end }}
     </i>
     <h4>{{ .Params.title }}</h4>

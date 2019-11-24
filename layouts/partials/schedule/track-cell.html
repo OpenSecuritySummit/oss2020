@@ -55,7 +55,7 @@
                                     {{ if $page.Params.image }}
                                         <img class="participant-image img-circle" src="{{ $page.Params.image}}"/>
                                     {{ else}}
-                                        <img class="participant-image img-circle" src="/img/blocks/avatar.jpg"/>
+                                        <img class="participant-image img-circle" src="{{ .Site.BaseURL }}/img/blocks/avatar.jpg"/>
                                     {{ end }}
                                 </a>
                             {{ end }}

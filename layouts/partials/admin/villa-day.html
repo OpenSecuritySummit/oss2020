@@ -13,7 +13,7 @@
                     {{ if .Params.image }}
                         <img src="{{ .Params.image }}"  title="{{ .Title }}" />
                     {{ else }}
-                        <img src="/img/blocks/avatar.jpg" title="{{ .Title }}" />
+                        <img src="{{ .Site.BaseURL }}/img/blocks/avatar.jpg" title="{{ .Title }}" />
                     {{ end }}
                 </i>
         </a>
