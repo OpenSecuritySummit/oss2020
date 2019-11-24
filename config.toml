@@ -26,12 +26,12 @@ paginate = 10
 #    pre = "<i class='fa fa-road'></i>&nbsp;"
 #    weight = 1
 #    url = "/Reactions"
-[[menu.main]]
-    name = "Outcomes"
-    identifier = "outcomes"
-    pre = "<i class='fa fa-road'></i>&nbsp;"
-    weight = 2
-    url = "/outcomes/"
+#[[menu.main]]
+#    name = "Outcomes"
+#    identifier = "outcomes"
+#    pre = "<i class='fa fa-road'></i>&nbsp;"
+#    weight = 2
+#    url = "/outcomes/"
 [[menu.main]]
     name = "Photo Gallery"
     identifier = "PhotoGallery"
@@ -44,19 +44,19 @@ paginate = 10
 #    pre = "<i class='fa fa-road'></i>&nbsp;"
 #    weight = 3
 #    url = "/working-sessions/"
-[[menu.main]]
-    name = "Tracks"
-    identifier = "tracks"
-    pre = "<i class='fa fa-road'></i>&nbsp;"
-    weight = 3
-    url = "/tracks/"
-[[menu.main]]
-    name = "Schedule"
-    identifier = "schedule"
-    pre = "<i class='fa fa-road'></i>&nbsp;"
-    weight = 2
+#[[menu.main]]
+#    name = "Tracks"
+#    identifier = "tracks"
+#    pre = "<i class='fa fa-road'></i>&nbsp;"
+#    weight = 3
+#    url = "/tracks/"
+#[[menu.main]]
+#    name = "Schedule"
+#    identifier = "schedule"
+#    pre = "<i class='fa fa-road'></i>&nbsp;"
+#    weight = 2
 #    parent = "sessions"
-    url = "/schedule/day/fri/"
+#    url = "/schedule/day/fri/"
 #[[menu.main]]
 #    name = "Topics"
 #    identifier = "topics"
