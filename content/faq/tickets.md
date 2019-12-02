@@ -15,11 +15,11 @@ If you'd like to pay by invoice, please email info@opensecsummit.org with your f
 ## Ticket FAQs
 
 ### I have a ticket, but I'm no longer able to attend, can I get a refund?
-Our refund policy for the Open Security Summit 2019 is as follows:
+Our refund policy for the Open Security Summit is as follows:
 
- - Attendees wishing to cancel their ticket before 20 May 2019 are eligible for a full refund
- - Attendees wishing to cancel their ticket between 21 - 27 May 2019 are eligible for a 50% refund (excluding processing fees)
- - Attendees wishing to cancel their ticket after 28 May 2019 do not qualify for a refund.
+ - Attendees wishing to cancel their ticket before 20 May 2020 are eligible for a full refund
+ - Attendees wishing to cancel their ticket between 21 - 27 May 2020 are eligible for a 50% refund (excluding processing fees)
+ - Attendees wishing to cancel their ticket after 28 May 2020 do not qualify for a refund.
 
 ### I have a ticket, but I'm no longer able to attend, can I transfer my ticket to someone else?
-You can transfer your ticket to another person until 27 May 2019. Transfers are not possible after this date.
+You can transfer your ticket to another person until 27 May 2020. Transfers are not possible after this date.
