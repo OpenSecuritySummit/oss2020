@@ -1,5 +1,5 @@
 ---
-title       : Open Security Company Structure
+title       : Open Security Summit Company Structure
 layout      : FAQ
 ---
 
