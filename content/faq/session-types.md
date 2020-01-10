@@ -6,6 +6,8 @@ layout      : FAQ
 ### Working Sessions
 **Working Sessions** focus on creating and evolving ideas to create outcomes that will have an impact in the real world. They are a great way to join a group of practitioners to share expertise and knowledge on a particular subject.
 
+![working sessions properties](/oss2020/img/pages/working_session_properties.png){ width=45% }
+
 <img src="/img/pages/working_session_properties.png" alt="working sessions properties" style="width: 45%;"/>
 <img src="/img/pages/working_session_approach.png" alt="working sessions approach" style="width: 45%;"/><br/>
 <a name="user-session"></a>
