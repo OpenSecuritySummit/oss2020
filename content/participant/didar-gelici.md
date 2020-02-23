@@ -8,12 +8,10 @@ owasp_member_since:
 project_user:
 - ASVS
 sessions:
-
 status: done
 title: Didar Gelici
 twitter: DGelici
 type: participant
-website: 
 ---
 
 Didar is passionate about supporting communities and events in the devops and security space wherever she can. 
