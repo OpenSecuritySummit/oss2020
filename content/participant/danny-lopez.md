@@ -7,7 +7,7 @@ notes: ''
 project_leader: ''
 sessions: []
 status: add-details
-title: ''
+title: 'Danny Lopez'
 travel_from: ''
 twitter: ''
 type: participant

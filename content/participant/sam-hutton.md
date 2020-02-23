@@ -1,5 +1,4 @@
 ---
-title: Sam Hutton
 company: 'Glasswall'
 image: 'https://media-exp1.licdn.com/dms/image/C4E03AQGIYGIc6rCTCw/profile-displayphoto-shrink_200_200/0?e=1588204800&v=beta&t=GzFYYesyQt0KEjN5MPExXa6Z9TrTuUHIhxLGUHeRcDA'
 job_title: 'SVP'
@@ -8,7 +7,7 @@ notes: ''
 project_leader: ''
 sessions: []
 status: add-details
-title: ''
+title: 'Sam Hutton'
 travel_from: ''
 twitter: ''
 type: participant

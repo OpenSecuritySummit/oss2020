@@ -7,7 +7,7 @@ notes: ''
 project_leader: ''
 sessions: []
 status: add-details
-title: ''
+title: 'Luke Robbertse'
 travel_from: ''
 twitter: ''
 type: participant

@@ -1,16 +1,16 @@
 ---
-company: Glasswall
-image: 
-job_title: Cloud Development Manager at Glasswall
-linkedin: https://www.linkedin.com/in/matt-cavey-60a6712/
-notes: 
-project_leader: 
+company: 'Glasswall'
+image: ''
+job_title: 'Cloud Development Manager at Glasswall'
+linkedin: 'https://www.linkedin.com/in/matt-cavey-60a6712/'
+notes: ''
+project_leader: ''
 sessions: []
 status: add-details
-title: 
-travel_from: 
-twitter: 
+title: 'Matt Cavey'
+travel_from: ''
+twitter: ''
 type: participant
-website: 
+website: ''
 ---
 Matt is a Cloud Development Manager at Glasswall

@@ -7,7 +7,7 @@ notes: ''
 project_leader: ''
 sessions: []
 status: add-details
-title: ''
+title: 'Alex Potter-Dixon'
 travel_from: ''
 twitter: ''
 type: participant
