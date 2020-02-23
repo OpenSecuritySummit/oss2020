@@ -1,8 +1,8 @@
 ---
-title        : Onboarding and Training
+title        : Training Sessions
 type         : track
 featured     : yes
 when_day     : Mon
-description  : Onboarding and Training sessions
+description  : Learn about key topics widely used through out the conference
 organizers   :
 ---
