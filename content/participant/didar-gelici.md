@@ -4,7 +4,6 @@ image: https://media-exp1.licdn.com/dms/image/C4D03AQG7GcLMJCcU1w/profile-displa
 job_title: Cyber Risk Manager aspiring to go into DevSecOps space
 linkedin: didargelici
 owasp_member_since: 2019
-sessions: 
 status: done
 title: Didar Gelici
 twitter: DGelici
