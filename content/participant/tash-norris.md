@@ -1,6 +1,6 @@
 ---
 company: PhotoBox Group
-image: https://media.licdn.com/dms/image/C5603AQGA6zGVjZK07w/profile-displayphoto-shrink_200_200/0?e=1562198400&v=beta&t=_YIcsRDjgzSA6YKhVemE_l7qlDZL7Pd6WwWodtyfHZE
+image: https://media-exp1.licdn.com/dms/image/C5603AQGA6zGVjZK07w/profile-displayphoto-shrink_800_800/0?e=1588204800&v=beta&t=apFHbXrZyXCKaVX8CJhtHvZ-g8KLsMW17JKS8Q4zJ5U
 job_title: Senior Cloud Security and Threat Modeler and AppSec
 linkedin: tash-norris-4019892b
 sessions: 
