@@ -1,4 +1,5 @@
 ---
+title: Lewis Henderson
 company: 'Glasswall'
 image: 'https://media-exp1.licdn.com/dms/image/C4E03AQH0UJKkF78rUA/profile-displayphoto-shrink_200_200/0?e=1588204800&v=beta&t=LIvKZVWcEJ6JKsRwrHf87hHtRZ_iFmwXK00lVdYBNf4'
 job_title: 'Threat Intelligence Specialist, Data Enthusiast, Cyber Evangelist'
