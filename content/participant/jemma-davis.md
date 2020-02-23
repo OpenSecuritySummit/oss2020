@@ -1,13 +1,13 @@
 ---
 company: JeMarketing Services Ltd
-image: https://media.licdn.com/dms/image/C5603AQEA207gxkJs6Q/profile-displayphoto-shrink_800_800/0?e=1560384000&v=beta&t=637MFM_JrNRK50vQS9F5hYC3jZUrN0Q4HlbiP2yRiR8
+image: https://media-exp1.licdn.com/dms/image/C4D03AQFdFz97hvLn-w/profile-displayphoto-shrink_800_800/0?e=1588204800&v=beta&t=FGlwJiscPInDwCDVraOA1I9LvTIV-4J41jNym-0O8JA
 job_title: Event and Logistics Manager
-linkedin: https://www.linkedin.com/in/jemma-davis-acim-6a562792/
+linkedin: jemma-davis-6a562792
 sessions:
     - Introduction to Cynefin Framework
 status: done
 title: Jemma Davis
-twitter: ''
+twitter: InfosecJem
 type: participant
 website: https://www.jemarketing.co.uk/
 ---
