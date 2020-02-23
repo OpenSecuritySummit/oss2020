@@ -3,7 +3,7 @@ company:
 image: https://media-exp1.licdn.com/dms/image/C4D03AQG7GcLMJCcU1w/profile-displayphoto-shrink_200_200/0?e=1588204800&v=beta&t=CM_cgI0reasnf0V1IlTl5kRQ-6q7sKm46XSRQrxTI1k
 job_title: Cyber Risk Manager aspiring to go into DevSecOps space
 linkedin: didargelici
-owasp_member_since:2019
+owasp_member_since: 2019
 sessions: tbc
 status: done
 title: Didar Gelici
