@@ -1,4 +1,4 @@
-## Open Security Summit 2020
+## Open Security Summit 2020 ![github pages](https://github.com/OpenSecuritySummit/oss2020/workflows/github%20pages/badge.svg)
 
 Welcome to the home page of the Open Security Summit 2020
 

@@ -1,15 +1,20 @@
 ---
+chapter_leader: ''
 company: ''
 facebook: ''
-image: ''
+image: https://pbs.twimg.com/profile_images/180727117/Simon_400x400.jpg
 job_title: ''
 linkedin: ''
 notes: ''
-sessions: []
+project_leader: ''
+sessions:
+    - Security Challenges - Analyse others
+    - Using Wardley Maps on SOC
+    - Wardley Maps for Security
 status: add-details
-title: 'Simon Wardley'
+title: Simon Wardley
 travel_from: ''
-twitter: ''
+twitter: swardley
 type: participant
 website: ''
 ---

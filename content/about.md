@@ -33,4 +33,4 @@ layout   : about
   {{< figure link="/img/summit2017/owasp-summit-2017-(15).jpg" caption="BBQ Masters" >}}
   {{< figure link="/img/summit2017/owasp-summit-2017-(16).jpg" caption="OWASP Summit 2017 participants" >}}
 
-{{< /gallery >}}
+{{< /gallery >}} 
