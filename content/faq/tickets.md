@@ -23,3 +23,12 @@ Our refund policy for the Open Security Summit is as follows:
 
 ### I have a ticket, but I'm no longer able to attend, can I transfer my ticket to someone else?
 You can transfer your ticket to another person until 27 May 2020. Transfers are not possible after this date.
+
+### What is your official statement on Covid 19?
+We accept COVID-19 presents uncharted challenges, and whilst we have a comprehensive contingency plan, we will follow government advice, which is ‘business as usual’.
+
+We embrace a duty of care to our community and will be working with Center Parcs to ensure good sanitation, medical cover, appropriate signage, and other appropriate measures. 
+
+The UK Deputy Chief Medical Officer, Jonathan Van-Tam, has informed the UK event industry that despite fears regarding the coronavirus, there is no reason to shut down events. 
+
+We have no plans to postpone or cancel the Open Security Summit 2020.
