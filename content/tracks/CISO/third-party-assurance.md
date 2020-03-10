@@ -9,7 +9,7 @@ when_time    : AM-1
 room_layout  :
 room_id      : room-6
 session_slack: https://os-summit.slack.com/messages/CAURV0D09
-status       : draft              # draft, review-content, done
+status       : done
 description  : Session on problem and solution discussion
 organizers   : Didar Gelici, Alan Jenkins, Tony Richards
 participants :
@@ -25,6 +25,7 @@ Last year, we said we should have a restricted opensource platform where the mem
 We later found out there are a few commercial platforms like OneTrust Vendorpedia / RiskLedger / IHS Markit KY3P and this year we will continue the discussion on CISOs view on these and potential limitations they are facing.
 
 **Things to consider:**
+
 [These are from last year]
 Are we assessing the corporate controls of the vendor or their solution's security, or both?
 What framework or frameworks best suited for this? MITRE, NIST, ISO??
