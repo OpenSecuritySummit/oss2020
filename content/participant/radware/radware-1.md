@@ -3,7 +3,7 @@ title: Radware 1
 chapter_leader: ''
 company: ''
 facebook: ''
-image: https://pbs.twimg.com/profile_images/971426878870441984/XfFqpXy2_400x400.jpg
+image: https://user-images.githubusercontent.com/656739/76345035-8c18c100-62fa-11ea-86c4-aa1d66f6a693.png
 job_title: ''
 linkedin: ''
 notes: ''
