@@ -1,13 +1,13 @@
 ---
-title        : Threat Model introduction
+title        : Threat Model (over breakfast)
 type         : user-session
-track        : Threat Model
+track        : Training
 topics       : 
 technology   :
 categories   :
 featured     : yes
-when_day     :
-when_time    :
+when_day     : Tue,Wed,Thu
+when_time    : KN-2
 room_layout  :                    #
 room_id      :
 session_slack:

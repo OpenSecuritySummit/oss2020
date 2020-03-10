@@ -1,13 +1,13 @@
 ---
 title        : Introduction to Team Topologies
 type         : user-session
-track        : Team Topologies
+track        : Training
 topics       : 
 technology   :
 categories   :
 featured     : yes
-when_day     :
-when_time    :
+when_day     : Tue
+when_time    : AM-1
 room_layout  :                    #
 room_id      :
 session_slack:

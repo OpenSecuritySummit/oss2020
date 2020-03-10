@@ -1,5 +1,5 @@
 ---
-title        : Training Sessions
+title        : Training
 type         : track
 featured     : yes
 when_day     : Mon
