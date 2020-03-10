@@ -1,7 +1,7 @@
 ---
 title        : Privacy Threat Modeling with LINDDUN
 type         : user-session
-track        : Threat Modeling
+track        : Threat Model
 category     :
 featured     :                 # if  "yes" review with summit team
 when_day     : Wed
