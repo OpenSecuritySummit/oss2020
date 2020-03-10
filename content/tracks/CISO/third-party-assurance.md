@@ -1,6 +1,6 @@
 ---
 title        : Third Party Assurance
-type         : user-session
+type         : working-session
 track        : CISO
 category     :
 featured     :                 # if  "yes" review with summit team
