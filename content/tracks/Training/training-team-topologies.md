@@ -12,7 +12,7 @@ room_layout  :                    #
 room_id      :
 session_slack:
 status       : review-content             # draft, review-content, done
-organizers   :
+organizers   : Mario Platt, Luke Robbertse
 description  : Introduction to Team Topologies
 ---
 
