@@ -38,4 +38,4 @@ Watch this space.
 
 ## Who
 
-[From last year] Didar:In last ten years, every job I had included third party assurance work and I kept sending similar questionnaires to same vendors over and over. This needs to be improved and in this era of open sourcing everything, I believe we can do better if we came up with a shared model for third party due diligence.
+In last ten years, every job I had included third party assurance work and I kept sending similar questionnaires to same vendors over and over. This needs to be improved and in this era of open sourcing everything, we can do better.
