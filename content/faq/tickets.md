@@ -30,3 +30,8 @@ Thanks again for your continued support. Understandably, we have received many q
 This years’ Open Security Summit will go ahead remotely; there will be no onsite participation. Between 15-19 June 2020, you will be able to access online working sessions through video conferencing. The current Working Sessions will be restructured to support 100% remote participation, and the schedule will be fine-tuned accordingly.
 
 The physical Open Security Summit has been rescheduled until 14-18 June 2021. All sponsorship and registrations have been transferred to the new dates.
+
+### Why are you charging for remote tickets for the online summit?
+While our costs are significantly reduced with an online summit, we do still incur costs for technology, writers, support and other expendables.
+The Open Security Summit is a not-for-profit community interest company. All funds received through sponsorship and ticket sales is invested into the sustainable future of the company. Further details can be found in the /oss-structure/ page.
+
