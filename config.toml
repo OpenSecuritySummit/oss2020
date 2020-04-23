@@ -125,13 +125,13 @@ paginate = 10
     weight = 20
     parent = "about"
     url = "/about/"
-[[menu.main]]
-    name = "Venue"
-    identifier = "venue"
-    pre = "<i class='fa fa-road'></i>&nbsp;"
-    weight = 21
-    parent = "about"
-    url = "/venue/"
+#[[menu.main]]
+#    name = "Venue"
+#    identifier = "venue"
+#    pre = "<i class='fa fa-road'></i>&nbsp;"
+#    weight = 21
+#    parent = "about"
+#    url = "/venue/"
 [[menu.main]]
     name = "Faq"
     identifier = "faq"
