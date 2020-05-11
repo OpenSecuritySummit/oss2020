@@ -6,7 +6,7 @@ owasp-project: no
 when_day     : Wed,Thu
 when_time    :
 session_slack:
-description  : Sessions focusing on Azure Security and AWS Automation
+description  : Sessions focusing on Azure Security and Azure Automation
 organizers   :
 ---
 
