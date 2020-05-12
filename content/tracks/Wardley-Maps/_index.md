@@ -70,3 +70,10 @@ Brilliant summary of Wardley mapping and it's different stages, in an easy to us
 
 Evolving a business process with Wardley mapping - http://www.abusedbits.com/2018/06/evolving-business-process-with-wardley.html
 Using Wardley mapping to map and improve a business process, by identifying the parts that are at initial stages of development and finding more efficient ways to address them
+
+[added 2020] Set of further resources, maintained by Wardley Maps community https://github.com/wardley-maps-community/awesome-wardley-maps
+
+[added 2020] an upcoming (21 May 2020) Webinar with Simon Wardley (it will be recorded) https://www.bigmarker.com/we-are-lean-and-agile/Wardley-Mapping-with-Simon-Wardley
+
+[added 2020] Wardley mapping online tool - onlinewardleymaps.com
+
