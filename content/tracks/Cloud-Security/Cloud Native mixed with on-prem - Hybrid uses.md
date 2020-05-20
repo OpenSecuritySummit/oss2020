@@ -11,7 +11,7 @@ room_id      :
 session_slack: 
 status       : draft              # draft, review-content, done
 description  :
-organizers   :Dinis Cruz
+organizers   : Dinis Cruz
 participants :
 ---
 
