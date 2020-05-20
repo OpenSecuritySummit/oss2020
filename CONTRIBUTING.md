@@ -51,7 +51,7 @@ The terminal will tell you at which address your hugo server lives, but it usual
 Several editors for better markdown editing
 * [Sublime](https://www.sublimetext.com/3) has package called [MarkdownExtended](https://github.com/jonschlinkert/sublime-markdown-extended) that improves Markdown + Front Matter syntax highlighting
 * [Atom](https://atom.io/) has a built in GitHub Markdown syntax highlighting
-* [Visual Studio](https://www.visualstudio.com)
+* [Visual Studio Code](https://code.visualstudio.com/?wt.mc_id=DX_841432)
 * [WebStorm](https://www.jetbrains.com/webstorm/)
 
 ## Git Clients
