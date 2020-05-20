@@ -1,5 +1,5 @@
 ---
-title        : CISO
+title        : CISO and Risk Management
 type         : track
 featured     : yes
 owasp-project: no
