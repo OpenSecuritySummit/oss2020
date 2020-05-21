@@ -1,7 +1,7 @@
 ---
 title        : Third Party Assurance
 type         : working-session
-track        : CISO
+track        : "CISO and Risk Management"
 category     :
 featured     :                 # if  "yes" review with summit team
 when_day     : Wed
