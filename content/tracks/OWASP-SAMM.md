@@ -1,5 +1,5 @@
 ---
-title        : OWASP Projects
+title        : OWASP-SAMM
 type         : track
 featured     : yes
 when_day     : Mon,Wed,Fri
