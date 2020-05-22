@@ -1,5 +1,5 @@
 ---
-title        : OWASP Juice Shop Deep Dive: Integration
+title        : OWASP Juice Shop Deep Dive : Integration
 track        : "OWASP-JuiceShop"
 type         : working-session      # working-session, user-session, product-session
 technology   :
