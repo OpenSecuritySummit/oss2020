@@ -1,9 +1,10 @@
 ---
-title        :Real world Cloud Security challenges 
+title        : Real world Cloud Security challenges 
+track        : "Cloud-Security"
 type         : working-session      # working-session, user-session, product-session
 technology   :
-topics       :      AWS Security hardening     # for example ["GDPR"]
-featured     :                    # review with summit team "yes"
+topics       : "AWS Security hardening"     # for example ["GDPR"]
+featured     :  "yes"                  # review with summit team "yes"
 when_day     : Wed                   # i.e.    Tue
 when_time    : AM-1                  # i.e.    AM-1
 room_layout  :                    #
@@ -11,26 +12,26 @@ room_id      :
 session_slack: 
 status       : draft              # draft, review-content, done
 description  :
-organizers   :Dinis Cruz
+organizers   : Dinis Cruz
 participants :
 ---
 
 
 <!--(add intro)
 
-## Security handle malicious content inside AWS Lambdas
+## "Security handle malicious content inside AWS Lambdas"
 
 (...)
 
-## Limitations
+## "Limitation"s
 
 (...)
 
-## Large files
+## "Large files"
 
 (...)
 
-## How to scale
+## "How to scale"
 
 (...)
 
