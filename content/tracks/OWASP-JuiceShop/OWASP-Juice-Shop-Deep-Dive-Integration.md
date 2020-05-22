@@ -14,7 +14,6 @@ status       :  draft              # draft, review-content, done
 description  :
 organizers   :  Bjoern Kimminich
 participants :
----
 
 
 <!--(add intro)
