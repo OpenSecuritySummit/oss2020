@@ -1,8 +1,7 @@
----
 title        :  OWASP Juice Shop Deep Dive : Integration
 track        :  OWASP-JuiceShop
 type         :  working-session      # working-session, user-session, product-session
-technology   :
+technology   : 
 topics       :                    # for example ["GDPR"]
 featured     :  yes                   # review with summit team "yes"
 when_day     :  Mon                 # i.e.    Tue
@@ -14,7 +13,6 @@ status       :  draft              # draft, review-content, done
 description  :
 organizers   :  Bjoern Kimminich
 participants :
-
 
 <!--(add intro)
 
