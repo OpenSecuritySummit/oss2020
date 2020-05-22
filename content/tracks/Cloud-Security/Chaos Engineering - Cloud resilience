@@ -1,8 +1,9 @@
 ---
-title        : Chaos Engineering - Cloud resilience 
+title        : Chaos Engineering - Cloud resilience
+track        : "Cloud Security"
 type         : working-session      # working-session, user-session, product-session
 technology   :
-topics       : Failure Friday (5 mins show 5 min Q&A)  # for example ["GDPR"]
+topics       : "Failure Friday (5 mins show 5 min Q&A)"  # for example ["GDPR"]
 featured     :                    # review with summit team "yes"
 when_day     : Wed                   # i.e.    Tue
 when_time    : PM-2                   # i.e.    AM-1
