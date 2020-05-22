@@ -1,9 +1,9 @@
 ---
 title        : How to get Agile in Security
-Track        : "DevSecOps"
+track        : "DevSecOps"
 type         : working-session      # working-session, user-session, product-session
 technology   :
-topics       :"How to get Buy-in"     # for example ["GDPR"]
+topics       : "How to get Buy-in"     # for example ["GDPR"]
 featured     : "yes"                  # review with summit team "yes"
 when_day     : Tuesday                # i.e.    Tue
 when_time    : PM-2                   # i.e.    AM-1
@@ -19,7 +19,7 @@ participants :
 
 <!--(add intro)
 
-## "What is expected of the business stakeholders"
+## What is expected of the business stakeholders
 
 (...)
 
