@@ -1,10 +1,10 @@
 ---
 title        : What can be leveraged from what we already have to move from devops to devsecops + What is missing + What will be priority 
-Track        : "DevSecOps"
+track        : "DevSecOps"
 type         : working-session      # working-session, user-session, product-session
 technology   :
-topics       : "Automation"       # for example ["GDPR"]
-featured     : "Yes"                # review with summit team "yes"
+topics       : ["Automation"]       # for example ["GDPR"]
+featured     : yes                # review with summit team "yes"
 when_day     : Tuesday            # i.e.    Tue
 when_time    : AM-1               # i.e.    AM-1
 room_layout  :                    #
