@@ -1,9 +1,10 @@
 ---
-title        : Migration to Cloud 
+title        : Migration to Cloud
+track        : "Cloud Security"
 type         : working-session      # working-session, user-session, product-session
 technology   :
-topics       : Mistakes still being made       # for example ["GDPR"]
-featured     :                    # review with summit team "yes"
+topics       : "Mistakes still being made"       # for example ["GDPR"]
+featured     :  "yes"                  # review with summit team "yes"
 when_day     : Thursday                   # i.e.    Tue
 when_time    : AM-1                   # i.e.    AM-1
 room_layout  :                    #
@@ -18,15 +19,15 @@ participants :
 
 <!--(add intro)
 
-## Refactor / Lift&Shift - why not realise
+## "Refactor / Lift&Shift - why not realise"
 
 (...)
 
-## he benefits of Re-platform
+## "The benefits of Re-platform"
 
 (...)
 
-## Reallife examples from PBX
+## "Reallife examples from PBX"
 
 (...)
 
