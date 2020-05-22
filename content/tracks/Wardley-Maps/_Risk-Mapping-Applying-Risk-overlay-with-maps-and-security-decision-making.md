@@ -1,6 +1,6 @@
 ---
 title        : Risk Mapping - Applying Risk overlay with maps and security decision making
-track        : Wardley Maps
+track        : "Wardley Maps"
 type         : working-session      # working-session, user-session, product-session
 technology   :
 topics       : Applying Risk overlay with maps and security decision making    # for example ["GDPR"]

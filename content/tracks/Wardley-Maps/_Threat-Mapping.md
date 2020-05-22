@@ -1,6 +1,6 @@
 ---
 title        : Threat Mapping (Social practice theory and applying maturity mapping) 
-track        : Wardley Maps
+track        : "Wardley Maps"
 type         : working-session      # working-session, user-session, product-session
 technology   :
 topics       :                    # for example ["GDPR"]

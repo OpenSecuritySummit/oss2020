@@ -1,9 +1,9 @@
 ---
-title        : OWASP-SAMM
+title        : OWASP SAMM
 type         : track
 featured     : yes
 when_day     : Mon,Wed,Fri
-owasp-project: no
+owasp-project: yes
 session_slack: https://os-summit.slack.com/messages/CAULHPHU2
 description  : Sessions on multiple OWASP Projects
 organizers   :

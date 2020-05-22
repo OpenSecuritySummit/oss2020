@@ -1,6 +1,6 @@
 ---
 title        : How do I do it - Bring your own map
-track        : Wardley Maps
+track        : "Wardley Maps"
 type         : working-session      # working-session, user-session, product-session
 technology   :
 topics       :                    # for example ["GDPR"]

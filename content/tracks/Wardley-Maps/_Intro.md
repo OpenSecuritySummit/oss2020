@@ -1,6 +1,7 @@
 ---
 title        : Intro 
 type         : working-session      # working-session, user-session, product-session
+track        : "Wardley Maps"
 technology   :
 topics       :                    # for example ["GDPR"]
 featured     :                    # review with summit team "yes"
