@@ -1,6 +1,6 @@
 ---
-title        :Real world Cloud Security challenges 
-track        : "Cloud Security"
+title        : Real world Cloud Security challenges 
+track        : "Cloud-Security"
 type         : working-session      # working-session, user-session, product-session
 technology   :
 topics       : "AWS Security hardening"     # for example ["GDPR"]
@@ -12,7 +12,7 @@ room_id      :
 session_slack: 
 status       : draft              # draft, review-content, done
 description  :
-organizers   :Dinis Cruz
+organizers   : Dinis Cruz
 participants :
 ---
 
