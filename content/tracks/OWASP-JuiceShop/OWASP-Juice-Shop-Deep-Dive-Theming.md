@@ -1,5 +1,5 @@
 ---
-title        : OWASP Juice Shop Deep Dive: Theming
+title        : OWASP Juice Shop Deep Dive : Theming
 track        : OWASP-JuiceShop
 type         : working-session      # working-session, user-session, product-session
 technology   :
