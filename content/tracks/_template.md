@@ -1,5 +1,6 @@
 ---
 title        :
+track        :
 type         : working-session      # working-session, user-session, product-session
 technology   :
 topics       :                    # for example ["GDPR"]
