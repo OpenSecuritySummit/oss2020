@@ -1,5 +1,5 @@
 ---
-title        :   OWASP Juice Shop Cocktail Party : Ask us anything(AUA)
+title        :   OWASP Juice Shop Cocktail Party : Ask us anything ( AUA )
 track        :   OWASP-JuiceShop
 type         :   working-session      # working-session, user-session, product-session
 technology   :
