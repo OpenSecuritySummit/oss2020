@@ -14,8 +14,6 @@ status       :  draft              # draft, review-content, done
 description  :
 organizers   :  Bjoern Kimminich, Jannik Hollenbach, Timo Pagel
 participants :
----
-
 
 <!--(add intro)
 
