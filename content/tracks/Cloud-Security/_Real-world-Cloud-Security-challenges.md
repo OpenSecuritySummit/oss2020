@@ -3,15 +3,15 @@ title        : Real world Cloud Security challenges
 track        : "Cloud-Security"
 type         : working-session      # working-session, user-session, product-session
 technology   :
-topics       : "AWS Security hardening"     # for example ["GDPR"]
-featured     :  "yes"                  # review with summit team "yes"
+topics       : ["AWS", "hardening"]
+featured     : yes                  # review with summit team "yes"
 when_day     : Wed                   # i.e.    Tue
 when_time    : AM-1                  # i.e.    AM-1
 room_layout  :                    #
 room_id      :
 session_slack: 
 status       : draft              # draft, review-content, done
-description  :
+description  : AWS Security hardening
 organizers   : Dinis Cruz
 participants :
 ---

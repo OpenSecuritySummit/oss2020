@@ -2,7 +2,7 @@
 title        : CodeQL GitHub Security Lab
 type         : user-session
 track        : DevSecOps
-topics       : 
+topics       : ["CodeQL"]
 technology   :
 categories   :
 featured     : yes

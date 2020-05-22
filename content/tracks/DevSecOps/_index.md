@@ -1,5 +1,5 @@
 ---
-title        : DevSecOPs
+title        : DevSecOps
 type         : track
 featured     : yes
 owasp-project: no

@@ -1,10 +1,10 @@
 ---
 title        : CodeQL Security Lab
-Track        : "DevSecOps"
+track        : "DevSecOps"
 type         : working-session      # working-session, user-session, product-session
 technology   :
-topics       :                    # for example ["GDPR"]
-featured     : "yes"              # review with summit team "yes"
+topics       : ["CodeQL"]                   # for example ["GDPR"]
+featured     : yes              # review with summit team "yes"
 when_day     : Tuesday            # i.e.    Tue
 when_time    : PM-3               # i.e.    AM-1
 room_layout  :                    #
