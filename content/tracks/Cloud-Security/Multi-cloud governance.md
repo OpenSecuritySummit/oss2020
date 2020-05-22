@@ -1,9 +1,10 @@
 ---
 title        : Multi-cloud governance 
 type         : working-session      # working-session, user-session, product-session
+track        : "Cloud Security"
 technology   :
-topics       : Documentation stackPolicy   # for example ["GDPR"]
-featured     :                    # review with summit team "yes"
+topics       : "Documentation stackPolicy"   # for example ["GDPR"]
+featured     :  "yes"             # review with summit team "yes"
 when_day     :  Thursday          # i.e.    Tue
 when_time    :  PM-1              # i.e.    AM-1
 room_layout  :                    #
@@ -18,15 +19,15 @@ participants :
 
 <!--(add intro)
 
-## BCP
+## "BCP"
 
 (...)
 
-## ISO
+## "ISO"
 
 (...)
 
-## Testing of the policies
+## "Testing of the policies"
 
 (...)
 
