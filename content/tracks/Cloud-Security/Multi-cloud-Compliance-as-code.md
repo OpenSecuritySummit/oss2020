@@ -1,4 +1,4 @@
---
+---
 title        : Multi-cloud Compliance as code
 type         : working-session      # working-session, user-session, product-session
 technology   :
