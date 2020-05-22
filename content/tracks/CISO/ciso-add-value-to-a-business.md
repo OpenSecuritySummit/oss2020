@@ -4,7 +4,7 @@ type         : working-session
 track        : "CISO and Risk Management"
 technology   :
 topics       :                    # for example ["GDPR"]
-featured     : "yes"                   # review with summit team "yes"
+featured     : yes                   # review with summit team "yes"
 when_day     : Wed
 when_time    : PM-2
 room_layout  :                    #
