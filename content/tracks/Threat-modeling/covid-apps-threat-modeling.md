@@ -1,4 +1,3 @@
----
 title        : COVID Apps threat modeling
 track        : Threat-modeling
 type         : working-session      # working-session, user-session, product-session
@@ -14,8 +13,6 @@ status       : draft              # draft, review-content, done
 description  :
 organizers   :
 participants :
----
-
 
 <!--(add intro)
 
