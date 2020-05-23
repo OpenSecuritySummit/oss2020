@@ -4,7 +4,7 @@ track        : Threat-modeling
 type         : working-session      # working-session, user-session, product-session
 technology   :
 topics       : "User session"         # for example ["GDPR"]
-featured     : es                  # review with summit team "yes"
+featured     : yes                  # review with summit team "yes"
 when_day     : Thu                   # i.e.    Tue
 when_time    : PM-2                  # i.e.    AM-1
 room_layout  :                    #
