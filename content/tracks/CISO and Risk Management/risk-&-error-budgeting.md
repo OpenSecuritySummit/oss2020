@@ -55,4 +55,30 @@ participants :
 
 (...)
 
+## Pre-summit session - 2 hr this week on Risk Budgeting.
+next week*
+starting with the concept of risk budgeting and then doing prep for the summit session
+outcomes from this session: terminology & glossary
+Omer to convert the blog post to a repo
+Align to established Finance terms
+Technical lag
+time to update
+Dpendency drift
+Cost of delay
+Dependency drift
+need to include requirement to demonstrate & evidence value gained
+all registrant to this session to be invited to doodle
+Douglas Hubbert - how to measure anything in Cyber Security risk
+: Doug Hubbard
+Is Risk leading the factor or is it following the considerations
+tely) : https://www.howtomeasureanything.com/cybersecurity/
+tely) : thanks
+: Risk budget or budgets for risk factors. Risk factors contribute to likelihood or consequence
+ measure the factors and estimate the risk
+matter, which should be measured
+tely) : So are risk factors the same as proxy measures?
+
+
+(...)
+
 ## Previous-->
