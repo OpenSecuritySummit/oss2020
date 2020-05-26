@@ -3,9 +3,9 @@ title        : Third Party Assurance
 type         : working-session
 track        : "CISO and Risk Management"
 category     :
-featured     :                 # if  "yes" review with summit team
+featured     : yes                # if  "yes" review with summit team
 when_day     : Wed
-when_time    : AM-1
+when_time    : PM-2
 room_layout  :
 room_id      : room-6
 session_slack: https://os-summit.slack.com/messages/CAURV0D09
