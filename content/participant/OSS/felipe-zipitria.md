@@ -11,13 +11,6 @@ linkedin: felipezipitria
 notes: ''
 project_leader: OWASP Honeypot Project
 sessions:
-- Application Security Verification Standard
-- DevSecOps Maturity Model (DSOMM)
-- Real world Chaos Engineering
-- Secrets Management
-- Integrating Security Tools in the SDL
-- ZAP working session - automation
-- Dealing with DevSecOps Findings
 status: add details
 title: Felipe Zipitria
 travel_from: Uruguay
