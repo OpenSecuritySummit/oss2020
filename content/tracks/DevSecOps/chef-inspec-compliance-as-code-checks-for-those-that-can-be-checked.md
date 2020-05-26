@@ -13,8 +13,7 @@ session_slack:
 status       : draft              # draft, review-content, done
 description  :
 organizers   : Steven Wierckx
-participants :
-  - Felipe Zipitria
+participants : Felipe Zipitria
 ---
 
 
