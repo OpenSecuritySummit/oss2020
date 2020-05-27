@@ -1,5 +1,5 @@
 ---
-title        : Training Sessions at Summit 2020
+title        : Training
 type         : training
 featured     : No
 description  : Learn

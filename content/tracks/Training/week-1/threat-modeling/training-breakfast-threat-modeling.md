@@ -1,19 +1,20 @@
 ---
-title        : Threat Model (over breakfast)
+title        : Threat Modeling
 type         : user-session
 track        : Training
 topics       : 
 technology   :
 categories   :
 featured     : yes
-when_day     : Tue,Wed,Thu
-when_time    : KN-2
+when_week    : one
+when_day     : Mon
+when_time    : 2pm
 room_layout  :                    #
 room_id      :
 session_slack:
 status       : review-content             # draft, review-content, done
-organizers   :
-description  : Threat Model introduction
+organizers   : James Bore
+description  : Threat Modeling
 ---
 
 ## Why
