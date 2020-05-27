@@ -9,7 +9,7 @@ when_time    : WS-2
 session_slack:
 status       : draft           # draft, review-content, done
 description  : TBD
-organizers   : Tony Richards
+organizers   : 
 
 ---
 
