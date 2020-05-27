@@ -6,6 +6,7 @@ topics       :
 technology   :
 categories   :
 featured     : yes
+when_week    : one
 when_day     : Mon
 when_time    : PM-2
 room_layout  :                    #
