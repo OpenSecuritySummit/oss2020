@@ -1,20 +1,15 @@
 --
-title        : Wardley Maps introduction 1
+title        : Wardley Maps introduction 
 type         : user-session
 track        : Training
 topics       : 
-technology   :
-categories   :
-featured     : yes
 when_week    : one
 when_day     : Mon
 when_time    : PM-1
-room_layout  :                    #
-room_id      :
 session_slack:
-status       : review-content             # draft, review-content, done
-organizers   :
-description  : 
+status       : draft             # draft, review-content, done
+organizers   : 
+description  : TBD
 ---
 
 ## Why
