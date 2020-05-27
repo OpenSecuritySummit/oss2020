@@ -1,5 +1,5 @@
 ---
-title        : Wardley Maps (June 1)
+title        : Intoduction to Wardley Maps (June 1)
 track        : Training
 type         : working-session      # working-session, user-session, product-session
 technology   :
