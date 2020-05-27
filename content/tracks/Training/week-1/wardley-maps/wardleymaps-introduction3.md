@@ -8,7 +8,7 @@ when_day     : Wed
 when_time    : WS-2
 session_slack:
 status       : draft           # draft, review-content, done
-organizers   :
+organizers   : Cat Swetel
 description  : TBD
 ---
 
