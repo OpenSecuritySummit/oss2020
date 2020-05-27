@@ -2,8 +2,8 @@
 title        : Threat Modeling Introduction (Mon)
 type         : user-session
 track        : Training
-topics       : Threat Modeling
-when_week    : one
+topics       : 
+when_week    : two
 when_day     : Mon
 when_time    : KS-2
 session_slack:

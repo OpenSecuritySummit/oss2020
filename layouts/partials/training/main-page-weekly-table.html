@@ -1,0 +1,37 @@
+<style>
+    .sessions table tr td {
+        padding-right : 15px;
+    }
+</style>
+
+<div class="sessions">
+    <table class="tbale_section">
+        <thead>
+        <th width="300">Title</th>
+        <th>Day</th>
+        <th>When</th>
+        <th>Delivered by</th>
+        <th>Topics</th>
+        </thead>
+        {{ range . }}
+            <tr>
+                <td>
+                    <a href="{{.Permalink }}">{{.Params.title}}</a>
+                </td>
+                 <td>
+                     {{ .Params.when_day}}
+                 </td>
+                <td>
+                    {{ .Params.when_time}}
+                </td>
+                <td>
+                    {{ .Params.organizers}}
+                </td>
+                <td>
+                    {{ .Params.topics}}
+                <td>
+
+            </tr>
+        {{ end}}
+    </table>
+</div>

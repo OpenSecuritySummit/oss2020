@@ -1,10 +1,10 @@
 ---
-title        : Threat Modeling Introduction (Mon)
+title        : Threat Modeling Introduction (Thu)
 type         : user-session
 track        : Training
-topics       : Threat Modeling
-when_week    : one
-when_day     : Mon
+topics       : 
+when_week    : two
+when_day     : Thu
 when_time    : KS-2
 session_slack:
 status       : draft           # draft, review-content, done
