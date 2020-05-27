@@ -1,13 +1,13 @@
 ---
 title        : Covid Apps Analysis
 track        : Training
-type         : user-session      # working-session, user-session, product-session
-topics       :                   # for example ["GDPR"]
+type         : user-session
+topics       : Hacking & Defending
 when_week    : one
-when_day     : Mon               # i.e.    Tue
-when_time    : WS-3               # i.e.    AM-1
+when_day     : Mon
+when_time    : WS-3
 session_slack:
-status       : draft             # draft, review-content, done
+status       : draft
 description  : TBD
 organizers   :
     - Mark Carney

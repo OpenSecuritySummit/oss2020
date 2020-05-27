@@ -38,9 +38,9 @@
     {{ $week_one := where .Data.Pages ".Params.when_week" "one"  }}
     {{ partial "sessions/simple-table-show-all.html" $week_one }}
 
-    <h3>Schedule (Week 1) - 8th to 12th of June</h3>
+    <h3>Schedule (Week 2) - 8th to 12th of June</h3>
 
-    {{ $week_two := where .Data.Pages ".Params.when_week" "one"  }}
+    {{ $week_two := where .Data.Pages ".Params.when_week" "two"  }}
     {{ partial "sessions/simple-table-show-all.html" $week_two }}
 
   </div>

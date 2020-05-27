@@ -1,7 +1,7 @@
 ---
 title        : Training
 type         : training
-featured     : No
+featured     : yes
 description  : Learn
 organizers   :
 ---
