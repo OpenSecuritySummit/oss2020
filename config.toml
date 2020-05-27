@@ -50,6 +50,14 @@ paginate = 10
     pre = "<i class='fa fa-road'></i>&nbsp;"
     weight = 3
     url = "/tracks/"
+
+[[menu.main]]
+    name = "Training"
+    identifier = "training"
+    pre = "<i class='fa fa-road'></i>&nbsp;"
+    weight = 4
+    url = "/training/"
+
 #[[menu.main]]
 #    name = "Schedule"
 #    identifier = "schedule"
