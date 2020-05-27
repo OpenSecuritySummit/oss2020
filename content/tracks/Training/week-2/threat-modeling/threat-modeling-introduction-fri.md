@@ -1,14 +1,14 @@
 ---
-title        : Threat Modeling Introduction (Mon)
+title        : Threat Modeling Introduction (Fri)
 type         : user-session
 track        : Training
 topics       : 
 when_week    : two
-when_day     : Mon
-when_time    : KS-2
+when_day     : Fri
+when_time    : WS-1
 session_slack:
 status       : draft           # draft, review-content, done
-organizers   :
+organizers   : Avi D
 description  : 
 ---
 
