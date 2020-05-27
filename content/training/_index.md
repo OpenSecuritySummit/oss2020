@@ -1,6 +1,6 @@
 ---
 title        : Training
-type         : track
+type         : training
 featured     : yes
 description  : Learn
 organizers   :
