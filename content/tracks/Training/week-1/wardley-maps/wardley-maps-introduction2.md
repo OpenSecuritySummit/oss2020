@@ -9,7 +9,7 @@ when_time    : PM-1
 session_slack:
 status       : draft           # draft, review-content, done
 description  : TBD
-organizers   : Petra Vukmirovic
+organizers   : Goher Mohammad
 
 ---
 
