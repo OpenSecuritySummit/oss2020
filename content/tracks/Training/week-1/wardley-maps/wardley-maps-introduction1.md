@@ -8,7 +8,7 @@ when_day     : Mon
 when_time    : PM-1
 session_slack:
 status       : draft           # draft, review-content, done
-organizers   :
+organizers   : Petra Vukmirovic
 description  : 
 ---
 
