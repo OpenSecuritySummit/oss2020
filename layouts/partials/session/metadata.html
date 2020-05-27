@@ -34,6 +34,15 @@
             {{ partial "utils/titles-with-link.html" (dict "this" . "name" .Params.title "value" .Params.organizers)   }}
         </td>
     </tr>
+    <tr>
+        <th>Register</th>
+        <td>
+            {{if  .Params.hey_summit -}}
+                <a href="{{.Params.hey_summit}}">Book now</a>
+            {{ end }}
+
+        </td>
+    </tr>
 
     {{ partial "session/participants-as-links.html" . }}
     {{ partial "session/invited-as-links.html" . }}

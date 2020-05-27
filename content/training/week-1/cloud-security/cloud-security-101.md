@@ -13,16 +13,13 @@ description  : TBD
 organizers   : Kriti Mohun
 
 ---
-Cloud models and their challenges
 
-Types of clouds, cloud service - the limitless possibilities
+### This training session will cover:
 
-Why Cloud security is so important – Cloud attacks
-
-What to secure in the cloud - assets / data / components / entities
-
-How to secure data / assets in cloud – visibility, flow of traffic
-
-When to secure in the cloud – devsecops
-
-SANS and CSA cloud security recommendations
+- Cloud models and their challenges
+- Types of clouds, cloud service - the limitless possibilities
+- Why Cloud security is so important – Cloud attacks
+- What to secure in the cloud - assets / data / components / entities
+- How to secure data / assets in cloud – visibility, flow of traffic
+- When to secure in the cloud – devsecops
+- SANS and CSA cloud security recommendations
