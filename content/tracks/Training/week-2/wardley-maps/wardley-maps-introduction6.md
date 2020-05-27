@@ -5,7 +5,7 @@ track        : Training
 topics       : 
 when_week    : two
 when_day     : Mon
-when_time    : PM-1
+when_time    : WS-2
 session_slack:
 status       : draft           # draft, review-content, done
 description  : TBD
