@@ -1,19 +1,15 @@
 ---
-chapter_leader: ''
-company: ''
-facebook: ''
-image: ''
-job_title: ''
-linkedin: ''
-notes: ''
-project_leader: ''
-sessions: []
+title:
+image:
+company:
+job_title:
+facebook:
+linkedin:
+twitter:
+website:
+notes:
 status: add-details
-title: ''
-travel_from: ''
-twitter: ''
 type: participant
-website: ''
 ---
 
 <!-- put more details about participant here -->

@@ -6,6 +6,7 @@ topics       :                    # for example ["GDPR"]
 when_week    :
 when_day     :                    # i.e.    Tue
 when_time    :                    # i.e.    AM-1
+hey_summit   :
 session_slack:
 status       : draft              # draft, review-content, done
 description  :

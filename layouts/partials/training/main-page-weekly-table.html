@@ -12,6 +12,7 @@
         <th>When</th>
         <th>Delivered by</th>
         <th>Topics</th>
+        <th>Register</th>
         </thead>
         {{ range . }}
             <tr>
@@ -30,8 +31,12 @@
                 </td>
                 <td>
                     {{ .Params.topics}}
+                </td>
                 <td>
-
+                    {{if  .Params.hey_summit -}}
+                        <a href="{{.Params.hey_summit}}" target="_blank">book now</a>
+                    {{ end }}
+                </td>
             </tr>
         {{ end}}
     </table>

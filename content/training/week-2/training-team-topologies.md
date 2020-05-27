@@ -9,6 +9,7 @@ featured     : yes
 when_week    : two
 when_day     : Tue
 when_time    : AM-1
+hey_summit   :
 session_slack:
 status       : review-content             # draft, review-content, done
 organizers   : Mario Platt, Luke Robbertse

@@ -6,6 +6,7 @@ topics       : ["CISO", "RISK"]
 featured     : yes                # if  "yes" review with summit team
 when_day     : Wed
 when_time    : PM-3
+hey_summit   :
 room_layout  :                
 room_id      : 
 session_slack: 

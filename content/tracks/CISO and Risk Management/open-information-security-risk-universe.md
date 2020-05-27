@@ -7,6 +7,7 @@ topics       :                    # for example ["GDPR"]
 featured     : Yes                # review with summit team "yes"
 when_day     : PM-2               # i.e.    Tue
 when_time    :                    # i.e.    AM-1
+hey_summit   :
 room_layout  :                    #
 room_id      :
 session_slack: 

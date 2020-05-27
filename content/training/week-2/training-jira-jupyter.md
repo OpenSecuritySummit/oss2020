@@ -9,6 +9,7 @@ featured     : yes
 when_week    : two
 when_day     : Mon
 when_time    : PM-3
+hey_summit   :
 room_layout  :                    #
 room_id      :
 session_slack:

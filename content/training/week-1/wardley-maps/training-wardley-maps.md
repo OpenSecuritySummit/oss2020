@@ -8,6 +8,7 @@ categories   :
 featured     : yes
 when_day     : Mon
 when_time    : PM-1
+hey_summit   :
 room_layout  :                    #
 room_id      :
 session_slack:

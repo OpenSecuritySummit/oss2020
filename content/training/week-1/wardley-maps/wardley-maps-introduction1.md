@@ -6,6 +6,7 @@ topics       :
 when_week    : one
 when_day     : Mon
 when_time    : PM-1
+hey_summit   :
 session_slack:
 status       : draft           # draft, review-content, done
 organizers   : Petra Vukmirovic

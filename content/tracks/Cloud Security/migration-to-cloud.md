@@ -7,6 +7,7 @@ topics       : ["Cloud"]
 featured     : yes                  # review with summit team "yes"
 when_day     : Thursday                   # i.e.    Tue
 when_time    : AM-1                   # i.e.    AM-1
+hey_summit   :
 room_layout  :                    #
 room_id      :
 session_slack: 

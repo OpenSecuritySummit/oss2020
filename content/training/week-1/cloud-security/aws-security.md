@@ -6,7 +6,8 @@ topics       :
 when_week    : one
 when_day     : Fri
 when_time    : WS-1
-session_slack:
+hey_summit   :
+session_slack: https://pre-summit-training-sessions.heysummit.com/talks/cloud-security-101/
 status       : draft           # draft, review-content, done
 description  : TBD
 organizers   : 
