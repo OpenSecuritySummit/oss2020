@@ -5,10 +5,10 @@ track        : Training
 topics       : 
 when_week    : two
 when_day     : Tue
-when_time    : KS-2
+when_time    : WS-1
 session_slack:
 status       : draft           # draft, review-content, done
-organizers   :
+organizers   : Petra Vukmirovic
 description  : 
 ---
 
