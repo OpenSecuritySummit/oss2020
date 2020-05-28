@@ -23,8 +23,7 @@
                      {{ .Params.when_day}}
                  </td>
                 <td>
-                    {{/* index .self.Site.Data.schedule.times .Params.when_time */}}
-                    {{ .Params.when_time}}
+                    {{ index .Site.Data.schedule.times .Params.when_time }}
                 </td>
                 <td>
                     {{ .Params.organizers}}
