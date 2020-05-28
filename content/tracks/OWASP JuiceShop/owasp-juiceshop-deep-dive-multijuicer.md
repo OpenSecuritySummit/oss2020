@@ -1,5 +1,6 @@
-title        : OWASP Juice Shop Deep Dive : MultiJuicer
-track        : OWASP-JuiceShop
+---
+title        : OWASP Juice Shop Deep Dive - MultiJuicer
+track        : OWASP Juice Shop
 type         : working-session      # working-session, user-session, product-session
 technology   :
 topics       :                    # for example ["GDPR"]

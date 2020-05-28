@@ -54,6 +54,11 @@
               </p>
               {{ partial "sessions/simple-table-show-all.html" $user_sessions }}
 
+
+
+              {{ range where (where .Site.Pages ".Params.type" "==" "training-session") ".Params.track" "==" .Params.title }}
+              <li> {{.Title}}</li>
+              {{ end}}
               <h3>Please help</h3>
               <p>
                 If you want to be involved please make the changes on GitHub and send a Pull Request with your ideas.</p>

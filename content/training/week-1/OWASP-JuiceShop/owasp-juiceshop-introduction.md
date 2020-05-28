@@ -1,7 +1,7 @@
 ---
 title        : OWASP Juice Shop introduction 
-type         : user-session
-track        : Training
+type         : training-session
+track        : OWASP Juice Shop
 topics       : 
 when_week    : one
 when_day     : Tue
