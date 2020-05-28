@@ -12,7 +12,7 @@ room_layout  :                    #
 room_id      :
 session_slack:
 status       : review-content             # draft, review-content, done
-organizers   :
+organizers   : 
 description  : Introduction to Cynefin framework
 ---
 
