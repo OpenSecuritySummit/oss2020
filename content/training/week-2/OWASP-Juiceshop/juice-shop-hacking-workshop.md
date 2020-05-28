@@ -1,4 +1,4 @@
---
+---
 title        : Juice Shop Hacking Workshop
 type         : training-session
 track        : OWASP Juice Shop
@@ -6,7 +6,7 @@ topics       :
 when_week    : two
 when_day     : Thu
 when_time    : WS-3
-hey_summit   :https://pre-summit-training-sessions.heysummit.com/talks/owasp-juiceshop/
+hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/owasp-juiceshop/
 session_slack:
 status       : draft           # draft, review-content, done
 description  : TBD
