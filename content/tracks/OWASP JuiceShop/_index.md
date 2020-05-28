@@ -1,5 +1,5 @@
 ---
-title        : OWASP-JuiceShop
+title        : OWASP Juice Shop
 type         : track
 featured     : yes
 owasp-project: Yes

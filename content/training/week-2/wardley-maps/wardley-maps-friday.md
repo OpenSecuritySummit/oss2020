@@ -1,8 +1,8 @@
 ---
-title        : Wardley Maps (Friday)
+title        : Wardley Maps (MON)
 type         : user-session
 track        : Training
-topics       : 
+topics       : Wardley Maps
 when_week    : two
 when_day     : Fri
 when_time    : WS-2

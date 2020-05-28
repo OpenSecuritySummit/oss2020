@@ -1,5 +1,5 @@
 ---
-title        : Wardley Maps introduction 3
+title        : Wardley Maps introduction (Wed)
 type         : user-session
 track        : Training
 topics       : 

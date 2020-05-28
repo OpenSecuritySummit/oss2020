@@ -1,8 +1,8 @@
 ---
-title        : Wardley Maps introduction 1
-type         : user-session
-track        : Training
-topics       : 
+title        : Wardley Maps introduction (Mon)!!!!!
+type         : training-session
+track        : Wardley Maps
+topics       :
 when_week    : one
 when_day     : Mon
 when_time    : PM-1

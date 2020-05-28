@@ -1,18 +1,18 @@
 ---
-title        : Threat Modeling Introduction (Wed)
+title        : Zero Trust Architecture
 type         : user-session
 track        : Training
 topics       : 
-when_week    : two
+when_week    : one
 when_day     : Wed
-when_time    : WS-1
-hey_summit   :
+when_time    : WS-2
+hey_summit   : 
 session_slack:
 status       : draft           # draft, review-content, done
-organizers   :
 description  : 
+organizers   : 
+
 ---
 
-## Why
+### This training session will cover:
 
-<!--Add intro-->

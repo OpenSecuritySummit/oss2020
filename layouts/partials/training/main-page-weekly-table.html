@@ -11,10 +11,10 @@
         <th>Day</th>
         <th>When</th>
         <th>Delivered by</th>
-        <th>Topics</th>
+        <th>Track</th>
         <th>Register</th>
         </thead>
-        {{ range . }}
+        {{ range sort . ".Params.track" }}
             <tr>
                 <td>
                     <a href="{{.Permalink }}">{{.Params.title}}</a>
@@ -23,14 +23,15 @@
                      {{ .Params.when_day}}
                  </td>
                 <td>
-                    {{/* index .self.Site.Data.schedule.times .Params.when_time */}}
-                    {{ .Params.when_time}}
+                    {{if .Params.when_time -}}
+                        {{ index .Site.Data.schedule.times .Params.when_time }}
+                    {{ end}}
                 </td>
                 <td>
                     {{ .Params.organizers}}
                 </td>
                 <td>
-                    {{ .Params.topics}}
+                    {{ partial "utils/track-to-link.html" (dict "this" . "track" .Params.track)  }}
                 </td>
                 <td>
                     {{if  .Params.hey_summit -}}

@@ -1,26 +1,17 @@
 ---
-title        : Wardley Maps introduction (Fri)
+title        : GCP Security
 type         : user-session
 track        : Training
 topics       : 
 when_week    : one
 when_day     : Fri
 when_time    : WS-2
-hey_summit   :
+hey_summit   : 
 session_slack:
 status       : draft           # draft, review-content, done
-organizers   :
-description  : TBD
+description  : 
+organizers   : 
 ---
 
+### This training session will cover:
 
-<!--(add intro)
-## WHY
-(...)
-## What
-(...)
-## Outcomes
-(...)
-## References
-(...)
-## Previous-->
