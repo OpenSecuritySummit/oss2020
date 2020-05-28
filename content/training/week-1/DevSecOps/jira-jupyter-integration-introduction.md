@@ -1,5 +1,5 @@
 ---
-title        : Jira - Jupyter integration introduction 
+title        : Jira-Jupyter integration introduction 
 type         : user-session
 track        : Training
 topics       : 
@@ -11,7 +11,6 @@ session_slack:
 status       : draft           # draft, review-content, done
 description  : TBD
 organizers   : Dinis Cruz
-
 ---
 
 ### This training session will cover:
