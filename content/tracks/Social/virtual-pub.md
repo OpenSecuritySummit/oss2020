@@ -14,7 +14,7 @@ hey_summit   :
 status       : draft              # draft, review-content, done
 description  :
 organizers   : 
-participants : All
+participants : 
 ---
 
 
