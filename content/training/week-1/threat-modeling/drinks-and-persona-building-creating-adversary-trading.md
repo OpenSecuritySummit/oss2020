@@ -1,5 +1,5 @@
 ---
-title        : Drinks and Persona Building: Creating Adversary Trading
+title        : "Drinks and Persona Building: Creating Adversary Trading"
 type         : user-session
 track        : Training
 topics       : 
