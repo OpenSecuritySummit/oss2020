@@ -4,7 +4,7 @@ type         : training-session
 track        : OWASP Juice Shop
 topics       : 
 when_week    : one
-when_day     : Tue
+when_day     : 2nd - Tuesday
 when_time    : WS-3
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/multijuicer-introduction/
 session_slack:

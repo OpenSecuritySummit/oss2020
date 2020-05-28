@@ -4,7 +4,7 @@ type         : user-session
 track        : Training
 topics       : 
 when_week    : one
-when_day     : Thu
+when_day     : 4th - Thursday
 when_time    : WS-2
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/trusted-partner-network-demo/
 session_slack:

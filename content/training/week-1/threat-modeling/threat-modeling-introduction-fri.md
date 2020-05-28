@@ -4,7 +4,7 @@ type         : training-session
 track        : Training
 topics       : Threat Modeling
 when_week    : one
-when_day     : Fri
+when_day     : 5th - Friday
 when_time    : WS-1
 hey_summit   :
 session_slack:

@@ -6,7 +6,7 @@ topics       :
 technology   :
 categories   :
 featured     : yes
-when_day     : Mon
+when_day     : 1st - Monday
 when_time    : PM-1
 hey_summit   :
 room_layout  :                    #

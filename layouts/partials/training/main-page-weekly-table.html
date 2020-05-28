@@ -8,13 +8,13 @@
     <table class="tbale_section">
         <thead>
         <th width="300">Title</th>
-        <th>Day</th>
+        <th>Day (June 2020)</th>
         <th>When</th>
         <th>Delivered by</th>
         <th>Track</th>
         <th>Register</th>
         </thead>
-        {{ range sort . ".Params.track" }}
+        {{ range sort . ".Params.when_day" }}
             <tr>
                 <td>
                     <a href="{{.Permalink }}">{{.Params.title}}</a>

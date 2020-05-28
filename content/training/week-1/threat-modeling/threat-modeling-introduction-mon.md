@@ -4,7 +4,7 @@ type         : training-session
 track        : Training
 topics       : 
 when_week    : one
-when_day     : Mon
+when_day     : 1st - Monday
 when_time    : WS-2
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/threat-modeling/
 session_slack:

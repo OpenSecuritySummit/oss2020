@@ -4,7 +4,7 @@ type         : user-session
 track        : Training
 topics       : 
 when_week    : one
-when_day     : Tue
+when_day     : 2nd - Tuesday
 when_time    : PM-1
 hey_summit   :
 session_slack:
