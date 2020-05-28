@@ -1,7 +1,4 @@
 ---
-title        : Threat Modeling Introduction Fri
-type         : user-session
-=======
 title        : Threat Modeling Introduction (Mon)
 type         : training-session
 track        : Training
