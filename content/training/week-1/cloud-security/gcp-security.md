@@ -11,7 +11,6 @@ session_slack:
 status       : draft           # draft, review-content, done
 description  : 
 organizers   : 
-
 ---
 
 ### This training session will cover:
