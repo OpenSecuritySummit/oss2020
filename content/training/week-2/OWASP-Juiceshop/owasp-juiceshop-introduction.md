@@ -14,25 +14,3 @@ organizers   : Bjoern Kimminich
 ---
 
 
-
-
-## WHY
-
-(...)
-
-## What
-
-(...)
-
-## Outcomes
-
-(...)
-
-## References
-
-(...)
-
-
-## Previous-->
-
-
