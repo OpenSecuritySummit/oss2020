@@ -1,7 +1,7 @@
 ---
 title        : Jira-Jupyter integration introduction 
-type         : user-session
-track        : Training
+type         : training-session
+track        : DevSecOps
 topics       : 
 when_week    : one
 when_day     : 5th - Friday

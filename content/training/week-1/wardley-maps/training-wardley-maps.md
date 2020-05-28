@@ -1,7 +1,7 @@
 ---
 title        : Wardley Maps Training
 type         : user-session
-track        : Training
+track        : Wardley Maps
 topics       : 
 technology   :
 categories   :

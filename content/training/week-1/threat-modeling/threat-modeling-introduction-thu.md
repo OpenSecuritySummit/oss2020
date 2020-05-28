@@ -1,7 +1,7 @@
 ---
 title        : Threat Modeling Introduction (Thu)
 type         : user-session
-track        : Training
+track        : Threat Modeling
 topics       : 
 when_week    : one
 when_day     : 4th - Thursday

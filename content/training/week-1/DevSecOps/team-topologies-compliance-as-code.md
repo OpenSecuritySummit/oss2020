@@ -1,7 +1,7 @@
 ---
 title        : Team Topologies & Compliance as code
-type         : user-session
-track        : Training
+type         : training-session
+track        : DevSecOps
 topics       : 
 when_week    : one
 when_day     : 1st - Monday

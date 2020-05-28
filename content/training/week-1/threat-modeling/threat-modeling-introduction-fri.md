@@ -1,8 +1,8 @@
 ---
 title        : Threat Modeling Introduction (Mon)
 type         : training-session
-track        : Training
-topics       : Threat Modeling
+track        : Threat Modeling
+topics       :
 when_week    : one
 when_day     : 5th - Friday
 when_time    : WS-1

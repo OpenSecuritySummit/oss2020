@@ -1,7 +1,7 @@
 ---
 title        : Chef InSpec (Compliance as Code)
 type         : user-session
-track        : Training
+track        : Cloud Security
 topics       : 
 when_week    : one
 when_day     : 2nd - Tuesday

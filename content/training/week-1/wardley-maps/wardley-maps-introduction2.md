@@ -1,7 +1,7 @@
 ---
 title        : Wardley Maps introduction (Tue)
 type         : user-session
-track        : Training
+track        : Wardley Maps
 topics       : 
 when_week    : one
 when_day     : 2nd - Tuesday

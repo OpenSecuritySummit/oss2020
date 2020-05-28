@@ -1,7 +1,7 @@
 ---
 title        : Zero Trust Architecture
-type         : user-session
-track        : Training
+type         : training-session
+track        : DevSecOps
 topics       : 
 when_week    : one
 when_day     : 3rd - Wednesday

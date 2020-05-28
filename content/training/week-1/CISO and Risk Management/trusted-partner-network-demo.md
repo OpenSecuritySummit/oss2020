@@ -1,7 +1,7 @@
 ---
 title        : Trusted Partner Network demo
-type         : user-session
-track        : Training
+type         : training-session
+track        : CISO and Risk Management
 topics       : 
 when_week    : one
 when_day     : 4th - Thursday

@@ -1,7 +1,7 @@
 ---
 title        : Covid Apps Analysis
-track        : Training
-type         : user-session
+track        : Covid
+type         : training-session
 topics       : Hacking & Defending
 when_week    : one
 when_day     : 1st - Monday
