@@ -17,7 +17,6 @@ organizers   :
 participants :
 ---
 
-
 <!--(add intro)
 
 ## WHY
