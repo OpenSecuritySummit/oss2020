@@ -14,6 +14,7 @@ status       : draft              # draft, review-content, done
 description  :
 organizers   : Simon Wardley
 participants :
+    - Robin Oldham
 ---
 
 
