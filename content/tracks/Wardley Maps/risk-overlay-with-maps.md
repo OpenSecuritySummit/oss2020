@@ -12,8 +12,14 @@ room_id      :
 session_slack: 
 status       : draft              # draft, review-content, done
 description  :
-organizers   : Alan Jenkins, Avi Douglen, Steven Wierckx, Ben Schofield, Simon Wardley
+organizers   : 
+    - Alan Jenkins
+    - Avi Douglen
+    - Steven Wierckx
+    - Ben Schofield
+    - Simon Wardley
 participants :
+    - Robin Oldham
 ---
 
 
