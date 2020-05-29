@@ -1,4 +1,4 @@
---
+---
 title        : Virtual Pub
 track        : Social
 type         : working-session      # working-session, user-session, product-session
