@@ -1,16 +1,16 @@
 ---
-title        : DSO - Secrets and creds scanning
+title        : DSO - Infra Scan & Encryption
 type         : user-session
 track        : Training
 topics       : 
 when_week    : two
 when_day     : Fri
-when_time    : AM-1
-hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/secrets-and-credentials-scanning-lab/
+when_time    : PM-1
+hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/infrastructure-scan-encryption/
 session_slack:
 status       : draft           # draft, review-content, done
 description  : TBD
-organizers   : Mohammed A. Imran
+organizers   : 
 ---
 
 ### 

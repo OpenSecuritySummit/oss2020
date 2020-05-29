@@ -6,7 +6,7 @@ topics       :
 when_week    : one
 when_day     : Tue
 when_time    : PM-1
-hey_summit   :
+hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/introduction-to-wardley-mapping-2/
 session_slack:
 status       : draft           # draft, review-content, done
 description  : TBD

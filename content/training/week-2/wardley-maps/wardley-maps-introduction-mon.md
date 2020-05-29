@@ -1,11 +1,11 @@
 ---
-title        : Wardley Maps introduction (Mon)
+title        :  Threat Modelling First Aid - an introduction to threat modelling and Risk
 type         : user-session
 track        : Training
 topics       : Wardley Maps
 when_week    : two
 when_day     : Mon
-when_time    : WS-2
+when_time    : PM-1
 hey_summit   :
 session_slack:
 status       : draft           # draft, review-content, done

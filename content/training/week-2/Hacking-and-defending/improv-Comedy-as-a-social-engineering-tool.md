@@ -1,19 +1,17 @@
 ---
-title        : Wardley Maps (Thu)
-type         : user-session
+title        : Improv Comedy as a Social Engineering Tool
+type         : training-session
 track        : Training
-topics       : Wardley Maps
+topics       : 
 when_week    : two
-when_day     : Thu
-when_time    : PM-1
-hey_summit   :
+when_day     : Mon
+when_time    : PM-2
+hey_summit   : 
 session_slack:
 status       : draft           # draft, review-content, done
 description  : TBD
 organizers   : 
-
 ---
-
 <!--(add intro)
 
 ## WHY

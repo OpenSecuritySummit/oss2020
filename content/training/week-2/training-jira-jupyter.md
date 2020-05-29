@@ -7,9 +7,9 @@ technology   :
 categories   :
 featured     : yes
 when_week    : two
-when_day     : Mon
-when_time    : PM-3
-hey_summit   :
+when_day     : Fri
+when_time    : PM-1
+hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/jira-jupyter-notebooks-integration/
 room_layout  :                    #
 room_id      :
 session_slack:

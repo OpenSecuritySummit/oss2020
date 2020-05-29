@@ -1,36 +1,16 @@
 ---
-title        : Wardley Maps (Thu)
+title        : DSO - IaST & RASP
 type         : user-session
 track        : Training
-topics       : Wardley Maps
+topics       : 
 when_week    : two
-when_day     : Thu
+when_day     : Wed
 when_time    : PM-1
-hey_summit   :
+hey_summit   : 
 session_slack:
 status       : draft           # draft, review-content, done
 description  : TBD
 organizers   : 
-
 ---
 
-<!--(add intro)
-
-## WHY
-
-(...)
-
-## What
-
-(...)
-
-## Outcomes
-
-(...)
-
-## References
-
-(...)
-
-
-## Previous-->
+### 

@@ -1,19 +1,17 @@
 ---
-title        : Introduction to Wardley Mapping
-type         : user-session
+title        : OSINT CTF
+type         : training-session
 track        : Training
-topics       : Wardley Maps
+topics       : 
 when_week    : two
 when_day     : Tue
-when_time    : AM-1
-hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/introduction-to-wardley-mapping/
+when_time    : PM-3
+hey_summit   : 
 session_slack:
 status       : draft           # draft, review-content, done
 description  : TBD
-organizers   : Chris Daniel
-
+organizers   : 
 ---
-
 <!--(add intro)
 
 ## WHY
