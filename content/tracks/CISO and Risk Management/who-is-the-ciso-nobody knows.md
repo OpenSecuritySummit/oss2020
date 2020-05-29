@@ -19,6 +19,7 @@ organizers   :
     - Phil Huggins
     - Tony Richards
 participants :
+    - Robin Oldham
 ---
 
 
