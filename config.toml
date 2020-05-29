@@ -50,6 +50,14 @@ paginate = 10
     pre = "<i class='fa fa-road'></i>&nbsp;"
     weight = 3
     url = "/tracks/"
+
+[[menu.main]]
+    name = "Trainings"
+    identifier = "training"
+    pre = "<i class='fa fa-road'></i>&nbsp;"
+    weight = 4
+    url = "/training/"
+
 #[[menu.main]]
 #    name = "Schedule"
 #    identifier = "schedule"
@@ -125,13 +133,13 @@ paginate = 10
     weight = 20
     parent = "about"
     url = "/about/"
-[[menu.main]]
-    name = "Venue"
-    identifier = "venue"
-    pre = "<i class='fa fa-road'></i>&nbsp;"
-    weight = 21
-    parent = "about"
-    url = "/venue/"
+#[[menu.main]]
+#    name = "Venue"
+#    identifier = "venue"
+#    pre = "<i class='fa fa-road'></i>&nbsp;"
+#    weight = 21
+#    parent = "about"
+#    url = "/venue/"
 [[menu.main]]
     name = "Faq"
     identifier = "faq"

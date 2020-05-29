@@ -32,8 +32,7 @@
       </div>
       <div class="row sponsor-spacing">
         <div class="col-md-12">
-          {{/* $sponsor_type := (slice "platinum" "gold" "silver" "bronze") */}}
-          {{ $sponsor_type := (slice "gold" "media" "outcomes") }}
+          {{ $sponsor_type := (slice "gold") }}
           {{ range $sponsor_type }}
           {{ $sponsors := (index $.Site.Data.sponsors .) }}
 

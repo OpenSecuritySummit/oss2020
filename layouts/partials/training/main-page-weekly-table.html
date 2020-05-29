@@ -1,0 +1,53 @@
+<style>
+    .sessions table tr td {
+        padding-right : 15px;
+    }
+</style>
+
+<div class="sessions">
+    <table class="tbale_section">
+        <thead>
+        <th width="300">Title</th>
+        <th>Day (June 2020)</th>
+        <th>When</th>
+        <th>Delivered by</th>
+        <th>Track</th>
+        <th>Register</th>
+        </thead>
+        {{ range sort . ".Params.when_day" }}
+            <tr>
+                <td>
+                    <a href="{{.Permalink }}">{{.Params.title}}</a>
+                </td>
+                 <td>
+                     {{ .Params.when_day}}
+                 </td>
+                <td>
+                    {{if .Params.when_time -}}
+                        {{ index .Site.Data.schedule.times .Params.when_time }}
+                    {{ end}}
+                </td>
+                <td>
+                    {{if .Params.organizers -}}
+                    {{ $self := . }}
+                        {{ if eq (printf "%T" .Params.organizers) "[]string" }}
+                            {{ range  .Params.organizers}}
+                                {{ partial "utils/title-to-link.html" (dict "this" $self "title" . )  }}
+                            {{ end }}
+                        {{ else }}
+                            {{ partial "utils/title-to-link.html" (dict "this" . "title" .Params.organizers)  }}
+                        {{ end }}
+                    {{ end }}
+                </td>
+                <td>
+                    {{ partial "utils/track-to-link.html" (dict "this" . "track" .Params.track)  }}
+                </td>
+                <td>
+                    {{if  .Params.hey_summit -}}
+                        <a href="{{.Params.hey_summit}}">book now</a>
+                    {{ end }}
+                </td>
+            </tr>
+        {{ end}}
+    </table>
+</div>

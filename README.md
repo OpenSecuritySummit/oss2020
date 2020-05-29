@@ -2,9 +2,9 @@
 
 Welcome to the home page of the Open Security Summit 2020
 
-Registration is open [On EventBrite](https://eventbrite.co.uk/tickets-external?eid=61289312985&ref=etckt) 
+Registration is open [On Hey Summit](https://open-security-summit-2020.heysummit.com/)
 
-**Open Security Summit 2020, England, 15-19 June 2020**
+**Open Security Summit 2020, Fully Online, 15-19 June 2020**
 The Open Security Summit is focused on the collaboration between Developers and Application Security.
 
 This is not a conference with uni-directional presentations, this is a working summit with working sessions on areas like:
@@ -26,7 +26,7 @@ Using the same model as the past OWASP Summits in Portugal and the UK, this 5 da
 
 If you care about Application Security and want to collaborate with the key players in this industry, this is the event to be.
 
-The Summit will occur in England, 15-19 June 2020.
+The Summit will occur online, 15-19 June 2020.
 
 If you want to be involved, add you name to the [participants](content/participant) page.
 
