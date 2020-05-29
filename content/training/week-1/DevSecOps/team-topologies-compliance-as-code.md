@@ -4,8 +4,8 @@ type         : training-session
 track        : DevSecOps
 topics       : 
 when_week    : one
-when_day     : 1st - Monday
-when_time    : WS-1
+when_day     : 
+when_time    : 
 hey_summit   :
 session_slack:
 status       : draft           # draft, review-content, done
