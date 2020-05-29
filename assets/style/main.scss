@@ -1,15 +1,17 @@
 /* your styles go here */
 
-body * {
+body {
   font-family: 'Roboto Slab', serif;
 
-  h3 {
-    font-family: 'Oswald';
-    color: #00549E;
-  }
+  * {
+    h3 {
+      font-family: 'Oswald', sans-serif;
+      color: #00549E;
+    }
 
-  h4 {
-    color: #00549E;
+    h4 {
+      color: #00549E;
+    }
   }
 }
 
@@ -18,7 +20,7 @@ body * {
 .heading h3,
 .heading h4,
 .heading h5 {
-  font-family: 'Oswald';
+  font-family: 'Oswald', "Helvetica Neue", sans-serif ;
   color: #00549E;
   border-color: #98c1df;
 }
@@ -958,7 +960,7 @@ hr.container.no-margin {
 
 .text-sessions {
   padding-top: 30px;
-  font-family: 'Oswald';
+  font-family: 'Oswald', sans-serif;
 }
 
 /*=========================================08=05=2018==============================================*/
