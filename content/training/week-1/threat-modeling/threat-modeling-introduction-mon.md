@@ -11,9 +11,8 @@ session_slack:
 status       : draft           # draft, review-content, done
 organizers   :
     - James Bore
-description  : 
+description  : Threat modelling workshop applying various methodologies: STRIDE, LINDDUN, Attack Trees, and PnG, to a MSP organisation and its key systems
+
 ---
 
-## Why
-
-<!--Add intro-->
+Threat modelling workshop applying various methodologies: STRIDE, LINDDUN, Attack Trees, and PnG, to a MSP organisation and its key system
