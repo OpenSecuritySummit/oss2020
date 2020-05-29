@@ -2,7 +2,7 @@
 chapter_leader: ''
 company: 'Cydea'
 facebook: ''
-image: https://rto.me.uk/rto.jpg
+image: https://rto.me.uk/img/robin.jpg
 job_title: ''
 linkedin: robinoldham
 notes: ''
