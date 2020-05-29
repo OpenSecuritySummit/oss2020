@@ -9,7 +9,8 @@ when_time    : WS-2
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/threat-modeling/
 session_slack:
 status       : draft           # draft, review-content, done
-organizers   : James Bore
+organizers   :
+    - James Bore
 description  : 
 ---
 

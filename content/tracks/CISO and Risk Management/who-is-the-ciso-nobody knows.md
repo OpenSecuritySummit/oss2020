@@ -13,7 +13,11 @@ room_id      :
 session_slack: 
 status       : draft              # draft, review-content, done
 description  : "Define a CISO"
-organizers   : Alan Jenkins, Dinis Cruz, Phil Huggins, Tony Richards
+organizers   :
+    - Alan Jenkins
+    - Dinis Cruz
+    - Phil Huggins
+    - Tony Richards
 participants :
 ---
 

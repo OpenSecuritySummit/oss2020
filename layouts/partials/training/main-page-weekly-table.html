@@ -28,7 +28,16 @@
                     {{ end}}
                 </td>
                 <td>
-                    {{ .Params.organizers}}
+                    {{if .Params.organizers -}}
+                    {{ $self := . }}
+                        {{ if eq (printf "%T" .Params.organizers) "[]string" }}
+                            {{ range  .Params.organizers}}
+                                {{ partial "utils/title-to-link.html" (dict "this" $self "title" . )  }}
+                            {{ end }}
+                        {{ else }}
+                            {{ partial "utils/title-to-link.html" (dict "this" . "title" .Params.organizers)  }}
+                        {{ end }}
+                    {{ end }}
                 </td>
                 <td>
                     {{ partial "utils/track-to-link.html" (dict "this" . "track" .Params.track)  }}
