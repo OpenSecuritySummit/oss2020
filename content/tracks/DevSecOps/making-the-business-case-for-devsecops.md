@@ -6,7 +6,7 @@ technology   :
 topics       : ["traceability", "requirements"]   # for example ["GDPR"]
 featured     :  yes                  # review with summit team "yes"
 when_day     :  Tuesday                  # i.e.    Tue
-when_time    :  PM-2                   # i.e.    AM-1
+when_time    :  WS-4                  # i.e.    AM-1
 hey_summit   :
 room_layout  :                    #
 room_id      :
@@ -16,7 +16,6 @@ description  : How to create the traceability of the requirements to an industry
 organizers   : David Prince, Leila Rao
 participants :
 ---
-
 
 <!--(add intro)
 
