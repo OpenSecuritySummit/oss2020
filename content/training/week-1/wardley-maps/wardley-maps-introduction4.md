@@ -1,6 +1,5 @@
 ---
-title        : Wardley Maps introduction (Thu)
-type         : user-session
+title        : Wardley Maps introduction
 track        : Wardley Maps
 topics       : 
 when_week    : one
