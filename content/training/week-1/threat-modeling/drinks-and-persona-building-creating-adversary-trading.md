@@ -5,7 +5,7 @@ track        : Threat Modeling
 topics       : 
 when_week    : one
 when_day     : 1st - Monday
-when_time    : WS-3
+when_time    : WS-4
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/social-drinks-and-adversaries/
 session_slack:
 status       : done           # draft, review-content, done
