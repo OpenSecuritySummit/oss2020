@@ -17,7 +17,6 @@ organizers   : David Prince, Leila Rao
 participants :
 ---
 
-
 <!--(add intro)
 
 ## WHY

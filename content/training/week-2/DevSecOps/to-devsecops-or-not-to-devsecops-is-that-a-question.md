@@ -12,7 +12,6 @@ status       : draft           # draft, review-content, done
 description  : TBD
 organizers   : Mario Platt
 ---
-
 <!--(add intro)
 
 ## WHY

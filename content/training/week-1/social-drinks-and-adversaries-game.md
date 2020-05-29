@@ -14,7 +14,6 @@ organizers   : Mark Miller
 participants :
 ---
 
-
 <!--(add intro)
 
 ## WHY

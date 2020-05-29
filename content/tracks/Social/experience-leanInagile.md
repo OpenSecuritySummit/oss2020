@@ -17,7 +17,6 @@ organizers   : Leila Rao
 participants :
 ---
 
-
 <!--(add intro)
 
 ## WHY
