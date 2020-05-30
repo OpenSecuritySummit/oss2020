@@ -10,7 +10,7 @@ hey_summit   :
 session_slack:
 status       : draft           # draft, review-content, done
 description  : TBD
-organizers   : 
+organizers   : Dinis Cruz
 ---
 
 ### 
