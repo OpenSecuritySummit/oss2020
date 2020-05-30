@@ -5,8 +5,8 @@ type         : working-session      # working-session, user-session, product-ses
 technology   :
 topics       :                    # for example ["GDPR"]
 featured     :                    # review with summit team "yes"
-when_day     :                    # i.e.    Tue
-when_time    :                    # i.e.    AM-1
+when_day     :
+when_time    :
 room_layout  :                    #
 room_id      : 
 session_slack: 
