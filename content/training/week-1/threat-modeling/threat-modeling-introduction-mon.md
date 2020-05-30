@@ -16,3 +16,19 @@ description  : "Threat modelling workshop applying various methodologies: STRIDE
 ---
 
 Threat modelling workshop applying various methodologies: STRIDE, LINDDUN, Attack Trees, and PnG, to a MSP organisation and its key system
+
+This is the first section of a four-part exercise:
+
+- **Part 1 - THIS SESSION**  Setting the scene to the further sessions. We will understand what is the company profile and the architecture of the company Threats and threat modeling of the company plus PNG (persona nan grata) profile
+
+- **Part 2** - [Incident Response Planning)](https://open-security-summit-2020.heysummit.com/talks/incident-response-planning) - We will run through the scenario with a small group of people who will get the roles of key stakeholders at the actual incident response session (which will be the next part)
+
+- **Part 3** - [Incident Scenario Exercise](https://pre-summit-training-sessions.heysummit.com/talks/incident-scenario-exercise) - Actual exercise - 5 hours with breakout rooms for different groups of stakeholders. Run in sprints
+Information to be revealed throughout the exercise and groups work on their response
+
+- **Part 4** - [Post-mortem for the Part 3](https://open-security-summit-2020.heysummit.com/talks/post-mortem-of-the-incident-exercise/)
+
+
+Check our [youtube channel](https://www.youtube.com/channel/UCyse9b_2JLJUxKMLgSpOL-Q/)  for the sessions you have missed (search security incident open security summit). 
+
+
