@@ -5,7 +5,7 @@ track        : Training
 topics       : 
 when_week    : two
 when_day     : Fri
-when_time    : PM-1
+when_time    : WS-1
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/infrastructure-scan-encryption/
 session_slack:
 status       : draft           # draft, review-content, done

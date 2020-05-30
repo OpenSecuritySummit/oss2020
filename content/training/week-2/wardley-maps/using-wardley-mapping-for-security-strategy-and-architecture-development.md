@@ -5,7 +5,7 @@ track        : Training
 topics       : Wardley Maps
 when_week    : two
 when_day     : Wed
-when_time    : PM-1
+when_time    : WS-2
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/using-wardley-mapping-for-security-strategy-and-architecture-development/
 session_slack:
 status       : draft           # draft, review-content, done
