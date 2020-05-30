@@ -1,19 +1,17 @@
 ---
-title        : Wardley Maps introduction (Mon)
-type         : user-session
+title        : OSINT CTF
+type         : training-session
 track        : Training
-topics       : Wardley Maps
+topics       : 
 when_week    : two
-when_day     : Mon
-when_time    : WS-2
-hey_summit   :
+when_day     : Tue
+when_time    : WS-4
+hey_summit   : 
 session_slack:
 status       : draft           # draft, review-content, done
 description  : TBD
 organizers   : 
-
 ---
-
 <!--(add intro)
 
 ## WHY

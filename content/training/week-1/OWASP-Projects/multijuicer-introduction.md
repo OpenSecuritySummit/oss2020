@@ -13,7 +13,6 @@ description  : TBD
 organizers   : 
         - Jannik Hollenbach
         - Robert Seedorff 
-
 ---
 
 <!--(add intro)

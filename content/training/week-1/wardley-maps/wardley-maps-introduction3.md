@@ -6,7 +6,7 @@ topics       :
 when_week    : one
 when_day     : 3rd - Wednesday
 when_time    : WS-2
-hey_summit   :
+hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/wardley-mappping/
 session_slack:
 status       : draft           # draft, review-content, done
 organizers   : Cat Swetel

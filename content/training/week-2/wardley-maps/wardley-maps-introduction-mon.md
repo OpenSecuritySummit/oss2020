@@ -1,10 +1,10 @@
 ---
-title        : Hacking Glasswall SDk & Cloud
-type         : training-session
-track        : Cloud Security
-topics       : 
-when_week    : one
-when_day     : Fri
+title        :  Wardley Maps
+type         : user-session
+track        : Training
+topics       : Wardley Maps
+when_week    : two
+when_day     : Mon
 when_time    : WS-2
 hey_summit   :
 session_slack:

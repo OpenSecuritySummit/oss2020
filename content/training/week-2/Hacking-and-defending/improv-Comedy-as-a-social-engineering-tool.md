@@ -1,19 +1,17 @@
 ---
-title        : Hacking Glasswall SDk & Cloud
+title        : Improv Comedy as a Social Engineering Tool
 type         : training-session
-track        : Cloud Security
+track        : Training
 topics       : 
-when_week    : one
-when_day     : Fri
-when_time    : WS-2
-hey_summit   :
+when_week    : two
+when_day     : Mon
+when_time    : WS-3
+hey_summit   : 
 session_slack:
 status       : draft           # draft, review-content, done
 description  : TBD
 organizers   : 
-
 ---
-
 <!--(add intro)
 
 ## WHY

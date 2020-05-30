@@ -8,7 +8,7 @@ categories   :
 featured     : yes
 when_week    : two
 when_day     : Tue
-when_time    : AM-1
+when_time    : WS-1
 hey_summit   :
 session_slack:
 status       : review-content             # draft, review-content, done

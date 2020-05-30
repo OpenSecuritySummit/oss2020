@@ -1,11 +1,11 @@
 ---
-title        : DSO-Git
+title        : Incident Scenario Exercise
 type         : user-session
 track        : Training
 topics       : 
 when_week    : two
-when_day     : Mon
-when_time    : WS-1
+when_day     : Wed
+when_time    : WS-3
 hey_summit   : 
 session_slack:
 status       : draft           # draft, review-content, done
