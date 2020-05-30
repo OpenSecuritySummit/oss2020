@@ -1,33 +1,36 @@
 #footer {
+    font-family: 'Oswald', "Helvetica Neue", sans-serif ;
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #333333;
-}
-#footer h3 {
-    font-family: 'Oswald-Medium';
-    font-size: 20px;
-    text-transform: uppercase;
-    color: #EAEAEA;
-}
-#footer p {
-    color: #EAEAEA;
-    font-size: 14px;
-}
-#footer img {
-    padding-right: 10px;
-    padding-bottom: 10px;
-    width: 60px;
-}
-/* fix footer sizes on small devices */
-@media (max-width:450px) {
-    #footer h3 {
+    h3 {
+        font-family: 'Oswald Medium', "Helvetica Neue", sans-serif ;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #EAEAEA;
+    }
+    p {
+        color: #EAEAEA;
         font-size: 14px;
     }
-    #footer p {
-        font-size: 10px;
+    img {
+        padding-right: 10px;
+        padding-bottom: 10px;
+        width: 60px;
     }
-    #footer img {
-        font-size: 10px;
-        width: 40px;
+}
+/* fix footer sizes on small devices */
+@media (max-width: 767px) {
+    #footer {
+        h3 {
+            font-size: 14px;
+        }
+        p {
+            font-size: 10px;
+        }
+        img {
+            font-size: 10px;
+            width: 40px;
+        }
     }
 }
