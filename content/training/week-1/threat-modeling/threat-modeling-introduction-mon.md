@@ -19,7 +19,7 @@ Threat modelling workshop applying various methodologies: STRIDE, LINDDUN, Attac
 
 This is the first section of a four-part exercise:
 
-- ** Part 1 - THIS SESSION**  Setting the scene to the further sessions. We will understand what is the company profile and the architecture of the company Threats and threat modeling of the company plus PNG (persona nan grata) profile
+- **Part 1 - THIS SESSION**  Setting the scene to the further sessions. We will understand what is the company profile and the architecture of the company Threats and threat modeling of the company plus PNG (persona nan grata) profile
 
 - **Part 2** - [Incident Response Planning)](https://open-security-summit-2020.heysummit.com/talks/incident-response-planning) - We will run through the scenario with a small group of people who will get the roles of key stakeholders at the actual incident response session (which will be the next part)
 
