@@ -239,13 +239,9 @@ paginate = 10
     summit_edition = "2020"
 
     logo = "img/logo.png"
-    address = """<p>Open Security Summit
-        <br />Crown House
-        <br />27 Old Gloucester Street
-        <br />London, WC1N 3AX
-        <br />United Kingdom</p>
-        <a href="mailto:info@opensecsummit.org">info@opensecsummit.org</a>
-      """
+    address = """<p>Open Security Summit</p>
+                 <a href="mailto:info@opensecsummit.org">info@opensecsummit.org</a>
+              """
     latitude = "-12.043333"
     longitude = "-77.028333"
 
