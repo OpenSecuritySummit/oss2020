@@ -11,14 +11,19 @@ room_id      :
 session_slack: 
 status       : draft              # draft, review-content, done
 description  :
-organizers   :
+organizers   : Jakub Kaluzny
 participants :
 
 <!--(add intro)
 
-## WHY
+## Description
 
-(...)
+Covid-19 apps threat modeling session is a discussion on contact tracing mobile applications. The aim is to maximise the output number of potential threats and attack vectors by brainstorming abuser stories:
+* who are the threat actors
+* what are the key assets
+* what are the threats
+* what are the attack vectors / abuser stories
+* potential mitigations and privacy-by-design approaches
 
 ## What
 
