@@ -1,7 +1,7 @@
 ---
 title        :  OWASP Juice Shop Deep Dive - Integration
 track        :  OWASP Juice Shop
-type         :  working-session      # working-session, user-session, product-session
+type         :  user-session      # working-session, user-session, product-session
 technology   : 
 topics       :                    # for example ["GDPR"]
 featured     :  yes                   # review with summit team "yes"
