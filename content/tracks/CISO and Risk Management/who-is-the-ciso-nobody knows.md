@@ -1,17 +1,17 @@
 ---
 title        : Who is the CISO? Nobody knows
 track        : "CISO and Risk Management"
-type         : working-session      # working-session, user-session, product-session
+type         : working-session      # working-session,user-session, product-session
 technology   :
-topics       :                    # for example ["GDPR"]
-featured     : yes                # review with summit team "yes"
-when_day     : Wed                # i.e.    Tue
+topics       :                 # for example ["GDPR"]
+featured     : yes             # review with summit team "yes"
+when_day     : 17th-Wed                # i.e.    Tue
 when_time    : PM-1               # i.e.    AM-1
-hey_summit   :
+hey_summit   : https://open-security-summit-2020.heysummit.com/talks/who-is-the-ciso-nobody-knows/
 room_layout  :                    #
 room_id      :
 session_slack: 
-status       : draft              # draft, review-content, done
+status       : draft            # draft, review-content, done
 description  : "Define a CISO"
 organizers   : Alan Jenkins, Dinis Cruz, Phil Huggins, Tony Richards
 participants :
