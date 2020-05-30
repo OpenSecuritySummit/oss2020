@@ -1,11 +1,11 @@
 ---
-title        : Chef InSpec (Compliance as Code)
+title        : DSO-Git
 type         : user-session
-track        : Cloud Security
+track        : Training
 topics       : 
-when_week    : one
-when_day     : 2nd - Tuesday
-when_time    : WS-2
+when_week    : two
+when_day     : Mon
+when_time    : AM-1
 hey_summit   : 
 session_slack:
 status       : draft           # draft, review-content, done

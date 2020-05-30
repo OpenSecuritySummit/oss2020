@@ -13,6 +13,7 @@ status       : draft
 description  : Introduction to LINDDUN for privacy threat modeling
 organizers   : Mario Platt
 participants :
+    - Robin Oldham
 ---
 
 ## Why

@@ -4,13 +4,8 @@
        <div class="container">
                     <div class="navbar-header">
                         <a class="navbar-brand home" href="{{ .Site.BaseURL }}">
-                          {{ if .IsHome }}
-                            <img src="{{ .Site.BaseURL }}/img/logo.png" alt="{{ .Title }} logo" class="oss-logo img img-responsive hidden-xs hidden-sm">
-                            <img src="{{ .Site.BaseURL }}/img/logo" alt="{{ .Title }} logo" class="oss-logo img img-responsive visible-xs visible-sm">
-                          {{ else }}
-                            <img src="{{ .Site.BaseURL }}/img/logo.png" alt="{{ .Title }} logo" class="oss-logo img img-responsive hidden-xs hidden-sm">
-                            <img src="{{ .Site.BaseURL }}/img/logo.png" alt="{{ .Title }} logo" class="oss-logo img imr-responsive visible-xs visible-sm">
-                          {{ end }}
+                          <img src="{{ .Site.BaseURL }}img/logo.png" alt="{{ .Title }} logo" class="oss-logo img img-responsive hidden-xs hidden-sm">
+                          <img src="{{ .Site.BaseURL }}img/logo.png" alt="{{ .Title }} logo" class="oss-logo img img-responsive visible-xs visible-sm">
                             <span class="sr-only">{{ .Title }} - {{ i18n "navHome" }}</span>
                         </a>
                          <div class="navbar-buttons">

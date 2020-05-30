@@ -9,7 +9,21 @@
 }
 
 @font-face {
-    font-family: 'Oswald';
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url('#{$base-url}/fonts/OpenSans-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans Light';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url('#{$base-url}/fonts/OpenSans-Light.woff') format('woff'), url('#{$base-url}/fonts/OpenSans-Light.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Oswald Medium';
     font-style: normal;
     font-weight: 500;
     src: local('Oswald Medium'), local('Oswald-Medium'), url('#{$base-url}/fonts/oswald-medium-webfont.woff2') format('woff2'), url('#{$base-url}/fonts/oswald-medium-webfont.woff') format('woff');
@@ -24,7 +38,7 @@
 }
 
 @font-face {
-    font-family: 'Oswald';
+    font-family: 'Oswald Bold';
     font-style: normal;
     font-weight: bold;
     src: local('Oswald Bold'), local('Oswald-Bold'), url('#{$base-url}/fonts/oswald-bold-webfont.woff2') format('woff2'), url('#{$base-url}/fonts/oswald-bold-webfont.woff') format('woff');

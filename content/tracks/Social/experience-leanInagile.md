@@ -1,18 +1,20 @@
 ---
-title        : Landscape and trends assessment
-track        : "Wardley Maps"
+title        : Experience LeanInAgile
+track        : Social
 type         : working-session      # working-session, user-session, product-session
 technology   :
 topics       :                    # for example ["GDPR"]
-featured     :                    # review with summit team "yes"
-when_day     : Monday             # i.e.    Tue
-when_time    : WS-2              # i.e.    AM-1
+featured     : yes                # review with summit team "yes"
+when_day     : Fri                # i.e.    Tue
+when_time    : PM-4               # i.e.    AM-1
 room_layout  :                    #
-room_id      : 
+room_id      :
 session_slack: 
+hey_summit   : https://open-security-summit-2020.heysummit.com/talks/summit-spiral-special/
 status       : draft              # draft, review-content, done
 description  :
-organizers   : 
+organizers   : Leila Rao
+participants :
 ---
 
 

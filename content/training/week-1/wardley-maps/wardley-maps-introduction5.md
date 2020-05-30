@@ -1,5 +1,5 @@
 ---
-title        : Wardley Maps introduction (Fri)
+title        : Wardley Maps Introduction
 type         : user-session
 track        : Wardley Maps
 topics       : 

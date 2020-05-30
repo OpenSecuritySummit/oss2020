@@ -1,5 +1,5 @@
 ---
-title        : Threat Modeling Introduction (Mon)
+title        : Threat Modeling Introduction
 type         : training-session
 track        : Threat Modeling
 topics       :
