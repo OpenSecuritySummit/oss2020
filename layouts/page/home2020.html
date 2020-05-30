@@ -1,0 +1,18 @@
+{{ define "nav" }}
+<header class="full-bg background-home">
+
+    <div class="dark-mask"></div>
+
+    {{ partial "nav2020.html" . }}
+
+</header>
+{{ end }} {{ define "content" }}
+
+<section class="mid_wrap">
+    <div class="container">
+        {{ partial "home-page/intro.html"  . }}
+        {{ partial "home-page/intro.html"  . }}
+    </div>
+</section>
+
+{{ end }}
