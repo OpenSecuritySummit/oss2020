@@ -5,7 +5,7 @@ track        : Threat Modeling
 topics       : 
 when_week    : one
 when_day     : 4th - Thursday
-when_time    : KS-2
+when_time    : WS-1
 hey_summit   :
 session_slack:
 status       : draft           # draft, review-content, done

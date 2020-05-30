@@ -6,7 +6,7 @@ technology   :
 topics       : Applying Risk overlay with maps and security decision making    # for example ["GDPR"]
 featured     :                    # review with summit team "yes"
 when_day     : Tuesday                # i.e.    Tue
-when_time    : PM-3                   # i.e.    AM-1
+when_time    : WS-4                # i.e.    AM-1
 room_layout  :                    #
 room_id      : 
 session_slack: 
