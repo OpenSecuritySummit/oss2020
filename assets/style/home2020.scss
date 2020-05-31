@@ -212,6 +212,8 @@ $xxl-hero-container-height: 1042px;
 
   }
   &s {
+    padding-top: 153px;
+    padding-bottom: 80px;
     font-family: 'Oswald', helvetica neue, helvetica, sans-serif ;
     text-align: left;
     &_overtitle {
@@ -365,6 +367,8 @@ $xxl-hero-container-height: 1042px;
 /* SHEDULE */
 
 .shedule {
+  padding-top: 110px;
+  padding-bottom: 100px;
   &-table {
     display: flex;
     padding: 0;
@@ -503,3 +507,30 @@ $xxl-hero-container-height: 1042px;
 }
 
 /* END OF SHEDULE */
+
+/* PHOTO GALLERY */
+
+.section {
+  &-gallery {
+    max-width: 1900px;
+  }
+}
+
+.photo {
+  &-gallery {
+    &-grid {
+      // width: 100vw;
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      grid-gap: 10px;
+    }
+    &-item {
+      &-1 {
+        grid-column: 1 / span 2;
+      }
+      &-6 {
+        grid-column: 3 / span 2;
+      }
+    }
+  }
+}
