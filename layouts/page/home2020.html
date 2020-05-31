@@ -1,22 +1,20 @@
 {{ define "nav" }}
 <header class="full-bg background-home">
 
-    <div class="dark-mask"></div>
+  <div class="dark-mask"></div>
 
-    {{ partial "nav2020.html" . }}
+  {{ partial "nav2020.html" . }}
 
 </header>
 {{ end }} {{ define "content" }}
 
 <section class="mid_wrap">
-    <div class="container">
-        {{ partial "home-page/hero.html"              . }}
-        {{ partial "home-page/buy-tickets.html"       . }}
-        {{ partial "home-page/schedule.html"          . }}
-        {{ partial "home-page/speakers.html"          . }}
-        {{ partial "home-page/photo-gallery.html"     . }}
-        {{ partial "sponsors/sponsorship-model.html"  . }}
-    </div>
+  {{ partial "home-page/hero.html"              . }}
+  {{ partial "home-page/buy-tickets.html"       . }}
+  {{ partial "home-page/schedule.html"          . }}
+  {{ partial "home-page/speakers.html"          . }}
+  {{ partial "home-page/photo-gallery.html"     . }}
+  {{ partial "sponsors/sponsorship-model.html"  . }}
 </section>
 
 {{ end }}

@@ -1,0 +1,82 @@
+/* Speakers styles */
+
+.speaker {
+  &_tag {
+    text-align: center;
+  }
+  &_name {
+    position: relative;
+    display: inline-block;
+    // text-align: center;
+    font-family: Oswald;
+    font-size: 20px;
+    color: $main-header-color;
+    transition: all 0.2s;
+    &::after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 23px;
+      width: 0;
+      height: 1px;
+      background-color: $main-action-text-color;
+      transition: all 0.2s;
+    }
+    &:hover {
+      color: $main-action-text-color;
+      cursor: pointer;
+      &::after {
+        width: 100%;
+        left: 0;
+      }
+    }
+  }
+  &_description {
+    text-align: center;
+    font-family: Oswald;
+    font-size: 18px;
+    color: $desc-text-color;
+
+  }
+  &s {
+    text-align: left;
+    &_title {
+      margin-top: 0;
+  
+      text-transform: uppercase;
+      font-family: Oswald;
+      font-size: 20px;
+      color: $main-action-text-color;
+    }
+    &_subtitle {
+      margin-top: 0;
+      text-transform: uppercase;
+      font-family: Oswald;
+      font-size: 56px;
+      color: $main-background-color;    
+    }
+    &_button {
+      width: 209px;
+      height: 58px;
+      border: none;
+      background-color: #86ba40;
+      text-transform: uppercase;
+      font-family: Oswald;
+      font-size: 20px;
+      color: $main-inverse-text-color;
+  
+    }
+    .description {
+      font-family: Oswald;
+      font-size: 22px;
+      color: $desc-text-color;
+    }
+    .card {
+      &_speaker {
+        margin-bottom: 30px;
+      }
+    }    
+  }
+}
+
+/* End of Speakers styles */
