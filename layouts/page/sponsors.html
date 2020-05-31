@@ -22,98 +22,27 @@
 
 {{ define "full-content" }}
 
-<section id="sponsors">
-  <div class="container-fluid bg-sponsors">
-    <div class="container">
-      <div class="row sponsor-spacing">
-        <div class="col-md-12">
-          {{ .Content }}
-        </div>
+<div class="container-fluid bg-sponsors">
+  <div class="container">
+    <div class="row sponsor-spacing">
+      <div class="col-md-12">
+        {{ .Content }}
       </div>
-      <div class="row sponsor-spacing">
-        <div class="col-md-12">
-          {{ $sponsor_type := (slice "gold" "bronze") }}
-          {{ range $sponsor_type }}
-          {{ $sponsors := (index $.Site.Data.sponsors .) }}
-
-          {{ partial "sponsors/type-list.html" (dict "category" . "sponsors" $sponsors) }}
-
-          {{ end }}
-        </div>
     </div>
-    </div>
-  </div><!-- container-fluid -->
+    <div class="row sponsor-spacing">
+      <div class="col-md-12">
+        {{ $sponsor_type := (slice "gold" "bronze") }}
+        {{ range $sponsor_type }}
+        {{ $sponsors := (index $.Site.Data.sponsors .) }}
 
+        {{ partial "sponsors/type-list.html" (dict "category" . "sponsors" $sponsors) }}
 
-  <div class="sponsorship_options">
-    <div class="container">
-<!--
-      <h3>Platinum sponsor: £20,000</h3>
-      <ul>
-        <div class="">15* full tickets (including accommodation and food)</div>
-        <div class="">Branded villa</div>
-        <div class="">Sponsored project</div>
-        <div class="">Logo placement on website, guide and bag</div>
-        <div class="">Social media announcement</div>
-        <div class="">Bag inserts</div>
-        <div class="">2m x 2m sponsor booth in dining room</div>
-        <div class="">Sponsored evening talk</div>
-      </ul>
--->
-
-      <div class="container-fluid">
-        <div class="row">
-          <h1>Summit Sponsorship Model</h1>
-          <!--        <p>If you are interested in one of the sponsorships packages below please <a href="mailto:info@opensecsummit.org">contact us</a>-->
-          <!--        </p>-->
-        </div>
-        <div class="packages row">
-          <div class="package-wrapper col-xs-12 col-md-6 col-lg-3">
-            <div class="package gold">
-              <h3 class="package-level">Gold</h3>
-              <div class="cost">£5,000</div>
-              <div class="package-adv">
-                <div class="package-adv-head">50 tickets</div>
-                <div class="package-adv-for">Training or Summit</div>
-              </div>
-              <div class="package-adv">
-                <div class="package-adv-head">20 tickets</div>
-                <div class="package-adv-for">for sponsor</div>
-              </div>
-              <div class="package-adv">
-                <div class="package-adv-head">25 trees</div>
-                <div class="package-adv-for">for good causes</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="package-wrapper col-xs-12 col-md-6 col-lg-3">
-          <div class="package silver">
-            <h3 class="package-level">Silver</h3><div class="cost">£1,000</div>
-            <div class="package-adv"><div class="package-adv-head">10 tickets</div><div class="package-adv-for">Training or Summit</div></div>
-            <div class="package-adv"><div class="package-adv-head">5 tickets</div><div class="package-adv-for">for sponsor</div></div>
-            <div class="package-adv"><div class="package-adv-head">5 trees</div><div class="package-adv-for">for good causes</div></div>
-          </div>
-          </div>
-
-          <div class="package-wrapper col-xs-12 col-md-6 col-lg-3">
-          <div class="package bronze">
-            <h3 class="package-level">Bronze</h3><div class="cost">£500</div>
-            <div class="package-adv"><div class="package-adv-head">5 tickets</div><div class="package-adv-for">Training or Summit</div></div>
-            <div class="package-adv"><div class="package-adv-head">3 tickets</div><div class="package-adv-for">for sponsor</div></div>
-            <div class="package-adv"><div class="package-adv-head">2 trees</div><div class="package-adv-for">for good causes</div></div>
-          </div>
-          </div>
-          <div class="package-wrapper col-xs-12 col-md-6 col-lg-3">
-          <div class="package-logos">
-            <div class="logo"><span >Get Logo on Summit Sites</span></div>
-            <div class="logo"><span>Recognised as Sponsor</span></div>
-          </div>
-          </div>
-        </div>
+        {{ end }}
       </div>
+    </div>
   </div>
+</div><!-- container-fluid -->
 
-</section>
+{{ partial "sponsors/sponsorship-model.html"  . }}
 
 {{ end }}

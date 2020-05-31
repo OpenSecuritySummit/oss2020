@@ -1,6 +1,7 @@
 {{ $src    := .Get "src"    }}
 {{ $width  := .Get "width"  }}
 {{ $height := .Get "height" }}
-<img src   ="{{$src}}"
-     width="{{$width}}"
-     height="{{$height}}" />
+{{ $alt    := .Get "alt"    }}
+<img src="{{$src}}" width="{{$width}}" height="{{$height}}" alt="{{$alt}}">
+  .Inner
+</img>

@@ -21,11 +21,29 @@ $cost-box-height: 80px;
 }
 
 #sponsors {
-    .sponsor-spacing {
+  padding-top: 70px;
+  text-align: center;
+
+  .sponsor-spacing {
         padding-top: 30px;
     }
     .sponsors {
-        &-item {
+      &-button {
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 40px;
+        margin-top: 40px;
+        padding: 16px 36px;
+        font-size: 24px;
+        font-weight: 400;
+        text-transform: uppercase;
+        background-color: $main-action-text-color;
+        color: $main-inverse-text-color;
+        outline-style: none;
+        outline-width: 0;
+      }
+
+      &-item {
             margin-left: 15px;
             background-color: #FFFFFF;
             .sponsors {
@@ -84,9 +102,6 @@ $cost-box-height: 80px;
             }
         }
     }
-    * {
-        z-index: 2;
-    }
     .platinum {
         width: calc(100% / 4);
     }
@@ -98,30 +113,13 @@ $cost-box-height: 80px;
 }
 
 
-@media(min-width: 767px) {
+@media(min-width: $md-breakpoint) {
     #sponsors {
         .sponsors-item {
             margin: 10px 10px 30px;
         }
     }
 }
-
-/*
-ul.list-style-none li.roboto-slab-big {
-    font-family: 'Roboto Slab', serif !important;
-    font-size: 60px;
-    color: #fff;
-}
-
-ul.list-style-none li a.green {
-    font-size: 16px;
-    font-family: "Oswald-Medium", sans-serif;
-    text-transform: uppercase;
-    color: #fff;
-    background-color: #87bb40;
-    padding: 15px;
-}
-*/
 
 .sponsorship {
     box-sizing: border-box;
@@ -136,8 +134,6 @@ ul.list-style-none li a.green {
 
         }
         .packages {
-            //justify-content: space-between;
-            //width: 100%;
             .package, h3 {
                 color: white;
             }
@@ -181,18 +177,14 @@ ul.list-style-none li a.green {
                     }
                 }
                 &-wrapper {
-                    padding-right: 50px;
-                    padding-left: 0;
-                    &:last-of-type {
-                        padding-right: 0;
-                    }
+                    padding-right: 25px;
+                    padding-left: 25px;
                 }
                 font-family: 'Oswald', sans-serif;
                 border-radius: 30px;
                 border-width: 0;
                 padding-right: 30px;
                 padding-left: 30px;
-                //width: 22%;
                 margin-left: 0;
                 margin-right: 0;
                 &.gold {
@@ -281,9 +273,3 @@ ul.list-style-none li a.green {
         }
     }
 }
-
-/*
-.sponsorship_options .packages .package .package-adv:last-child .package-adv-for:before {
-    display: none;
-}
-*/

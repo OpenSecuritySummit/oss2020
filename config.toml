@@ -15,12 +15,6 @@ paginate = 10
 
 # Main menu
 #[[menu.main]]
-#    name = "Home"
-#    identifier = "home"
-#    pre = "<i class='fa fa-road'></i>&nbsp;"
-#    weight = 1
-#    url = "/"
-#[[menu.main]]
 #    name = "Reactions"
 #    identifier = "reactions"
 #    pre = "<i class='fa fa-road'></i>&nbsp;"

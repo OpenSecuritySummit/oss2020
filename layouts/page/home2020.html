@@ -1,0 +1,37 @@
+{{ define "nav" }}
+<header class="full-bg background-home">
+
+  {{ partial "nav2020.html" . }}
+
+</header>
+{{ end }} {{ define "full-content" }}
+
+<div class="home-page">
+  {{ partial "home-page/hero.html" . }}
+  {{ partial "home-page/attend-summit.html" . }}
+  {{ partial "home-page/book-tickets.html" . }}
+  {{ partial "home-page/speakers.html" . }}
+  {{ partial "home-page/schedule.html" . }}
+  {{ partial "home-page/photo-gallery.html" . }}
+  {{ partial "home-page/previous-summits.html" . }}
+  {{ partial "sponsors/sponsorship-model.html" . }}
+</div>
+
+
+<!--
+<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-countdown/2.1.0/js/jquery.plugin.min.js" integrity="sha256-ehsW6MKc6p4j9woqxujBlvzw02Tfo0EFfIYZCd6Y2dg=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-countdown/2.1.0/js/jquery.countdown.min.js" integrity="sha256-/+CwKQbsLUvGL3Fv+YmTj53NHnpZaYAJtmcfHCpO0lE=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function () {
+        $("#offer-countdown")
+        .countdown("2020/06/03 10:00:00 +0100", function (event) {
+            $(this).html(
+                event.strftime('<ul><li>%D<br/><span>days</span></li><li>%H<br/><span>hours</span></li><li>%M<br/><span>mins</span></li><li>%S<br/><span>secs</span></li></ul>'),
+            );
+        });
+    });
+</script>
+-->
+
+{{ end }}
