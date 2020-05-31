@@ -11,7 +11,7 @@ session_slack:
 status       : draft
 description  : TBD
 organizers   :
-  
+         - Mike Minchinton
    
 ---
 
