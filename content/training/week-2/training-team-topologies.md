@@ -12,7 +12,10 @@ when_time    : WS-1
 hey_summit   :
 session_slack:
 status       : review-content             # draft, review-content, done
-organizers   : Mario Platt, Luke Robbertse
+organizers   : 
+        - Mario Platt
+        - Luke Robbertse
+
 description  : Introduction to Team Topologies
 ---
 
