@@ -16,7 +16,7 @@ description  : TBD
 
 <!--(add intro)
 
-## WHY
+## Join Cat for an introduction to Wardley Maps, a tool for thinking about the evolution of technology systems. In this session you will learn the basics of Wardley Mapping and have an opportunity to create your first map. Armed with a set of resources for continued learning and set of tools and aids for map making (including tools for facilitating a virtual mapping session!), you will leave the session ready to go forth and map! Come find out why our industry is buzzing about Wardley Maps!
 
 (...)
 
