@@ -1,15 +1,15 @@
 ---
-company: 'Glasswall'
-image: 'https://media-exp1.licdn.com/dms/image/C5603AQHKfbogozVVzw/profile-displayphoto-shrink_200_200/0?e=1588204800&v=beta&t=YKrBV4IgZLsoopqf7M-MuV9xsz2zlV87pvzlcRdqox0'
-job_title: 'Technology Squads Operations Manager at Glasswall'
-linkedin: 'https://www.linkedin.com/in/luke-robbertse-04116abb/'
-notes: ''
-project_leader: ''
+title: Luke Robbertse
+image: https://media-exp1.licdn.com/dms/image/C5603AQHKfbogozVVzw/profile-displayphoto-shrink_800_800/0?e=1596672000&v=beta&t=lCoaMvkn1yE2BLX8BZxxC0PE1Lh77Sc_BghXkYoZn0Q
+company: Glasswall
+job_title: Technology Operations Manager
+facebook: Luke Robbertse
+linkedin: luke-robbertse-04116abb
+twitter: LukeRobbertse
+website:
+notes:
 status: add-details
-title: 'Luke Robbertse'
-travel_from: ''
-twitter: ''
 type: participant
-website: ''
 ---
-Luke is the Technology Squads Operations Manager at Glasswall
+
+<!-- put more details about participant here -->

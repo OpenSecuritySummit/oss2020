@@ -1,10 +1,10 @@
 ---
-title: Mohammed A. Imran
+title: Cat Swetel
 image:
 company:
 job_title:
 facebook:
-linkedin: secfigo
+linkedin:
 twitter:
 website:
 notes:
