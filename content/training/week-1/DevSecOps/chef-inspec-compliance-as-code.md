@@ -11,6 +11,7 @@ session_slack:
 status       : draft           # draft, review-content, done
 description  : TBD
 organizers   : Joshua Jebaraj
+zoom_host    : Didar Gelici
 ---
 
 ### 
