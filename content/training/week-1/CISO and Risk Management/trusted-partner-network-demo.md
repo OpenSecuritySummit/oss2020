@@ -4,13 +4,14 @@ type         : training-session
 track        : CISO and Risk Management
 topics       : 
 when_week    : one
-when_day     : 4th - Thursday
+when_day     : 4th-Thu
 when_time    : WS-2
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/trusted-partner-network-demo/
 session_slack:
 status       : draft           # draft, review-content, done
 description  : TBD
-organizers   :  Ben Schofield
+organizers   :  
+       - Ben Schofield
 
 ---
 
