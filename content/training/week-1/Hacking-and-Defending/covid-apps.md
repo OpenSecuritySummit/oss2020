@@ -4,7 +4,7 @@ track        : Training
 type         : user-session
 topics       : Hacking & Defending
 when_week    : one
-when_day     : Wed
+when_day     : 3rd - Wednesday
 when_time    : WS-4
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/covid-apps/
 session_slack:
