@@ -296,7 +296,7 @@ $xxl-hero-container-height: 1042px;
   }
 
   &s {
-    font-family: 'Oswald', helvetica neue, helvetica, sans-serif;
+    //font-family: 'Oswald', helvetica neue, helvetica, sans-serif;
     padding-top: 153px;
     padding-bottom: 80px;
     text-align: left;
@@ -317,7 +317,8 @@ $xxl-hero-container-height: 1042px;
       text-transform: uppercase;
       font-size: 20px;
       color: $main-inverse-text-color;
-
+      margin-top: 15px;
+      margin-bottom: 15px;
     }
 
     .card {
@@ -603,6 +604,9 @@ $xxl-hero-container-height: 1042px;
   }
 
   .attend {
+    &-block {
+      padding-top: 75px;
+    }
     &-paragraph {
       padding-left: 10px;
       padding-right: 10px;
@@ -616,6 +620,14 @@ $xxl-hero-container-height: 1042px;
         width: 100%;
       }
     }
+  }
+
+  .speakers {
+      .card {
+        &_description {
+          text-align: center;
+        }
+      }
   }
 
 }
@@ -688,7 +700,7 @@ $xxl-hero-container-height: 1042px;
 
   .attend {
     &-block {
-      padding-top: 75px;
+      //padding-top: 75px;
     }
 
     &-card {
@@ -716,6 +728,8 @@ $xxl-hero-container-height: 1042px;
 
   .speaker {
     &s {
+      padding-top: 50px;
+      padding-bottom: 20px;
       .card {
         &_speaker {
           text-align: center;
@@ -809,3 +823,4 @@ $xxl-hero-container-height: 1042px;
     }
   }
 }
+
