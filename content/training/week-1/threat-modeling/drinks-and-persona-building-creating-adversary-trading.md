@@ -11,6 +11,7 @@ session_slack:
 status       : done           # draft, review-content, done
 description  : Join us for a fun social "outing" where we'll introduce the people who created the personas for the first set of Adversary Trading Cards.
 organizers   : Mark Miller
+zoom_host    : Didar Gelici   
 ---
 
 Join us for a fun social "outing" where we'll introduce the people who created the personas
