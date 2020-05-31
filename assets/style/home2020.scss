@@ -14,7 +14,23 @@ $sm-container-width: 540px;
 $main-menu-height: 66px;
 $xxl-hero-container-height: 1042px;
 
-section {
+
+
+.section {
+  &-paragraph {
+    font-size: 22px;
+    color: $desc-text-color;
+  }
+  &-overtitle {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: $main-action-text-color;
+  }
+  &-title {
+    text-transform: uppercase;
+    font-size: 56px;
+    color: $main-background-color;
+  }
   //clear: both
 }
 
@@ -34,26 +50,18 @@ section {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-      &__wrapper{
-      //display: flex;
-      //flex-direction: column;
-      //justify-content: center;
-      //align-content: center;
-      //justify-items: center;
-      //align-items: center;
-    }
   }
   &-button {
     &__trainings {
       background-color: $main-active-link-color;
     }
-    &__buytickets {
+    &__booktickets {
       background-color: $main-action-text-color;
     }
   }
 }
 
-.buytickets-section {
+.booktickets-section {
   background-image: url("#{$base-url}/img/home/bookyourticket-bg-25.png"), linear-gradient(to right, #61872e 0%, #86ba40 100%);
   background-repeat: repeat-x;
   .container {
@@ -68,12 +76,167 @@ section {
     section {
       margin-top: -$main-menu-height;
       margin-bottom: $main-menu-height;
+      font-family: 'Oswald', helvetica neue, helvetica, sans-serif ;
+      h1, h2, h3, h4, h5, h6, button {
+        font-family: 'Oswald', helvetica neue, helvetica, sans-serif ;
+      }
     }
-
   }
 }
 
 
+/*****************************/
+/** Attend the summit styles **/
+/*****************************/
+
+.attend {
+  &-block {
+    text-align: center;
+    margin: auto;
+    padding-top: 150px;
+  }
+  &-title {
+    font-family: 'Oswald Medium', helvetica neue, helvetica, sans-serif ;
+    font-weight: bold;
+    max-width: 800px;
+    margin: 30px auto 0 auto;
+
+  }
+  &-paragraph {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 30px auto 0 auto;
+  }
+  &-card {
+    text-align: center;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  &-number {
+    font-size: 59px;
+    letter-spacing: 3.6px;
+    color: $main-background-color;
+  }
+  &-hero {
+    margin-top: 65px;
+  }
+
+}
+/* End of Attend the summit styles */
+
+
+/*****************************/
+/**** book tickets styles ****/
+/*****************************/
+
+.booking {
+  &-blocks {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+  }
+  &-banner {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  &-countdown {
+    text-align: center;
+  }
+  &-overtitle {
+    color: $main-inverse-text-color;
+    letter-spacing: 4px;
+  }
+  &-book {
+    margin-top: 10px;
+    background-color: $main-background-color;
+    color: $main-inverse-text-color;
+    padding: 0 50px 0 50px;
+    font-size: 50px;
+    text-transform: uppercase;
+    border-radius: 35px;
+  }
+}
+
+
+
+/*****************************/
+/***** Speakers styles *******/
+/*****************************/
+.speaker {
+  &_tag {
+    text-align: center;
+  }
+  &_name {
+    position: relative;
+    display: inline-block;
+    // text-align: center;
+    font-size: 20px;
+    color: $main-header-color;
+    transition: all 0.2s;
+    &::after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 23px;
+      width: 0;
+      height: 1px;
+      background-color: $main-action-text-color;
+      transition: all 0.2s;
+    }
+    &:hover {
+      color: $main-action-text-color;
+      cursor: pointer;
+      &::after {
+        width: 100%;
+        left: 0;
+      }
+    }
+  }
+  &_description {
+    text-align: center;
+    font-size: 18px;
+    color: $desc-text-color;
+
+  }
+  &s {
+    font-family: 'Oswald', helvetica neue, helvetica, sans-serif ;
+    text-align: left;
+    &_overtitle {
+      margin-top: 0;
+    }
+    &_title {
+      margin-top: 0;
+    }
+    &_button {
+      width: 209px;
+      height: 58px;
+      border: none;
+      background-color: #86ba40;
+      text-transform: uppercase;
+      font-size: 20px;
+      color: $main-inverse-text-color;
+
+    }
+    .card {
+      &_speaker {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+/* End of Speakers styles */
+
+
+/*****************************/
+/*** XXL BREAKPOINT ONLY *****/
+/*****************************/
 @media screen and (min-width: $xxl-breakpoint) {
   .container-managed {
     &.xxl {
@@ -104,7 +267,7 @@ section {
           width: $xl-container-width;
         }
       }
-      .buytickets-section {
+      .booktickets-section {
         background-repeat: repeat-x;
       }
     }
@@ -113,9 +276,19 @@ section {
 }
 
 
+
+/*****************************/
+/****** XXL BREAKPOINT *******/
+/*****************************/
+
 @media screen and (max-width: $xxl-breakpoint) {
 
 }
+
+
+/*****************************/
+/******* XL BREAKPOINT *******/
+/*****************************/
 
 @media screen and (max-width: $xl-breakpoint) {
   .hero-section {
@@ -125,97 +298,60 @@ section {
       background: none;
     }
   }
+  .attend {
+    &-paragraph {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    &-hero {
+      max-width: 90%;
+      margin: auto;
+      img {
+        width: 100%;
+      }
+    }
+  }
+
 }
 
 
-@media screen and (max-width: 992px) {
+/*****************************/
+/***** LG BREAKPOINT *******/
+/*****************************/
+
+@media screen and (max-width: $lg-breakpoint) {
   .hero-section {
     .container {
       height: 539px;
     }
   }
-}
-
-
-/* Speakers styles */
-
-.speaker {
-  &_tag {
-    text-align: center;
-  }
-  &_name {
-    position: relative;
-    display: inline-block;
-    // text-align: center;
-    font-family: Oswald;
-    font-size: 20px;
-    color: $main-header-color;
-    transition: all 0.2s;
-    &::after {
-      content: '';
-      position: absolute;
-      left: 50%;
-      top: 23px;
-      width: 0;
-      height: 1px;
-      background-color: $main-action-text-color;
-      transition: all 0.2s;
-    }
-    &:hover {
-      color: $main-action-text-color;
-      cursor: pointer;
-      &::after {
-        width: 100%;
-        left: 0;
-      }
-    }
-  }
-  &_description {
-    text-align: center;
-    font-family: Oswald;
-    font-size: 18px;
-    color: $desc-text-color;
-
-  }
-  &s {
-    text-align: left;
-    &_title {
-      margin-top: 0;
-
-      text-transform: uppercase;
-      font-family: Oswald;
-      font-size: 20px;
-      color: $main-action-text-color;
-    }
-    &_subtitle {
-      margin-top: 0;
-      text-transform: uppercase;
-      font-family: Oswald;
-      font-size: 56px;
-      color: $main-background-color;
-    }
-    &_button {
-      width: 209px;
-      height: 58px;
-      border: none;
-      background-color: #86ba40;
-      text-transform: uppercase;
-      font-family: Oswald;
-      font-size: 20px;
-      color: $main-inverse-text-color;
-
-    }
-    .description {
-      font-family: Oswald;
-      font-size: 22px;
-      color: $desc-text-color;
-    }
-    .card {
-      &_speaker {
-        margin-bottom: 30px;
-      }
+  .booking {
+    &-blocks {
+      flex-direction: column;
     }
   }
 }
 
-/* End of Speakers styles */
+
+
+
+/*****************************/
+/***** MD BREAKPOINT *******/
+/*****************************/
+
+@media screen and (max-width: $md-breakpoint) {
+}
+
+
+
+
+/*****************************/
+/***** SM BREAKPOINT *******/
+/*****************************/
+
+@media screen and (max-width: $sm-breakpoint) {
+}
+
+
+
+
