@@ -8,6 +8,7 @@ project_leader: ''
 status: add-details
 title: 'Alex Potter-Dixon'
 travel_from: ''
+medium: alex.potter.dixon
 twitter: ''
 type: participant
 website: ''
