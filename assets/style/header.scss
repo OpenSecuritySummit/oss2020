@@ -4,6 +4,7 @@ header.full-bg {
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
+    z-index: 2;
 }
 
 header.full-bg .home-carousel {
@@ -16,7 +17,7 @@ header.full-bg .navbar-default {
 
 header.full-bg .dark-mask {
     opacity: 0.9;
-    filter: alpha(opacity=90);
+    //filter: alpha(opacity=90);
     background: #082451;
     position: absolute;
     top: 0;
@@ -53,9 +54,19 @@ header.full-bg .dark-mask {
 
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
-    color: #FFFFFF;
+    //color: #FFFFFF;
     background-color: rgba(135, 187, 64, .2);
     border-bottom: 4px solid #87bb40;
+}
+
+.affix-top .navbar-default .navbar-nav>li>a:hover,
+.affix-top .navbar-default .navbar-nav>li>a:focus {
+    color: #FFFFFF;
+}
+
+.affix .navbar-default .navbar-nav>li>a:hover,
+.affix .navbar-default .navbar-nav>li>a:focus {
+    color: #87bb40;
 }
 
 .navbar-default .navbar-nav>.active>a,
