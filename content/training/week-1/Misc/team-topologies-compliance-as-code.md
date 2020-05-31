@@ -3,7 +3,7 @@ title        : Team Topologies & Compliance as code
 type         : training-session
 track        : DevSecOps
 topics       : 
-when_week    : one
+when_week    : 
 when_day     : 
 when_time    : 
 hey_summit   :

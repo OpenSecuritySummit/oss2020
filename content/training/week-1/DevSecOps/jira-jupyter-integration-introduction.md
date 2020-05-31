@@ -8,7 +8,7 @@ when_day     : 5th - Friday
 when_time    : WS-2
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/jira-jupyter-notebooks-integration/
 session_slack:
-status       : draft           # draft, review-content, done
+status       :           # draft, review-content, done
 description  : TBD
 organizers   : Dinis Cruz
 ---
