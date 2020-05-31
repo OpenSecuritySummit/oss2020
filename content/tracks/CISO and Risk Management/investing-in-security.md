@@ -4,14 +4,14 @@ track        : "CISO and Risk Management"
 type         : working-session      # working-session, user-session, product-session
 technology   :
 topics       :                    # for example ["GDPR"]
-featured     : yes                # review with summit team "yes"
-when_day     : Wed
-when_time    : WS-1
-hey_summit   :
+featured     : yes            # review with summit team "yes"
+when_day     : Wed                # i.e.    Tue
+when_time    : WS-1               # i.e.    AM-1
+hey_summit   : https://open-security-summit-2020.heysummit.com/talks/investing-in-security/
 room_layout  :                    #
 room_id      :
 session_slack: 
-status       : draft              # draft, review-content, done
+status       : draft          # draft, review-content, done
 description  :
 organizers   : Danny Lopez
 participants :
