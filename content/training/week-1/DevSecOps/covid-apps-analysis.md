@@ -13,6 +13,7 @@ description  : TBD
 organizers   :
     - Mark Carney
     - Jay Harris
+zoom_host.   : Didar Gelici       
 ---
 
 
