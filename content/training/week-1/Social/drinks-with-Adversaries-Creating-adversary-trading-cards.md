@@ -11,7 +11,7 @@ session_slack:
 status       : draft           # draft, review-content, done
 description  : 
 organizers   :
-    - Mark Miller
+         -Mark Miller
 
 ---
 
