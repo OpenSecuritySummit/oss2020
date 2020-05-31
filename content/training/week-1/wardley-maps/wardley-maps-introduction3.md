@@ -1,5 +1,5 @@
 ---
-title        : Wardley Maps introduction
+title        : Wardley Mappping 
 type         : training-session
 track        : Wardley Maps
 topics       : 
@@ -8,7 +8,7 @@ when_day     : 3rd - Wednesday
 when_time    : WS-2
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/wardley-mappping/
 session_slack:
-status       : draft           # draft, review-content, done
+status       :           # draft, review-content, done
 organizers   : Cat Swetel
 description  : TBD
 ---
