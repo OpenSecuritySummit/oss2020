@@ -3,9 +3,9 @@ title        : Identity Management & Secret Stores
 type         : training-session
 track        : Cloud Security
 topics       : 
-when_week    : one
-when_day     : 3rd - Wednesday
-when_time    : WS-1
+when_week    : 
+when_day     : 
+when_time    : 
 hey_summit   :
 session_slack:
 status       : draft           # draft, review-content, done
