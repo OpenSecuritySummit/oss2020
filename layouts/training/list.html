@@ -34,13 +34,24 @@
 
     <h3>Schedule (Week 1) - 1st to 5th of June</h3>
 
+    {{ $title := "" }}
+    {{ $week_one_all := where .Data.Pages ".Params.when_week" "one" }}
+    {{ $week_one := $week_one_all }}
+    {{ $week_one_days := .Site.Data.schedule.days.week_one}}
 
-    {{ $week_one := where .Data.Pages ".Params.when_week" "one"  }}
+
+    {{ partial "schedule/table/table.html" (dict "self" . "pages" $week_one "valid_days" $week_one_days "title" $title )}}
     {{ partial "training/main-page-weekly-table" $week_one }}
 
     <h3>Schedule (Week 2) - 8th to 12th of June</h3>
 
+    {{ $week_two_all := where .Data.Pages ".Params.when_week" "two" }}
     {{ $week_two := where .Data.Pages ".Params.when_week" "two"  }}
+    {{ $week_two_days := .Site.Data.schedule.days.week_two}}
+
+    {{ partial "schedule/table/table.html" (dict "self" . "pages" $week_two "valid_days" $week_two_days "title" $title )}}
+    {{ partial "training/main-page-weekly-table" $week_one }}
+
     {{ partial "training/main-page-weekly-table" $week_two }}
 
   </div>

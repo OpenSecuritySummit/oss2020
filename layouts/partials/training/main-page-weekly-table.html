@@ -14,7 +14,7 @@
         <th>Track</th>
         <th>Register</th>
         </thead>
-        {{ range sort . ".Params.when_day" }}
+        {{ range sort . ".Params.title" }}
             <tr>
                 <td>
                     <a href="{{.Permalink }}">{{.Params.title}}</a>
