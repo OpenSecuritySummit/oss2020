@@ -1,5 +1,5 @@
 ---
-title        : Drinks with Adversaries:Creating Adversary Trading Cards
+title        : "Drinks with Adversaries: Creating Adversary Trading Cards (2nd Session)"
 type         : training-session
 track        : Social
 topics       : 
@@ -11,7 +11,7 @@ session_slack:
 status       : draft           # draft, review-content, done
 description  : 
 organizers   :
-         -Mark Miller
+    - Mark Miller
 
 ---
 

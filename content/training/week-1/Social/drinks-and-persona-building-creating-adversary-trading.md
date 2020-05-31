@@ -1,6 +1,6 @@
 ---
-title        : "Drinks and Persona Building: Creating Adversary Trading Cards"
-type         : user-session
+title        : "Drinks and Persona Building: Creating Adversary Trading Cards (1st Session)"
+type         : training-session
 track        : Threat Modeling
 topics       : 
 when_week    : one
