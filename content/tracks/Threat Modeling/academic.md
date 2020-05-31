@@ -11,7 +11,10 @@ room_id      :
 session_slack: 
 status       : draft
 description  : 
-organizers   : Steven, Kim, Koen
+organizers   :
+    - Steven
+    - Kim
+    - Koen
 participants :
 ---
 

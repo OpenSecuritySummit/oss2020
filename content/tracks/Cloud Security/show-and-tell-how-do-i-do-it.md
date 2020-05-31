@@ -13,7 +13,9 @@ room_id      :
 session_slack: 
 status       : draft              # draft, review-content, done
 description  : DataDog for example
-organizers   : Tony Richards, Omer Levi Hevroni
+organizers   :
+    - Tony Richards
+    - Omer Levi Hevroni
 participants :
 ---
 

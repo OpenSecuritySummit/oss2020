@@ -11,7 +11,9 @@ room_id      :
 session_slack: 
 status       : draft
 description  : 
-organizers   : Steven, Mike Goodwin
+organizers   :
+    - Steven
+    - Mike Goodwin
 participants :
 ---
 

@@ -12,7 +12,10 @@ room_id      :
 session_slack: 
 status       : draft              # draft, review-content, done
 description  :
-organizers   : Michael Man, James Bore, Abbas Haidar
+organizers   :
+    - Michael Man
+    - James Bore
+    - Abbas Haidar
 participants :
 ---
 

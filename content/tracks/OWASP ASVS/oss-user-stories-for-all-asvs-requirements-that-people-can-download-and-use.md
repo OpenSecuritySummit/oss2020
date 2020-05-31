@@ -12,7 +12,9 @@ room_id      :
 session_slack: 
 status       : draft              # draft, review-content, done
 description  :
-organizers   : Mario Platt, Steven Wierckx
+organizers   :
+    - Mario Platt
+    - Steven Wierckx
 participants :
 ---
 

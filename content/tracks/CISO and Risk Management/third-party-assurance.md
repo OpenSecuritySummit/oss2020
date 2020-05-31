@@ -12,7 +12,10 @@ room_id      : room-6
 session_slack: https://os-summit.slack.com/messages/CAURV0D09
 status       : done
 description  : Session on problem and solution discussion
-organizers   : Didar Gelici, Alan Jenkins, Tony Richards
+organizers   :
+    - Didar Gelici
+    - Alan Jenkins
+    - Tony Richards
 participants :
 ---
 

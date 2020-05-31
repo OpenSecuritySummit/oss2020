@@ -8,12 +8,11 @@
 {{ range $pages}}
     {{ $page := .}}
     {{ range $valid_days}}
-        {{ if in $page.Params.when_day . }}
+        {{ if eq $page.Params.when_day . }}
             {{ $.self.Scratch.Set "has-session-in-week" true }}
         {{ end }}
     {{ end }}
 {{ end}}
-
 
 {{ if $.self.Scratch.Get "has-session-in-week"}}
     <h4>{{.title}}</h4>
