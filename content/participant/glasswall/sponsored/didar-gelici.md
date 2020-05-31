@@ -1,6 +1,6 @@
 ---
 company: 
-image: https://media-exp1.licdn.com/dms/image/C4D03AQG7GcLMJCcU1w/profile-displayphoto-shrink_200_200/0?e=1588204800&v=beta&t=CM_cgI0reasnf0V1IlTl5kRQ-6q7sKm46XSRQrxTI1k
+image: https://pbs.twimg.com/profile_images/1066975108663820288/nPmqPrbo_400x400.jpg
 job_title: Cyber Risk Manager aspiring to go into DevSecOps space
 linkedin: didargelici
 owasp_member_since: 2019
