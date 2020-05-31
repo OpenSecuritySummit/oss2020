@@ -8,7 +8,7 @@ when_day     : 1st - Monday
 when_time    : WS-2
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/threat-modeling/
 session_slack:
-status       : draft           # draft, review-content, done
+status       : done           # draft, review-content, done
 organizers   :
     - James Bore
 zoom_host.   : Didar Gelici    
@@ -32,6 +32,8 @@ Information to be revealed throughout the exercise and groups work on their resp
 ### Session Materials
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQDWjiEBf1S8dMHg8cW1uQ0IvALfTUApJ9ZxpJy_RDeR8r_jPbjemStcRR3dWfoBA/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+### YouTube
 
 Check our [youtube channel](https://www.youtube.com/channel/UCyse9b_2JLJUxKMLgSpOL-Q/)  for the sessions you have missed (search security incident open security summit). 
 
