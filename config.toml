@@ -14,13 +14,6 @@ paginate = 10
 [menu]
 
 # Main menu
-[[menu.main]]
-    name = "Home 2020"
-    identifier = "home2020"
-    pre = "<i class='fa fa-road'></i>&nbsp;"
-    weight = 1
-    url = "/home2020/"
-
 #[[menu.main]]
 #    name = "Reactions"
 #    identifier = "reactions"
