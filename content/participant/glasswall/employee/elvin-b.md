@@ -2,7 +2,7 @@
 company: 'Glasswall'
 image: ''
 job_title: 'Software Development Team Lead at Glasswall Solutions Limited'
-linkedin: 'https://www.linkedin.com/in/elvin-b-37682469/'
+linkedin: https://www.linkedin.com/in/elvin-b-37682469/
 notes: ''
 project_leader: ''
 status: add-details
