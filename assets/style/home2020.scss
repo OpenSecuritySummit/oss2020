@@ -761,19 +761,43 @@ $xxl-hero-container-height: 1042px;
 
 /* PHOTO GALLERY */
 
-.section {
+.container {
   &-gallery {
-    max-width: 1900px;
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
   }
 }
 
 .photo {
   &-gallery {
+    &-header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &-overtitle {
+      font-size: 20px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: $main-action-text-color;
+    }
+    &-title {
+      font-size: 56px;
+      font-family: Oswald;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: $main-background-color;
+    }
     &-grid {
       // width: 100vw;
       display: grid;
       grid-template-columns: auto auto auto auto;
       grid-gap: 10px;
+      & > img {
+        max-width: 100%;
+      }
     }
     &-item {
       &-1 {
