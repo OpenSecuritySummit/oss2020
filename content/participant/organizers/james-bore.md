@@ -4,7 +4,7 @@ image: https://s3.amazonaws.com/heysummit-production/media/thumbnails/uploads/ev
 company:
 job_title:
 facebook:
-linkedin:
+linkedin:jbore
 twitter:
 website:
 notes:
