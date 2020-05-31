@@ -11,6 +11,7 @@ session_slack:
 status       : draft           # draft, review-content, done
 description  : TBD
 organizers   : Goher Mohammad
+zoom_host    : Alona Reyes
 
 ---
 
