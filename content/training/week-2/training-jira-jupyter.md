@@ -7,7 +7,7 @@ technology   :
 categories   :
 featured     : yes
 when_week    : two
-when_day     : Fri
+when_day     : 12th - Friday
 when_time    : WS-1
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/jira-jupyter-notebooks-integration/
 room_layout  :                    #

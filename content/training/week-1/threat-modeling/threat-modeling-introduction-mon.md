@@ -1,5 +1,5 @@
 ---
-title        : Threat Modeling 
+title        : Threat Modeling - O365 SaaS Provider
 type         : training-session
 track        : Threat Modeling
 topics       : 

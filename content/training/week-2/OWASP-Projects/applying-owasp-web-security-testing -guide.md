@@ -4,7 +4,7 @@ type         : training-session
 track        : OWASP Projects
 topics       : 
 when_week    : two
-when_day     : Fri
+when_day     : 12th - Friday
 when_time    : WS-3
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/applying-owasp-web-security-testing-guide/
 session_slack:

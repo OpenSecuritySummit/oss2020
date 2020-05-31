@@ -1,5 +1,5 @@
 ---
-title        : Threat Model
+title        : Threat Modeling
 type         : track
 featured     : yes
 when_day     : Wed,Thu

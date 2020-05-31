@@ -1,0 +1,38 @@
+{{ $valid_days := .valid_days}}
+{{ $times      := .self.Site.Data.schedule.days.times}}
+{{ $self       := .self }}
+{{ $pages      := .pages }}
+
+{{ $.self.Scratch.Delete "has-session-in-week" }}
+
+{{ range $pages}}
+    {{ $page := .}}
+    {{ range $valid_days}}
+        {{ if in $page.Params.when_day . }}
+            {{ $.self.Scratch.Set "has-session-in-week" true }}
+        {{ end }}
+    {{ end }}
+{{ end}}
+
+
+{{ if $.self.Scratch.Get "has-session-in-week"}}
+    <h4>{{.title}}</h4>
+    <table class="table table-condensed">
+
+        <thead class="schedule-by-days">
+            <tr>
+                <th class="time-col"></th>
+                <th>Monday    </th>
+                <th>Tuesday   </th>
+                <th>Wednesday </th>
+                <th>Thursday  </th>
+                <th>Friday    </th>
+            </tr>
+        </thead>
+        <tbody>
+            {{ range $times }}
+                {{ partial "schedule/table/track-tr-time.html" (dict "self" $self "pages" $pages "valid_days" $valid_days "time" . )}}
+            {{ end }}
+        </tbody>
+    </table>
+{{ end }}
