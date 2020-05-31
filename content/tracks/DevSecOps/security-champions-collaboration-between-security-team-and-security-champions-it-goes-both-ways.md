@@ -5,14 +5,17 @@ type         : working-session      # working-session, user-session, product-ses
 technology   :
 topics       : "How do we get champs"     # for example ["GDPR"]
 featured     : yes                # review with summit team "yes"
-when_day     : Fri                # i.e.    Tue
-when_time    : WS-1               # i.e.    AM-1
+when_day     : Fri
+when_time    : WS-1
 room_layout  :                    #
 room_id      :
 session_slack: 
 status       : draft              # draft, review-content, done
 description  :
-organizers   : Michael Man, James Bore, Abbas Haidar
+organizers   :
+    - Michael Man
+    - James Bore
+    - Abbas Haidar
 participants :
 ---
 

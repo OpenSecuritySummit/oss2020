@@ -7,7 +7,6 @@ job_title: ''
 linkedin: rodneyfraser
 notes: ''
 project_leader: ''
-sessions: []
 status: add-details
 travel_from: ''
 twitter: ''

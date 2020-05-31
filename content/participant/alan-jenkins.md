@@ -7,7 +7,6 @@ job_title: Consultant/Trusted Advisor/(virtual) CISO
 linkedin: alanjenkins
 notes: ''
 project_leader: ''
-sessions: []
 status: add-details
 travel_from: ''
 twitter: ''

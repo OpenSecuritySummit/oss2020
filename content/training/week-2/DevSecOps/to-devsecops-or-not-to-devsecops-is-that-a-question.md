@@ -4,7 +4,7 @@ type         : training-session
 track        : OWASP Juice Shop
 topics       : 
 when_week    : one
-when_day     : Mon
+when_day     : 8th - Monday
 when_time    : WS-2
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/to-devsecops-or-not-to-devsecopsis-that-a-question/
 session_slack:

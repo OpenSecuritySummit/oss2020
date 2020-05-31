@@ -18,9 +18,9 @@ project_leader:
 - O2 Plattform
 - Maturity Models Tool
 - Summits
+- OWASP SBot
 project_user:
 - ASVS
-sessions:
 status: done
 title: Dinis Cruz
 twitter: DinisCruz

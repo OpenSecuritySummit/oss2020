@@ -5,15 +5,17 @@ type         : working-session      # working-session, user-session, product-ses
 technology   :
 topics       : ["knowledgebase"]
 featured     : "yes"                   # review with summit team "yes"
-when_day     : Thursday           # i.e.    Tue
-when_time    : PM-2               # i.e.    AM-1
+when_day     : Thu
+when_time    : WS-3
 hey_summit   :
 room_layout  :                    #
 room_id      :
 session_slack: 
 status       : draft              # draft, review-content, done
 description  : DataDog for example
-organizers   : Tony Richards, Omer Levi Hevroni
+organizers   :
+    - Tony Richards
+    - Omer Levi Hevroni
 participants :
 ---
 

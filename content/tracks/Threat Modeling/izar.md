@@ -1,7 +1,7 @@
 ---
 title        : PyTM demmo
 type         : user-session
-track        : Threat Model
+track        : Threat Modeling
 category     :
 featured     :                 # if  "yes" review with summit team
 when_day     : Mon

@@ -1,7 +1,7 @@
 ---
 title        : Threatdragon demo
 type         : user-session
-track        : Threat Model
+track        : Threat Modeling
 category     :
 featured     :                 # if  "yes" review with summit team
 when_day     : Mon
@@ -11,7 +11,9 @@ room_id      :
 session_slack: 
 status       : draft
 description  : 
-organizers   : Steven, Mike Goodwin
+organizers   :
+    - Steven
+    - Mike Goodwin
 participants :
 ---
 

@@ -5,7 +5,6 @@ job_title: 'Director of Sales Engineering at Glasswall Solutions, Limited'
 linkedin: 'https://www.linkedin.com/in/max-bussell-49655051/'
 notes: ''
 project_leader: ''
-sessions: []
 status: add-details
 title: 'Max Bussell'
 travel_from: ''

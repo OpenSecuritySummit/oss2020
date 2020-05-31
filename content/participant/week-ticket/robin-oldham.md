@@ -7,10 +7,6 @@ job_title: ''
 linkedin: robinoldham
 notes: ''
 project_leader: ''
-sessions:
- - Cyber Risk Modeling
- - How does a CISO add value to a business?
-
 status: add-details
 title: Robin Oldham
 travel_from: ''

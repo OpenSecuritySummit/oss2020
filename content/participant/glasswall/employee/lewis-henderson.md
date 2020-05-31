@@ -5,7 +5,6 @@ job_title: 'Threat Intelligence Specialist, Data Enthusiast, Cyber Evangelist'
 linkedin: 'https://www.linkedin.com/in/lewishenderson/'
 notes: ''
 project_leader: ''
-sessions: []
 status: add-details
 title: 'Lewis Herderson'
 travel_from: ''

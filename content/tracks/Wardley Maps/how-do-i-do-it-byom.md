@@ -5,14 +5,20 @@ type         : working-session      # working-session, user-session, product-ses
 technology   :
 topics       :                    # for example ["GDPR"]
 featured     :                    # review with summit team "yes"
-when_day     : Tuesday            # i.e.    Tue
-when_time    : WS-1               # i.e.    AM-1
+when_day     : Tue
+when_time    : WS-1
 room_layout  :                    #
 room_id      : 
 session_slack: 
 status       : draft              # draft, review-content, done
 description  :
-organizers   : Dinis Cruz, Mario Platt, Simon Wardley, Petra Vukmirovic, Tony Richards, Ben Schofield
+organizers   :
+    - Dinis Cruz
+    - Mario Platt
+    - Simon Wardley
+    - Petra Vukmirovic
+    - Tony Richards
+    - Ben Schofield
 participants :
 ---
 
