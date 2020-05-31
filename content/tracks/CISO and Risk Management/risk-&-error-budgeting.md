@@ -5,20 +5,24 @@ type         : working-session      # working-session, user-session, product-ses
 technology   :
 topics       :                    # for example ["GDPR"]
 featured     : yes                # review with summit team "yes"
-when_day     : Thu                # i.e.    Tue
-when_time    : PM-3               # i.e.    AM-1
+when_day     : Thu
+when_time    : WS-3
 hey_summit   :
 room_layout  :                    #
 room_id      :
 session_slack: 
 status       : draft              # draft, review-content, done
 description  : "Metrics, Measurements, risk & error budgeting"
-organizers   :  Dinis Cruz, Omer Levi Hevroni, Tony Richards, Phil Huggins
+organizers   :
+    - Dinis Cruz
+    - Omer Levi Hevroni
+    - Tony Richards
+    - Phil Huggins
 participants :
 ---
 
 
-<!--(add intro)
+(below are draft sessions note, please add missing content and improve on them)
 
 ##  What is the tolerance and capacity levels of vulnerabilities or issues to go live with for each team? How long can they be tolerated, time limits.. 
 
@@ -80,6 +84,3 @@ matter, which should be measured
 tely) : So are risk factors the same as proxy measures?
 
 
-(...)
-
-## Previous-->

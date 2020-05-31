@@ -5,18 +5,7 @@ layout      : FAQ
 
 #### 1. How do I update my schedule and register for working sessions?
 
-  1. Take a look at the schedule and make a note of the sessions you're interested in attending
-  
-  2. Visit your profile page, i.e. https://open-security-summit.org/participant/toreon/sebastien-deleersnyder/.
-
-  3. Scroll to the bottom of your page and click 'edit this page.'
-  
-  4. Enter your desired sessions below the 'sessions' using the following format
-{{< highlight yaml >}}
-sessions:
-  - CISO Ask Me Anything (AMA)
-  - Making Online Gaming Safer for Children
-{{< /highlight >}}
+    1. Use your Hey Summit account
 
 If you have any difficulties in updating your schedule, please reach out on slack in the #oss-helpdesk channel.
 
@@ -25,11 +14,7 @@ If you have any difficulties in updating your schedule, please reach out on slac
 
 There are two types of participants - Onsite and Remote.
 
-- To register as a remote participant:
-
-   Please make a copy of the [remote participant template]({{< ref "/participant-remote/_template-remote.md" >}}) and save it in the same folder (https://github.com/OpenSecuritySummit/oss2020/tree/master/content/participant-remote). Fill in your details there.
-
-- To register as an onsite participant:
+- To register as a participant:
 
    Please make a copy of the [participant template]({{< ref "/participant/_template.md" >}}) and save it in the same folder (https://github.com/OpenSecuritySummit/oss2020/tree/master/content/participant).
 

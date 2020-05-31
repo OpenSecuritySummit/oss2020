@@ -5,8 +5,8 @@ type         : working-session      # working-session, user-session, product-ses
 technology   :
 topics       : ["Traceability"]       # for example ["GDPR"]
 featured     :  "yes"                  # review with summit team "yes"
-when_day     : Thursday           # i.e.    Tue
-when_time    : PM-1               # i.e.    AM-1
+when_day     : Thu
+when_time    : WS-2
 hey_summit   :
 room_layout  :                    #
 room_id      :

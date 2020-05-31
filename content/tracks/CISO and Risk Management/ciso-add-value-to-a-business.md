@@ -6,7 +6,7 @@ technology   :
 topics       :                    # for example ["GDPR"]
 featured     : yes                   # review with summit team "yes"
 when_day     : Wed
-when_time    : PM-2
+when_time    : WS-3
 hey_summit   :
 room_layout  :                    #
 room_id      :

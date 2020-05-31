@@ -5,7 +5,6 @@ job_title: 'SRE Team Lead at Glasswall Solutions'
 linkedin: 'https://www.linkedin.com/in/alex-potter-dixon-ab95926b/'
 notes: ''
 project_leader: ''
-sessions: []
 status: add-details
 title: 'Alex Potter-Dixon'
 travel_from: ''

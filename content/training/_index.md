@@ -3,7 +3,7 @@ title        : Training
 type         : training
 featured     : yes
 description  : Learn
-organizers   :
+organizers   : OSS
 ---
 
 

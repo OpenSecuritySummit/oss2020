@@ -22,7 +22,8 @@
 
 {{ define "content" }}
 
-<div class="participant">
+<div>
+
     <div class="participant-main-section">
       <div class="container">
       {{ if .Params.job_title}}
@@ -45,7 +46,7 @@
         {{ partial "sponsors/participant-sponsored.html" (dict "sponsor" .Params.sponsored_by "this" .) }}
       {{ end }}
 
-      {{ partial "participant/team.html"            . }}
+<!--      {{ partial "participant/team.html"            . }}-->
       {{ partial "participant/when-day.html"        . }}
       {{ partial "participant/schedule.html"        . }}
       {{ partial "participant/sessions.html"        . }}

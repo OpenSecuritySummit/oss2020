@@ -5,7 +5,6 @@ job_title: 'CEO Glasswall | NED Innovate Finance | Special Advisor FinTech Colle
 linkedin: 'https://www.linkedin.com/in/dannylopez1974/'
 notes: ''
 project_leader: ''
-sessions: []
 status: add-details
 title: 'Danny Lopez'
 travel_from: ''

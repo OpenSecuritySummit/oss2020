@@ -5,7 +5,7 @@ track        : "CISO and Risk Management"
 topics       : ["CISO", "RISK"]
 featured     : yes                # if  "yes" review with summit team
 when_day     : Wed
-when_time    : PM-3
+when_time    : WS-3
 hey_summit   :
 room_layout  :                
 room_id      : 

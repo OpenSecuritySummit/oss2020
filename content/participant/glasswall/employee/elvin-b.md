@@ -5,7 +5,6 @@ job_title: 'Software Development Team Lead at Glasswall Solutions Limited'
 linkedin: 'https://www.linkedin.com/in/elvin-b-37682469/'
 notes: ''
 project_leader: ''
-sessions: []
 status: add-details
 title: 'Elvin B'
 travel_from: ''

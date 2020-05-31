@@ -5,7 +5,6 @@ job_title: 'Senior Vice President EMEA, Glasswall'
 linkedin: 'https://www.linkedin.com/in/nicholas-bloom-7a71599b/'
 notes: ''
 project_leader: ''
-sessions: []
 status: add-details
 title: 'Nicholas Bloom'
 travel_from: ''

@@ -10,7 +10,6 @@ job_title: DevOps/AppSec
 linkedin: felipezipitria
 notes: ''
 project_leader: OWASP Honeypot Project
-sessions:
 status: add details
 title: Felipe Zipitria
 travel_from: Uruguay

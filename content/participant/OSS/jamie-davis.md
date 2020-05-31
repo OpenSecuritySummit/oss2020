@@ -8,7 +8,6 @@ job_title: ''
 linkedin: ''
 notes: ''
 project_leader: ''
-sessions: []
 status: add-details
 travel_from: ''
 twitter: ''

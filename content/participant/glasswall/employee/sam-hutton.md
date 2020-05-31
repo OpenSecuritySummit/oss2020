@@ -5,7 +5,6 @@ job_title: 'SVP'
 linkedin: 'https://www.linkedin.com/in/sam-hutton-8b08243/'
 notes: ''
 project_leader: ''
-sessions: []
 status: add-details
 title: 'Sam Hutton'
 travel_from: ''
