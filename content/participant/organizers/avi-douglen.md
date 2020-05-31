@@ -8,7 +8,7 @@ linkedin: avidouglen
 twitter: sec_tigger
 website: https://www.bouncesecurity.com/
 notes:
-status: add-details
+status: done
 type: participant
 ---
 
