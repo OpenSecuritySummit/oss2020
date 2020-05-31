@@ -16,24 +16,12 @@ organizers   :
 zoom_host   : Didar Gelici       
 ---
 
+In this session, we'll look at privacy and security concerns and considerations regarding contact tracing apps, specifically those proposed recently for contact tracing of patients who have been diagnosed with COVID-19. We will discuss how these apps work, some concerns about the way these work, and an overview of the reception these apps have had.
 
-<!--(add intro)
+This is the first section of a three part exercise: 
 
-## WHY
+- **PART 1** - THIS SESSION
 
-(...)
+- **PART 2** - [Covid Apps](https://pre-summit-training-sessions.heysummit.com/talks/covid-apps/) 3rd June 5pm UK We will look at the vulnerabilities of one of the COVID tracing apps
 
-## What
-
-(...)
-
-## Outcomes
-
-(...)
-
-## References
-
-(...)
-
-
-## Previous-->
+- **PART 3** - [Covid Apps -  Threat Modeling](https://open-security-summit-2020.heysummit.com/talks/covid-apps-threat-modeling-user-session) 18th June 8pm UK We will do a threat modeling exercise on contact tracing apps
