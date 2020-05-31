@@ -2,26 +2,53 @@ $xxl-breakpoint: 1920px;
 $xl-breakpoint: 1200px;
 $lg-breakpoint: 992px;
 $md-breakpoint: 768px;
+$sm-breakpoint: 576px;
+
+$xxl-container-width: 1894px;
+$xl-container-width: 1140px;
+$lg-container-width: 960px;
+$md-container-width: 720px;
+$sm-container-width: 540px;
+
 
 $main-menu-height: 66px;
-$xxl-container-width: 1894px;
 $xxl-hero-container-height: 1042px;
 
 .hero-section {
   background-color: $main-background-color;
-  background-repeat: no-repeat;
-
   .container {
     height: 655px;
-    margin-top: -$main-menu-height;
     background-position: top left;
     background-image: url("#{$base-url}/img/home/hero-medium-bg.png");
   }
 }
 
+.buytickets-section {
+  background-image: url("#{$base-url}/img/home/bookyourticket-bg-25.png"), linear-gradient(to right, #61872e 0%, #86ba40 100%);
+  .container {
+    height: 332px;
+    //margin-top: -$main-menu-height;
+    background-position: top left;
+  }
+}
+
+.container-managed {
+  &.xxl {
+    section {
+      margin-top: -$main-menu-height;
+      margin-bottom: $main-menu-height;
+    }
+
+  }
+}
+
+
 @media screen and (min-width: $xxl-breakpoint) {
   .container-managed {
     &.xxl {
+      section {
+        background-repeat: no-repeat;
+      }
       .container {
         width: 100%;
       }
@@ -29,6 +56,9 @@ $xxl-hero-container-height: 1042px;
       section {
         &>.container {
           width: $xxl-container-width;
+          &.container-xl {
+            width: $xl-container-width;
+          }
         }
       }
 
@@ -37,6 +67,12 @@ $xxl-hero-container-height: 1042px;
           height: $xxl-hero-container-height;
           background-image: url("#{$base-url}/img/home/hero-bg.png");
         }
+      }
+      .attend-summit-section {
+        .container {
+          width: $xl-container-width;
+        }
+        //height: 332px;
       }
     }
 
