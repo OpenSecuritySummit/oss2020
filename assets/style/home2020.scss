@@ -14,8 +14,13 @@ $sm-container-width: 540px;
 $main-menu-height: 66px;
 $xxl-hero-container-height: 1042px;
 
+section {
+  //clear: both
+}
+
 .hero-section {
   background-color: $main-background-color;
+  color: $main-inverse-text-color;
   .container {
     height: 655px;
     background-position: top left;
@@ -23,8 +28,34 @@ $xxl-hero-container-height: 1042px;
   }
 }
 
+.hero {
+  &-block {
+    margin-top: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+      &__wrapper{
+      //display: flex;
+      //flex-direction: column;
+      //justify-content: center;
+      //align-content: center;
+      //justify-items: center;
+      //align-items: center;
+    }
+  }
+  &-button {
+    &__trainings {
+      background-color: $main-active-link-color;
+    }
+    &__buytickets {
+      background-color: $main-action-text-color;
+    }
+  }
+}
+
 .buytickets-section {
   background-image: url("#{$base-url}/img/home/bookyourticket-bg-25.png"), linear-gradient(to right, #61872e 0%, #86ba40 100%);
+  background-repeat: repeat-x;
   .container {
     height: 332px;
     //margin-top: -$main-menu-height;
@@ -72,7 +103,9 @@ $xxl-hero-container-height: 1042px;
         .container {
           width: $xl-container-width;
         }
-        //height: 332px;
+      }
+      .buytickets-section {
+        background-repeat: repeat-x;
       }
     }
 
@@ -102,3 +135,5 @@ $xxl-hero-container-height: 1042px;
     }
   }
 }
+
+
