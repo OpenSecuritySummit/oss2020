@@ -245,6 +245,22 @@ section {
     flex-direction: column;
     align-items: center;
   }
+  & .day {
+    &-title {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      font-family: Oswald;
+      text-transform: uppercase;
+    }
+    &-subtitle {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      font-family: Oswald;
+      text-transform: uppercase;      
+    }
+  }
   &-days {
     height: 100%;
     display: flex;
@@ -335,6 +351,18 @@ section {
     &-bg {
       background-color: $alt-background-color;
     }
+  }
+  &-button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding: 16px 36px;
+    font-family: Oswald;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $main-inverse-text-color;
+    background: url("#{$base-url}/img/home/shedule/shedule-button.png") no-repeat;
   }
 }
 
