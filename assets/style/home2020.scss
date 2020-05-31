@@ -169,6 +169,12 @@ $xxl-hero-container-height: 1042px;
 /*****************************/
 /***** Speakers styles *******/
 /*****************************/
+.section {
+  &-speakers {
+    background-color: $alt-background-color;
+  }
+}
+
 .speaker {
   &_tag {
     text-align: center;
@@ -355,3 +361,117 @@ $xxl-hero-container-height: 1042px;
 
 
 
+
+/* SHEDULE */
+
+.shedule {
+  &-table {
+    display: flex;
+    padding: 0;
+    height: 1468px;
+    background-color: $alt-background-color;
+  }
+  &-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  &-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &-days {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: $main-inverse-text-color;
+    &-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 98px;
+      height: 282px;
+      background-color: $alt2-active-color;
+      & .rot-90 {
+        display: inline-block;
+        margin: 0;
+        text-align: center;
+        transform: rotate(-90deg);
+      }
+    }
+  }
+  &-title {
+    text-transform: uppercase;
+    font-family: Oswald;
+    font-size: 20px;
+    color: $main-action-text-color;
+  }
+  &-subtitle {
+    text-transform: uppercase;
+    font-family: Oswald;
+    font-size: 56px;
+    color: $main-background-color;
+  }
+  &-description {
+    width: 100%;
+    margin: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: $main-inverse-text-color;
+    &-item {
+      padding-left: 60px;
+      padding-right: 60px;
+      width: 100%;
+      height: 282px;
+      display: flex;
+      align-items: center;
+    }
+  }
+  &-point {
+    // margin-left: 60px;
+    margin-right: 47px;
+    width: 122px;
+    height: 122px;
+    background: $main-header-color;
+    border-radius: 50%;
+    &-tag {
+      width: 85%;
+      padding-top: 60px;
+      padding-bottom: 60px;
+      padding-left: 38px;
+    }
+  }
+  &-tag {
+    padding-left: 38px;
+    &-time {
+      font-family: Oswald;
+      font-size: 18px;
+      letter-spacing: 3.6px;
+      line-height: 50px;
+      color: #86ba40;
+    }
+    &-title {
+      font-family: Oswald;
+      font-size: 34px;
+      font-weight: 400;
+      line-height: 50px;
+      text-transform: uppercase;
+      color: $main-background-color;
+    }
+    &-author {
+      font-size: 20px;
+      line-height: 40px;
+      & .author-link {
+        color: $main-active-link-color;
+      }
+    }
+    &-bg {
+      background-color: $alt-background-color;
+    }
+  }
+}
+
+/* END OF SHEDULE */
