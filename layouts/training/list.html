@@ -50,8 +50,6 @@
     {{ $week_two_days := .Site.Data.schedule.days.week_two}}
 
     {{ partial "schedule/table/table.html" (dict "self" . "pages" $week_two "valid_days" $week_two_days "title" $title )}}
-    {{ partial "training/main-page-weekly-table" $week_one }}
-
     {{ partial "training/main-page-weekly-table" $week_two }}
 
   </div>
