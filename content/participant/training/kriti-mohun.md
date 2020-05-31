@@ -4,7 +4,7 @@ image: https://s3.amazonaws.com/heysummit-production/media/thumbnails/uploads/ev
 company: Check Point
 job_title: Security Engineer
 facebook:
-linkedin:
+linkedin: kritim
 twitter:
 website:
 notes:
