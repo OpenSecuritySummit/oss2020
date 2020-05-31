@@ -16,10 +16,13 @@ organizers   : Kriti Mohun
 
 ### This training session will cover:
 
-- Cloud models and their challenges
-- Types of clouds, cloud service - the limitless possibilities
-- Why Cloud security is so important – Cloud attacks
-- What to secure in the cloud - assets / data / components / entities
-- How to secure data / assets in cloud – visibility, flow of traffic
-- When to secure in the cloud – devsecops
-- SANS and CSA cloud security recommendations
+The Cloud Security 101 training will cover a high level overview of:
+
+21st century Security mindset Securing your Data/Assets in Cloud Cloud deployment models The limitless possibilities of cloud services Cloud attacks Overall Cloud Security Posture Hands-on Labs - Check Point Dome9
+
+At the end of the training, the learning objectives are: Practicing Cloud Security Mindset Understanding Real world problems - challenges with cloud security Your position in cloud security Asset Management, Identity safety, regulatory compliance in multi cloud environment Hands-On Check Point Dome9 labs
+
+- Demo & Hands-on Labs of Check Point Dome9 – cloud visibility and regulatory compliance
+- For the hands-on Check Point Dome9 Lab: Lab Guide https://shorturl.at/ampxK
+- To launch the lab as a user you may visit the lab registration page: https://bit.ly/2TFgaBt
+- For the activation code - please contact me/send me a message on Linkedin https://www.linkedin.com/in/kritim
