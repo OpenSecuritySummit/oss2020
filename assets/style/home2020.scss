@@ -648,6 +648,18 @@ $xxl-hero-container-height: 1042px;
       flex-direction: column;
     }
   }
+  .speaker {
+    &s {
+      padding-top: 50px;
+      padding-bottom: 20px;
+      .card {
+        &_speaker {
+          text-align: center;
+        }
+      }
+    }
+  }
+
 }
 
 
@@ -722,18 +734,6 @@ $xxl-hero-container-height: 1042px;
 
       img {
         width: 100%;
-      }
-    }
-  }
-
-  .speaker {
-    &s {
-      padding-top: 50px;
-      padding-bottom: 20px;
-      .card {
-        &_speaker {
-          text-align: center;
-        }
       }
     }
   }
