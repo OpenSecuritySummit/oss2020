@@ -297,6 +297,8 @@ $xxl-hero-container-height: 1042px;
 
   &s {
     font-family: 'Oswald', helvetica neue, helvetica, sans-serif;
+    padding-top: 153px;
+    padding-bottom: 80px;
     text-align: left;
 
     &_overtitle {
@@ -334,6 +336,8 @@ $xxl-hero-container-height: 1042px;
 /*****************************/
 
 .schedule {
+  padding-top: 110px;
+  padding-bottom: 100px;
   &-table {
     display: flex;
     padding: 0;
@@ -754,3 +758,30 @@ $xxl-hero-container-height: 1042px;
 
 
 
+
+/* PHOTO GALLERY */
+
+.section {
+  &-gallery {
+    max-width: 1900px;
+  }
+}
+
+.photo {
+  &-gallery {
+    &-grid {
+      // width: 100vw;
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      grid-gap: 10px;
+    }
+    &-item {
+      &-1 {
+        grid-column: 1 / span 2;
+      }
+      &-6 {
+        grid-column: 3 / span 2;
+      }
+    }
+  }
+}
