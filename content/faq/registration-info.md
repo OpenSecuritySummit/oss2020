@@ -14,11 +14,7 @@ If you have any difficulties in updating your schedule, please reach out on slac
 
 There are two types of participants - Onsite and Remote.
 
-- To register as a remote participant:
-
-   Please make a copy of the [remote participant template]({{< ref "/participant-remote/_template-remote.md" >}}) and save it in the same folder (https://github.com/OpenSecuritySummit/oss2020/tree/master/content/participant-remote). Fill in your details there.
-
-- To register as an onsite participant:
+- To register as a participant:
 
    Please make a copy of the [participant template]({{< ref "/participant/_template.md" >}}) and save it in the same folder (https://github.com/OpenSecuritySummit/oss2020/tree/master/content/participant).
 
