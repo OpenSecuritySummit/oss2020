@@ -4,6 +4,7 @@ header.full-bg {
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
+    z-index: 2;
 }
 
 header.full-bg .home-carousel {

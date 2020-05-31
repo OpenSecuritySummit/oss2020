@@ -1,0 +1,68 @@
+$xxl-breakpoint: 1920px;
+$xl-breakpoint: 1200px;
+$lg-breakpoint: 992px;
+$md-breakpoint: 768px;
+
+$main-menu-height: 66px;
+$xxl-container-width: 1894px;
+$xxl-hero-container-height: 1042px;
+
+.hero-section {
+  background-color: $main-background-color;
+  background-repeat: no-repeat;
+
+  .container {
+    height: 655px;
+    margin-top: -$main-menu-height;
+    background-position: top left;
+    background-image: url("#{$base-url}/img/home/hero-medium-bg.png");
+  }
+}
+
+@media screen and (min-width: $xxl-breakpoint) {
+  .container-managed {
+    &.xxl {
+      .container {
+        width: 100%;
+      }
+
+      section {
+        &>.container {
+          width: $xxl-container-width;
+        }
+      }
+
+      .hero-section {
+        .container {
+          height: $xxl-hero-container-height;
+          background-image: url("#{$base-url}/img/home/hero-bg.png");
+        }
+      }
+    }
+
+  }
+}
+
+
+@media screen and (max-width: $xxl-breakpoint) {
+
+}
+
+@media screen and (max-width: $xl-breakpoint) {
+  .hero-section {
+    background-image: url("#{$base-url}/img/home/hero-medium-bg.png");
+    .container {
+      height: 660px;
+      background: none;
+    }
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .hero-section {
+    .container {
+      height: 539px;
+    }
+  }
+}
