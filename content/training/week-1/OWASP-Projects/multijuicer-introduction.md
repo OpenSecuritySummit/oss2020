@@ -13,6 +13,7 @@ description  : TBD
 organizers   : 
         - Jannik Hollenbach
         - Robert Seedorff 
+zoom_host    : Dinis Cruz
 ---
 
 <!--(add intro)
