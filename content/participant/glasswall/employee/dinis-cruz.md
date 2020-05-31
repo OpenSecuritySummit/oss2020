@@ -21,7 +21,6 @@ project_leader:
 - OWASP SBot
 project_user:
 - ASVS
-sessions:
 status: done
 title: Dinis Cruz
 twitter: DinisCruz

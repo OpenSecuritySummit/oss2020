@@ -5,14 +5,19 @@ type         : working-session      # working-session, user-session, product-ses
 technology   :
 topics       : Applying Risk overlay with maps and security decision making    # for example ["GDPR"]
 featured     :                    # review with summit team "yes"
-when_day     : Tuesday
+when_day     : Tue
 when_time    : WS-4
 room_layout  :                    #
 room_id      : 
 session_slack: 
 status       : draft              # draft, review-content, done
 description  :
-organizers   : Alan Jenkins, Avi Douglen, Steven Wierckx, Ben Schofield, Simon Wardley
+organizers   :
+    - Alan Jenkins
+    - Avi Douglen
+    - Steven Wierckx
+    - Ben Schofield
+    - Simon Wardley
 participants :
 ---
 

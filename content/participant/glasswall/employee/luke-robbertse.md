@@ -5,7 +5,6 @@ job_title: 'Technology Squads Operations Manager at Glasswall'
 linkedin: 'https://www.linkedin.com/in/luke-robbertse-04116abb/'
 notes: ''
 project_leader: ''
-sessions: []
 status: add-details
 title: 'Luke Robbertse'
 travel_from: ''

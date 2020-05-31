@@ -6,7 +6,6 @@ job_title: vCISO, DevSecOps and Cloud Security advisor
 linkedin: 'fracipo'
 notes: ''
 project_leader: ''
-sessions: []
 status: add-details
 title: Francesco Cipollone
 travel_from: ''

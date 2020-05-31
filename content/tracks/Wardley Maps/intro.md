@@ -5,7 +5,7 @@ track        : "Wardley Maps"
 technology   :
 topics       :                    # for example ["GDPR"]
 featured     :                    # review with summit team "yes"
-when_day     : Monday
+when_day     : Mon
 when_time    : WS-1
 room_layout  :                    #
 room_id      :

@@ -12,7 +12,10 @@ room_id      :
 session_slack:
 status       : draft              # draft, review-content, done
 description  :
-organizers   : Bjoern Kimminich, Jannik Hollenbach, Timo Pagel
+organizers   :
+    - Bjoern Kimminich
+    - Jannik Hollenbach
+    - Timo Pagel
 participants :
 ---
 

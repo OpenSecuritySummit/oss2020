@@ -7,7 +7,6 @@ job_title: 'Sr IT Security Consultant'
 linkedin: 'https://www.linkedin.com/in/jakubkaluzny/'
 notes: ''
 project_leader: ''
-sessions: []
 status: add-details
 title: ''
 travel_from: 'Poland'

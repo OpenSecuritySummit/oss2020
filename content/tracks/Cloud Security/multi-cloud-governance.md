@@ -13,7 +13,9 @@ room_id      :
 session_slack: 
 status       : draft              # draft, review-content, done
 description  :
-organizers   : Ben Schofield, David Prince
+organizers   :
+    - Ben Schofield
+    - David Prince
 participants :
 ---
 

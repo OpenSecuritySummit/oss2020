@@ -13,7 +13,9 @@ room_id      :
 session_slack: 
 status       : draft              # draft, review-content, done
 description  : How to create the traceability of the requirements to an industry standard
-organizers   : David Prince, Leila Rao
+organizers   :
+    - David Prince
+    - Leila Rao
 participants :
 ---
 
