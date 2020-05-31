@@ -10,6 +10,7 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/cloud-se
 session_slack:
 status       : done           # draft, review-content, done
 description  : TBD
+zoom_host    : Alona Reyes
 organizers   : Kriti Mohun
 
 ---
