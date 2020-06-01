@@ -17,7 +17,7 @@ organizers   :
        - Demi Ben-Ari 
        - Dov Goldman
 ---
-status       : draft              # draft, review-content, done
+status       :            # draft, review-content, done
 description  :
 organizers   : Demi Ben-Ari
 participants :
