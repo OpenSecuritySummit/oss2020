@@ -17,24 +17,5 @@ organizers   : Steven Wierckx
 participants : Felipe Zipitria
 ---
 
-
-<!--(add intro)
-
-## WHY
-
-(...)
-
-## What
-
-(...)
-
-## Outcomes
-
-(...)
-
-## References
-
-(...)
-
-
-## Previous-->
+#### Related sessions
+- [Chef InSpec (Compliance as Code)](/training/week-1/devsecops/chef-inspec-compliance-as-code/)
