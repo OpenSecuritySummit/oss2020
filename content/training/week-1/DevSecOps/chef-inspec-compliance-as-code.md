@@ -2,7 +2,7 @@
 title        : Chef InSpec (Compliance as Code)
 type         : user-session
 track        : Cloud Security
-topics       : 
+topics       : Security Pipeline
 when_week    : one
 when_day     : 2nd - Tuesday
 when_time    : WS-2
