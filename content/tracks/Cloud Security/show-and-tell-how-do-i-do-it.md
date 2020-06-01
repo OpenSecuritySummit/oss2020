@@ -20,8 +20,6 @@ participants :
 ---
 
 
-<!--(add intro)
-
 ## "How to consolidate"
 
 (...)
@@ -34,9 +32,3 @@ participants :
 
 (...)
 
-## "Could we get JustEat or Capital One"
-
-(...)
-
-
-## Previous-->

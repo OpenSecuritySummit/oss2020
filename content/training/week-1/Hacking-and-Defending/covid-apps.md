@@ -8,7 +8,7 @@ when_day     : 3rd - Wednesday
 when_time    : WS-4
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/covid-apps/
 session_slack:
-status       : draft
+status       : done
 description  : TBD
 organizers   :
          - Mike Minchinton

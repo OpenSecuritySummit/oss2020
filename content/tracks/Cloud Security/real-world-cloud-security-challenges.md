@@ -18,8 +18,6 @@ participants :
 ---
 
 
-<!--(add intro)
-
 ## "Security handle malicious content inside AWS Lambdas"
 
 (...)
@@ -37,4 +35,3 @@ participants :
 (...)
 
 
-## Previous-->

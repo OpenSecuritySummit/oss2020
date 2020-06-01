@@ -17,8 +17,6 @@ participants :
 ---
 
 
-<!--(add intro)
-
 ## When designing an end to end solution, think about the customer
 
 (...)
@@ -44,5 +42,3 @@ i.e.
 
 (...)
 
-
-## Previous-->

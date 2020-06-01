@@ -18,8 +18,6 @@ participants :
 ---
 
 
-<!--(add intro)
-
 ## "Secrets"
 
 (...)
@@ -36,5 +34,3 @@ participants :
 
 (...)
 
-
-## Previous-->
