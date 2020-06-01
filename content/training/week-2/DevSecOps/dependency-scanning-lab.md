@@ -1,7 +1,7 @@
 ---
 title        : Dependency scanning lab
 type         : training-session
-track        : DevSecops
+track        : DevSecOps
 topics       : 
 when_week    : two
 when_day     : 11th - Thursday
