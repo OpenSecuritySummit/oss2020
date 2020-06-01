@@ -16,9 +16,6 @@ organizers   :
 participants :
 ---
 
-
-<!--(add intro)
-
 ## Enable practitioners to
 
 (...)
@@ -35,5 +32,3 @@ participants :
 
 (...)
 
-
-## Previous-->

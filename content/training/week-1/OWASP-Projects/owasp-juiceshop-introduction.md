@@ -8,14 +8,13 @@ when_day     : 2nd - Tuesday
 when_time    : WS-3
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/owasp-juice-shop/
 session_slack:
-status       : draft           # draft, review-content, done
+status       : done           # draft, review-content, done
 description  : TBD
 organizers   : Bjoern Kimminich
 zoom_host    : Dinis Cruz
 
 ---
 
-<!--(add intro)
 
 ## In this **introduction session to OWASP Juice Shop**
 
@@ -33,19 +32,3 @@ Please register for:
 - [OWASP Juice Shop Deep Dive: Integration](https://open-security-summit-2020.heysummit.com/talks/owasp-juice-shop-deep-dive-integration/)  and/or 
 
 - [OWASP Juice Shop Deep Dive: MultiJuicer](https://open-security-summit-2020.heysummit.com/talks/owasp-juice-shop-deep-dive-multijuicer/) if you want to learn more!
-(...)
-
-## What
-
-(...)
-
-## Outcomes
-
-(...)
-
-## References
-
-(...)
-
-
-## Previous-->

@@ -19,9 +19,6 @@ organizers   :
 participants :
 ---
 
-
-<!--(add intro)
-
 ## "Refactor / Lift&Shift - why not realise"
 
 (...)
@@ -30,7 +27,7 @@ participants :
 
 (...)
 
-## "Reallife examples from PBX"
+## "Real-life examples from PBX"
 
 (...)
 
@@ -38,5 +35,3 @@ participants :
 
 (...)
 
-
-## Previous-->

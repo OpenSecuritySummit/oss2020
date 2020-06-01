@@ -23,8 +23,6 @@ participants :
 ---
 
 
-<!--(add intro)
-
 ## Map Competencies for a CISO
 
 (...)
@@ -81,4 +79,3 @@ participants :
 ## Diversity
 
 (...)
-## Previous-->
