@@ -12,4 +12,4 @@ status: done
 type: participant
 ---
 
-<!-- put more details about participant here -->
+<!-- Security Architect and Developer -->
