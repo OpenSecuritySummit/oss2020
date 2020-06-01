@@ -1,8 +1,8 @@
 ---
 title        : Using Wardley mapping for Security Strategy and Architecture development
-type         : user-session
-track        : Training
-topics       : Wardley Maps
+type         : training-session
+track        : Wardley Maps
+topics       : 
 when_week    : two
 when_day     : 10th - Wednesday
 when_time    : WS-2

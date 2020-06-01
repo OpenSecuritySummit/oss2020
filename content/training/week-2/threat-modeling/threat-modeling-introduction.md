@@ -1,5 +1,5 @@
 ---
-title        : Wardley Maps
+title        : Threat Modeling Introduction (Wed)
 type         : training-session
 track        : Wardley Maps
 topics       : 
@@ -9,28 +9,8 @@ when_time    :
 hey_summit   :
 session_slack:
 status       : draft           # draft, review-content, done
-description  : TBD
-organizers   : 
-
+organizers   :
+description  : 
 ---
 
-<!--(add intro)
-
-## WHY
-
-(...)
-
-## What
-
-(...)
-
-## Outcomes
-
-(...)
-
-## References
-
-(...)
-
-
-## Previous-->
+## Why

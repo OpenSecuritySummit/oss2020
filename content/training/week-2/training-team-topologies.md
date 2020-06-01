@@ -1,20 +1,19 @@
 ---
 title        : Introduction to Team Topologies
-type         : user-session
+type         : training-session
 track        : Training
 topics       : 
 technology   :
 categories   :
-featured     : yes
-when_week    : two
-when_day     : 9th - Tuesday
-when_time    : WS-1
+featured     : 
+when_week    : 
+when_day     :
+when_time    : 
 hey_summit   :
 session_slack:
-status       : review-content             # draft, review-content, done
+status       : draft             # draft, review-content, done
 organizers   : 
-        - Mario Platt
-        - Luke Robbertse
+        
 
 description  : Introduction to Team Topologies
 ---

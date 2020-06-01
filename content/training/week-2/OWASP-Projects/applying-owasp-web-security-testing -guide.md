@@ -8,27 +8,11 @@ when_day     : 12th - Friday
 when_time    : WS-3
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/applying-owasp-web-security-testing-guide/
 session_slack:
-status       : draft           # draft, review-content, done
+status       :           # draft, review-content, done
 description  : TBD
 organizers   : Vandana Verma
 ---
-<!--(add intro)
+
 
 ## WHY
 
-(...)
-
-## What
-
-(...)
-
-## Outcomes
-
-(...)
-
-## References
-
-(...)
-
-
-## Previous-->

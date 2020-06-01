@@ -1,7 +1,7 @@
 ---
 title        : OWASP Juice Shop Introduction
 type         : training-session
-track        : OWASP Juice Shop
+track        : OWASP Projects
 topics       : 
 when_week    : two
 when_day     : 11th - Thursday
@@ -12,23 +12,6 @@ status       : draft           # draft, review-content, done
 description  : TBD
 organizers   : Bjoern Kimminich
 ---
-<!--(add intro)
 
 ## WHY
 
-(...)
-
-## What
-
-(...)
-
-## Outcomes
-
-(...)
-
-## References
-
-(...)
-
-
-## Previous-->

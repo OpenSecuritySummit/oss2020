@@ -1,11 +1,11 @@
 ---
 title        : Wardley Maps (Thu)
-type         : user-session
-track        : Training
-topics       : Wardley Maps
-when_week    : two
-when_day     : 11th - Thursday
-when_time    : WS-2
+type         : training-session
+track        : Wardley Maps
+topics       : 
+when_week    : 
+when_day     : 
+when_time    : 
 hey_summit   :
 session_slack:
 status       : draft           # draft, review-content, done
