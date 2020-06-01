@@ -15,24 +15,8 @@ description  :
 organizers   : 
 ---
 
+## About this talk: 
 
-<!--(add intro)
+A map of a competitive business **Landscape** (a Wardley map) is visual and context-specific where the anchor is the User being served and their corresponding needs. The map contains a value chain — capabilities necessary to fulfill the needs, arranged according to their dependency relationships.
 
-## WHY
-
-(...)
-
-## What
-
-(...)
-
-## Outcomes
-
-(...)
-
-## References
-
-(...)
-
-
-## Previous-->
+By attending this sessions, you will learn more details on the landscape and corresponding trends assessment, the position of the capabilities on the Wardley map and more information related to the topic.

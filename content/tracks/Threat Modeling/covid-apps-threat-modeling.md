@@ -2,11 +2,12 @@
 title        : COVID Apps Threat Modeling
 track        : Covid
 type         : working-session      # working-session, user-session, product-session
-technology   :
+technology   : 
 topics       : "User Session"                   # for example ["GDPR"]
 featured     : yes
 when_day     : Thu
 when_time    : WS-4
+hey_summit   : https://open-security-summit-2020.heysummit.com/talks/covid-apps-threat-modeling-user-session
 room_layout  :                    #
 room_id      :
 session_slack: 

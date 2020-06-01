@@ -1,15 +1,18 @@
 ---
-title        : Threat Modeling Introduction by Dinis Cruz
+title        : Threat Modeling real-world Covid Applications
 type         : training-session
-track        : Threat Modeling
+track        : Covid
 topics       :
 when_week    : one
-when_day     : 5th - Friday
+when_day     : 4th - Thursday
 when_time    : WS-1
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/threat-modeling-introduction/
 session_slack:
-status       :           # draft, review-content, done
-organizers   : Dinis Cruz
+status       : draft           # draft, review-content, done
+organizers   : 
+    - Dinis Cruz
+    - Mark Carney
+    - Jay Harris
 description  : 
 ---
 
