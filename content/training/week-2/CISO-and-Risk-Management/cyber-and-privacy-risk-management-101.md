@@ -23,24 +23,3 @@ organizers   : Demi Ben-Ari
 participants :
 ---
 
-
-<!--(add intro)
-
-## WHY
-
-(...)
-
-## What
-
-(...)
-
-## Outcomes
-
-(...)
-
-## References
-
-(...)
-
-
-## Previous-->

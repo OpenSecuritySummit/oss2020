@@ -17,23 +17,3 @@ organizers   : Mario Platt
 
 ---
 
-<!--(add intro)
-
-## WHY
-
-(...)
-
-## What
-
-(...)
-
-## Outcomes
-
-(...)
-
-## References
-
-(...)
-
-
-## Previous-->
