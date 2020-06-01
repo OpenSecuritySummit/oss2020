@@ -28,17 +28,6 @@ $xxl-hero-container-height: 1042px;
 
 }
 
-.booktickets-section {
-  background-color: $tickets-bg;
-  //background-image: url("#{$base-url}/img/home/book-tickets-bg.jpg");
-  background-repeat: repeat-x;
-
-  .container {
-    height: 332px;
-    background-position: top left;
-  }
-}
-
 .container-managed {
   &.xxl {
     section {
@@ -202,7 +191,30 @@ $xxl-hero-container-height: 1042px;
 /**** BOOK TICKETS styles ****/
 /*****************************/
 
+/*
+.booktickets-section {
+  background-color: $tickets-bg;
+  //background-image: url("#{$base-url}/img/home/book-tickets-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+
+  .container {
+    height: 332px;
+    background-position: top left;
+  }
+}
+*/
+
+
 .booking {
+  &-section {
+    //background-color: $tickets-bg;
+    background-image: url("#{$base-url}/img/home/book-tickets-bg.jpg");
+    background-repeat: repeat-x;
+    background-position: top left;
+    height: 350px;
+  }
+
   &-blocks {
     margin-left: auto;
     margin-right: auto;
@@ -219,7 +231,6 @@ $xxl-hero-container-height: 1042px;
     margin-bottom: -25px;
     text-transform: uppercase;
     color: $main-inverse-text-color;
-    font-family: 'Oswald Bold';
     font-size: 90px;
     font-weight: 400;
   }
@@ -229,13 +240,11 @@ $xxl-hero-container-height: 1042px;
     color: $tickets-bg;
   }
   &-leader {
-    font-family: Oswald;
     font-size: 30px;
     font-weight: 400;
     color: $main-inverse-text-color;
   }
   &-students {
-    font-family: Oswald;
     font-size: 30px;
     font-weight: 400;
     color: $main-inverse-text-color;
