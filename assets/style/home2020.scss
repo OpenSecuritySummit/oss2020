@@ -582,15 +582,66 @@ $xxl-hero-container-height: 1042px;
 
 
 /*****************************/
+/** PREV SUMMITS  styles **/
+/*****************************/
+
+
+.summitdates {
+
+  &-section {
+    background-image: url("#{$base-url}/img/home/summit-dates-bg.jpg");
+    //background-repeat: repeat;
+    //padding-top: 100px;
+    height: 350px;
+    //margin-top: 0;
+    //margin-bottom: 0;
+  }
+  &-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    //margin-top: 0;
+    //margin-bottom: 0;
+    position: relative;
+    &:before {
+      content: ' ';
+      position: absolute;
+      display: block;
+      height: 188px;
+      width: 1px;
+      top: 80px;
+      left: calc(50% - 20px);
+      background-color: white;
+    }
+  }
+  &-block {
+    margin: 0 70px;
+    color: $main-inverse-text-color;
+    letter-spacing: 4px;
+    text-align: center;
+    font-size: 40px;
+  }
+  &-session {
+    font-family: 'Oswald Medium', helvetica neue, helvetica, sans-serif;
+    font-weight: 500;
+    min-width: 460px;
+  }
+  &-date {
+    //font-family: 'Oswald Medium', helvetica neue, helvetica, sans-serif;
+    min-width: 460px;
+  }
+}
+/* end of PREV SUMMITS styles */
+
+
+
+/*****************************/
 /*** XXL BREAKPOINT ONLY *****/
 /*****************************/
 @media screen and (min-width: $xxl-breakpoint) {
   .container-managed {
     &.xxl {
-      section {
-        background-repeat: no-repeat;
-      }
-
       .container {
         width: 100%;
       }
@@ -718,6 +769,18 @@ $xxl-hero-container-height: 1042px;
     }
   }
 
+  .summitdates {
+    &-block {
+      margin: 0 20px;
+      font-size: 30px;
+    }
+    &-session {
+      min-width: 400px;
+    }
+    &-date {
+      min-width: 400px;
+    }
+  }
 }
 
 
@@ -749,6 +812,18 @@ $xxl-hero-container-height: 1042px;
     }
   }
 
+  .summitdates {
+    &-block {
+      margin: 0 10px;
+      font-size: 24px;
+    }
+    &-session {
+      min-width: 350px;
+    }
+    &-date {
+      min-width: 350px;
+    }
+  }
 }
 
 
@@ -834,6 +909,25 @@ $xxl-hero-container-height: 1042px;
     }
   }
 
+  .summitdates {
+    &-section {
+      height: 250px;
+    }
+    &-container {
+      flex-direction: column;
+      &:before {
+        height: 1px;
+        width: 188px;
+        top: 120px;
+        left: calc(50% - 100px);
+      }
+    }
+    &-block {
+      margin-top: 25px;
+      margin-bottom: 15px;
+    }
+
+  }
 }
 
 
