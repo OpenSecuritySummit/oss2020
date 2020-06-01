@@ -1,5 +1,5 @@
 ---
-title        : DSO-SAST
+title        : SAST - Static Analysis integration lab
 type         : user-session
 track        : Training
 topics       : 
