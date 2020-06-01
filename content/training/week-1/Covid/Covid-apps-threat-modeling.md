@@ -1,7 +1,7 @@
 ---
 title        : Threat Modeling real-world Covid Applications
 type         : training-session
-track        : Threat Modeling
+track        : Covid
 topics       :
 when_week    : one
 when_day     : 4th - Thursday
