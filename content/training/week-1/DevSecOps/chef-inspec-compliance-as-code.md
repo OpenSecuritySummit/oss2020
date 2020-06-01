@@ -9,14 +9,14 @@ when_time    : WS-2
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/chef-inspec-compliance-as-code-1/
 session_slack:
 status       : done           # draft, review-content, done
-description  : TBD
+description  : In this session we will learn problems with the traditional compliance and we will move on to the hands on part where attendes will work with Inspec and write its own custom profile for complinace
 organizers   : Joshua Jebaraj
 zoom_host    : Didar Gelici
 ---
 
 ### Supporting website 
 
-[Here is the workshop material](https://sad-hypatia-f27c37.netlify.app/) for the Open Security Summit session on the Chef Inspec for compliance
+[Here is the workshop material](https://chef-workshop-oss.netlify.app/) for the Open Security Summit session on the Chef Inspec for compliance
 
 {{<img src="https://user-images.githubusercontent.com/656739/83378033-610cad80-a3cf-11ea-896e-4b4a2cf5e888.png" >}}
 
