@@ -11,7 +11,9 @@ room_layout  :                    #
 room_id      : 
 session_slack: 
 status       : draft              # draft, review-content, done
-description  :
+description  : "The more data penetrates into various industries, the more security threats and risks appear and it becomes really essential to deal with those risks and make the most optimal decisions. 
+
+In this session we'll discuss how Wardley maps can be applied to improve the decision making process." 
 organizers   :
     - Alan Jenkins
     - Avi Douglen
