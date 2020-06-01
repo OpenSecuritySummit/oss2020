@@ -12,4 +12,5 @@ status: add-details
 type: participant
 ---
 
+CTO & VP Engineering, Co-founder at Bridgecrew
 <!-- put more details about participant here -->
