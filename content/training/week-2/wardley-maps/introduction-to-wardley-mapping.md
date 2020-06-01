@@ -1,8 +1,8 @@
 ---
 title        : Introduction to Wardley Mapping
 type         : user-session
-track        : Training
-topics       : Wardley Maps
+track        : Wardley Maps
+topics       :
 when_week    : two
 when_day     : 9th - Tuesday
 when_time    : WS-1

@@ -6,7 +6,7 @@ defaultContentLanguage  = "en"
 googleAnalytics         = "UA-97001849-2"
 enableGitInfo           = true
 preserveTaxonomyNames   = true
-disableKinds            = ["taxonomy"]
+#disableKinds            = ["taxonomy"]
 
 # Define the number of posts per page
 paginate = 10
@@ -59,13 +59,13 @@ paginate = 10
 #    weight = 2
 #    parent = "sessions"
 #    url = "/schedule/day/fri/"
-#[[menu.main]]
-#    name = "Topics"
-#    identifier = "topics"
-#    pre = "<i class='fa fa-road'></i>&nbsp;"
-#    weight = 4
+[[menu.main]]
+    name = "Topics"
+    identifier = "topics"
+    pre = "<i class='fa fa-road'></i>&nbsp;"
+    weight = 6
 ##    parent = "sessions"
-#    url = "/topics/"
+    url = "/topics/"
 #[[menu.main]]
 #    name = "Working Sessions"
 #    identifier = "working-sessions"

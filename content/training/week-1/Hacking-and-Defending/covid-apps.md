@@ -1,8 +1,9 @@
 ---
 title        : Covid Apps 
-track        : Training
+track        : Covid
 type         : user-session
 topics       : Hacking & Defending
+featured     : yes
 when_week    : one
 when_day     : 3rd - Wednesday
 when_time    : WS-4

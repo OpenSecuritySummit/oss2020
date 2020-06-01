@@ -2,7 +2,7 @@
 title        : Cloud Security 101
 type         : training-session
 track        : Cloud Security
-topics       : 
+topics       :
 when_week    : one
 when_day     : 2nd - Tuesday
 when_time    : WS-1

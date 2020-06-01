@@ -26,24 +26,19 @@
     <div class="container">
         <br/>
         <div class="t_rw">
-            Current User and Working sessions mapped by topic:
+            Here the topics current mapped to User, Working and Trainign sessions:
         </div>
     </div>
     <div class="row">
-
         <div class="col-xs-0"></div>
         <div class="col-xs-12">
 
-            <div class="topic-cards">
+            <div _class="topic-cards">
                 <ul class="tags">
                     {{ range $index, $value:= (sort .Site.Taxonomies.topics.TaxonomyArray "Name") }}
-                        <li>
-                            <h4>{{ $value.Name }}</h4>
-                            {{ range $value.Pages}}
-                                <div><a href="{{ .Permalink}}">{{ .Params.title}}</a> </div>
-                            {{ end }}
-                        </li>
-                    {{ if eq (mod $index 4) 3 }}</ul><ul>{{ end }}
+
+                        <h2>{{ humanize $value.Name }}</h2>
+                        {{ partial "sessions/simple-table-show-all.html" $value.Pages }}
 
                     {{ end }}
 

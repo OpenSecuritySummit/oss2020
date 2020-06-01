@@ -1,9 +1,10 @@
-title        : COVID Apps threat modeling
-track        : Threat-modeling
+---
+title        : COVID Apps Threat Modeling
+track        : Covid
 type         : working-session      # working-session, user-session, product-session
 technology   :
 topics       : "User Session"                   # for example ["GDPR"]
-featured     :                    # review with summit team "yes"
+featured     : yes
 when_day     : Thu
 when_time    : WS-4
 room_layout  :                    #
@@ -13,7 +14,7 @@ status       : done              # draft, review-content, done
 description  :
 organizers   : Jakub Kaluzny
 participants :
-
+---
 
 ## Description
 
