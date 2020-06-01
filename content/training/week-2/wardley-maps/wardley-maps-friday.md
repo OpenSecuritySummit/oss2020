@@ -1,15 +1,8 @@
 ---
-<<<<<<< HEAD
-title        : Wardley Mapping (intermediate)
+title        : Wardley Maps
 type         : training-session
 track        : Wardley Maps
 topics       : 
-=======
-title        : Wardley Maps
-type         : user-session
-track        : Wardley Maps
-topics       :
->>>>>>> 410433cc1852c9a7e80b2fdcb2010641798d6d1a
 when_week    : two
 when_day     : 12th - Friday
 when_time    : WS-2
