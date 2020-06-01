@@ -12,4 +12,4 @@ status: done
 type: participant
 ---
 
-<!-- put more details about participant here -->
+Ben Schofield is a Digital Media Consultant focused on media logistics and metadata, and content security. 

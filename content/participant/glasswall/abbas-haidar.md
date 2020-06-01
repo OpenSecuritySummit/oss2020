@@ -1,14 +1,14 @@
 ---
 company: 'Glasswall'
-image: 'https://media-exp1.licdn.com/dms/image/C4D03AQGbKTdE3-O0RQ/profile-displayphoto-shrink_800_800/0?e=1589414400&v=beta&t=WfGRDu2xhs0VjOMXCQiZIHG8_dxBevKdGyzVe0ux_sY'
+image: https://media-exp1.licdn.com/dms/image/C4D03AQGbKTdE3-O0RQ/profile-displayphoto-shrink_200_200/0?e=1596672000&v=beta&t=lxdOqPXHDaTuYy3X0Ltu-bPnhLc6GQZIC5kU2_Gmsm4
 job_title: 'Head of IT and Customer Support at Glasswall Solutions Ltd.'
-linkedin: 'https://www.linkedin.com/in/abbashaidar/'
+linkedin: abbashaidar
 notes: ''
 project_leader: ''
-status: add-details
+status: done
 title: 'Abbas Haidar'
 travel_from: ''
-twitter: ''
+twitter: AbbasHaidar_
 type: participant
 website: ''
 ---

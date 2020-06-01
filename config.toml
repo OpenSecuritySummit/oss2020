@@ -156,12 +156,12 @@ paginate = 10
     weight = 21
     parent = "about"
     url = "/partners"
-[[menu.main]]
-    name = "Tickets"
-    identifier = "tickets"
-    pre = "<i class='fa fa-ticket'></i>&nbsp;"
-    weight = 12
-    url = "/tickets/"
+#[[menu.main]]
+#    name = "Tickets"
+#    identifier = "tickets"
+#    pre = "<i class='fa fa-ticket'></i>&nbsp;"
+#    weight = 12
+#    url = "/tickets/"
 
 
 # Top bar social links menu
@@ -194,7 +194,7 @@ paginate = 10
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "PhotoBox"
+    author = "OSS"
     defaultKeywords = ["open", "summit", "security"]
     defaultDescription = "The Open Security Summit 2020 is focused on the collaboration between Developers and Application Security. Using the same model as the previous OWASP Summits, this 5-day event will be a high-energy experience, during which attendees get the chance to work and collaborate intensively."
     ghRepo = "https://github.com/OpenSecuritySummit/oss2020/"

@@ -7,18 +7,24 @@
 
     <div id="all">
 
-        <header class="full-bg background-photogrid">
+            <header class="full-bg background-home">
 
-          <div class="dark-mask"></div>
-          {{ partial "top.html"         . }}
-          {{ partial "nav.html"         . }}
+            {{ partial "nav2020.html" . }}
+
         </header>
 
-        {{ partial "home-page/intro.html"  . }}
-        {{ partial "home-page/features.html"  . }}
-        {{ partial "home-page/topics.html"  . }}
-        {{ partial "home-page/session-types.html"  . }}
-        {{ partial "home-page/previous-summits.html"  . }}
+      <div class="container-managed xxl">
+        <div class="home-page">
+            {{ partial "home-page/hero.html" . }}
+            {{ partial "home-page/attend-summit.html" . }}
+            {{ partial "home-page/book-tickets.html" . }}
+            {{ partial "home-page/speakers.html" . }}
+            {{ partial "home-page/schedule.html" . }}
+            {{ partial "home-page/photo-gallery.html" . }}
+            {{ partial "home-page/previous-summits.html" . }}
+            {{ partial "sponsors/sponsorship-model.html" . }}
+        </div>
+      </div>
 
         {{ partialCached "footer.html"                   . }}
 

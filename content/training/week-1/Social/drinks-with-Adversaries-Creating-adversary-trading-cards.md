@@ -1,17 +1,16 @@
 ---
-title        : Drinks with Adversaries:Creating Adversary Trading Cards
+title        : "Drinks with Adversaries: Creating Adversary Trading Cards (2nd Session)"
 type         : training-session
 track        : Social
 topics       : 
 when_week    : one
 when_day     : 5th - Friday
 when_time    : WS-1
-hey_summit   :
+hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/social-drinks-and-adversaries/?
 session_slack:
 status       : draft           # draft, review-content, done
 description  : 
-organizers   :
-         -Mark Miller
+organizers   : Mark Miller
 
 ---
 

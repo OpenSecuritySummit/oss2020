@@ -1,8 +1,8 @@
 ---
 company: 'Glasswall'
-image: 'https://media-exp1.licdn.com/dms/image/C4D03AQE917DOj4pxbA/profile-displayphoto-shrink_200_200/0?e=1588204800&v=beta&t=ygDZ7KoXN8wZjyl5YjPeWSWSh0xTc_Oxwo2tQvgsuDs'
+image: https://media-exp1.licdn.com/dms/image/C4D03AQE917DOj4pxbA/profile-displayphoto-shrink_800_800/0?e=1596672000&v=beta&t=Ro3-F63xl2r3N_r8PuXlqrWMCb0yLZlR-bMYMy10vwE
 job_title: 'Senior Vice President EMEA, Glasswall'
-linkedin: 'https://www.linkedin.com/in/nicholas-bloom-7a71599b/'
+linkedin: nicholas-bloom-7a71599b
 notes: ''
 project_leader: ''
 status: add-details

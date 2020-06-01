@@ -1,5 +1,5 @@
 ---
-title        : Wardley Maps Introduction
+title        : Wardley Maps First Aid
 type         : user-session
 track        : Wardley Maps
 topics       : 
