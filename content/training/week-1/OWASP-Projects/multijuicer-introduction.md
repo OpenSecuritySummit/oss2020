@@ -8,15 +8,13 @@ when_day     : 2nd - Tuesday
 when_time    : BK-3,WS-4
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/multijuicer-introduction/
 session_slack:
-status       :           # draft, review-content, done
+status       : done          # draft, review-content, done
 description  : TBD
 organizers   : 
         - Jannik Hollenbach
         - Robert Seedorff 
 zoom_host    : Dinis Cruz
 ---
-
-<!--(add intro)
 
 ## OWASP Juice Shop is an incredible tool to learn and teach about web application security. The Juice Shop lets people attack a real(ish) web application - which looks like a normal eCommerce Shop - and learn step by step about some of the most impactful vulnerabilities.
 
@@ -51,21 +49,5 @@ Audience:
 - Security Educators
 - Security Consultants
 - Juice Shop Enthusiasts
-(...)
-
-## What
-
-(...)
-
-## Outcomes
-
-(...)
-
-## References
-
-(...)
-
-
-## Previous-->
 
 

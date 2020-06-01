@@ -20,8 +20,6 @@ participants :
 ---
 
 
-<!--(add intro)
-
 ## What is the curriculum looks like
 
 (...)
@@ -83,5 +81,3 @@ https://www.cyberbit.com/blog/cybersecurity-training/cyber-attack-playbook-table
 ## Gatekeeping - sec teams on the wrong side of history
 
 (...)
-
-## Previous-->
