@@ -1,5 +1,5 @@
 ---
-title        : Threat Modeling Introduction
+title        : Threat Modeling Introduction by Dinis Cruz
 type         : training-session
 track        : Threat Modeling
 topics       :
