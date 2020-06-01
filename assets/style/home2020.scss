@@ -18,10 +18,18 @@ $xxl-hero-container-height: 1042px;
     font-size: 56px;
     color: $main-background-color;
   }
+
+  &-button {
+    border: none;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
 }
 
 .booktickets-section {
-  background-image: url("#{$base-url}/img/home/bookyourticket-bg-25.png"), linear-gradient(to right, #61872e 0%, #86ba40 100%);
+  background-image: url("#{$base-url}/img/home/bookyourticket-bg-25.png"), linear-gradient(to right, $button-green-gradient-start 0%, #86ba40 100%);
   background-repeat: repeat-x;
 
   .container {
@@ -295,16 +303,12 @@ $xxl-hero-container-height: 1042px;
       margin-top: 0;
     }
 
-    &_button {
-      width: 209px;
+    &-button {
       height: 58px;
-      border: none;
-      background-color: #86ba40;
-      text-transform: uppercase;
+      width: 209px;
       font-size: 20px;
+      background-color: $main-action-text-color;
       color: $main-inverse-text-color;
-      margin-top: 15px;
-      margin-bottom: 15px;
     }
 
     .card {
@@ -478,7 +482,104 @@ $xxl-hero-container-height: 1042px;
   }
 }
 
-/* end of schedule styles */
+/* end of SCHEDULE styles */
+
+
+/*****************************/
+/** PHOTO GALLERY styles *****/
+/*****************************/
+
+
+.container {
+  &-gallery {
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+}
+
+.photo {
+  &-gallery {
+    &-header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &-overtitle {
+      font-size: 20px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: $main-action-text-color;
+    }
+
+    &-title {
+      font-size: 56px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: $main-background-color;
+    }
+
+    &-grid {
+      // width: 100vw;
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      grid-gap: 10px;
+
+      & > img {
+        max-width: 100%;
+      }
+    }
+
+    &-item {
+      &-1 {
+        grid-column: 1 / span 2;
+      }
+
+      &-6 {
+        grid-column: 3 / span 2;
+      }
+    }
+  }
+}
+/* end of GALLERY styles */
+
+
+
+/*****************************/
+/** PREV SUMMITS  styles **/
+/*****************************/
+
+
+.prevsummits {
+  &-section {
+    background-color: $alt-background-color;
+    padding-top: 100px;
+  }
+  &-container {
+    text-align: center;
+  }
+  &-button {
+    &-s{
+      display: flex;
+    }
+    font-size: 32px;
+    //width: 308px;
+    line-height: 38px;
+    padding: 8px 50px;
+    letter-spacing: 6px;
+    border-radius: 37px;
+    background-image: linear-gradient(to top, $button-green-gradient-start 0%, $main-action-text-color 100%);
+    color: $main-inverse-text-color;
+    &:first-child {
+      margin-left: 20px;
+    }
+  }
+}
+/* end of PREV SUMMITS styles */
+
+
 
 /*****************************/
 /*** XXL BREAKPOINT ONLY *****/
@@ -593,6 +694,7 @@ $xxl-hero-container-height: 1042px;
     &-block {
       padding-top: 75px;
     }
+
     &-paragraph {
       padding-left: 10px;
       padding-right: 10px;
@@ -609,11 +711,11 @@ $xxl-hero-container-height: 1042px;
   }
 
   .speakers {
-      .card {
-        &_description {
-          text-align: center;
-        }
+    .card {
+      &_description {
+        text-align: center;
       }
+    }
   }
 
 }
@@ -638,6 +740,7 @@ $xxl-hero-container-height: 1042px;
     &s {
       padding-top: 50px;
       padding-bottom: 20px;
+
       .card {
         &_speaker {
           text-align: center;
@@ -751,61 +854,6 @@ $xxl-hero-container-height: 1042px;
 
     &-title {
       font-size: 45px;
-    }
-  }
-}
-
-
-
-
-
-/* PHOTO GALLERY */
-
-.container {
-  &-gallery {
-
-    margin: 0;
-    padding: 0;
-    width: 100%;
-  }
-}
-
-.photo {
-  &-gallery {
-    &-header {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    &-overtitle {
-      font-size: 20px;
-      letter-spacing: 4px;
-      text-transform: uppercase;
-      color: $main-action-text-color;
-    }
-    &-title {
-      font-size: 56px;
-      font-family: Oswald;
-      font-weight: 700;
-      text-transform: uppercase;
-      color: $main-background-color;
-    }
-    &-grid {
-      // width: 100vw;
-      display: grid;
-      grid-template-columns: auto auto auto auto;
-      grid-gap: 10px;
-      & > img {
-        max-width: 100%;
-      }
-    }
-    &-item {
-      &-1 {
-        grid-column: 1 / span 2;
-      }
-      &-6 {
-        grid-column: 3 / span 2;
-      }
     }
   }
 }
