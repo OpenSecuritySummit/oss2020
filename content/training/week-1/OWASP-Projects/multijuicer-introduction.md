@@ -9,45 +9,58 @@ when_time    : BK-3,WS-4
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/multijuicer-introduction/
 session_slack:
 status       : done          # draft, review-content, done
-description  : TBD
+description  :
 organizers   : 
         - Jannik Hollenbach
         - Robert Seedorff 
 zoom_host    : Dinis Cruz
 ---
 
-## OWASP Juice Shop is an incredible tool to learn and teach about web application security. The Juice Shop lets people attack a real(ish) web application - which looks like a normal eCommerce Shop - and learn step by step about some of the most impactful vulnerabilities.
+OWASP Juice Shop is an incredible tool to learn and teach about web
+application security. The Juice Shop lets people attack a real(ish) web
+application - which looks like a normal eCommerce Shop - and learn step
+by step about some of the most impactful vulnerabilities.
 
-When you are running a Security Training for developers based on the Juice Shop you have one problem:
-How can every developer run and access his own Juice Shop Instance to train his skills?
-The Juice Shop is basically a single user application, so every user needs to have their own instance to train.
+When you are running a Security Training for developers based on the
+Juice Shop you have one problem: How can every developer run and access
+his own Juice Shop Instance to train his skills? The Juice Shop is
+basically a single user application, so every user needs to have their
+own instance to train.
 
 You basically have to options:
 
-1. You could make the users install Juice Shop on their own machines, which is error prone and can easily take a big valuable chunk of your valuable training time.
+1. You could make the users install Juice Shop on their own machines,
+   which is error prone and can easily take a big valuable chunk of your
+   valuable training time.
 2. Or you could host all Juice Shop instances for the users.
 
-This is where MultiJuicer comes in, an open-source Tool to centrally host and all Juice Shop Instances for your training on a central kubernetes cluster.
+This is where MultiJuicer comes in, an open-source Tool to centrally
+host and all Juice Shop Instances for your training on a central
+kubernetes cluster.
 
 What MultiJuicer does:
 
-- dynamically create new Juice Shop instances when needed
-- runs on a single domain, comes with a LoadBalancer sending the traffic to the participants Juice Shop instance
-- backup and auto apply challenge progress in case of Juice Shop container restarts
-- cleanup old & unused instances automatically
-
+* dynamically create new Juice Shop instances when needed
+* runs on a single domain, comes with a LoadBalancer sending the traffic
+  to the participants Juice Shop instance
+* backup and auto apply challenge progress in case of Juice Shop
+  container restarts
+* cleanup old & unused instances automatically
 
 In this session you will learn:
 
-- What MultiJuicer is
-- How it works
-- How you can use it for security trainings either in your org, or for your customers
-- How you track the progress of the hackers
+* What MultiJuicer is
+* How it works
+* How you can use it for security trainings either in your org, or for
+  your customers
+* How you track the progress of the hackers
+* How you can customize it
+* What features are coming in the future
+* How you can get involved in the project
 
 Audience:
 
-- Security Educators
-- Security Consultants
-- Juice Shop Enthusiasts
-
+* Security Educators
+* Security Consultants
+* Juice Shop Fanboy
 
