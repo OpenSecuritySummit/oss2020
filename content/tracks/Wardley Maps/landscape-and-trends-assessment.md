@@ -11,7 +11,11 @@ room_layout  :                    #
 room_id      : 
 session_slack: 
 status       : draft              # draft, review-content, done
-description  :
+description  : "A map of a competitive business **Landscape** (a Wardley map) is visual and context-specific where the anchor is the User being served and their corresponding needs. The map contains a value chain — capabilities necessary to fulfill the needs, arranged according to their dependency relationships.
+
+By attending this sessions, you will learn more details on the landscape and corresponding trends assessment, the position of the capabilities on the Wardley map and more information related to the topic." 
+
+
 organizers   : 
 ---
 
