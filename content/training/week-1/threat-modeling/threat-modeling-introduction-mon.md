@@ -18,7 +18,7 @@ description  : "Threat modelling workshop applying various methodologies: STRIDE
 
 ## Training Session Video
 
-<iframe width="800" height="515" src="https://www.youtube.com/embed/PZnnCM-mVZ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< youtube id="PZnnCM-mVZ0" autoplay="false" >}} 
 
 ## Session Contents
 
