@@ -16,6 +16,12 @@ description  : "Threat modelling workshop applying various methodologies: STRIDE
 
 ---
 
+## Training Session Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PZnnCM-mVZ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Session Contents
+
 Threat modelling workshop applying various methodologies: STRIDE, LINDDUN, Attack Trees, and PnG, to a MSP organisation and its key system
 
 This is the first section of a four-part exercise:
@@ -32,9 +38,5 @@ Information to be revealed throughout the exercise and groups work on their resp
 ### Session Materials
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQDWjiEBf1S8dMHg8cW1uQ0IvALfTUApJ9ZxpJy_RDeR8r_jPbjemStcRR3dWfoBA/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-### YouTube
-
-Check our [youtube channel](https://www.youtube.com/channel/UCyse9b_2JLJUxKMLgSpOL-Q/)  for the sessions you have missed (search security incident open security summit). 
 
 
