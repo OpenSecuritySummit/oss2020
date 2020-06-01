@@ -8,8 +8,9 @@ linkedin: vanderaj
 twitter: vanderaj
 website:
 notes:
-status: add-details
+status: done
 type: participant
 ---
 
+Senior Application Security Leader
 <!-- put more details about participant here -->

@@ -12,4 +12,5 @@ status: add-details
 type: participant
 ---
 
+ Cat is a technology leader specializing in lean inspired, data-informed coaching for technology organizations. She is passionate about increasing diversity in STEAM as a means of creating possibilities for a more equitable human future based on generative institutions.
 <!-- put more details about participant here -->

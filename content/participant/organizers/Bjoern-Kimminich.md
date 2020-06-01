@@ -12,4 +12,6 @@ status: add-details
 type: participant
 ---
 
+Senior Manager IT Architecture at Kuehne + Nagel
+
 <!-- put more details about participant here -->
