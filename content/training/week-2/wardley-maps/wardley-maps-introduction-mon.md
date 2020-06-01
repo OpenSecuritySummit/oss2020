@@ -1,4 +1,11 @@
 ---
+title        : Wardley Maps
+type         : training-session
+track        : Wardley Maps
+topics       : 
+when_week    : 
+when_day     : 
+when_time    : 
 title        : Wardley Maps Introduction
 type         : user-session
 track        : Wardley Maps

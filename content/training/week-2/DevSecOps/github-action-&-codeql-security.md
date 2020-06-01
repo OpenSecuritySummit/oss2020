@@ -1,7 +1,7 @@
 ---
 title        : GitHub Actions & CodeQL Security
-type         : user-session
-track        : Training
+type         : training-session
+track        : DevSecOps
 topics       : 
 when_week    : two
 when_day     : 9th - Tuesday

@@ -1,5 +1,5 @@
 ---
-title        : 1Infrastructure scan & Encryption
+title        : Infrastructure scan & Encryption
 type         : training-session
 track        : DevSecOps
 topics       : 
@@ -8,7 +8,7 @@ when_day     : 11th - Thursday
 when_time    : WS-2
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/infrastructure-scan-encryption/
 session_slack:
-status       : draft           # draft, review-content, done
+status       :            # draft, review-content, done
 description  : TBD
 organizers   : 
          - Barak Schoster

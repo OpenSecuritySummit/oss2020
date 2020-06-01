@@ -1,16 +1,16 @@
 ---
-title        : DSO - IaST & RASP
+title        : Threat Modeling Introduction (Wed)
 type         : training-session
-track        : Training
+track        : Wardley Maps
 topics       : 
 when_week    : 
 when_day     : 
 when_time    : 
-hey_summit   : 
+hey_summit   :
 session_slack:
 status       : draft           # draft, review-content, done
-description  : TBD
-organizers   : 
+organizers   :
+description  : 
 ---
 
-### 
+## Why
