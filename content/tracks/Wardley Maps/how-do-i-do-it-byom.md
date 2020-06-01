@@ -11,7 +11,21 @@ room_layout  :                    #
 room_id      : 
 session_slack: 
 status       : draft              # draft, review-content, done
-description  :
+description  : "After attending this useful session, you will be able to to create your own map by:
+
+- Identifying your **users**.
+
+- Identifying your users' **needs**. 
+
+- Adding the **capabilities** needed to successfully meet those needs. 
+
+- Determining the stage of **evolution** for each capability by evaluating its characteristics.
+
+- Drawing the the complete **value chain**.
+
+- And finally getting your own **Wardley Map**!
+
+  You will also explore the capability types, evolutionary characteristics and get even more useful information."  
 organizers   :
     - Dinis Cruz
     - Mario Platt
