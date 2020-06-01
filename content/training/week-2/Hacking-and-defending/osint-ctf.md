@@ -1,7 +1,7 @@
 ---
 title        : OSINT CTF
 type         : training-session
-track        : Training
+track        : Hacking and defending
 topics       : 
 when_week    : two
 when_day     : 9th - Tuesday

@@ -1,9 +1,9 @@
 ---
 title        : LGTM in action
 type         : training-session
-track        : Training
+track        : DevSecOps
 topics       : 
-when_week    : two
+when_week    : 
 when_day     : 
 when_time    : 
 hey_summit   : 
