@@ -1,7 +1,7 @@
 ---
 title        : Incident Scenario Exercise
 type         : training-session
-track        : Training
+track        : "CISO and Risk Management"
 topics       : 
 when_week    : two
 when_day     : 10th - Wednesday

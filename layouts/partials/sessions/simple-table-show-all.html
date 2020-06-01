@@ -8,20 +8,36 @@
     <table class="tbale_section">
         <thead>
         <th width="300">Title</th>
+        <th>Session Type</th>
+        <th>Day</th>
+        <th>When</th>
+        <th>Delivered By</th>
         <th>Track</th>
-        <th>Description</th>
+        <th>Register</th>
         </thead>
         {{ range . }}
             <tr>
                 <td>
                     <a href="{{.Permalink }}">{{.Params.title}}</a>
                 </td>
-                 <td>
-                    {{ with .Params.track }}{{ . }}{{ end }}
-                 </td>
+                <td>{{.Params.type}}</td>
+                <td>{{.Params.when_day}}</td>
                 <td>
-                    {{ .Params.description}}
+
                 </td>
+                <td>
+                    {{ partial "utils/titles-with-link.html" (dict "this" . "name" .Params.title "value" .Params.organizers)   }}
+                </td>
+                <td>
+                    {{ partial "utils/track-to-link.html" (dict "this" . "track" .Params.track)  }}
+                </td>
+                <td>
+                    {{if  .Params.hey_summit -}}
+                        <a href="{{.Params.hey_summit}}">Book now</a>
+                    {{ end }}
+
+                </td>
+
             </tr>
         {{ end}}
     </table>

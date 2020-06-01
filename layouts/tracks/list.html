@@ -32,33 +32,40 @@
           </div>
         </div>
 
-        <h3>Schedule</h3>
+        <h2>Schedule</h2>
+        {{ $title := "" }}
+        {{ $sessions  := where .Site.Pages ".Params.track"  .Params.title  }}
+        {{ $week_one :=  where $sessions ".Site.Pages.when_week" "one"}}
+        {{ $week_one_days := .Site.Data.schedule.days.week_one}}
+        {{ $week_two_days := .Site.Data.schedule.days.week_two}}
+        {{ $summit_days   := .Site.Data.schedule.days.summit}}
 
-        {{ partial "schedule/track.html" (dict "self" . "title" .Params.title )}}
+        {{ $title := "Training - week one (1st - 5th June)" }}
+        {{ partial "schedule/table/table.html" (dict "self" . "pages" $sessions "valid_days" $week_one_days "title" $title )}}
+
+        {{ $title := "Training - week two (8th - 12th June)" }}
+        {{ partial "schedule/table/table.html" (dict "self" . "pages" $sessions "valid_days" $week_two_days "title" $title )}}
+
+        {{ $title := "Summit Week (15th - 17th June)" }}
+        {{ partial "schedule/table/table.html" (dict "self" . "pages" $sessions "valid_days" $summit_days "title" $title )}}
 
 
+<!--        {{ partial "schedule/track.html" (dict "self" . "title" .Params.title )}}-->
+
+        <h2>Sessions</h2>
         <div class="hidden-print">
           <div class="row">
             <div class="col-xs-0"></div>
             <div class="col-xs-12">
-              {{ $working_sessions := where .Data.Pages ".Params.type" "working-session"  }}
-              {{ $user_sessions    := where .Data.Pages ".Params.type" "user-session"  }}
-
-              <h3>Working Sessions <span class="badge">{{ len $working_sessions }}</span></h3>
-              <p>Here are the working sessions that are currently being planned.
-              </p>
-              {{ partial "sessions/simple-table-show-all.html" $working_sessions }}
-
-              <h3>User Sessions <span class="badge">{{ len $user_sessions }}</span></h3>
-              <p>Here are the users sessions that are currently being planned.
-              </p>
-              {{ partial "sessions/simple-table-show-all.html" $user_sessions }}
 
 
 
-              {{/* range where (where .Site.Pages ".Params.type" "==" "training-session") ".Params.track" "==" .Params.title */}}
-              <li> {{/*.Title*/}}</li>
-              {{/* end */}}
+
+
+              {{ partial "training/table-all" $sessions }}
+
+
+
               <h3>Please help</h3>
               <p>
                 If you want to be involved please make the changes on GitHub and send a Pull Request with your ideas.</p>

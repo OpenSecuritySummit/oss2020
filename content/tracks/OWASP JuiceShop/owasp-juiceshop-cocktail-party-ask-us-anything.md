@@ -10,32 +10,24 @@ when_time    : WS-4
 room_layout  :                  #
 room_id      :
 session_slack:
-status       : draft              # draft, review-content, done
+status       : done              # draft, review-content, done
 description  :
 organizers   :
     - Bjoern Kimminich
     - Jannik Hollenbach
     - Timo Pagel
+    - Robert Seedorff
 participants :
 ---
 
-<!--(add intro)
+![](https://raw.githubusercontent.com/OWASP/owasp-swag/master/projects/juice-shop/logos/custom/JuicyBot_MedicalMask.png)
 
-## WHY
+This social session combines BYOC with AUA! Members of the JuiceShop
+team will answer all your questions, listen to your ideas, praise and
+complaints! As a warm-up we will present the results of
+[the ongoing 2020 user survey](https://forms.gle/2Tr5m1pqnnesApxN8) with
+graphs and diagrams as colorful as the participants' cocktails!
 
-(...)
-
-## What
-
-(...)
-
-## Outcomes
-
-(...)
-
-## References
-
-(...)
-
-
-## Previous-->
+_Tip: There are no prerequisites for this session other than you should
+have at least of OWASP Juice Shop! The Bring Your Own Cocktail (BYOC)
+part is not mandatory to join, but it's more fun it you actually do._

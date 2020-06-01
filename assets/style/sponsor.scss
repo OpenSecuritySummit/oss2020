@@ -21,8 +21,12 @@ $cost-box-height: 80px;
 }
 
 #sponsors {
+  background: url("#{$base-url}/img/home/sponsors-bg-shapes.png") top left repeat;
+  background-color: $alt-background-color;
   padding-top: 70px;
   text-align: center;
+  margin-bottom: 0;
+  padding-bottom: $main-menu-height;
 
   .sponsor-spacing {
         padding-top: 30px;

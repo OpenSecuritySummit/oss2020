@@ -2,7 +2,8 @@
 title        : Hacking Glasswall SDk & Cloud
 type         : training-session
 track        : Cloud Security
-topics       : 
+topics       :
+    - Glasswall
 when_week    : 
 when_day     : 
 when_time    : 

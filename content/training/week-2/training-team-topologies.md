@@ -14,6 +14,8 @@ session_slack:
 status       : draft             # draft, review-content, done
 organizers   : 
         
+status       : review-content             # draft, review-content, done
+organizers   :
 
 description  : Introduction to Team Topologies
 ---

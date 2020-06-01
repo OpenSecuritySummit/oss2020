@@ -3,7 +3,8 @@ title        : How to provision cloud platforms securely- AWS, CloudFormation, t
 track        : "Cloud Security"
 type         : working-session      # working-session, user-session, product-session
 technology   :
-topics       :                    # for example ["GDPR"]
+topics       :
+    - AWS
 featured     : yes                # review with summit team "yes"
 when_day     : Wed
 when_time    : WS-2
