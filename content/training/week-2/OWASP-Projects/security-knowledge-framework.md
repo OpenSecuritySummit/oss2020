@@ -1,7 +1,7 @@
 ---
 title        : Security Knowledge Framework
 type         : training-session
-track        : OWASP-Projects
+track        : OWASP Juice Shop
 topics       :
 when_week    : two
 when_day     : 12th - Friday
