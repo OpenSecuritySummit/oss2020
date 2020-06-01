@@ -19,24 +19,5 @@ organizers   :
 participants :
 ---
 
-
-<!--(add intro)
-
-## WHY
-
-(...)
-
-## What
-
-(...)
-
-## Outcomes
-
-(...)
-
-## References
-
-(...)
-
-
-## Previous-->
+## About this talk: 
+Wardley Mapping is a value-chain mapping technique that has taken the strategy world by storm in recent years. First developed by Simon Wardley to navigate the emerging cloud computing industry, it's now exploded into dozens of different industries and applications. It is used both in the public and private sectors to great effect. This session will provide you with real world examples of companies providing services in digital security that have applied Wardley maps and the results that they have reached. 

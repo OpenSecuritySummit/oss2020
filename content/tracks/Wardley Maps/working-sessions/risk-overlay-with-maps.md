@@ -22,24 +22,8 @@ organizers   :
 participants :
 ---
 
+## About this talk: 
+The more data penetrates into various industries, the more security threats and risks appear and it becomes really essential to deal with those risks and make the most optimal decisions. 
 
-<!--(add intro)
+In this session we'll discuss how Wardley maps can be applied to improve the decision making process.
 
-## WHY
-
-(...)
-
-## What
-
-(...)
-
-## Outcomes
-
-(...)
-
-## References
-
-(...)
-
-
-## Previous-->
