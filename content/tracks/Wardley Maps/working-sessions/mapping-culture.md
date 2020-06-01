@@ -17,7 +17,7 @@ organizers   : Simon Wardley
 participants :
 ---
 
-## About this talk: 
+## About this talk:  
 
 Wardley Mapping is a straight-forward process, and most difficulties boil down to concerns about making “mistakes” or doing the “wrong” thing. It is much more valuable to discard these concerns up-front, embrace the messiness of the process, and learn by boldly doing.
 The process of mapping is also the process of constructing a model of reality. An incorrect model that is also useful is the definition of success.
