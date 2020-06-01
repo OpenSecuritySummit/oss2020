@@ -5,11 +5,11 @@ track        : Threat Modeling
 topics       : 
 when_week    : two
 when_day     : 8th - Monday
-when_time    : WS-1
-hey_summit   :
+when_time    : WS-2
+hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/threat-modelling-first-aid-an-introduction-to-threat-modelling-and-risk 
 session_slack:
 status       : draft           # draft, review-content, done
-organizers   : 
+organizers   : Dinis Cruz
 description  : 
 ---
 ## Why
