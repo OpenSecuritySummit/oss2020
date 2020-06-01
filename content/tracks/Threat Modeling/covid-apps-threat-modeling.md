@@ -7,7 +7,7 @@ topics       : "User Session"                   # for example ["GDPR"]
 featured     : yes
 when_day     : Thu
 when_time    : WS-4
-hey_summit : https://open-security-summit-2020.heysummit.com/talks/covid-apps-threat-modeling-user-session
+hey_summit   : https://open-security-summit-2020.heysummit.com/talks/covid-apps-threat-modeling-user-session
 room_layout  :                    #
 room_id      :
 session_slack: 
