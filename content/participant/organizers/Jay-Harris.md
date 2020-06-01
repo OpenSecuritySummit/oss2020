@@ -1,15 +1,15 @@
 ---
 title: Jay Harris
-image:
-company:
-job_title:
+image: https://pbs.twimg.com/profile_images/1048276757931995136/u_uBSKZs_400x400.jpg
+company: Arana Software 
+job_title: Founder / Software Consultant at Arana Software 
 facebook:
-linkedin:
-twitter:
+linkedin: jasonharris
+twitter: jayharris
 website:
 notes:
-status: add-details
+status: done
 type: participant
 ---
 
-<!-- put more details about participant here -->
+Entrepreneur. Speaker. Technical Consultant. Problem Solver
