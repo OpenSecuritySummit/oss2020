@@ -1,5 +1,5 @@
 ---
-title        : Wardley Mappping 
+title        : Wardley Mappping introduction with Cat Swetel
 type         : training-session
 track        : Wardley Maps
 topics       : 
