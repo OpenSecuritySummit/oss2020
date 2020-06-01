@@ -7,7 +7,7 @@ organizers   : OSS
 ---
 
 
-Here are all the trainign sessions that are happening before the Summit (15th/19th of June). 
+Here are all the trainign sessions that are happening before the Summit (15th/19th of June).
 
 This year we are using the Hey Summit platform to manage the session registation and bookings
 

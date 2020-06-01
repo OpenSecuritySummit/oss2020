@@ -3,6 +3,7 @@ title        : Covid Apps Analysis
 track        : Covid
 type         : training-session
 topics       : Hacking & Defending
+featured     : yes
 when_week    : one
 when_day     : 1st - Monday
 when_time    : WS-3

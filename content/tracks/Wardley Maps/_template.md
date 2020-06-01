@@ -1,39 +1,16 @@
 ---
 title        : 
-track        : "Wardley Maps"
-type         : working-session      # working-session, user-session, product-session
-technology   :
-topics       :                    # for example ["GDPR"]
-featured     :                    # review with summit team "yes"
+track        : Wardley Maps
+type         : working-session
+topics       :
+featured     :
 when_day     :
 when_time    :
-room_layout  :                    #
-room_id      : 
-session_slack: 
-status       : draft              # draft, review-content, done
+hey_summit   :
+session_slack:
+status       : draft
 description  :
 organizers   :
-participants :
 ---
 
 
-<!--(add intro)
-
-## WHY
-
-(...)
-
-## What
-
-(...)
-
-## Outcomes
-
-(...)
-
-## References
-
-(...)
-
-
-## Previous-->

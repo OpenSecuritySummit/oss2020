@@ -2,7 +2,8 @@
 title        : AWS Security
 type         : training-session
 track        : Cloud Security
-topics       : 
+topics       :
+    - AWS
 when_week    : 
 when_day     : 
 when_time    : 
