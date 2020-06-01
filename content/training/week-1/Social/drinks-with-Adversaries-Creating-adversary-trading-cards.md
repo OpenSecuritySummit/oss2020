@@ -10,8 +10,7 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/social-d
 session_slack:
 status       : draft           # draft, review-content, done
 description  : 
-organizers   :
-         -Mark Miller
+organizers   : Mark Miller
 
 ---
 
