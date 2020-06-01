@@ -14,4 +14,8 @@ organizers   : Joshua Jebaraj
 zoom_host    : Didar Gelici
 ---
 
-### 
+### Supporting website 
+
+[Here is the workshop material](https://sad-hypatia-f27c37.netlify.app/) for the Open Security Summit session on the Chef Inspec for compliance
+
+### Inspec
