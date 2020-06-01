@@ -1,3 +1,4 @@
+$navbar-main-text-color: #87bb40;
 header.full-bg {
     position: relative;
     background-size: cover;
@@ -34,7 +35,7 @@ header.full-bg .dark-mask {
 /* change navbar style */
 
 .navbar ul.nav>li>a {
-    color: #87bb40;
+    color: $navbar-main-text-color;
     text-decoration: none;
     border-bottom: solid 4px transparent;
     border-top: 0 none;
@@ -42,21 +43,21 @@ header.full-bg .dark-mask {
 
 .navbar ul.nav>li>a:hover {
     border-top: 0 none;
-    border-bottom: 4px solid #87bb40;
+    border-bottom: 4px solid $navbar-main-text-color;
 }
 
 .navbar ul.nav>li.active>a,
 .navbar ul.nav>li.open>a {
     text-decoration: none !important;
     border-top: 0 none;
-    border-bottom: 4px solid #87bb40;
+    border-bottom: 4px solid $navbar-main-text-color;
 }
 
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
     //color: #FFFFFF;
     background-color: rgba(135, 187, 64, .2);
-    border-bottom: 4px solid #87bb40;
+    border-bottom: 4px solid $navbar-main-text-color;
 }
 
 .affix-top .navbar-default .navbar-nav>li>a:hover,
@@ -66,7 +67,7 @@ header.full-bg .dark-mask {
 
 .affix .navbar-default .navbar-nav>li>a:hover,
 .affix .navbar-default .navbar-nav>li>a:focus {
-    color: #87bb40;
+    color: $navbar-main-text-color;
 }
 
 .navbar-default .navbar-nav>.active>a,
@@ -74,7 +75,7 @@ header.full-bg .dark-mask {
 .navbar-default .navbar-nav>.active>a:focus {
     color: #ffffff;
     background-color: rgba(135, 187, 64, .2);
-    border-bottom: 4px solid #87bb40;
+    border-bottom: 4px solid $navbar-main-text-color;
 }
 
 .navbar-default .navbar-nav>.open>a,
@@ -82,11 +83,11 @@ header.full-bg .dark-mask {
 .navbar-default .navbar-nav>.open>a:focus {
     background-color: rgba(135, 187, 64, .2);
     color: #ffffff;
-    border-bottom: 4px solid #87bb40;
+    border-bottom: 4px solid $navbar-main-text-color;
 }
 
 .dropdown-menu {
-    background-color: #87bb40;
+    background-color: $navbar-main-text-color;
     border: 0 none;
 }
 
@@ -114,4 +115,13 @@ header.full-bg .dark-mask {
 div#navigation.navbar-collapse.collapse ul.nav.navbar-nav.navbar-right li.dropdown a {
     font-family: 'Oswald' !important;
     font-weight: normal;
+}
+
+.topbar-social {
+    padding: 0;
+    margin: 0;
+    line-height: $main-menu-height;
+    a {
+        color: $navbar-main-text-color;
+    }
 }

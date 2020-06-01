@@ -167,27 +167,27 @@ paginate = 10
 # Top bar social links menu
 [[menu.topbar]]
     weight = 1
+    name = "Twitter"
+    url = "https://twitter.com/opensecsummit"
+    pre = "<i class='fa fa-2x fa-twitter'></i>"
+
+[[menu.topbar]]
+    weight = 2
     name = "GitHub"
     url = "https://github.com/OpenSecuritySummit/oss2020"
     pre = "<i class='fa fa-2x fa-github'></i>"
 
 [[menu.topbar]]
-    weight = 2
-    name = "Facebook"
-    url = "http://facebook.com"
-    pre = "<i class='fa fa-2x fa-facebook'></i>"
-
-[[menu.topbar]]
     weight = 3
-    name = "Twitter"
-    url = "http://twitter.com"
-    pre = "<i class='fa fa-2x fa-twitter'></i>"
+    name = "Slack"
+    url = "https://join.slack.com/t/os-summit/shared_invite/zt-eptzb479-POZlYeYI1vaNNZzVatF2ag"
+    pre = "<i class='fa fa-2x fa-slack'></i>"
 
 [[menu.topbar]]
     weight = 4
-    name = "Email"
-    url = "mailto:your@email.com"
-    pre = "<i class='fa fa-2x fa-envelope'></i>"
+    name = "Youtube"
+    url = "https://www.youtube.com/channel/UCyse9b_2JLJUxKMLgSpOL-Q/"
+    pre = "<i class='fa fa-2x fa-youtube'></i>"
 
 [taxonomies]
   category = "topics"
