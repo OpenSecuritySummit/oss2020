@@ -15,8 +15,7 @@ status       :          # draft, review-content, done
 status       : draft           # draft, review-content, done
 organizers   : Dinis Cruz
 description  : 
-organizers   : 
-     - Petra Vukmirovic
+organizers   :
      - Dinis Cruz
 ---
 ## Why
