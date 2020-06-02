@@ -1,6 +1,7 @@
 $xxl-hero-container-height: 1042px;
 $schedule-point-size: 122px;
-
+$booking-section-height: 332px;
+$summit-section-height: 350px;
 
 .section {
   &-paragraph {
@@ -27,17 +28,6 @@ $schedule-point-size: 122px;
     margin-bottom: 15px;
   }
 
-}
-
-.booktickets-section {
-  background-color: $tickets-bg;
-  //background-image: url("#{$base-url}/img/home/book-tickets-bg.jpg");
-  background-repeat: repeat-x;
-
-  .container {
-    height: 332px;
-    background-position: top left;
-  }
 }
 
 .container-managed {
@@ -203,11 +193,34 @@ $schedule-point-size: 122px;
 /**** BOOK TICKETS styles ****/
 /*****************************/
 
+/*
+.booktickets-section {
+  background-color: $tickets-bg;
+  //background-image: url("#{$base-url}/img/home/book-tickets-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+
+  .container {
+    height: 332px;
+    background-position: top left;
+  }
+}
+*/
+
+
 .booking {
+  &-section {
+    //background-color: $tickets-bg;
+    background-image: url("#{$base-url}/img/home/book-tickets-bg.jpg");
+    background-repeat: repeat-x;
+    background-position: top left;
+    height: $booking-section-height;
+  }
+
   &-blocks {
     margin-left: auto;
     margin-right: auto;
-    height: 350px;
+    height: $booking-section-height;
     width: 85%;
     display: flex;
     justify-content: space-between;
@@ -220,7 +233,6 @@ $schedule-point-size: 122px;
     margin-bottom: -25px;
     text-transform: uppercase;
     color: $main-inverse-text-color;
-    font-family: 'Oswald Bold';
     font-size: 90px;
     font-weight: 400;
   }
@@ -230,13 +242,11 @@ $schedule-point-size: 122px;
     color: $tickets-bg;
   }
   &-leader {
-    font-family: Oswald;
     font-size: 30px;
     font-weight: 400;
     color: $main-inverse-text-color;
   }
   &-students {
-    font-family: Oswald;
     font-size: 30px;
     font-weight: 400;
     color: $main-inverse-text-color;
@@ -277,7 +287,6 @@ $schedule-point-size: 122px;
     background-color: $main-background-color;
     color: $main-inverse-text-color;
     padding: 20px 61px 20px 61px;
-    font-family: "Oswald";
     font-weight: bold;
     font-size: 40px;
     text-transform: uppercase;
@@ -645,7 +654,7 @@ $schedule-point-size: 122px;
     background-image: url("#{$base-url}/img/home/summit-dates-bg.jpg");
     //background-repeat: repeat;
     //padding-top: 100px;
-    height: 350px;
+    height: $summit-section-height;
     //margin-top: 0;
     //margin-bottom: 0;
   }
@@ -756,6 +765,43 @@ $schedule-point-size: 122px;
     }
   }
 
+  .booking {
+    &-section {
+      height: 300px;
+    }
+    &-blocks {
+      width: 100%;
+      height: 300px;
+    }
+    &-title {
+      font-size: 35px;
+      margin-bottom: 0;
+    }
+    &-free {
+      font-size: 30px;
+      margin-bottom: 0;
+    }
+    &-leader {
+      font-size: 22px;
+    }
+    &-students {
+      font-size: 22px;
+    }
+    &-banner {
+      padding-left: 0;
+      padding-right: 0;
+      &-text {
+        padding: 0 35px 0 0;
+      }
+    }
+    &-book {
+      font-size: 30px;
+    }
+    &-overtitle {
+      font-size: 24px;
+    }
+  }
+
 }
 
 
@@ -814,6 +860,41 @@ $schedule-point-size: 122px;
     }
   }
 
+  .booking {
+    &-section {
+      height: 240px;
+    }
+    &-blocks {
+      height: 240px;
+    }
+    &-title {
+      font-size: 30px;
+    }
+    &-free {
+      font-size: 24px;
+    }
+    &-leader {
+      font-size: 18px;
+    }
+    &-students {
+      font-size: 18px;
+    }
+    &-banner {
+      &-text {
+        padding-left: 0;
+        padding-right: 35px;
+      }
+    }
+    &-book {
+      font-size: 20px;
+      padding-top: 14px;
+      padding-bottom: 14px;
+    }
+    &-overtitle {
+      font-size: 18px;
+    }
+  }
+
   .speakers {
     .card {
       &_description {
@@ -850,6 +931,49 @@ $schedule-point-size: 122px;
   .booking {
     &-blocks {
       flex-direction: column;
+    }
+  }
+  .booking {
+    &-section {
+      //height: 240px;
+    }
+    &-blocks {
+      //height: 240px;
+      align-items: stretch;
+    }
+    &-title {
+      //font-size: 30px;
+    }
+    &-free {
+      //font-size: 24px;
+      color: $main-header-color;
+    }
+    &-leader {
+      //font-size: 18px;
+    }
+    &-students {
+      //font-size: 18px;
+    }
+    &-banner {
+      transform: none;
+      background-color: initial;
+      &-text {
+        transform: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+    }
+    &-buy {
+      margin-bottom: 30px;
+      justify-content: center;
+    }
+    &-book {
+      padding-left: 30px;
+      padding-right: 30px;
+      text-align: center;
+    }
+    &-overtitle {
     }
   }
   .speaker {
@@ -941,17 +1065,55 @@ $schedule-point-size: 122px;
     }
   }
 
+  /*
   .booking {
-    &-book {
-      font-size: 40px;
-    }
-
     &-countdown {
       width: 75%;
 
       img {
         width: 100%;
       }
+    }
+  }
+  */
+
+  .booking {
+    &-section {
+    }
+    &-blocks {
+    }
+    &-title {
+    }
+    &-free {
+      //font-size: 24px;
+      //color: $main-header-color;
+    }
+    &-leader {
+      img {
+        width: 16px;
+      }
+    }
+    &-students {
+      img {
+        width: 16px;
+      }
+    }
+    &-banner {
+      //transform: none;
+      //background-color: initial;
+      &-text {
+        //transform: none;
+        //display: flex;
+        //justify-content: space-around;
+        //align-items: center;
+      }
+    }
+    &-buy {
+      justify-content: center;
+    }
+    &-book {
+    }
+    &-overtitle {
     }
   }
 
@@ -1002,6 +1164,10 @@ $schedule-point-size: 122px;
     &-title {
       font-size: 45px;
     }
+  }
+
+  .booking {
+
   }
 }
 
