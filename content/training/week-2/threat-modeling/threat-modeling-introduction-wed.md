@@ -1,11 +1,11 @@
 ---
 title        : Threat Modeling Introduction (Wed)
-type         : user-session
-track        : Training
+type         : training-session
+track        : Wardley Maps
 topics       : 
-when_week    : two
-when_day     : 10th - Wednesday
-when_time    : WS-1
+when_week    : 
+when_day     : 
+when_time    : 
 hey_summit   :
 session_slack:
 status       : draft           # draft, review-content, done

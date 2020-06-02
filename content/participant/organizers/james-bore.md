@@ -5,10 +5,10 @@ company: UnderwriteMe
 job_title: Cyber and Security Enthusiast
 facebook:
 linkedin: jbore
-twitter:
+twitter: Coffee_Fueled
 website:
 notes:
-status: add-details
+status: done
 type: participant
 ---
 

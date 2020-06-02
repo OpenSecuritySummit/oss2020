@@ -1,6 +1,6 @@
 ---
 title        : Wardley Maps Introduction
-type         : user-session
+type         : training-session
 track        : Wardley Maps
 topics       :
 when_week    : two

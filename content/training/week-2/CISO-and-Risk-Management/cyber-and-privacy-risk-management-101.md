@@ -1,37 +1,18 @@
 ---
 title        : Cyber and Privacy Risk Management 101
-track        : CISO and Risk Management
 type         : training-session
-topics       :                    # for example ["GDPR"]
+track        : CISO and Risk Management
+topics       :
 when_week    : two
 when_day     : 11th - Thursday
 when_time    : WS-2
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/cyber-and-privacy-risk-management-101/
 session_slack:
-status       : draft              # draft, review-content, done
-description  :
-organizers   : Demi Ben-Ari
+status       :           # draft, review-content, done
+description  : TBD
+organizers   : 
+       - Demi Ben-Ari 
+       - Dov Goldman
 participants :
 ---
 
-
-<!--(add intro)
-
-## WHY
-
-(...)
-
-## What
-
-(...)
-
-## Outcomes
-
-(...)
-
-## References
-
-(...)
-
-
-## Previous-->

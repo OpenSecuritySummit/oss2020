@@ -1,11 +1,11 @@
 ---
 title        : OSINT CTF
 type         : training-session
-track        : Training
+track        : Hacking and defending
 topics       : 
-when_week    : two
-when_day     : 9th - Tuesday
-when_time    : WS-4
+when_week    : 
+when_day     : 
+when_time    : 
 hey_summit   : 
 session_slack:
 status       : draft           # draft, review-content, done

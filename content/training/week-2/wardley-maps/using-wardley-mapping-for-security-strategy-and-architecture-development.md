@@ -1,5 +1,8 @@
 ---
 title        : Using Wardley mapping for Security Strategy and Architecture development
+type         : training-session
+track        : Wardley Maps
+topics       : 
 type         : user-session
 track        : Wardley Maps
 topics       :
@@ -14,23 +17,3 @@ organizers   : Mario Platt
 
 ---
 
-<!--(add intro)
-
-## WHY
-
-(...)
-
-## What
-
-(...)
-
-## Outcomes
-
-(...)
-
-## References
-
-(...)
-
-
-## Previous-->

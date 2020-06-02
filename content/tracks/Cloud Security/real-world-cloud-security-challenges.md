@@ -3,7 +3,9 @@ title        : Real world Cloud Security challenges
 track        : "Cloud-Security"
 type         : working-session      # working-session, user-session, product-session
 technology   :
-topics       : ["AWS", "hardening"]
+topics       :
+    - AWS
+    - hardening
 featured     : yes                  # review with summit team "yes"
 when_day     : Wed
 when_time    : WS-1

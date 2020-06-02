@@ -5,6 +5,7 @@ type         : working-session      # working-session, user-session, product-ses
 technology   :
 topics       :
     - AWS
+    - CloudFormation
 featured     : yes                # review with summit team "yes"
 when_day     : Wed
 when_time    : WS-2
