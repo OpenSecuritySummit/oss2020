@@ -1,6 +1,6 @@
 ---
 title        : Chef InSpec (Compliance as Code)
-type         : user-session
+type         : training-session
 track        : Cloud Security
 topics       : Security Pipeline
 when_week    : one
