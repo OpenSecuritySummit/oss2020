@@ -16,10 +16,3 @@ organizers   :
 description  : 
 ---
 
-## Training Session Video
-
-{{< youtube id="fwo-TryGQ6c" autoplay="false" >}} 
-
-## Session Contents
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR0wGU0e4Gn-XQwKbwUttdPhtCwB252klnbGZKxi9kIRZIRaR58vw8w0BWa0h1E5HC0_zZatFfkR3iA/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
