@@ -1,6 +1,6 @@
 ---
-title        : ISGs - What security exploits are negated 
-track        : Securityby following ISG standards
+title        : ISGs - What security exploits are negated by following these standards
+track        : Security Standards
 type         : training-session
 topics       : ISGs provided by the NSA (National Security Agency)
 when_week    : two
