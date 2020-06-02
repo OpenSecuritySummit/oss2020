@@ -14,4 +14,4 @@ OWASP Juice Shop is probably the most sophisticated vulnerable web
 application! (It's probably also the one with the most
 "flatten-the-curve"-aware bot!)
 
-![](https://raw.githubusercontent.com/OWASP/owasp-swag/master/projects/juice-shop/logos/custom/JuicyBot_MedicalMask_Upscaled.png)
+![](https://raw.githubusercontent.com/OWASP/owasp-swag/master/projects/juice-shop/avatars/JuicyBot_MedicalMask_Upscaled.png)
