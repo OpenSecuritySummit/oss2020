@@ -28,6 +28,7 @@ During this session we will be doing a live Threat Modelingf review of the appli
 
 ### Resources
 
+ - Main site: https://covidsafepaths.org/
  - Main GitHub org: https://github.com/Path-Check
  - Save Paths page: https://github.com/Path-Check/covid-safe-paths
  - Frontend: https://github.com/Path-Check/safeplaces-frontend
