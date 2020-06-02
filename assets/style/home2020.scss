@@ -1,4 +1,5 @@
 $xxl-hero-container-height: 1042px;
+$schedule-point-size: 122px;
 
 
 .section {
@@ -415,14 +416,18 @@ $xxl-hero-container-height: 1042px;
       height: 282px;
       display: flex;
       align-items: center;
+      &:nth-child(2n) {
+        .schedule-point-tag {
+          background-color: $alt-background-color;
+        }
+      }
     }
   }
 
   &-point {
-    // margin-left: 60px;
     margin-right: 47px;
-    min-width: 122px;
-    height: 122px;
+    min-width: $schedule-point-size;
+    height: $schedule-point-size;
     background: $main-header-color;
     border-radius: 50%;
 
@@ -431,6 +436,11 @@ $xxl-hero-container-height: 1042px;
       padding-top: 60px;
       padding-bottom: 60px;
       padding-left: 38px;
+    }
+    img {
+      width: $schedule-point-size;
+      filter: grayscale(1);
+      border-radius: 50%;
     }
   }
 
@@ -459,10 +469,6 @@ $xxl-hero-container-height: 1042px;
       & .author-link {
         color: $main-active-link-color;
       }
-    }
-
-    &-bg {
-      background-color: $alt-background-color;
     }
   }
 
