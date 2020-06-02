@@ -1,8 +1,8 @@
 ---
 title        : Applying OWASP Web Security Testing Guide (Vandana V)
 type         : training-session
-track        : OWASP Juice Shop
-topics       : 
+track        : OWASP Projects
+topics       : OWASP
 when_week    : two
 when_day     : 12th - Friday
 when_time    : WS-3
