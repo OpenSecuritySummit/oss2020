@@ -30,7 +30,8 @@ $schedule-point-size: 122px;
 }
 
 .booktickets-section {
-  background-image: url("#{$base-url}/img/home/book-tickets-bg.jpg");
+  background-color: $tickets-bg;
+  //background-image: url("#{$base-url}/img/home/book-tickets-bg.jpg");
   background-repeat: repeat-x;
 
   .container {
@@ -204,18 +205,60 @@ $schedule-point-size: 122px;
 
 .booking {
   &-blocks {
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    width: 85%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    height: 100%;
+  }
+  &-buy {
+    display: flex;
+  }
+  &-title {
+    margin-bottom: -25px;
+    text-transform: uppercase;
+    color: $main-inverse-text-color;
+    font-family: 'Oswald Bold';
+    font-size: 90px;
+    font-weight: 400;
+  }
+  &-free {
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: $tickets-bg;
+  }
+  &-leader {
+    font-family: Oswald;
+    font-size: 30px;
+    font-weight: 400;
+    color: $main-inverse-text-color;
+  }
+  &-students {
+    font-family: Oswald;
+    font-size: 30px;
+    font-weight: 400;
+    color: $main-inverse-text-color;
+  }
+  &-summit {
+    margin-left: 79px;
   }
 
   &-banner {
+    padding-right: 75px;
+    padding-left: 60px;
+    height: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    transform: skew(-20deg);
+    background-color: $booking-banner-bg;
+    &-text {
+      transform: skew(20deg);
+    }
   }
 
   &-countdown {
@@ -225,16 +268,20 @@ $schedule-point-size: 122px;
   &-overtitle {
     color: $main-inverse-text-color;
     letter-spacing: 4px;
+    font-size: 35px;
+    text-align: center;
   }
 
   &-book {
     margin-top: 10px;
     background-color: $main-background-color;
     color: $main-inverse-text-color;
-    padding: 0 50px 0 50px;
-    font-size: 50px;
+    padding: 20px 61px 20px 61px;
+    font-family: "Oswald";
+    font-weight: bold;
+    font-size: 40px;
     text-transform: uppercase;
-    border-radius: 35px;
+    border-radius: 50px;
   }
 }
 
