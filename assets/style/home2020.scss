@@ -935,36 +935,45 @@ $summit-section-height: 350px;
   }
   .booking {
     &-section {
-      height: 240px;
+      //height: 240px;
     }
     &-blocks {
-      height: 240px;
+      //height: 240px;
+      align-items: stretch;
     }
     &-title {
-      font-size: 30px;
+      //font-size: 30px;
     }
     &-free {
-      font-size: 24px;
+      //font-size: 24px;
+      color: $main-header-color;
     }
     &-leader {
-      font-size: 18px;
+      //font-size: 18px;
     }
     &-students {
-      font-size: 18px;
+      //font-size: 18px;
     }
     &-banner {
+      transform: none;
+      background-color: initial;
       &-text {
-        padding-left: 0;
-        padding-right: 35px;
+        transform: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
       }
     }
+    &-buy {
+      margin-bottom: 30px;
+      justify-content: center;
+    }
     &-book {
-      font-size: 20px;
-      padding-top: 14px;
-      padding-bottom: 14px;
+      padding-left: 30px;
+      padding-right: 30px;
+      text-align: center;
     }
     &-overtitle {
-      font-size: 18px;
     }
   }
   .speaker {
@@ -1056,17 +1065,55 @@ $summit-section-height: 350px;
     }
   }
 
+  /*
   .booking {
-    &-book {
-      font-size: 40px;
-    }
-
     &-countdown {
       width: 75%;
 
       img {
         width: 100%;
       }
+    }
+  }
+  */
+
+  .booking {
+    &-section {
+    }
+    &-blocks {
+    }
+    &-title {
+    }
+    &-free {
+      //font-size: 24px;
+      //color: $main-header-color;
+    }
+    &-leader {
+      img {
+        width: 16px;
+      }
+    }
+    &-students {
+      img {
+        width: 16px;
+      }
+    }
+    &-banner {
+      //transform: none;
+      //background-color: initial;
+      &-text {
+        //transform: none;
+        //display: flex;
+        //justify-content: space-around;
+        //align-items: center;
+      }
+    }
+    &-buy {
+      justify-content: center;
+    }
+    &-book {
+    }
+    &-overtitle {
     }
   }
 
@@ -1117,6 +1164,10 @@ $summit-section-height: 350px;
     &-title {
       font-size: 45px;
     }
+  }
+
+  .booking {
+
   }
 }
 
