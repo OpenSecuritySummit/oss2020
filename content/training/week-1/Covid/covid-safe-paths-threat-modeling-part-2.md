@@ -1,12 +1,12 @@
 ---
-title        : Covid Safe Paths - Threat Modeling Part 1
+title        : Covid Safe Paths - Threat Modeling Part 2
 type         : training-session
 track        : Covid
 topics       :
 when_week    : one
-when_day     : 4th - Thursday
+when_day     : 5th - Friday
 when_time    : WS-1
-hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/threat-modeling-on-covid-apps/
+hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/threat-modeling-introduction/
 session_slack:
 status       : done           # draft, review-content, done
 organizers   : 
@@ -21,7 +21,7 @@ description  :
 
 "COVID Safe Paths is a mobile app for digital contract tracing (DCT) sponsored by Path Check a nonprofit and developed by a growing global community of engineers, designers, and contributors. Safe Paths is based on research originally conducted at the MIT Media Lab."
 
-## Threat Modeling session (Part 1)
+## Threat Modeling session (Part 2)
 
 During this session we will be doing a live Threat Modelingf review of the application and collaborate with key "Covid Safe Paths" contributors in helping to improve the security of this opne source innitiative
 
