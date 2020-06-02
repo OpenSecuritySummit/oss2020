@@ -6,7 +6,7 @@ topics       :
 when_week    : two
 when_day     : 8th - Monday
 when_time    : WS-4
-hey_summit   : 
+hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/semi-social-improv-comedy-as-a-social-engineering-tool/
 session_slack:
 status       :            # draft, review-content, done
 description  : TBD
