@@ -1,5 +1,5 @@
 ---
-title        : Vulnerabilities review of Covid Apps
+title        : Vulnerabilities review of an Covid Application
 track        : Covid
 type         : user-session
 topics       : Hacking & Defending
