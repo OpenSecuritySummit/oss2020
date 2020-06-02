@@ -1,7 +1,7 @@
 ---
 title        : Secrets and credentials scanning lab
 type         : training-session
-track        : Training
+track        : DevSecOps
 topics       : 
 when_week    : two
 when_day     : 12th - Friday

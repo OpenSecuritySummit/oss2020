@@ -1,7 +1,7 @@
 ---
 title        : Applying OWASP Web Security Testing Guide (Vandana V)
 type         : training-session
-track        : OWASP Projects
+track        : Hacking and Defending
 topics       : 
 when_week    : two
 when_day     : 12th - Friday

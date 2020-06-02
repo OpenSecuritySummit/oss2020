@@ -1,7 +1,7 @@
 ---
 title        : SOCIAL - Cards Against Humanity game
 type         : user-session
-track        : Training
+track        : Social
 topics       : 
 when_week    : two
 when_day     : 12th - Friday
