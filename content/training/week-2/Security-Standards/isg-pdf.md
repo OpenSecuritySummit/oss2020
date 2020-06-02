@@ -1,5 +1,6 @@
 ---
 title        : ISGs - Inspection and Santisation Guidance for Portable Document Format
+track        : Security Standards
 type         : training-session
 topics       : ISG for PDF
 when_week    : two
