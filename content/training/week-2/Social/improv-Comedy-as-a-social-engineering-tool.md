@@ -1,7 +1,7 @@
 ---
 title        : Improv Comedy as a Social Engineering Tool
 type         : training-session
-track        : Training
+track        : Social
 topics       : 
 when_week    : two
 when_day     : 8th - Monday
