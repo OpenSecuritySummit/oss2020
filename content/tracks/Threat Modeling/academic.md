@@ -25,6 +25,9 @@ The industry and the academic environments do not often talk to each other. We n
 Kim will go into LINDUNN GO as a way to look into privacy related threats from an academic point of view. She will also discuss how to use LINDUNN GO and will be asking for feedback from the community.
 Koen will present his paper on DFD and a paper on maturity of threat modeling.
 
+https://lirias.kuleuven.be/retrieve/571819
+https://lirias.kuleuven.be/retrieve/565533
+
 
 **Things to consider:**
 
