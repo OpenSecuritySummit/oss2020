@@ -3,7 +3,7 @@ title        : What OWASP projects we already have and what are we missing to de
 track        : DevSecOps
 type         : working-session      # working-session, user-session, product-session
 technology   :
-topics       : "ROADMAP, Playbooks, How To-s"   # for example ["GDPR"]
+topics       : Playbooks
 featured     : yes                # review with summit team "yes"
 when_day     : Fri
 when_time    : WS-3
