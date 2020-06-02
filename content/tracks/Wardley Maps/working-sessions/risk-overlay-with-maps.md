@@ -16,7 +16,6 @@ description  :
 organizers   :
     - Alan Jenkins
     - Avi Douglen
-    - Steven Wierckx
     - Ben Schofield
     - Simon Wardley
 participants :
