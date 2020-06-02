@@ -1,5 +1,5 @@
 ---
-title        : OWASP SAMM
+title        : OWASP Projects
 type         : track
 topics       : OWASP
 featured     : yes

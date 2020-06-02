@@ -2,7 +2,7 @@
 title        : Threatdragon demo
 type         : user-session
 track        : Threat Modeling
-category     :
+topcis       : OWASP
 featured     :                 # if  "yes" review with summit team
 when_day     : Mon
 when_time    : 

@@ -3,7 +3,7 @@ title        : OWASP Juice Shop Deep Dive - MultiJuicer
 track        : OWASP Juice Shop
 type         : user-session      # working-session, user-session, product-session
 technology   :
-topics       :                    # for example ["GDPR"]
+topics       : OWASP                   # for example ["GDPR"]
 featured     :  yes                  # review with summit team "yes"
 when_day     :  Mon
 when_time    :  WS-3
