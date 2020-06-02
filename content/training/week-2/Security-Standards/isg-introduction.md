@@ -1,18 +1,18 @@
 ---
-title        : Inspection and Sanitisation Guidance
+title        : ISGs - Inspection and Sanitisation Guidance Introduction
 track        : Security Standards
 type         : training-session
-topics       : ISGs provided by the NSA (National Security Agency) - how to protect files to this standard
+topics       : ISGs provided by the NSA (National Security Agency)
 when_week    : two
 when_day     : 8th - Monday
 when_time    : WS-3
-hey_summit   : test text
+hey_summit   : 
 session_slack: 
 status       : draft           # draft, review-content, done
 description  : TBD
 organizers   : 
- - Dinis Cruz    
- - Luke Robbertse  
+        - Dinis Cruz
+        - Luke Robbertse
 zoom_host    : TBD
 
 ---
