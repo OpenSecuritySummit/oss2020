@@ -1,6 +1,7 @@
 ---
 title        : OWASP Juice Shop
 type         : track
+topic        : OWASP
 featured     : yes
 owasp-project: Yes
 when_day     : Mon
