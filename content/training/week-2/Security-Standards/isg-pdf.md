@@ -8,9 +8,9 @@ topics       :
     - Glasswall
 when_week    : two
 when_day     : 12th - Friday
-when_time    : WS-2
-hey_summit   : 
-session_slack: 
+when_time    : WS-3
+hey_summit   :
+session_slack:
 status       : draft           # draft, review-content, done
 description  : TBD
 organizers   : 

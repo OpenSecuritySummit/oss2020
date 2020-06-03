@@ -7,10 +7,10 @@ topics       :
     - CDR
     - Glasswall
 when_week    : two
-when_day     : 9th - Tues
+when_day     : 9th - Tuesday
 when_time    : WS-3
-hey_summit   : 
-session_slack: 
+hey_summit   :
+session_slack:
 status       : draft           # draft, review-content, done
 description  : TBD
 organizers   : 
