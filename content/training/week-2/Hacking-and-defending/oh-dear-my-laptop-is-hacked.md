@@ -3,6 +3,7 @@ title        : Oh dear, my laptop is hacked!
 type         : training-session
 track        : Hacking and Defending
 topics       :
+featured     : yes
 when_week    : two
 when_day     : 9th - Tuesday
 when_time    : WS-3

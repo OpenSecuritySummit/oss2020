@@ -4,6 +4,7 @@ type         : training-session
 track        : Hacking and Defending
 topics       :
           - Glasswall
+featured     : yes
 when_week    : one
 when_day     : 4th - Thursday
 when_time    : WS-3
