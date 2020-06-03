@@ -7,7 +7,7 @@ topics       :                    # for example ["GDPR"]
 featured     : yes                # review with summit team "yes"
 when_day     : Wed
 when_time    : WS-2
-hey_summit   :
+hey_summit   : https://open-security-summit-2020.heysummit.com/talks/who-is-the-ciso-nobody-knows/
 room_layout  :                    #
 room_id      :
 session_slack: 

@@ -5,8 +5,8 @@ type         : training-session
 topics       : ISG for PDF
 when_week    : two
 when_day     : 12th - Friday
-when_time    : WS-2
-hey_summit   : 
+when_time    : WS-3
+hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/isgs-how-to-measure-and-visualise-isg-standards-5pm-bst/
 session_slack: 
 status       : draft           # draft, review-content, done
 description  : TBD
