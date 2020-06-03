@@ -26,6 +26,7 @@ participants :
 ## About this talk: 
 
 After attending this useful session, you will be able to to create your own map by:
+
 * Identifying your **users**.
 * Identifying your users' **needs**. 
 * Adding the **capabilities** needed to successfully meet those needs. 
