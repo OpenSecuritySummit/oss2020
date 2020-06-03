@@ -61,3 +61,7 @@ Audience:
 * Security Consultants
 * Juice Shop Enthusiasts
 
+
+## Training Session Video
+
+{{< youtube id="6NMjZbfnTOU" autoplay="false" >}} 

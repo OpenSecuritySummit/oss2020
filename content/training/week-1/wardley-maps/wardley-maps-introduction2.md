@@ -15,9 +15,9 @@ zoom_host    : Alona Reyes
 
 ---
 
-## Training Session Video
+## Training Session Videos
 
-{{< youtube id==yugHhSp5dbg autoplay="false" >}} 
+{{< youtube id="yugHhSp5dbg" autoplay="false" >}} 
 
 
 <!--(add intro)

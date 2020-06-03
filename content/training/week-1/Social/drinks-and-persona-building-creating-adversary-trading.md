@@ -28,3 +28,7 @@ which might be chosen to be included in the "Official Set 02 Edition".
 
 The ultimate goal is to have a set of 100 trading cards printed,
 and available for trading, the next time we all get together.
+
+## Training Session Video
+
+{{< youtube id="3roVZNwptOU" autoplay="false" >}} 
