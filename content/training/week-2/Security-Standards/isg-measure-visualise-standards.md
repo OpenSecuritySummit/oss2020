@@ -6,6 +6,7 @@ topics       :
     - NSA ISGs
     - CDR
     - Glasswall
+featured     : yes
 when_week    : two
 when_day     : 10th - Wednesday
 when_time    : WS-2
