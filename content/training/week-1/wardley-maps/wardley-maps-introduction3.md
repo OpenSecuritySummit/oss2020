@@ -2,7 +2,8 @@
 title        : Wardley Mappping introduction with Cat Swetel
 type         : training-session
 track        : Wardley Maps
-topics       : 
+topics       :
+featured     : yes
 when_week    : one
 when_day     : 3rd - Wednesday
 when_time    : WS-2

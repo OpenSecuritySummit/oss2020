@@ -6,6 +6,7 @@ topics       :
     - NSA ISGs
     - CDR
     - Glasswall
+featured     : yes
 when_week    : two
 when_day     : 10th - Wednesday
 when_time    : WS-2
@@ -22,21 +23,3 @@ organizers   :
 In this session, we'll look at how to measure and visualise ISG standards
 https://nsacyber.github.io/publications.html  
 
-## WHY
-
-(...)
-
-## What
-
-(...)
-
-## Outcomes
-
-(...)
-
-## References
-
-(...)
-
-
-## Previous-->
