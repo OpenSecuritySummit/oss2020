@@ -1,12 +1,12 @@
 ---
-title        : ISGs - Inspection and Sanitisation Guidance Introduction
+title        : git Introduction
 track        : Security Standards
 type         : training-session
 topics       : ISGs provided by the NSA (National Security Agency)
 when_week    : two
 when_day     : 8th - Monday
 when_time    : WS-3
-hey_summit   : 
+hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/git-introduction-5pm-bst/
 session_slack: 
 status       : draft           # draft, review-content, done
 description  : TBD

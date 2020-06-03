@@ -6,7 +6,7 @@ topics       : ISGs provided by the NSA (National Security Agency)
 when_week    : two
 when_day     : 11th - Thursday
 when_time    : WS-2
-hey_summit   : 
+hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/isgs-how-to-measure-and-visualise-isg-standards-5pm-bst/
 session_slack: 
 status       : draft           # draft, review-content, done
 description  : TBD

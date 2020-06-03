@@ -9,7 +9,7 @@ topics       :
 when_week    : two
 when_day     : 9th - Tues
 when_time    : WS-3
-hey_summit   : 
+hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/isgs-how-to-convert-them-into-checklists/
 session_slack: 
 status       : draft           # draft, review-content, done
 description  : TBD
