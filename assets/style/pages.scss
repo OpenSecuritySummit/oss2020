@@ -35,12 +35,17 @@
 
 
 /*****************************/
-/***** SCHEDULE PAGE styles *******/
+/**** SCHEDULE PAGE styles ***/
 /*****************************/
 
 $schedule-day-block-margin-top: 70px;
+$schedule-day-block-margin-top-xl: 50px;
+$schedule-day-block-margin-top-lg: 25px;
+$schedule-day-block-margin-top-md: 30px;
 $schedule-divider-top-padding: 20px;
+$schedule-divider-top-padding-md: 15px;
 $schedule-timing-padding: 2px 10px;
+
 .schedule {
   &-day {
     color: $main-background-color;
@@ -60,18 +65,23 @@ $schedule-timing-padding: 2px 10px;
   &-session {
     &s {
       position: relative;
+
       &:before {
         position: absolute;
         top: -$schedule-divider-top-padding;
         left: 280px;
         content: ' ';
         display: block;
-        //height: 100%;
         height: calc(100% + #{$schedule-divider-top-padding} + #{$schedule-day-block-margin-top});
         width: 1px;
         background-color: $main-active-link-color;
       }
+
       a {
+        &:hover {
+          text-decoration: none;
+        }
+
         .schedule-session-title {
           color: $main-background-color;
         }
@@ -86,17 +96,19 @@ $schedule-timing-padding: 2px 10px;
     &-id, &-hours {
       padding: $schedule-timing-padding;
       color: $main-action-text-color;
-      a {
-        color: $main-action-text-color
-      }
-    }
+   }
+
     &-id {
+      padding: $schedule-timing-padding;
       text-align: right;
       border-right: solid 1px $main-action-text-color;
+      padding-left: 0;
     }
+
     &-hours {
       //padding: $schedule-timing-padding;
     }
+
     &-title {
       font-family: 'Roboto Slab', sans-serif;
       font-size: 24px;
@@ -123,7 +135,32 @@ $schedule-timing-padding: 2px 10px;
 /*****************************/
 
 @media screen and (max-width: $xl-breakpoint) {
+  .schedule {
+    &-session {
+      //grid-template-columns: 2fr 3fr 6fr;
+      margin: 15px 0;
+      &s {
+        &:before {
+          left: 230px;
+          height: calc(100% + #{$schedule-divider-top-padding} + #{$schedule-day-block-margin-top-xl});
+        }
+      }
+      &-title {
+        font-size: 20px;
+        padding: 5px 15px;
+      }
+    }
 
+    &-day {
+      font-size: 32px;
+      margin-top: $schedule-day-block-margin-top-xl;
+
+      &-block {
+        margin-top: $schedule-day-block-margin-top-xl;
+        font-size: 24px;
+      }
+    }
+  }
 }
 
 
@@ -132,6 +169,38 @@ $schedule-timing-padding: 2px 10px;
 /*****************************/
 
 @media screen and (max-width: $lg-breakpoint) {
+  .breadcrumb {
+    h1 {
+      font-size: 54px;
+    }
+  }
+
+  .schedule {
+    &-session {
+      //grid-template-columns: 2fr 3fr 10fr;
+      margin: 15px 0;
+      &s {
+        &:before {
+          left: 180px;
+          height: calc(100% + #{$schedule-divider-top-padding} + #{$schedule-day-block-margin-top-lg});
+        }
+      }
+      &-title {
+        font-size: 18px;
+        padding: 3px 10px;
+      }
+    }
+
+    &-day {
+      font-size: 28px;
+
+      margin-top: $schedule-day-block-margin-top-lg;
+      &-block {
+        margin-top: $schedule-day-block-margin-top-lg;
+        font-size: 20px;
+      }
+    }
+  }
 }
 
 
@@ -140,6 +209,35 @@ $schedule-timing-padding: 2px 10px;
 /*****************************/
 
 @media screen and (max-width: $md-breakpoint) {
+  .schedule {
+    &-session {
+      grid-template-columns: 55px 115px 11fr;
+      margin: 10px 0;
+      &s {
+        &:before {
+          left: 165px;
+          top: -$schedule-divider-top-padding-md;
+          height: calc(100% + #{$schedule-divider-top-padding-md} + #{$schedule-day-block-margin-top-md});
+        }
+      }
+      &-title {
+        font-size: 16px;
+        padding: 3px 10px;
+        margin-left: 5px;
+
+      }
+    }
+
+    &-day {
+      font-size: 24px;
+
+      margin-top: $schedule-day-block-margin-top-lg;
+      &-block {
+        margin-top: $schedule-day-block-margin-top-lg;
+        font-size: 18px;
+      }
+    }
+  }
 }
 
 
