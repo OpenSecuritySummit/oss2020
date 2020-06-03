@@ -1,8 +1,11 @@
 ---
-title        : ISGs - What security exploits are negated by following these standards
+title        : What security exploits are prevented by implementing ISGs
 track        : Security Standards
 type         : training-session
-topics       : ISGs provided by the NSA (National Security Agency)
+topics       :
+    - NSA ISGs
+    - CDR
+    - Glasswall
 when_week    : two
 when_day     : 11th - Thursday
 when_time    : WS-2

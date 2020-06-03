@@ -1,8 +1,11 @@
 ---
-title        : ISGs - How to measure and visualise ISG standards
+title        : How to measure and visualise ISG standards
 track        : Security Standards
 type         : training-session
-topics       : ISGs provided by the NSA (National Security Agency)
+topics       :
+    - NSA ISGs
+    - CDR
+    - Glasswall
 when_week    : two
 when_day     : 10th - Wednesday
 when_time    : WS-3
