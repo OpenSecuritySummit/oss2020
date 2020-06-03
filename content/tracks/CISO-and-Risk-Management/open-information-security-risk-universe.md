@@ -7,7 +7,7 @@ topics       :                    # for example ["GDPR"]
 featured     : Yes                # review with summit team "yes"
 when_day     : Thu
 when_time    : WS-2
-hey_summit   :
+hey_summit   : https://open-security-summit-2020.heysummit.com/talks/open-information-security-risk-universe-oisru-2pm-bst/
 room_layout  :                    #
 room_id      :
 session_slack: 

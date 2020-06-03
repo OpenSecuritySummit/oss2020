@@ -7,7 +7,7 @@ topics       : ["Cloud"]
 featured     :                    # review with summit team "yes"
 when_day     : Wed
 when_time    : WS-3
-hey_summit   :
+hey_summit   : https://open-security-summit-2020.heysummit.com/talks/chaos-engineering-cloud-resilience-5pm-bst/
 room_layout  :                    #
 room_id      :
 session_slack: 

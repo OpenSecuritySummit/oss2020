@@ -7,7 +7,7 @@ topics       : ["Cloud"]
 featured     : yes                  # review with summit team "yes"
 when_day     : Thu
 when_time    : WS-1
-hey_summit   :
+hey_summit   : https://open-security-summit-2020.heysummit.com/talks/migration-to-cloud-11pm-bst/
 room_layout  :                    #
 room_id      :
 session_slack: 
