@@ -71,6 +71,11 @@ $schedule-timing-padding: 2px 10px;
         width: 1px;
         background-color: $main-active-link-color;
       }
+      a {
+        .schedule-session-title {
+          color: $main-background-color;
+        }
+      }
     }
 
 
@@ -78,21 +83,25 @@ $schedule-timing-padding: 2px 10px;
     display: grid;
     grid-template-columns: 1.2fr 3fr 11fr;
     //grid-column-gap: 20px;
+    &-id, &-hours {
+      padding: $schedule-timing-padding;
+      color: $main-action-text-color;
+      a {
+        color: $main-action-text-color
+      }
+    }
     &-id {
       text-align: right;
-      padding: $schedule-timing-padding;
       border-right: solid 1px $main-action-text-color;
-      color: $main-action-text-color
-      //margin: auto;
     }
     &-hours {
-      padding: $schedule-timing-padding;
-      color: $main-action-text-color
+      //padding: $schedule-timing-padding;
     }
     &-title {
       font-family: 'Roboto Slab', sans-serif;
       font-size: 24px;
       background-color: $schedule-table-background-color;
+      color: $main-background-color;
       padding: 5px 20px;
     }
   }
