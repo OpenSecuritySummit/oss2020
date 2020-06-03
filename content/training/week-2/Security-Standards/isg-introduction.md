@@ -14,8 +14,7 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/git-intr
 session_slack: 
 status       : draft           # draft, review-content, done
 description  : TBD
-organizers   : 
-        - Dinis Cruz
+organizers   :
         - Luke Robbertse
 zoom_host    : TBD
 
@@ -23,24 +22,19 @@ zoom_host    : TBD
 
 In this session, we'll look at the ISGs (Inspection and Sanitization Guidance) published by the NSA. These are standards established by the NSA. There is a ISG for each file type.
 
-https://nsacyber.github.io/publications.html  
-[ISG for PDF](https://apps.nsa.gov/iaarchive/library/reports/pdf_inspection_and_sanitization_guidance_v1_0-20171206.cfm) 
 
-## WHY
+### Inspection and Sanitization Guidance (ISG) published by NSA
 
-(...)
+https://nsacyber.github.io/publications.html
 
-## What
+### For example ISG for PDF
 
-(...)
+[ISG for PDF](https://apps.nsa.gov/iaarchive/library/reports/pdf_inspection_and_sanitization_guidance_v1_0-20171206.cfm)
 
-## Outcomes
+Inspection and Sanitization Guidance
 
-(...)
-
-## References
-
-(...)
+{{<img src="https://user-images.githubusercontent.com/656739/83648373-e2219b80-a5ad-11ea-8144-6f8ea273e629.png" >}}
+{{<img src="https://user-images.githubusercontent.com/656739/83648045-7d664100-a5ad-11ea-9c7a-e53ff406ceb3.png" >}}
 
 
-## Previous-->
+
