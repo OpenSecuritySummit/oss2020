@@ -1,5 +1,3 @@
-
-
 /*****************************/
 /** BREADCRUMBS PAGE styles **/
 /*****************************/
@@ -7,6 +5,7 @@
 .breadcrumb {
   text-align: center;
   background-color: $main-background-color;
+
   &-container {
     background-image: url("#{$base-url}/img/pages/schedule-bg.png"), url("#{$base-url}/img/pages/working_sessions.jpg");
     height: 270px;
@@ -14,6 +13,7 @@
     background-position-y: -81px;
     background-repeat: no-repeat;
   }
+
   &-title {
     display: flex;
     justify-content: center;
@@ -25,7 +25,7 @@
 
   h1 {
     color: $main-action-text-color;
-    font-family: 'Oswald Medium', "Helvetica Neue", sans-serif ;
+    font-family: 'Oswald Medium', "Helvetica Neue", sans-serif;
     font-size: 64px;
   }
 
@@ -38,9 +38,76 @@
 /***** SCHEDULE PAGE styles *******/
 /*****************************/
 
+$schedule-day-block-margin-top: 70px;
+$schedule-divider-top-padding: 20px;
+$schedule-timing-padding: 2px 10px;
+.schedule {
+  &-day {
+    color: $main-background-color;
+    font-size: 36px;
+    font-family: 'Oswald Medium', helvetica neue, helvetica, sans-serif;
+
+    &-block {
+      margin-top: $schedule-day-block-margin-top;
+      font-size: 30px;
+    }
+  }
+
+  &-section {
+    //padding-top: $main-menu-height;
+  }
+
+  &-session {
+    &s {
+      position: relative;
+      &:before {
+        position: absolute;
+        top: -$schedule-divider-top-padding;
+        left: 280px;
+        content: ' ';
+        display: block;
+        //height: 100%;
+        height: calc(100% + #{$schedule-divider-top-padding} + #{$schedule-day-block-margin-top});
+        width: 1px;
+        background-color: $main-active-link-color;
+      }
+      a {
+        .schedule-session-title {
+          color: $main-background-color;
+        }
+      }
+    }
+
+
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: 1.2fr 3fr 11fr;
+    //grid-column-gap: 20px;
+    &-id, &-hours {
+      padding: $schedule-timing-padding;
+      color: $main-action-text-color;
+      a {
+        color: $main-action-text-color
+      }
+    }
+    &-id {
+      text-align: right;
+      border-right: solid 1px $main-action-text-color;
+    }
+    &-hours {
+      //padding: $schedule-timing-padding;
+    }
+    &-title {
+      font-family: 'Roboto Slab', sans-serif;
+      font-size: 24px;
+      background-color: $schedule-table-background-color;
+      color: $main-background-color;
+      padding: 5px 20px;
+    }
+  }
+}
 
 /* end of SCHEDULE styles */
-
 
 
 /*****************************/
