@@ -2,7 +2,10 @@
 title        : ISGs - How to convert them into checklists
 track        : Security Standards
 type         : training-session
-topics       : ISGs provided by the NSA (National Security Agency)
+topics       :
+    - NSA ISGs
+    - CDR
+    - Glasswall
 when_week    : two
 when_day     : 9th - Tues
 when_time    : WS-3
@@ -20,21 +23,4 @@ zoom_host    : TBD
 In this session, we'll look at how to convert an ISG into a checklist. Once in table/graph form, we can start to consume them progrematically
 https://nsacyber.github.io/publications.html  
 
-## WHY
 
-(...)
-
-## What
-
-(...)
-
-## Outcomes
-
-(...)
-
-## References
-
-(...)
-
-
-## Previous-->

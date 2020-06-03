@@ -1,7 +1,11 @@
 ---
-title        : ISGs - Inspection and Santisation Guidance for Portable Document Format
+title        : PDF ISG - How to automate Inspection and Sanitization Guidance testing
+track        : Security Standards
 type         : training-session
-topics       : ISG for PDF
+topics       :
+    - NSA ISGs
+    - CDR
+    - Glasswall
 when_week    : two
 when_day     : 12th - Friday
 when_time    : WS-2
@@ -12,8 +16,9 @@ description  : TBD
 organizers   : 
         - Dinis Cruz
         - Luke Robbertse
-
 ---
+
+
 
 In this session, we'll dive into the Inspection and Sanitization Guidance for Portable Document Format. PDF
 
