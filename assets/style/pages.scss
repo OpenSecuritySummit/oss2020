@@ -59,7 +59,8 @@ $schedule-timing-padding: 2px 10px;
   }
 
   &-section {
-    //padding-top: $main-menu-height;
+    background: url("#{$base-url}/img/backgrounds/shapes-xxl-bg.png") center center repeat;
+    background-position-x: 100em;
   }
 
   &-session {
@@ -96,7 +97,7 @@ $schedule-timing-padding: 2px 10px;
     &-id, &-hours {
       padding: $schedule-timing-padding;
       color: $main-action-text-color;
-   }
+    }
 
     &-id {
       padding: $schedule-timing-padding;
@@ -115,6 +116,21 @@ $schedule-timing-padding: 2px 10px;
       background-color: $schedule-table-background-color;
       color: $main-background-color;
       padding: 5px 20px;
+    }
+
+    &__user-session {
+      color: $main-action-text-color;
+
+      .schedule-session {
+        &-id, &-hours {
+          color: $main-active-link-color;
+        }
+
+      &-title {
+        color: $main-inverse-text-color;
+        background-color: $main-active-link-color;
+      };
+      }
     }
   }
 }
@@ -139,12 +155,14 @@ $schedule-timing-padding: 2px 10px;
     &-session {
       //grid-template-columns: 2fr 3fr 6fr;
       margin: 15px 0;
+
       &s {
         &:before {
           left: 230px;
           height: calc(100% + #{$schedule-divider-top-padding} + #{$schedule-day-block-margin-top-xl});
         }
       }
+
       &-title {
         font-size: 20px;
         padding: 5px 15px;
@@ -179,12 +197,14 @@ $schedule-timing-padding: 2px 10px;
     &-session {
       //grid-template-columns: 2fr 3fr 10fr;
       margin: 15px 0;
+
       &s {
         &:before {
           left: 180px;
           height: calc(100% + #{$schedule-divider-top-padding} + #{$schedule-day-block-margin-top-lg});
         }
       }
+
       &-title {
         font-size: 18px;
         padding: 3px 10px;
@@ -195,6 +215,7 @@ $schedule-timing-padding: 2px 10px;
       font-size: 28px;
 
       margin-top: $schedule-day-block-margin-top-lg;
+
       &-block {
         margin-top: $schedule-day-block-margin-top-lg;
         font-size: 20px;
@@ -213,6 +234,7 @@ $schedule-timing-padding: 2px 10px;
     &-session {
       grid-template-columns: 55px 115px 11fr;
       margin: 10px 0;
+
       &s {
         &:before {
           left: 165px;
@@ -220,6 +242,7 @@ $schedule-timing-padding: 2px 10px;
           height: calc(100% + #{$schedule-divider-top-padding-md} + #{$schedule-day-block-margin-top-md});
         }
       }
+
       &-title {
         font-size: 16px;
         padding: 3px 10px;
@@ -232,6 +255,7 @@ $schedule-timing-padding: 2px 10px;
       font-size: 24px;
 
       margin-top: $schedule-day-block-margin-top-lg;
+
       &-block {
         margin-top: $schedule-day-block-margin-top-lg;
         font-size: 18px;
