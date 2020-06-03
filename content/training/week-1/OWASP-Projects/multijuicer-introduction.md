@@ -2,10 +2,10 @@
 title        : MultiJuicer Introduction
 type         : training-session
 track        : OWASP Juice Shop
-topics       : 
+topics       : OWASP
 when_week    : one
 when_day     : 2nd - Tuesday
-when_time    : BK-3,WS-4
+when_time    : BK-3
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/multijuicer-introduction/
 session_slack:
 status       : done          # draft, review-content, done
@@ -54,13 +54,10 @@ In this session you will learn:
 * How you can use it for security trainings either in your org, or for
   your customers
 * How you track the progress of the hackers
-* How you can customize it
-* What features are coming in the future
-* How you can get involved in the project
 
 Audience:
 
 * Security Educators
 * Security Consultants
-* Juice Shop Fanboy
+* Juice Shop Enthusiasts
 

@@ -1,0 +1,15 @@
+---
+title        : Oh dear, my laptop is hacked!
+track        : Hacking-and-defending
+type         : working-session
+topics       : incident response playbooks
+when_week    : two	
+when_day     : 9th - Tuesday	
+when_time    : WS-3	
+hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/oh-dear-my-laptop-is-hacked/
+session_slack:	session_slack:
+status       : draft           # draft, review-content, done	
+description  : TBD	
+organizers   : Petra Vukmirovic, Dinis Cruz
+
+

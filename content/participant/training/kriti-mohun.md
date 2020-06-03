@@ -5,10 +5,10 @@ company: Check Point
 job_title: Security Engineer
 facebook:
 linkedin: kritim
-twitter:
+twitter: Krytron123
 website:
 notes:
-status: add-details
+status: done
 type: participant
 ---
 

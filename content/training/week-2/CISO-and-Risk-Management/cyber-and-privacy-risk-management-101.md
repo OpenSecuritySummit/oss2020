@@ -2,7 +2,7 @@
 title        : Cyber and Privacy Risk Management 101
 type         : training-session
 track        : CISO and Risk Management
-topics       :                    # for example ["GDPR"]
+topics       :
 when_week    : two
 when_day     : 11th - Thursday
 when_time    : WS-2
@@ -13,6 +13,6 @@ description  : TBD
 organizers   : 
        - Demi Ben-Ari 
        - Dov Goldman
-
+participants :
 ---
 

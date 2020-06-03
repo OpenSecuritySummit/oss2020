@@ -1,9 +1,9 @@
 ---
 title        : ASVS Uses 
-track        : OWASP-ASVS
+track        : OWASP ASVS
 type         : working-session      # working-session, user-session, product-session
 technology   :
-topics       :                    # for example ["GDPR"]
+topics       : OWASP
 featured     : yes                # review with summit team "yes"
 when_day     : Fri
 when_time    : WS-2

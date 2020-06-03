@@ -1,16 +1,16 @@
 ---
-title        : Covid Apps 
+title        : Vulnerabilities review of an Covid Application
 track        : Covid
 type         : user-session
 topics       : Hacking & Defending
 featured     : yes
 when_week    : one
 when_day     : 3rd - Wednesday
-when_time    : WS-4
+when_time    : WS-3
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/covid-apps/
 session_slack:
 status       : done
-description  : TBD
+description  : We will look at the vulnerabilities of one of the COVID tracing apps
 organizers   :
          - Mike Minchinton
 ---

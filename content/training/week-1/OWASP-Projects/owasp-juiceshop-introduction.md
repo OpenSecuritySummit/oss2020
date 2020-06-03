@@ -2,7 +2,7 @@
 title        : OWASP Juice Shop introduction
 type         : training-session
 track        : OWASP Juice Shop
-topics       : 
+topics       : OWASP
 when_week    : one
 when_day     : 2nd - Tuesday
 when_time    : WS-3
