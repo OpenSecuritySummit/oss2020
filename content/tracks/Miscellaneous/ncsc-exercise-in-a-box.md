@@ -3,7 +3,8 @@ title        : NCSC - Exercise in a box
 track        : Misc
 type         : working-session      # working-session, user-session, product-session
 technology   :
-topics       :                    # for example ["GDPR"]
+topics       :
+    - NCSC
 featured     : yes                   # review with summit team "yes"
 when_day     : Wed
 when_time    : WS-2
