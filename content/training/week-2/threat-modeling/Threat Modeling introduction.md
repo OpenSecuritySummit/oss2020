@@ -1,5 +1,8 @@
 ---
-title        : Threat Modeling Introduction (by )
+title        : Threat Modeling introduction
+type         : user-session
+track        : Training
+title        : Threat Modeling Introduction (Mon)
 type         : training-session
 track        : Threat Modeling
 topics       : 

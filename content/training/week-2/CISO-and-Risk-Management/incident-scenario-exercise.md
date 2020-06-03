@@ -10,7 +10,9 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/incident
 session_slack:
 status       :           # draft, review-content, done
 description  : TBD
-organizers   : Dinis Cruz
+organizers   : 
+       - Dinis Cruz
+       - James Bore
 ---
 
 ### This is the third section in a four-part exercise:

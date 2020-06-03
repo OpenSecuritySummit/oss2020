@@ -1,5 +1,5 @@
 ---
-title        : Introduction to Threat Modeling by Avi Douglen
+title        : Introduction to Threat Modeling 
 type         : training-session
 track        : Threat Modeling
 topics       : 
