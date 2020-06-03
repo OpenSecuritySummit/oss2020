@@ -120,6 +120,12 @@ paginate = 10
     pre = "<i class='fa fa-road'></i>&nbsp;"
     weight = 10
     url = "/about/"
+#[[menu.main]]
+#    name = "Schedule Redisgin"
+#    identifier = "schedule-new"
+#    weight = 11
+#    parent = "about"
+#    url = "/schedule-new/"
 [[menu.main]]
     name = "The Summit"
     identifier = "about-the-summit"

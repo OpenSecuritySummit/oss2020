@@ -2,7 +2,8 @@
 title        : Covid Safe Paths - Threat Modeling Part 1
 type         : training-session
 track        : Covid
-topics       :
+topics       : Covid Safe Paths
+featured     : yes
 when_week    : one
 when_day     : 4th - Thursday
 when_time    : WS-1
@@ -28,6 +29,7 @@ During this session we will be doing a live Threat Modelingf review of the appli
 
 ### Resources
 
+ - Main site: https://covidsafepaths.org/
  - Main GitHub org: https://github.com/Path-Check
  - Save Paths page: https://github.com/Path-Check/covid-safe-paths
  - Frontend: https://github.com/Path-Check/safeplaces-frontend
