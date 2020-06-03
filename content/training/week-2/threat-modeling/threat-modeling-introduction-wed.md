@@ -1,7 +1,7 @@
 ---
 title        : Threat Modeling Introduction (Wed)
 type         : training-session
-track        : Wardley Maps
+track        : Threat Modeling 
 topics       : 
 when_week    : 
 when_day     : 

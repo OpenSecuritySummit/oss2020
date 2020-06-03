@@ -1,18 +1,20 @@
 ---
-title        : Threat Modeling Introduction (Thu)
-type         : user-session
+title        : Threat Modeling Introduction
+type         : training-session
 track        : Threat Modeling
 topics       : 
 when_week    : 
 when_day     : 
 when_time    : 
-hey_summit   :
+hey_summit   : 
 session_slack:
 status       : draft           # draft, review-content, done
+description  :
 organizers   :
-description  : 
+        
+       
 ---
 
-## Why
+## About this session:
 
-<!--Add intro-->
+

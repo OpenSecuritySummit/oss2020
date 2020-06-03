@@ -69,7 +69,7 @@ $schedule-timing-padding: 2px 10px;
       &:before {
         position: absolute;
         top: -$schedule-divider-top-padding;
-        left: 280px;
+        left: 285px;
         content: ' ';
         display: block;
         height: calc(100% + #{$schedule-divider-top-padding} + #{$schedule-day-block-margin-top});

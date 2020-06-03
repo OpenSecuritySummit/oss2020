@@ -1,7 +1,7 @@
 ---
 title        : DSO - IaST & RASP
 type         : training-session
-track        : Training
+track        : DevsecOps
 topics       : 
 when_week    : 
 when_day     : 

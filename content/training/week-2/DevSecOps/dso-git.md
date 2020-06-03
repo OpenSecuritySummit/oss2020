@@ -1,7 +1,7 @@
 ---
 title        : DSO-Git
 type         : training-session
-track        : Training
+track        : DevSecops
 topics       : 
 when_week    : 
 when_day     : 

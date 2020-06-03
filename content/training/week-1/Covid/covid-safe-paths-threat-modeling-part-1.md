@@ -2,7 +2,8 @@
 title        : Covid Safe Paths - Threat Modeling Part 1
 type         : training-session
 track        : Covid
-topics       :
+topics       : Covid Safe Paths
+featured     : yes
 when_week    : one
 when_day     : 4th - Thursday
 when_time    : WS-1
