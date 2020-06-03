@@ -14,7 +14,6 @@ status       : draft           # draft, review-content, done
 description  : TBD
 organizers   : 
         - Dinis Cruz
-        - Matthew Cavey
 ---
 
 
