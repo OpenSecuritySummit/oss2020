@@ -1,7 +1,7 @@
 ---
 title        : Social Engineering
-type         : user-session
-track        : Hacking-and-defending
+type         : training-session
+track        : Social
 topics       : 
 when_week    : two
 when_day     : 8th - Monday
