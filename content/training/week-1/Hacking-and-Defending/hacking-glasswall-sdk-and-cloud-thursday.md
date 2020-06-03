@@ -1,5 +1,5 @@
 ---
-title        : Hacking Glasswall SDk & Cloud
+title        : Hacking Glasswall SDk & Cloud - Part 1
 type         : training-session
 track        : Hacking and Defending
 topics       :
