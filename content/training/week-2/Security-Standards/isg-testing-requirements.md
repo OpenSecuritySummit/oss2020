@@ -1,8 +1,11 @@
 ---
-title        : ISGs - How to create specfic test cases for its requirements
+title        : How to create specific test cases for ISGs requirements
 track        : Security Standards
 type         : training-session
-topics       : ISGs provided by the NSA (National Security Agency)
+topics       :
+    - NSA ISGs
+    - CDR
+    - Glasswall
 when_week    : two
 when_day     : 10th - Wednesday
 when_time    : WS-3
