@@ -5,7 +5,7 @@ track        : "CISO and Risk Management"
 technology   :
 topics       :                    # for example ["GDPR"]
 featured     : yes                   # review with summit team "yes"
-when_day     : Wed
+when_day     : Thu
 when_time    : WS-3
 hey_summit   :
 room_layout  :                    #
