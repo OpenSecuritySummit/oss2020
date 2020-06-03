@@ -50,10 +50,11 @@
   {{ $footer := resources.Get "style/footer.scss" }}
   {{ $oss2019 := resources.Get "style/oss2019.scss" }}
   {{ $home2020 := resources.Get "style/home2020.scss" }}
-  {{ $slider := resources.Get "style/lightslider.css" | minify | fingerprint }}
-  {{ $bundle_scss := slice $vars $fonts $style $header $carousel $tickets $participant $sponsor $footer $oss2019 $home2020 | resources.Concat "css/bundle.scss" }}
+  {{ $pages := resources.Get "style/pages.scss" }}
+  {{ $bundle_scss := slice $vars $fonts $style $header $carousel $tickets $participant $sponsor $footer $oss2019 $home2020 $pages | resources.Concat "css/bundle.scss" }}
   {{ $scss := $bundle_scss | resources.ToCSS $options | minify | fingerprint }}
   <link href="{{ $scss.Permalink }}" integrity="{{ $scss.Data.Integrity }}" rel="stylesheet">
+  {{ $slider := resources.Get "style/lightslider.css" | minify | fingerprint }}
   <link href="{{ $slider.Permalink }}" integrity="{{ $slider.Data.Integrity }}" rel="stylesheet">
 
   <!-- Responsivity for older IE -->

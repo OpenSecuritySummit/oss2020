@@ -1,0 +1,85 @@
+
+
+/*****************************/
+/** BREADCRUMBS PAGE styles **/
+/*****************************/
+
+.breadcrumb {
+  text-align: center;
+  background-color: $main-background-color;
+  &-container {
+    background-image: url("#{$base-url}/img/pages/schedule-bg.png"), url("#{$base-url}/img/pages/working_sessions.jpg");
+    height: 270px;
+    background-position-x: -81px;
+    background-position-y: -81px;
+    background-repeat: no-repeat;
+  }
+  &-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-bottom: $main-menu-height;
+  }
+
+  h1 {
+    color: $main-action-text-color;
+    font-family: 'Oswald Medium', "Helvetica Neue", sans-serif ;
+    font-size: 64px;
+  }
+
+}
+
+/* end of BREADCRUMBS styles */
+
+
+/*****************************/
+/***** SCHEDULE PAGE styles *******/
+/*****************************/
+
+
+/* end of SCHEDULE styles */
+
+
+
+/*****************************/
+/****** XXL BREAKPOINT *******/
+/*****************************/
+
+@media screen and (max-width: $xxl-breakpoint) {
+}
+
+
+/*****************************/
+/******* XL BREAKPOINT *******/
+/*****************************/
+
+@media screen and (max-width: $xl-breakpoint) {
+
+}
+
+
+/*****************************/
+/***** LG BREAKPOINT *******/
+/*****************************/
+
+@media screen and (max-width: $lg-breakpoint) {
+}
+
+
+/*****************************/
+/***** MD BREAKPOINT *******/
+/*****************************/
+
+@media screen and (max-width: $md-breakpoint) {
+}
+
+
+/*****************************/
+/***** SM BREAKPOINT *******/
+/*****************************/
+
+@media screen and (max-width: $sm-breakpoint) {
+}
+
