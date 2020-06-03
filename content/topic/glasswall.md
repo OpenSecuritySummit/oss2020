@@ -7,4 +7,4 @@ type  : topic
 
 ### Glasswall related topics
 
-__to add a sessions to this list add 'Glasswall' to the session 'Topics' field<__
+__to add a sessions to this list add 'Glasswall' to the session 'Topics' field__

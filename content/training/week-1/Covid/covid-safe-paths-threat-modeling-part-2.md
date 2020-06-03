@@ -12,8 +12,6 @@ session_slack:
 status       : done           # draft, review-content, done
 organizers   : 
     - Dinis Cruz
-    - Mark Carney
-    - Jay Harris
     - Adam Leon Smith
 description  : 
 ---
