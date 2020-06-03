@@ -1001,10 +1001,15 @@ $summit-section-height: 350px;
       min-width: 400px;
     }
   }
-  .shedule {
+  .schedule {
     &-section {
       & .table {
         padding: 40px 10px;
+      }
+      & .description {
+        & .title {
+          font-size: 40px;
+        }
       }
     }
   }
