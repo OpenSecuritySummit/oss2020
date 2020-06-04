@@ -18,7 +18,7 @@ organizers   :
         - Paul Gerard
 ---
 
-
+### About this talk:
 
 In this session, we'll dive into the Internet Content Adaption Protocol (ICAP). The protocol is used to extend proxy servers and investigation is ongoing on how to integrate CDR technology with Proxy companies like F5 through ICAP to allow safe transfer of documents accross domains. We'll be doing a threat model to better undertand potential vulnerabilities.  
 

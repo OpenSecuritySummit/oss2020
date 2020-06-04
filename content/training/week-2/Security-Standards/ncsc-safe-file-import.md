@@ -20,6 +20,8 @@ organizers   :
 
 ---
 
+### About this talk:
+
 The UK National Cyber Security Centre (NCSC) have published a pattern on how to safely import data into an organization.  This can be found at https://www.ncsc.gov.uk/guidance/pattern-safely-importing-data  
 
 The pattern fundamentally recommends a Transform and Verify approach to imports as shown below:  

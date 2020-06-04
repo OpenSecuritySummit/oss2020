@@ -16,11 +16,11 @@ description  : "Threat modelling workshop applying various methodologies: STRIDE
 
 ---
 
-## Training Session Video
+### Training Session Video
 
 {{< youtube id="PZnnCM-mVZ0" autoplay="false" >}} 
 
-## Session Contents
+### Session Contents
 
 Threat modelling workshop applying various methodologies: STRIDE, LINDDUN, Attack Trees, and PnG, to a MSP organisation and its key system
 

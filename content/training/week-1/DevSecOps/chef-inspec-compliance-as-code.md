@@ -14,7 +14,7 @@ organizers   : Joshua Jebaraj
 zoom_host    : Didar Gelici
 ---
 
-## Training Session Video
+### Training Session Video
 
 {{< youtube id="-w8LGhPZp1w" autoplay="false" >}} 
 

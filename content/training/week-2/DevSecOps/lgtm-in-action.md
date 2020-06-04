@@ -14,6 +14,6 @@ organizers   :
 
 ---
 
-### This training session will cover:
+### About this talk
 
 - how to use https://semmle.com/lgtm effectively
