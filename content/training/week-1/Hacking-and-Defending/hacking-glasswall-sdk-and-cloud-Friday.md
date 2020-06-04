@@ -1,5 +1,5 @@
 ---
-title        : Hacking Glasswall SDk & Cloud - Part 1
+title        : Threat Modeling - Cloud Functions as Detonation Chambers - Part 1
 type         : training-session
 track        : Hacking and Defending
 topics       :
