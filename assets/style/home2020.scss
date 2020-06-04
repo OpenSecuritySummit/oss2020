@@ -703,7 +703,7 @@ $summit-section-height: 350px;
 
 .schedule {
   &-section {
-    padding-top: 144px;
+    padding-top: 24px;
     & .table {
       padding: 43px 72px;
       height: 410px;
@@ -726,7 +726,7 @@ $summit-section-height: 350px;
       }
       &-description {
         display: flex;
-        flex-basis: 78%;
+        flex-basis: 58%;
         flex-direction: column;
         justify-content: space-around;
         &-item {
@@ -735,6 +735,19 @@ $summit-section-height: 350px;
           align-items: center;
           height: 48px;
           background-color: $main-inverse-text-color;
+        }
+      }
+      &-organisers {
+        display: flex;
+        flex-basis: 20%;
+        flex-direction: column;
+        justify-content: space-around;
+        &-item {
+          padding: 0 56px;
+          display: flex;
+          align-items: center;
+          height: 48px;
+          background-color: $alt-background-color;
         }
       }
     }
