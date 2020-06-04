@@ -13,7 +13,7 @@ organizers   : Tony Richards
 description  : 
 ---
 
-## About the session:
+### About this talk:
 
 Cards Against Humanity game (up to 50 players) for those who are not easily offended!?  WARNING THIS GAME CAN BE RUDE!
 [Link to the online game](https://allbad.cards/game/unearthly-narwhal-4866)

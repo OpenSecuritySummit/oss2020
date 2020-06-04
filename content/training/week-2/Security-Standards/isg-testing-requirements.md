@@ -21,24 +21,7 @@ zoom_host    : TBD
 
 ---
 
+### About this talk:
+
 In this session, we'll look at how to create specific test cases that be used to validate the requirements of each standard.
 https://nsacyber.github.io/publications.html  
-
-## WHY
-
-(...)
-
-## What
-
-(...)
-
-## Outcomes
-
-(...)
-
-## References
-
-(...)
-
-
-## Previous-->

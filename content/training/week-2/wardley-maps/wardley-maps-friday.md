@@ -13,6 +13,5 @@ organizers   : Tony Richards
 description  : 
 ---
 
-## Why
 
 

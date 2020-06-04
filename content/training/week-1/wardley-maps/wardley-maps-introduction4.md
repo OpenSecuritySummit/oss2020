@@ -13,24 +13,3 @@ organizers   : Dinis Cruz
 description  : TBD
 ---
 
-
-<!--(add intro)
-
-## WHY
-
-(...)
-
-## What
-
-(...)
-
-## Outcomes
-
-(...)
-
-## References
-
-(...)
-
-
-## Previous-->

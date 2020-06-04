@@ -13,7 +13,7 @@ description  : TBD
 organizers   : Mohammed A. Imran
 ---
 
-###  About the session:
+### About this talk
 
 Lab attendance is first come first served for 30 people due to platform restrictions. 
 Later participants can still join and watch as a demo.

@@ -14,7 +14,7 @@ organizers   :
          - Barak Schoster
 ---
 
-## About this talk:
+### About this talk:
 Planning, provisioning, and changing infrastructure are becoming vital to rapid cloud application development. Incorporating infrastructure-as-code into software development promotes transparency and immutability and helps prevent bad configurations upstream.
 
 In this talk:

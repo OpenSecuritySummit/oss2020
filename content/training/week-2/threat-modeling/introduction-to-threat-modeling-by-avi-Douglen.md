@@ -12,7 +12,3 @@ status       :           # draft, review-content, done
 organizers   : Avi Douglen
 description  : 
 ---
-
-## Why
-
-<!--Add intro-->

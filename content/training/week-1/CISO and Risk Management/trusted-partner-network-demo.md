@@ -14,5 +14,3 @@ organizers   :  Ben Schofield
 
 ---
 
-### This training session will cover:
-

@@ -13,4 +13,3 @@ description  : TBD
 organizers   : Mario Platt
 ---
 
-## WHY

@@ -13,6 +13,8 @@ description  :
 organizers   : Bjoern Kimminich
 ---
 
+### About this talk:
+
 ![](https://raw.githubusercontent.com/OWASP/owasp-swag/master/projects/juice-shop/logos/custom/JuicyBot_MedicalMask.png)
 
 In this **introduction session to OWASP Juice Shop**
