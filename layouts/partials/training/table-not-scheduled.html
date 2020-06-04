@@ -1,19 +1,14 @@
-<style>
-    .sessions table tr td {
-        padding-right : 15px;
-    }
-</style>
-
 <div class="sessions">
-    <table class="tbale_section">
+    <table class="table_section">
         <thead>
-        <th width="300">Title</th>
+        <tr><th style="width:300px">Title</th>
         <th>Session Type</th>
         <th>Day (June 2020)</th>
         <th>When</th>
         <th>Delivered by</th>
         <th>Track</th>
         <th>Register</th>
+        </tr>
         </thead>
         {{ range sort . ".Params.title" }}
             {{if not .Params.hey_summit}}
