@@ -1,0 +1,259 @@
+/****************************
+***** TRACKS STYLES *********
+*****************************/
+.tracks {
+    &-section {
+        padding-top: 140px;
+        // height: 1400px;
+        background: url("#{$base-url}/img/home/tracks/tracks-bg.png");
+        background-size: contain;
+    }
+    &-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        & .title {
+            color: $main-background-color;
+            font-family: Oswald;
+            font-size: 56px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        & .table {
+            margin-top: 60px;
+            display: grid;
+            grid-gap: 15px;
+            grid-template-columns: 33% 33% 33%;
+            &-item {
+                margin-bottom: 45px;
+                background-color: $main-inverse-text-color;
+                ul {
+                    margin-bottom: 60px;
+                    padding-left: 12px;
+                    margin-top: 30px;
+                    list-style-type: none;
+                    li {
+                        display: grid;
+                        grid-template-columns: 10px auto;
+                        grid-gap: 5px;
+                        margin-bottom: 20px;
+                        color: $trtext-color;
+                        font-family: Oswald;
+                        font-size: 28px;
+                        font-weight: 500;
+                        & img {
+                            margin-top: 7px;
+                        }
+                    }
+                }
+                & .button {
+                    // width: 85%;
+                    position: absolute;
+                    bottom: 10px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    left: 0;
+                    right: 0;
+                    text-align: center;
+                    & button {
+                        padding: 7px 36px 1px 36px;
+                        border: none;
+                        font-family: Oswald;
+                        font-size: 18px;
+                        font-weight: 500;
+                        text-transform: uppercase;
+                        border-radius: 30px;
+                        color: $main-inverse-text-color;
+                        outline: none;
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    }
+                }
+                & .management {
+                    border: 1px solid $alt-active-color;
+                    position: relative;
+                    & .title {
+                        padding-top: 13px;
+                        padding-bottom: 5px;
+                        width: 85%;
+                        position: absolute;
+                        top: -35px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        left: 0;
+                        right: 0;
+                        color: $alt-active-color;
+                        text-align: center;
+                        font-family: Oswald;
+                        font-size: 34px;
+                        font-weight: 700;
+                        text-transform: uppercase; 
+                        background-color: $title-bg1;                        
+                    }
+                    & .overtitle {
+                        margin-top: 45px;
+                        text-align: center;
+                        color: $alt-active-color;
+                        font-family: Oswald;
+                        font-size: 20px;
+                        font-weight: 500;
+                    }
+                    & .button {
+                        & button {
+                            background-color: $alt-active-color;
+                        }
+                    }
+                }
+                & .security {
+                    border: 1px solid $main-active-link-color;
+                    position: relative;
+                    & .title {
+                        padding-top: 13px;
+                        padding-bottom: 5px;
+                        width: 85%;
+                        position: absolute;
+                        top: -35px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        left: 0;
+                        right: 0;
+                        color: $main-active-link-color;
+                        text-align: center;
+                        font-family: Oswald;
+                        font-size: 34px;
+                        font-weight: 700;
+                        text-transform: uppercase; 
+                        background-color: $title-bg2;                         
+                    }
+                    & .overtitle {
+                        margin-top: 45px;
+                        text-align: center;
+                        color: $main-active-link-color;
+                        font-family: Oswald;
+                        font-size: 20px;
+                        font-weight: 500;
+                    }
+                    & .button {
+                        & button {
+                            background-color: $main-active-link-color;
+                        }
+                    }
+                }
+                & .covid {     
+                    border: 1px solid $main-action-text-color;
+                    position: relative;
+                    & .title {
+                        padding-top: 13px;
+                        padding-bottom: 5px;
+                        width: 85%;
+                        position: absolute;
+                        top: -35px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        left: 0;
+                        right: 0;
+                        color: $main-action-text-color;
+                        text-align: center;
+                        font-family: Oswald;
+                        font-size: 34px;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        background-color: $title-bg3;                          
+                    } 
+                    & .overtitle {
+                        margin-top: 45px;
+                        text-align: center;
+                        color: $main-action-text-color;
+                        font-family: Oswald;
+                        font-size: 20px;
+                        font-weight: 500;
+                    }
+                    & .button {
+                        & button {
+                            background-color: $main-action-text-color;
+                        }
+                    }             
+                }
+            }
+        }
+    }
+}
+
+/**************
+*****MEDIA*****
+***************/
+
+
+/*** XL-Breakpoint ***/
+
+@media screen and (max-width: $xl-breakpoint) {
+
+.tracks {
+    &-wrapper {
+      & .title {
+        font-size: 50px;
+      }
+      & .table {
+        &-item {
+          & .management, .security, .covid {
+            & .title {
+              font-size: 28px;
+            } 
+            & .overtitle {
+                font-size: 18px;
+            }
+            & ul {
+                & li {
+                    font-size: 23px;
+                }
+            }
+          }         
+        }
+      }
+    }
+  }
+}
+
+/*** LG-Breakpoint ***/
+
+@media screen and (max-width: $lg-breakpoint) {
+
+    .tracks {
+        &-wrapper {
+            & .table {
+                grid-gap: 15px;
+                grid-template-columns: 48% 48%;
+                &-item {
+                  & .management, .security, .covid {
+                    & ul {
+                        & li {
+                            & img {
+                                margin-top: 4px;
+                            }
+                        }
+                    }
+                  }         
+                }
+            }
+        }
+    }
+
+}
+
+
+/*** MD-Breakpoint ***/
+
+@media screen and (max-width: $md-breakpoint) {
+    .tracks {
+        &-wrapper {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 345px;
+            & .table {
+                grid-gap: 15px;
+                grid-template-columns: 95%;
+            }
+        }
+    }
+}

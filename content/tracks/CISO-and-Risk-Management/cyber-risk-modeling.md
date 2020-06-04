@@ -6,7 +6,7 @@ topics       : ["CISO", "RISK"]
 featured     : yes                # if  "yes" review with summit team
 when_day     : Wed
 when_time    : WS-3
-hey_summit   :
+hey_summit   : https://open-security-summit-2020.heysummit.com/talks/cyber-risk-modeling-5pm-bst/
 room_layout  :                
 room_id      : 
 session_slack: 
