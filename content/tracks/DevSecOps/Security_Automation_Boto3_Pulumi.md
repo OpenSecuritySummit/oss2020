@@ -1,6 +1,6 @@
 ---
-title        : Security Automation with Python: Boto3 for AWS and Pulumi
-track        : "DevSecOps"
+title        : Security Automation with Python Boto3 for AWS and Pulumi
+track        : DevSecOps
 type         : working-session      # working-session, user-session, product-session
 technology   :
 topics       : ["Agile"]     # for example ["GDPR"]
