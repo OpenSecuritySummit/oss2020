@@ -28,6 +28,7 @@
                 margin-bottom: 45px;
                 background-color: $main-inverse-text-color;
                 ul {
+                    margin-bottom: 60px;
                     padding-left: 12px;
                     margin-top: 30px;
                     list-style-type: none;
@@ -70,7 +71,6 @@
                     }
                 }
                 & .management {
-                    height: 1233px;
                     border: 1px solid $alt-active-color;
                     position: relative;
                     & .title {
@@ -106,7 +106,6 @@
                     }
                 }
                 & .security {
-                    height: 1233px;
                     border: 1px solid $main-active-link-color;
                     position: relative;
                     & .title {
@@ -141,8 +140,7 @@
                         }
                     }
                 }
-                & .covid {  
-                    height: 1233px;   
+                & .covid {     
                     border: 1px solid $main-action-text-color;
                     position: relative;
                     & .title {
