@@ -1,6 +1,6 @@
 ---
 title        : Real world Cloud Security challenges 
-track        : "Cloud-Security"
+track        : Cloud Security
 type         : working-session      # working-session, user-session, product-session
 technology   :
 topics       :
