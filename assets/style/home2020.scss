@@ -6,7 +6,7 @@ $summit-section-height: 350px;
 .section {
   &-paragraph {
     font-size: 22px;
-    color: $desc-text-color;
+    color: $session-content-text-color;
   }
 
   &-overtitle {
@@ -342,7 +342,7 @@ $summit-section-height: 350px;
   &_description {
     text-align: center;
     font-size: 18px;
-    color: $desc-text-color;
+    color: $session-content-text-color;
 
   }
 
@@ -704,7 +704,7 @@ $summit-section-height: 350px;
 .schedule {
   &-section {
     padding-top: 24px;
-    & .table {
+    .table {
       padding: 43px 72px;
       height: 410px;
       display: flex;
@@ -751,23 +751,23 @@ $summit-section-height: 350px;
         }
       }
     }
-    & .description {
+    .description {
       margin-top: 117px;
-      & .title {
+      .title {
         font-family: Oswald;
         font-size: 56px;
         color: $main-background-color;
         font-weight: 700;
         text-transform: uppercase;
       }
-      & .article {
-        color: $desc-text-color;
+      .article {
+        color: $session-content-text-color;
         font-family: Roboto;
         font-size: 22px;
         font-weight: 500;
         line-height: 32px;
       }
-      & .approach {
+      .approach {
         margin-top: 100px;
         &-title {
           margin-bottom: 20px;
@@ -781,7 +781,7 @@ $summit-section-height: 350px;
         }
         &-list {
           padding-left: 22px;
-          color: $desc-text-color;
+          color: $session-content-text-color;
           font-family: Roboto;
           font-size: 22px;
           font-weight: 500;
