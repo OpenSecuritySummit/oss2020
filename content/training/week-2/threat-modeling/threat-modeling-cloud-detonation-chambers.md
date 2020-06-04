@@ -6,11 +6,11 @@ topics       :
     - Functions as a Service
     - Threat Modeling
 when_week    : two
-when_day     : 10th - Tuesday
+when_day     : 10th - Wednesday
 when_time    : WS-3
-hey_summit   :
+hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/threat-modeling-cloud-functions-as-detonation-chambers-5pm-bst/
 session_slack:
-status       : draft           # draft, review-content, done
+status       :            # draft, review-content, done
 description  : TBD
 organizers   : 
         - Dinis Cruz
