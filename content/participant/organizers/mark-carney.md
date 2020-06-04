@@ -1,12 +1,12 @@
 ---
 title: Mark Carney
-image: https://media-exp1.licdn.com/dms/image/C4E03AQEO3X-1ReMQJw/profile-displayphoto-shrink_800_800/0?e=1596672000&v=beta&t=AnK_cXXNQ5Yf43sbjFqTH4B1H8SQQqtefIFfUJvQL84
-company: Coalfire
-job_title: Global Cyber Executive | CISO | Startup Advisor | Board Member | Operational Leader
+image: https://www.linkedin.com/in/mark-carney-5849163b/detail/photo/
+company: 
+job_title: 
 facebook:
-linkedin: carneymark
+linkedin: https://www.linkedin.com/in/mark-carney-5849163b/
 twitter:
-website:
+website: http://tractatus.co.uk/
 notes:
 status: add-details
 type: participant

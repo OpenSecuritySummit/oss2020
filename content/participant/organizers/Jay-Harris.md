@@ -1,11 +1,11 @@
 ---
 title: Jay Harris
-image: https://pbs.twimg.com/profile_images/1048276757931995136/u_uBSKZs_400x400.jpg
-company: Arana Software 
-job_title: Founder / Software Consultant at Arana Software 
+image: https://pbs.twimg.com/profile_images/1096958941228134401/NuPDDWj0_400x400.jpg
+company: Digital Interruption
+job_title: Founder, pen tester and researcher 
 facebook:
-linkedin: jasonharris
-twitter: jayharris
+linkedin: 
+twitter: JayHarris_Sec
 website:
 notes:
 status: done
