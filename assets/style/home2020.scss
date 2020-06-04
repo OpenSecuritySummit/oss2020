@@ -706,7 +706,7 @@ $summit-section-height: 350px;
     padding-top: 24px;
     & .table {
       padding: 43px 72px;
-      height: 410px;
+      min-height: 410px;
       display: flex;
       justify-content: space-between;
       background-color: $alt-background-color;
@@ -746,8 +746,9 @@ $summit-section-height: 350px;
           padding: 0 56px;
           display: flex;
           align-items: center;
-          height: 48px;
+          //height: 48px;
           background-color: $alt-background-color;
+          margin-top: 10px;
         }
       }
     }
