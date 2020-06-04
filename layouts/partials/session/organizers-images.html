@@ -1,0 +1,19 @@
+
+<div class="table-organisers">
+
+{{ $organizers := partial "params/organizers.html" .  }}
+{{ if $organizers }}
+    {{range $organizers}}
+        <div class="table-organisers-item">
+            {{ if eq (printf "%T"  .) "*hugolib.pageState" }}
+                <img src="{{ .Params.image }}"  class="img-circle img-responsive" />&nbsp;
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+            {{else}}
+                {{ . }}
+            {{ end }}
+        </div>
+    {{ end }}
+{{ else}}
+    <span class="label label-danger">needs organiser</span>
+{{ end}}
+

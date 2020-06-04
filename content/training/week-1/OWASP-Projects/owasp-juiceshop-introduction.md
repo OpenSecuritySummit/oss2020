@@ -44,3 +44,6 @@ Please register for:
 - [OWASP Juice Shop Deep Dive: MultiJuicer](https://open-security-summit-2020.heysummit.com/talks/owasp-juice-shop-deep-dive-multijuicer/)
   if you want to learn more!
 
+## Training Session Video
+
+{{< youtube id="Ry0mXz6ZPXc" autoplay="false" >}} 

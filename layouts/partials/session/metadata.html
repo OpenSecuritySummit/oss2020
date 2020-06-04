@@ -1,34 +1,23 @@
 {{ partial "widgets/session-clues.html" . }}
 
-<table class="table">
-    <tr>
-        <th>Track:</th>
-        <td>
-            {{ partial "utils/track-to-link.html" (dict "this" . "track" .Params.track)  }}
-        </td>
-    </tr>
-    <tr>
-        <th>When:</th>
-        <td>
-            {{ partial "session/when-as-links.html" . }}
-        </td>
-    </tr>
-    <tr>
-        <th>Organizers</th>
-        <td>
-            {{ partial "utils/titles-with-link.html" (dict "this" . "name" .Params.title "value" .Params.organizers)   }}
-        </td>
-    </tr>
-    <tr>
-        <th>Register</th>
-        <td>
-            {{if  .Params.hey_summit -}}
-                <a href="{{.Params.hey_summit}}">Book now</a>
-            {{ end }}
-
-        </td>
-    </tr>
-
-    {{ partial "session/participants-as-links.html" . }}
-    {{ partial "session/invited-as-links.html" . }}
-</table>
+<section class="schedule-section">
+    <div class="container container-xl">
+        <div class="table">
+            <div class="table-title">
+                <div class="table-title-item">When (day):</div>
+                <div class="table-title-item">At:</div>
+                <div class="table-title-item">Track:</div>
+                <div class="table-title-item">Topics:</div>
+                <div class="table-title-item">Register:</div>
+            </div>
+            <div class="table-description">
+                <div class="table-description-item">{{ .Params.when_day                             }} </div>
+                <div class="table-description-item">{{ partial "session/when-time.html"           . }} </div>
+                <div class="table-description-item">{{ partial "utils/track-to-link.html" (dict "this" . "track" .Params.track)  }}</div>
+                <div class="table-description-item">{{ partial "params/topics-links.html"         . }} </div>
+                <div class="table-organizers-item">{{ partial "session/register-hey-summit.html" . }} </div>
+            </div>
+            {{ partial "session/organizers-images.html" . }}
+        </div>
+    </div>
+</section>

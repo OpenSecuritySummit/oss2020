@@ -36,8 +36,12 @@
             <div _class="topic-cards">
                 <ul class="tags">
                     {{ range $index, $value:= (sort .Site.Taxonomies.topics.TaxonomyArray "Name") }}
-
-                        <h2>{{ humanize $value.Name }}</h2>
+                        <a id="{{urlize $value.Name }}"><br></a>
+                        <br>        <!-- todo find better way to handle links -->
+                        <br>        <!-- without this the link to this page will scroll past the title -->
+                        <br>
+                        <br>
+                        <h2>{{ upper (humanize $value.Name) }}</h2>
                         {{ partial "sessions/simple-table-show-all.html" $value.Pages }}
 
                     {{ end }}

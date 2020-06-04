@@ -1,4 +1,4 @@
----
+d---
 title        : Cloud Security 101
 type         : training-session
 track        : Cloud Security
@@ -27,3 +27,8 @@ At the end of the training, the learning objectives are: Practicing Cloud Securi
 - For the hands-on Check Point Dome9 Lab: Lab Guide https://shorturl.at/ampxK
 - To launch the lab as a user you may visit the lab registration page: https://bit.ly/2TFgaBt
 - For the activation code - please contact me/send me a message on Linkedin https://www.linkedin.com/in/kritim
+
+
+## Training Session Video
+
+{{< youtube id="HIRbBm0klBQ" autoplay="false" >}} 
