@@ -7,11 +7,11 @@ topics       : ["traceability", "requirements"]   # for example ["GDPR"]
 featured     :  yes                  # review with summit team "yes"
 when_day     :  Tuesday
 when_time    :  WS-4
-hey_summit   :
+hey_summit   : https://open-security-summit-2020.heysummit.com/talks/making-the-business-case-for-devsecops
 room_layout  :                    #
 room_id      :
 session_slack: 
-status       : draft              # draft, review-content, done
+status       :               # draft, review-content, done
 description  : How to create the traceability of the requirements to an industry standard
 organizers   :
     - David Prince
