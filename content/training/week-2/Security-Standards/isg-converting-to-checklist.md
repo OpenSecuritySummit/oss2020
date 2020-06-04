@@ -1,6 +1,6 @@
 ---
 title        : How to convert ISGs into checklists
-track        : Security Standards
+track        : Hacking and Defending
 type         : training-session
 topics       :
     - NSA ISGs
