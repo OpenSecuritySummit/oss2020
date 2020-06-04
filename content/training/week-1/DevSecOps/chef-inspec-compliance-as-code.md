@@ -14,6 +14,10 @@ organizers   : Joshua Jebaraj
 zoom_host    : Didar Gelici
 ---
 
+## Training Session Video
+
+{{< youtube id="-w8LGhPZp1w" autoplay="false" >}} 
+
 ### Supporting website 
 
 [Here is the workshop material](https://chef-workshop-oss.netlify.app/) for the Open Security Summit session on the Chef Inspec for compliance
@@ -33,3 +37,5 @@ See [https://www.inspec.io/](Inspec) website for more details on this tool
 
 ### Related sessions
  - [Chef Inspec Compliance as Code checks for those that can be checked](/tracks/devsecops/chef-inspec-compliance-as-code-checks-for-those-that-can-be-checked/)
+
+
