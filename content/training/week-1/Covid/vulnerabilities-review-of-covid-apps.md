@@ -15,7 +15,7 @@ organizers   :
          - Mike Minchinton
 ---
 
-## This is section two of a three part exercise:
+### This is section two of a three part exercise:
 - **PART 1** - [covid apps analysis](https://pre-summit-training-sessions.heysummit.com/talks/covid-apps-analysis) 1st June 5pm UK
 We will talk about the privacy and security concerns of three implementations of tracking apps.
 - **PART 2** - THIS SESSION
@@ -23,6 +23,6 @@ We will look at the vulnerabilities of one of the COVID tracing apps
 - **PART 3** - [covid apps threat modeling] {https://open-security-summit-2020.heysummit.com/talks/covid-apps-threat-modeling-user-session/) 18th June 8pm UK
 We will do a threat modeling exercise on contact tracing apps
 
-## Training Session Video
+### Training Session Video
 
 {{< youtube id="mg1rnioktxk" autoplay="false" >}} 

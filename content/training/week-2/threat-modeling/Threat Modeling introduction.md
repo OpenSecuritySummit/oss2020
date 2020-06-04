@@ -20,4 +20,3 @@ description  :
 organizers   :
      - Dinis Cruz
 ---
-## Why

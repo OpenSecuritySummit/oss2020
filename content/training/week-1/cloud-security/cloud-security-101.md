@@ -15,7 +15,7 @@ organizers   : Kriti Mohun
 
 ---
 
-### This training session will cover:
+### About this talk
 
 The Cloud Security 101 training will cover a high level overview of:
 
@@ -29,6 +29,6 @@ At the end of the training, the learning objectives are: Practicing Cloud Securi
 - For the activation code - please contact me/send me a message on Linkedin https://www.linkedin.com/in/kritim
 
 
-## Training Session Video
+### Training Session Video
 
 {{< youtube id="HIRbBm0klBQ" autoplay="false" >}} 

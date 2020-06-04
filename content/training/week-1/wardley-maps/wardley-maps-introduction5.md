@@ -13,14 +13,3 @@ organizers   : Petra Vukmirovic
 description  : TBD
 ---
 
-
-<!--(add intro)
-## WHY
-(...)
-## What
-(...)
-## Outcomes
-(...)
-## References
-(...)
-## Previous-->

@@ -17,13 +17,15 @@ organizers   :
 zoom_host   : Didar Gelici       
 ---
 
-## Training Session Video
+### Training Session Video
 
 {{< youtube id="fwo-TryGQ6c" autoplay="false" >}} 
 
-## Session Contents
+### Session Contents
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR0wGU0e4Gn-XQwKbwUttdPhtCwB252klnbGZKxi9kIRZIRaR58vw8w0BWa0h1E5HC0_zZatFfkR3iA/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+### About this talk
 
 In this session, we'll look at privacy and security concerns and considerations regarding contact tracing apps, specifically those proposed recently for contact tracing of patients who have been diagnosed with COVID-19. We will discuss how these apps work, some concerns about the way these work, and an overview of the reception these apps have had.
 

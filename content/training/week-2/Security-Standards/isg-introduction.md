@@ -20,6 +20,8 @@ zoom_host    : TBD
 
 ---
 
+### About this talk:
+
 In this session, we'll look at the ISGs (Inspection and Sanitization Guidance) published by the NSA. These are standards established by the NSA. There is a ISG for each file type.
 
 

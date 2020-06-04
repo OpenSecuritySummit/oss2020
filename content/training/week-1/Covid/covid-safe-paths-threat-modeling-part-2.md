@@ -16,16 +16,16 @@ organizers   :
 description  : 
 ---
 
-## Covid Safe Paths
+### Covid Safe Paths
 
 "COVID Safe Paths is a mobile app for digital contract tracing (DCT) sponsored by Path Check a nonprofit and developed by a growing global community of engineers, designers, and contributors. Safe Paths is based on research originally conducted at the MIT Media Lab."
 
-## Threat Modeling session (Part 2)
+### Threat Modeling session (Part 2)
 
 During this session we will be doing a live Threat Modelingf review of the application and collaborate with key "Covid Safe Paths" contributors in helping to improve the security of this opne source innitiative
 
 
-### Resources
+#### Resources
 
  - Main GitHub org: https://github.com/Path-Check
  - Save Paths page: https://github.com/Path-Check/covid-safe-paths

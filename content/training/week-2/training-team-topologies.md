@@ -20,6 +20,6 @@ organizers   :
 description  : Introduction to Team Topologies
 ---
 
-## Why
+### About this talk:
 
 No prior understanding is required of the Team Topologies methodologies for team structure. This session will be introduction to the methodologies and key considerations

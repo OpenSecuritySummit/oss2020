@@ -20,6 +20,8 @@ organizers   :
 
 ---
 
+### About this talk:
+
 In this session, we'll look at how to measure and visualise ISG standards
 https://nsacyber.github.io/publications.html  
 

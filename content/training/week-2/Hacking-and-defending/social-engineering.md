@@ -13,7 +13,7 @@ organizers   : Stuart Peck
 description  : 
 ---
 
-## About this talk
+### About this talk:
 
 Stuart Peck - Director of Cyber Security Strategy for ZeroDayLab and 3 x winner of Tracelabs Missing Person Global CTF, will take you through the techniques used by attackers to social engineer targets. What you will learn:
 - OSINT- Recon techniques

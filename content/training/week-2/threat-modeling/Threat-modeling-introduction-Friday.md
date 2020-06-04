@@ -13,6 +13,3 @@ organizers   :
 description  : 
 ---
 
-## Why
-
-<!--Add intro-->

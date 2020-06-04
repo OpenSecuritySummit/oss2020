@@ -11,26 +11,4 @@ session_slack:
 status       : draft           # draft, review-content, done
 description  : TBD
 organizers   : 
-
 ---
-
-<!--(add intro)
-
-## WHY
-
-(...)
-
-## What
-
-(...)
-
-## Outcomes
-
-(...)
-
-## References
-
-(...)
-
-
-## Previous-->
