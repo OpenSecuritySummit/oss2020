@@ -8,7 +8,7 @@ topics       :
     - Security Standards
 featured     : yes
 when_week    : two
-when_day     : 1th - Thursday
+when_day     : 11th - Thursday
 when_time    : WS-2
 hey_summit   :
 session_slack: 
