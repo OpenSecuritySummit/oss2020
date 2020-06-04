@@ -1,0 +1,14 @@
+---
+title        : Introduction to O365 Security
+type         : training-session
+track        : Hacking and defending
+topics       : O365 Security and compliance centre basics
+when_week    : 2
+when_day     : 2nd Tuesday
+when_time    : ws1
+hey_summit   : 
+session_slack:
+status       : draft           # draft, review-content, done
+description  : TBD
+organizers   : Abbas Haidar
+---
