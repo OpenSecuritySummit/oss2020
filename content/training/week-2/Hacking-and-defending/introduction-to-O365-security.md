@@ -9,6 +9,6 @@ when_time    :
 hey_summit   : 
 session_slack:
 status       :           # draft, review-content, done
-description  : TBD
-organizers   : Abbas Haidar
+description  : 
+organizer    :
 ---
