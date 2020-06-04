@@ -17,8 +17,8 @@ description  :
 
 Stuart Peck - Director of Cyber Security Strategy for ZeroDayLab and 3 x winner of Tracelabs Missing Person Global CTF, will take you through the techniques used by attackers to social engineer targets. What you will learn:
 
-	- OSINT- Recon techniques
-	- How attackers create pretexts
-	- Case Studies learning from Physical Social Engineering, Telephone Social Engineering  (Vishng) and Phishing
-	- Social Engineering Defense tactics
-	- Q&A
+	* OSINT- Recon techniques
+	* How attackers create pretexts
+	* Case Studies learning from Physical Social Engineering, Telephone Social Engineering  (Vishng) and Phishing
+	* Social Engineering Defense tactics
+	* Q&A
