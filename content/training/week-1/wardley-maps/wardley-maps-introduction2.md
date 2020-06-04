@@ -19,6 +19,11 @@ zoom_host    : Alona Reyes
 
 {{< youtube id="yugHhSp5dbg" autoplay="false" >}} 
 
+### Training Session Chat
+
+[Chat_session](https://github.com/OpenSecuritySummit/oss2020/blob/master/content/training/week-1/wardley-maps/wardley_maps_session_chat.txt)
+
+
 
 <!--(add intro)
 
