@@ -5,7 +5,7 @@ company: Digital Interruption
 job_title: Founder, pen tester and researcher 
 facebook:
 linkedin: 
-twitter: @JayHarris_Sec
+twitter: JayHarris_Sec
 website:
 notes:
 status: done
