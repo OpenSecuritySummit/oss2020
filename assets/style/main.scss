@@ -731,55 +731,61 @@ div.google-map {
   font-weight: 500;
 }
 
-.tbale_section {
+.table_section {
   margin-bottom: 20px;
-}
-
-.tbale_section thead tr {
-  background: #87bb40;
-}
-
-.tbale_section thead tr th {
-  color: #fff;
-  font-size: 16px;
+  width: 100%;
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  text-transform: uppercase;
-  border-right: #fff 1px solid;
+  thead {
+    tr {
+      background: #87bb40;
+      th {
+        white-space: nowrap;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        text-transform: uppercase;
+        &:not(:last-child) {
+          border-right: #fff 1px solid;
+        }
+      }
+    }
+  }
+  thead, tbody {
+    tr {
+      th, td {
+        padding: 10px 15px;
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      td {
+        vertical-align: top;
+        color: #546e7a;
+        font-weight: 400;
+        font-size: 14px;
+        &:not(:last-child) {
+          border-right: #cfd8dc 1px solid;
+        }
+        &:first-child, &:first-child a {
+          font-weight: 500;
+          color: #2678c0;
+        }
+      }
+      &:nth-child(odd) {
+        background: #f4f7fa;
+      }
+    }
+  }
 }
 
-.tbale_section thead tr th:last-child {
-  border: none;
+.sessions {
+  table tr td {
+    padding-right: 15px;
+  }
 }
 
-.tbale_section thead tr th,
-.tbale_section tbody tr td {
-  padding: 10px 15px;
-}
-
-.tbale_section tbody tr td {
-  border-right: #cfd8dc 1px solid;
-  vertical-align: top;
-  color: #546e7a;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-}
-
-.tbale_section tbody tr td:last-child {
-  border: none;
-}
-
-.tbale_section tbody tr td:first-child,
-.tbale_section tbody tr td:first-child a {
-  font-weight: 500;
-  color: #2678c0;
-  font-family: 'Roboto', sans-serif;
-}
-
-.tbale_section tbody tr:nth-child(odd) {
-  background: #f4f7fa;
-}
 
 .m_b_30 {
   margin-bottom: 30px;
@@ -903,17 +909,17 @@ div.google-map {
     text-align: center;
   }
 
-  .tbale_section thead tr th,
-  .tbale_section tbody tr td {
+  .table_section thead tr th,
+  .table_section tbody tr td {
     padding: 6px 5px;
   }
 
-  .tbale_section thead tr th,
+  .table_section thead tr th,
   .metadata tr td:first-child {
     font-size: 13px;
   }
 
-  .tbale_section tbody tr td,
+  .table_section tbody tr td,
   .metadata tr td {
     font-size: 12px;
   }
@@ -1174,17 +1180,17 @@ hr.container.no-margin {
     text-align: center;
   }
 
-  .tbale_section thead tr th,
-  .tbale_section tbody tr td {
+  .table_section thead tr th,
+  .table_section tbody tr td {
     padding: 6px 5px;
   }
 
-  .tbale_section thead tr th,
+  .table_section thead tr th,
   .metadata tr td:first-child {
     font-size: 13px;
   }
 
-  .tbale_section tbody tr td,
+  .table_section tbody tr td,
   .metadata tr td {
     font-size: 12px;
   }
@@ -1665,17 +1671,17 @@ hr.container.no-margin {
     text-align: center;
   }
 
-  .tbale_section thead tr th,
-  .tbale_section tbody tr td {
+  .table_section thead tr th,
+  .table_section tbody tr td {
     padding: 6px 5px;
   }
 
-  .tbale_section thead tr th,
+  .table_section thead tr th,
   .metadata tr td:first-child {
     font-size: 13px;
   }
 
-  .tbale_section tbody tr td,
+  .table_section tbody tr td,
   .metadata tr td {
     font-size: 12px;
   }
