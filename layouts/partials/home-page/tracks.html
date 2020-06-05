@@ -7,7 +7,9 @@
 
                 <div class="oss-grid oss-grid--3 tracks-home-page">
                     {{ $tracks := where .Site.Pages ".Params.type" "track" }}
+
                     {{ range $index, $element := $tracks }}
+
                     <div class="oss-card">
                       <a href="{{ .Permalink }}">
                         <div class="oss-card-title">
