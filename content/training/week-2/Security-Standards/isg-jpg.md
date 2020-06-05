@@ -10,7 +10,7 @@ featured     : yes
 when_week    : two
 when_day     : 12th - Friday
 when_time    : WS-2
-hey_summit   : https://open-security-summit-2020.heysummit.com/talks/jpg-isg-how-to-automate-inspection-and-sanitization-guidance-testing-2pm-bst/
+hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/jpg-isg-how-to-automate-inspection-and-sanitization-guidance-testing-2pm-bst/
 session_slack:
 status       :          # draft, review-content, done
 description  : TBD
