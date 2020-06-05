@@ -11,7 +11,6 @@ session_slack:
 status       :           # draft, review-content, done
 description  : TBD
 organizers   : 
-participants : 
        - Demi Ben-Ari 
        - Dov Goldman
 ---
