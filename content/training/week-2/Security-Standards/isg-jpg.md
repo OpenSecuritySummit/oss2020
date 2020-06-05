@@ -12,11 +12,11 @@ when_day     : 12th - Friday
 when_time    : WS-2
 hey_summit   : https://open-security-summit-2020.heysummit.com/talks/jpg-isg-how-to-automate-inspection-and-sanitization-guidance-testing-2pm-bst/
 session_slack:
-status       : draft           # draft, review-content, done
+status       :          # draft, review-content, done
 description  : TBD
 organizers   : 
         - Dinis Cruz
-        - Luke Robbertse
+       
 ---
 
 
