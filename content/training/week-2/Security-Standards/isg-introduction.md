@@ -15,7 +15,7 @@ session_slack:
 status       : draft           # draft, review-content, done
 description  : TBD
 organizers   :
-        - Luke Robbertse
+      
 zoom_host    : TBD
 
 ---
