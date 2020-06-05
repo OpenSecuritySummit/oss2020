@@ -12,7 +12,3 @@ status       : draft           # draft, review-content, done
 organizers   :
 description  : 
 ---
-
-## Why
-
-<!--Add intro-->

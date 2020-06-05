@@ -15,6 +15,5 @@ organizers   :
        
 ---
 
-## About this session:
 
 

@@ -21,26 +21,10 @@ zoom_host    : TBD
 
 ---
 
+### About this talk:
+
 In this session, we'll review what exploits out there could be protected against by implementing ISGs.
 
 ISGs can be found in this publication repo:
 https://nsacyber.github.io/publications.html  
 
-## WHY
-
-(...)
-
-## What
-
-(...)
-
-## Outcomes
-
-(...)
-
-## References
-
-(...)
-
-
-## Previous-->

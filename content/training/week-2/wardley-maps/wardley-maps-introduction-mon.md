@@ -13,24 +13,3 @@ description  : TBD
 organizers   : 
 
 ---
-
-<!--(add intro)
-
-## WHY
-
-(...)
-
-## What
-
-(...)
-
-## Outcomes
-
-(...)
-
-## References
-
-(...)
-
-
-## Previous-->

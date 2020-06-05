@@ -13,7 +13,7 @@ description  : TBD
 organizers   : Dave Mattingly
 ---
 
-##  About the session:
+### About this talk:
 
 Have you ever gotten an "urgent call about you car warranty" or a demand that "you need to pay the IRS by credit card right now"? Social Engineering is the practice of talking your way into or out of situations, and is often employed by the underhanded, but can also be used to defend against those very attacks.
 

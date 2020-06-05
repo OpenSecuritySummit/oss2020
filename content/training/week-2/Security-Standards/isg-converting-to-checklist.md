@@ -21,6 +21,8 @@ zoom_host    : TBD
 
 ---
 
+### About this talk:
+
 In this session, we'll look at how to convert an ISG into a checklist. Once in table/graph form, we can start to consume them progrematically
 https://nsacyber.github.io/publications.html  
 
