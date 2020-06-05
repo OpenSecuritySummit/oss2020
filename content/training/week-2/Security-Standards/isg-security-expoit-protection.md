@@ -15,8 +15,7 @@ session_slack:
 status       : draft           # draft, review-content, done
 description  : TBD
 organizers   : 
-        - Dinis Cruz
-        - Luke Robbertse
+        - Martin O' Brian
 zoom_host    : TBD
 
 ---
