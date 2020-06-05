@@ -1,19 +1,18 @@
 ---
-title        : Threat Modeling - Cloud Functions as Detonation Chambers - Part 1
+title        : Hacking Glasswall SDk & Cloud - Part 2
 type         : training-session
 track        : Hacking and Defending
 topics       :
-          - Glasswall
+    - Glasswall
 featured     : yes
 when_week    : one
-when_day     : 4th - Thursday
+when_day     : 5th - Friday
 when_time    : WS-3
-hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/glasswall-sdk-cloud/
+hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/glasswall-sdk-cloud-1/
 session_slack:
 status       :           # draft, review-content, done
 description  : TBD
 organizers   : Dinis Cruz
-
 
 ---
 
