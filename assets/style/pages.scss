@@ -70,11 +70,11 @@ $schedule-timing-padding: 2px 10px;
       &:before {
         position: absolute;
         top: -$schedule-divider-top-padding;
-        left: 285px;
+        left: 180px;
         content: ' ';
         display: block;
         height: calc(100% + #{$schedule-divider-top-padding} + #{$schedule-day-block-margin-top});
-        width: 1px;
+        width: 3px;
         background-color: $main-active-link-color;
       }
 
@@ -88,15 +88,28 @@ $schedule-timing-padding: 2px 10px;
         }
       }
     }
+    .person {
+      &-img {
+        width: 101px;
+        height: 101px;
+        border: 2px solid $main-active-link-color;
+        border-radius: 50%;
+        & img {
+          width: 100%;
+          z-index: -1;
+        }
+      }
+    }
 
 
-    margin: 20px 0;
+    margin: 30px 0;
     display: grid;
-    grid-template-columns: 1.2fr 3fr 11fr;
+    grid-template-columns: 4.2fr 15fr 4fr;
+    align-items: center;
     //grid-column-gap: 20px;
     &-id, &-hours {
       padding: $schedule-timing-padding;
-      color: $main-action-text-color;
+      color: $trtext-color;
     }
 
     &-id {
@@ -111,11 +124,23 @@ $schedule-timing-padding: 2px 10px;
     }
 
     &-title {
+      height: 100%;
       font-family: 'Roboto Slab', sans-serif;
       font-size: 24px;
-      background-color: $schedule-table-background-color;
+      // background-color: $schedule-table-background-color;
       color: $main-background-color;
-      padding: 5px 20px;
+      padding: 0 20px;
+      & .bage {
+        padding: 6px 20px;
+        width: 210px;
+        margin-top: -10px;
+        margin-left: 30px;
+        background-color: $title-bg2;
+        border-radius: 8px;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+      }
     }
 
     &__user-session {
