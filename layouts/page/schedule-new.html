@@ -16,9 +16,7 @@
 {{ define "full-content" }}
       <section class="schedule-section">
       <div class="container container-xl">
-          <div class="row">
-            {{ .Content }}
-          </div>
+        {{ .Content }}
 
         {{ partial "schedule/list/body.html" . }}
       </div>
