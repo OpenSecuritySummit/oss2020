@@ -1,0 +1,20 @@
+day-1:
+  date: "1st"
+  day : "Monday"
+  key : "1st - Monday"
+  order: 1
+day-2:
+  date: "2nd"
+  day : "Tuesday"
+  key : "2nd - Tuesday"
+  order: 2
+day-3:
+  date: "3rd"
+  day : "Wednesday"
+  key : "3rd - Wednesday"
+  order: 3
+day-4:
+  date: "4th"
+  day : "Thursday"
+  key : "4th - Thursday"
+  order: 4

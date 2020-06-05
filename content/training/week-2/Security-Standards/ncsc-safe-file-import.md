@@ -5,7 +5,6 @@ type         : training-session
 topics       :
     - CDR
     - Glasswall
-    - Security Standards
 featured     : yes
 when_week    : two
 when_day     : 11th - Thursday

@@ -1,5 +1,3 @@
-
-
 {{ define "nav" }}
     <header class="full-bg background-home">
         {{ partial "nav.html" . }}
@@ -7,19 +5,11 @@
 {{ end }}
 
 {{ define "breadcrumbs" }}
-
     <div class="container-managed xxl">
         {{ partial "breadcrumbs2020.html" . }}
-
 {{ end }}
 
 {{ define "full-content" }}
-      <div class="container">
-          <div class="row">
-            {{ .Content }}
-          </div>
-      </div>
-
-        {{ partial "schedule/list/body.html" . }}
+    {{ partial "tracks/body.html" . }}
     </div>
 {{ end }}

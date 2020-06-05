@@ -23,11 +23,11 @@
 
 {{ define "full-content" }}
 
-  {{ $tracks := where .Site.Pages ".Params.type" "track" }}
   <section class="mid_wrap" >
     <div class="container">
+      {{ partial "home-page/tracks.html" . }}
 
-      {{ partial "home-page/tracks-new.html" . }}
+<!--      {{ partial "home-page/tracks-new.html" . }}-->
 
     </div>
   </section>
