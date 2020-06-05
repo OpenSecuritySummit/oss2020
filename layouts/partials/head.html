@@ -91,4 +91,6 @@
   <meta property="og:url" content="{{ .URL }}/" />
   <meta property="og:image" content="{{ .Site.Params.logo }}" />
 
+  {{ partialCached "scripts.html" . }}
+
 </head>

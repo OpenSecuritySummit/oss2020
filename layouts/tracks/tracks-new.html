@@ -1,15 +1,15 @@
 {{ define "nav" }}
-<header class="full-bg background-home">
+    <header class="full-bg background-home">
+        {{ partial "nav.html" . }}
+    </header>
+{{ end }}
 
-  {{ partial "nav.html" . }}
+{{ define "breadcrumbs" }}
+    <div class="container-managed xxl">
+        {{ partial "breadcrumbs2020.html" . }}
+{{ end }}
 
-</header>
-{{ end }} {{ define "breadcrumbs" }}
-<div class="container-managed xxl">
-  {{ partial "breadcrumbs2020.html" . }}
-
-  {{ end }} {{ define "full-content" }}
-
-  {{ partial "tracks/body.html" . }}
-</div>
+{{ define "full-content" }}
+    {{ partial "tracks/body.html" . }}
+    </div>
 {{ end }}

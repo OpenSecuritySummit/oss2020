@@ -1,0 +1,27 @@
+
+<script>
+    jQuery(".schedule-session").hover(function(){
+        $(this).addClass("schedule-session__user-session");
+    }, function(){
+        $(this).removeClass("schedule-session__user-session");
+    });
+</script>
+
+
+{{ $this := .this}}
+<div class="schedule-day-block">
+    <p class="schedule-day">{{ .day }} - {{.date}} June</p>
+    {{ range sort .sessions ".Params.when_time"}}
+        {{ if .Params.hey_summit}}
+            {{ $when_time := index $this.Site.Data.schedule.times .Params.when_time }}
+
+            <div class="schedule-sessions">
+                <a class="schedule-session" href="{{.Permalink}}">
+                    <div class="schedule-session-id">{{.Params.when_time}}</div>
+                    <div class="schedule-session-hours">{{$when_time}}</div>
+                    <div class="schedule-session-title">{{.Params.title}}</div>
+                </a>
+            </div>
+        {{ end }}
+    {{ end }}
+</div>
