@@ -13,10 +13,8 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/threat-m
 session_slack:
 status       :          # draft, review-content, done
 status       :            # draft, review-content, done
-organizers   :
-    - Dinis Cruz
-    - Petra Vukmirovic
 description  : 
 organizers   :
      - Dinis Cruz
+     - Petra Vukmirovic
 ---
