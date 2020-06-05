@@ -13,7 +13,7 @@
               {{ $featured_sessions := where (where (where .Site.Pages ".Params.track" .Title) ".Params.type" "!=" "outcome" ) ".Params.featured" "eq" true }}
               {{ range $featured_sessions }}
               <li class="item">
-                <img src="{{ .Site.BaseURL }}/img/home/tracks/blue-bullet.png" alt="Bullet">
+                <i class="fa fa-caret-right"></i>
                 <a href="{{.Permalink}}"> {{.Params.title}}</a>
               </li>
               {{ end }}
