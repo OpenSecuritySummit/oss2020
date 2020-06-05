@@ -13,5 +13,5 @@ description  :
 organizers   : 
 ---
 
-### This training session will cover:
+
 

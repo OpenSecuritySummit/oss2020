@@ -19,7 +19,7 @@ organizers   :
         - Luke Robbertse
 ---
 
-
+### About this talk:
 
 In this session, we'll dive into the Inspection and Sanitization Guidance for Portable Document Format. PDF
 
@@ -27,21 +27,3 @@ In this session, we'll dive into the Inspection and Sanitization Guidance for Po
 ISGs can be found in this publication repo:
 https://nsacyber.github.io/publications.html  
 
-## WHY
-
-(...)
-
-## What
-
-(...)
-
-## Outcomes
-
-(...)
-
-## References
-
-(...)
-
-
-## Previous-->

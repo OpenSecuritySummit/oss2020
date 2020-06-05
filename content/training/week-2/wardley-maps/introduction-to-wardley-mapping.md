@@ -17,7 +17,7 @@ organizers   : Chris Daniel
 description  : 
 ---
 
-## About the session:
+### About this talk:
 
 You will get hands on experience with Wardley Mapping, which is a technique for building situational awareness.
 

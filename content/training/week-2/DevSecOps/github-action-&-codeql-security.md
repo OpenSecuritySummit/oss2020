@@ -12,5 +12,3 @@ status       : draft           # draft, review-content, done
 description  : TBD
 organizers   : Sasha Rosenbaum
 ---
-
-### 

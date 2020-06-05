@@ -14,6 +14,8 @@ organizers   : Mark Miller
 zoom_host    : Didar Gelici   
 ---
 
+### About this talk
+
 Join us for a fun social "outing" where we'll introduce the people who created the personas
 for the first set of Adversary Trading Cards.
 

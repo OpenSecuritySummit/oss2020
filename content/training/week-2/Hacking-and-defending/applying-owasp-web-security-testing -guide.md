@@ -15,5 +15,4 @@ organizers   : Vandana Verma
 
 
 
-## WHY
 

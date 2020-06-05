@@ -18,6 +18,4 @@ organizers   :
 description  : Jira and Jupyter notebooks introduction
 ---
 
-## Why
 
-<-- add intro -->

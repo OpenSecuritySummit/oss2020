@@ -16,6 +16,8 @@ organizers   :
 zoom_host    : Dinis Cruz
 ---
 
+### About this talk
+
 OWASP Juice Shop is an incredible tool to learn and teach about web
 application security. The Juice Shop lets people attack a real(ish) web
 application - which looks like a normal eCommerce Shop - and learn step
