@@ -15,7 +15,6 @@ session_slack:
 status       : draft           # draft, review-content, done
 description  : TBD
 organizers   :
-        
 zoom_host    : TBD
 
 ---
