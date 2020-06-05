@@ -1,0 +1,67 @@
+<section class="tracks-section">
+  <div class="container container-xl">
+    <div class="tracks-wrapper">
+      <div class="title">SUMMIT TRACKS</div>
+      <div class="table">
+        {{ $tracks := where .Site.Pages ".Params.type" "track" }}
+        {{ range $index, $element := $tracks }}
+        <div class="table-item">
+          <div class="management">
+            <div class="title">{{ truncate 45 .Title }}</div>
+            <div class="overtitle">{{ .Params.description }}</div>
+            <ul class="list">
+              {{ $featured_sessions := where (where (where .Site.Pages ".Params.track" .Title) ".Params.type" "!=" "outcome" ) ".Params.featured" "eq" true }}
+              {{ range $featured_sessions }}
+              <li class="item">
+                <i class="fa fa-caret-right"></i>
+                <a href="{{.Permalink}}"> {{.Params.title}}</a>
+              </li>
+              {{ end }}
+            </ul>
+            <div class="button">
+              <button>view all sessions</button>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--
+<div class="oss-grid oss-grid&#45;&#45;3 tracks-home-page">
+  {{ $tracks := where .Site.Pages ".Params.type" "track" }}
+  {{ range $index, $element := $tracks }}
+  <div class="oss-card">
+    <a href="{{ .Permalink }}">
+      <div class="oss-card-title">
+        <h3>{{ truncate 45 .Title }}</h3>
+      </div>
+    </a>
+    <div class="oss-card-small-body">
+      <p class="lead oss-card-lead">{{ .Params.description }}</p>
+      <div class="card-clues">
+        <ul class="visual-clues">
+          <li><a class="bg-success" href=""><i class="fa fa-check-square-o"></i> featured sessions </a></li>
+        </ul>
+      </div>
+      <div class="featured">
+        <ul class="featured">
+          {{ $featured_sessions := where (where (where .Site.Pages ".Params.track" .Title) ".Params.type" "!=" "outcome" ) ".Params.featured" "eq" true }}
+          {{ range $featured_sessions }}
+          <li class="featured"><a href="{{.Permalink}}"> {{.Params.title}}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+    {{ if gt (len $featured_sessions) 0 }}
+    <div class="oss-card-bottom">
+      <a class="oss-card-button btn" role="button" href="{{ .Permalink }}">See all sessions</a>
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+</div>
+
+-->
