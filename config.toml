@@ -52,13 +52,13 @@ paginate = 10
     weight = 4
     url = "/training/"
 
-#[[menu.main]]
-#    name = "Schedule"
-#    identifier = "schedule"
-#    pre = "<i class='fa fa-road'></i>&nbsp;"
-#    weight = 2
+[[menu.main]]
+    name = "Schedule"
+    identifier = "schedule"
+    pre = "<i class='fa fa-road'></i>&nbsp;"
+    weight = 2
 #    parent = "sessions"
-#    url = "/schedule/day/fri/"
+    url = "/schedule"
 [[menu.main]]
     name = "Topics"
     identifier = "topics"
