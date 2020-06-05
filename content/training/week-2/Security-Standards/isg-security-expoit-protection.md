@@ -15,7 +15,7 @@ session_slack:
 status       : draft           # draft, review-content, done
 description  : TBD
 organizers   : 
-        - Martin O' Brian
+        - Martin Brian
 zoom_host    : TBD
 
 ---
