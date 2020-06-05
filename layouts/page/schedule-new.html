@@ -14,12 +14,14 @@
 {{ end }}
 
 {{ define "full-content" }}
-      <div class="container">
+      <section class="schedule-section">
+      <div class="container container-xl">
           <div class="row">
             {{ .Content }}
           </div>
-      </div>
 
         {{ partial "schedule/list/body.html" . }}
+      </div>
+      </section>
     </div>
 {{ end }}

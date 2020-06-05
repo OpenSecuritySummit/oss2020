@@ -70,7 +70,7 @@ $schedule-timing-padding: 2px 10px;
       &:before {
         position: absolute;
         top: -$schedule-divider-top-padding;
-        left: 180px;
+        left: 194px;
         content: ' ';
         display: block;
         height: calc(100% + #{$schedule-divider-top-padding} + #{$schedule-day-block-margin-top});
@@ -130,14 +130,15 @@ $schedule-timing-padding: 2px 10px;
       // background-color: $schedule-table-background-color;
       color: $main-background-color;
       padding: 0 20px;
-      & .bage {
-        padding: 6px 20px;
-        width: 210px;
+      & .track_badge {
+        padding: 8px 15px;
+        white-space: nowrap;
+        width: 280px;
         margin-top: -10px;
         margin-left: 30px;
         background-color: $title-bg2;
         border-radius: 8px;
-        font-family: Roboto;
+        font-family: "Roboto", Helvetica, Arial, sans-serif;
         font-size: 20px;
         font-weight: 500;
       }
@@ -216,7 +217,7 @@ $schedule-timing-padding: 2px 10px;
 
       &s {
         &:before {
-          left: 230px;
+          left: 157px;
           height: calc(100% + #{$schedule-divider-top-padding} + #{$schedule-day-block-margin-top-xl});
         }
       }
@@ -258,7 +259,7 @@ $schedule-timing-padding: 2px 10px;
 
       &s {
         &:before {
-          left: 180px;
+          left: 195px;
           height: calc(100% + #{$schedule-divider-top-padding} + #{$schedule-day-block-margin-top-lg});
         }
       }
