@@ -1,9 +1,8 @@
 ---
 title        : How to measure and visualise ISG standards
-track        : Security Standards
+track        : ISG
 type         : training-session
 topics       :
-    - NSA ISGs
     - CDR
     - Glasswall
 featured     : yes

@@ -1,9 +1,8 @@
 ---
 title        : JPG ISG - How to automate Inspection and Sanitization Guidance testing
-track        : Security Standards
+track        : ISG
 type         : training-session
 topics       :
-    - NSA ISGs
     - CDR
     - Glasswall
 featured     : yes

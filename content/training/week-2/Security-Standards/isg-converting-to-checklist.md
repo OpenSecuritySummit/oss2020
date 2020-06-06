@@ -1,9 +1,8 @@
 ---
 title        : What are ISGs and how to convert ISGs into checklists?
-track        : Security Standards
+track        : ISG
 type         : training-session
 topics       :
-    - NSA ISGs
     - CDR
     - Glasswall
 featured     : yes

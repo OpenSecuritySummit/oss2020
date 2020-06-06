@@ -1,9 +1,8 @@
 ---
 title        : ISGs - Inspection and Santisation Guidance for Portable Document Format
-track        : Security Standards
+track        : ISG
 type         : training-session
 topics       :
-    - NSA ISGs
     - CDR
     - Glasswall
 featured     : yes

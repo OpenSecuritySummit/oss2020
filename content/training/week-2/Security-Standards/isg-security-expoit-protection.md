@@ -1,9 +1,8 @@
 ---
 title        : What security exploits are prevented by implementing ISGs
-track        : Security Standards
+track        : ISG
 type         : training-session
 topics       :
-    - NSA ISGs
     - CDR
     - Glasswall
 featured     : yes

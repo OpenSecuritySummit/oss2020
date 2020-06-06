@@ -1,6 +1,6 @@
 ---
 title        : Securely Handling Fonts in PDFs - Part 1
-track        : Security Standards
+track        : ISG
 type         : working-session
 topics       :
     - CDR

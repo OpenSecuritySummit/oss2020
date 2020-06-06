@@ -1,9 +1,8 @@
 ---
 title        : How to create specific test cases for ISGs requirements
-track        : Security Standards
+track        : ISG
 type         : training-session
 topics       :
-    - NSA ISGs
     - CDR
     - Glasswall
 featured     : yes
