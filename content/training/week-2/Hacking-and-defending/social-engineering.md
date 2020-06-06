@@ -1,5 +1,5 @@
 ---
-title        : Social Engineering
+title        : Social Engineering - from recon to execution
 type         : training-session
 track        : Hacking and Defending
 topics       : 
