@@ -9,7 +9,7 @@ featured     : yes
 when_week    : two
 when_day     : 11th - Thursday
 when_time    : WS-2
-hey_summit   : https://open-security-summit-2020.heysummit.com/talks/ncsc-safe-file-import-pattern-2pm-bst/
+hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/ncsc-safe-file-import-pattern/
 session_slack: 
 status       : draft           # draft, review-content, done
 description  : 
