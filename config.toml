@@ -27,11 +27,16 @@ paginate = 10
 #    weight = 2
 #    url = "/outcomes/"
 [[menu.main]]
-    name = "Photo Gallery"
-    identifier = "PhotoGallery"
+    name = "Video"
+    identifier = "Video"
     pre = "<i class='fa fa-road'></i>&nbsp;"
     weight = 8
-    url = "/photo-gallery/"
+    url = "/video/"
+#    name = "Photo Gallery"
+#    identifier = "PhotoGallery"
+#    pre = "<i class='fa fa-road'></i>&nbsp;"
+#    weight = 8
+#    url = "/photo-gallery/"
 #[[menu.main]]
 #    name = "Sessions"
 #    identifier = "sessions"

@@ -1,6 +1,6 @@
 ---
-title            : Session
-layout           : session-new
+title            : Video
+layout           : video
 manage-container : true  
 container_type   : xxl
 ---
