@@ -1,5 +1,5 @@
 ---
-title        : How to convert ISGs into checklists
+title        : What are ISGs and how to convert ISGs into checklists?
 track        : Security Standards
 type         : training-session
 topics       :
