@@ -59,35 +59,32 @@ $schedule-timing-padding: 2px 10px;
     }
   }
 
-  &-section {
-    //background: url("#{$base-url}/img/backgrounds/shapes-xxl-bg.png") center center repeat;
-    //background-position-x: 100em;
+  &-link {
+    margin: 30px 0;
+    display: grid;
+    grid-template-columns: $table-first-column-width-xxl auto 100px;
+    align-items: center;
+    &:hover {
+      text-decoration: none;
+      background-color: $title-bg3;
+    }
+
+    .schedule-session-title {
+      color: $main-background-color;
+    }
   }
-
   &-session {
-    &s {
-      position: relative;
+    position: relative;
 
-      &:before {
-        position: absolute;
-        top: -$schedule-divider-top-padding;
-        left: $table-first-column-width-xxl - 6px;
-        content: ' ';
-        display: block;
-        height: calc(100% + #{$schedule-divider-top-padding} + #{$schedule-day-block-margin-top});
-        width: 3px;
-        background-color: $main-active-link-color;
-      }
-
-      a {
-        &:hover {
-          text-decoration: none;
-        }
-
-        .schedule-session-title {
-          color: $main-background-color;
-        }
-      }
+    &:before {
+      position: absolute;
+      top: -$schedule-divider-top-padding;
+      left: $table-first-column-width-xxl - 6px;
+      content: ' ';
+      display: block;
+      height: calc(100% + #{$schedule-divider-top-padding} + #{$schedule-day-block-margin-top});
+      width: 3px;
+      background-color: $main-active-link-color;
     }
     .person {
       &-img {
@@ -110,11 +107,6 @@ $schedule-timing-padding: 2px 10px;
       }
     }
 
-    margin: 30px 0;
-    display: grid;
-    grid-template-columns: $table-first-column-width-xxl auto 100px;
-    align-items: center;
-    //grid-column-gap: 20px;
     &-id, &-hours {
       padding: $schedule-timing-padding;
       color: $tracks-paragraph-text-color;
@@ -125,10 +117,6 @@ $schedule-timing-padding: 2px 10px;
       text-align: right;
       border-right: solid 1px $main-action-text-color;
       padding-left: 0;
-    }
-
-    &-hours {
-      //padding: $schedule-timing-padding;
     }
 
     &-title {
@@ -219,15 +207,15 @@ $schedule-timing-padding: 2px 10px;
 
 @media screen and (max-width: $xl-breakpoint) {
   .schedule {
-    &-session {
+    &-link {
       grid-template-columns: $table-first-column-width-xl auto 100px;
       margin: 15px 0;
+    }
 
-      &s {
-        &:before {
-          left: 157px;
-          height: calc(100% + #{$schedule-divider-top-padding} + #{$schedule-day-block-margin-top});
-        }
+    &-session {
+      &:before {
+        left: 157px;
+        height: calc(100% + #{$schedule-divider-top-padding} + #{$schedule-day-block-margin-top});
       }
 
       &-title {
@@ -261,15 +249,14 @@ $schedule-timing-padding: 2px 10px;
   }
 
   .schedule {
-    &-session {
+    &-link {
       grid-template-columns: $table-first-column-width-lg auto 100px;
-      margin: 15px 0;
+    }
 
-      &s {
-        &:before {
-          left: 125px;
-          height: calc(100% + #{$schedule-divider-top-padding} + #{$schedule-day-block-margin-top});
-        }
+    &-session {
+      &:before {
+        left: 125px;
+        height: calc(100% + #{$schedule-divider-top-padding} + #{$schedule-day-block-margin-top});
       }
 
       &-title {
@@ -298,17 +285,16 @@ $schedule-timing-padding: 2px 10px;
 
 @media screen and (max-width: $md-breakpoint) {
   .schedule {
-    &-session {
+    &-link {
       grid-template-columns: $table-first-column-width-md auto 100px;
       margin: 10px 0;
+    }
 
-
-      &s {
-        &:before {
-          left: 115px;
-          top: -$schedule-divider-top-padding-md;
-          height: calc(100% + #{$schedule-divider-top-padding-md} + #{$schedule-day-block-margin-top});
-        }
+    &-session {
+      &:before {
+        left: 115px;
+        top: -$schedule-divider-top-padding-md;
+        height: calc(100% + #{$schedule-divider-top-padding-md} + #{$schedule-day-block-margin-top});
       }
 
       &-title {
@@ -342,8 +328,17 @@ $schedule-timing-padding: 2px 10px;
 
 @media screen and (max-width: $sm-breakpoint) {
   .schedule {
-    &-session {
+    &-link {
       grid-template-columns: $table-first-column-width-md auto;
+      margin: 40px 0;
+    }
+
+    &-session {
+      &:before {
+        left: 115px;
+        top: -40px;
+        height: calc(100% + 80px);
+      }
       &-person {
         display: none;
       }
