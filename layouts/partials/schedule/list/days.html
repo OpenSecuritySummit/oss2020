@@ -1,19 +1,15 @@
 {{ $this := .this}}
 
-<div class="container">
-    <div class="row">
+<div class="container schedule-session-group">
+  <div class="row">
     <h2>{{upper .title}}</h2>
-    </div>
+  </div>
 </div>
 
 
-<section class="schedule-section">
-    <div class="container container-xl">
-      {{ with .days}}
-          {{ range sort . "order"}}
-              {{ $sessions := where $this.Site.Pages ".Params.when_day" .key }}
-              {{ partial "schedule/list/day.html" (dict "this" $this "sessions" $sessions "day" .day "date" .date) }}
-          {{ end}}
-      {{ end}}
-    </div>
-</section>
+  {{ with .days}}
+    {{ range sort . "order"}}
+      {{ $sessions := where $this.Site.Pages ".Params.when_day" .key }}
+      {{ partial "schedule/list/day.html" (dict "this" $this "sessions" $sessions "day" .day "date" .date) }}
+    {{ end}}
+  {{ end}}

@@ -8,18 +8,20 @@
 
 {{ define "breadcrumbs" }}
 
-    <div class="container-managed xxl">
-        {{ partial "breadcrumbs2020.html" . }}
+  <div class="container-managed xxl">
+    {{ partial "breadcrumbs2020.html" . }}
 
 {{ end }}
 
 {{ define "full-content" }}
-      <div class="container">
-          <div class="row">
-            {{ .Content }}
-          </div>
-      </div>
+<!--    <div class="container container-xl">-->
+      <section class="schedule-section">
+        <div class="container container-xl">
+        {{ .Content }}
 
         {{ partial "schedule/list/body.html" . }}
-    </div>
+        </div>
+      </section>
+<!--    </div>-->
+  </div>
 {{ end }}

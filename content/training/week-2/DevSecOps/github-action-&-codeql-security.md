@@ -1,5 +1,5 @@
 ---
-title        : GitHub Actions & CodeQL Security
+title        : GitHub Actions & code scanning with CodeQL
 type         : training-session
 track        : DevSecOps
 topics       : 
