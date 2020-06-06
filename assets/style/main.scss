@@ -18,9 +18,14 @@ body {
 #content, .container-managed, #sponsors {
   background-image: url("#{$base-url}/img/backgrounds/shapes-xxl-bg.png");
   background-position: center top;
-  background-repeat: repeat;
+  background-repeat: repeat-y;
   .container {
     section, ul {
+      background-color: #fff;
+    }
+  }
+  section {
+    .container {
       background-color: #fff;
     }
   }
@@ -994,7 +999,7 @@ hr.container.no-margin {
 
 @media (min-width: 1200px) {
   .container {
-    width: 1190px;
+    width: 1185px;
 
     /*1370px;*/
   }
