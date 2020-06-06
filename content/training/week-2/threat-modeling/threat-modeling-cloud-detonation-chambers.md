@@ -8,7 +8,7 @@ topics       :
 when_week    : two
 when_day     : 10th - Wednesday
 when_time    : WS-3
-hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/threat-modeling-cloud-functions-as-detonation-chambers-5pm-bst/
+hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/threat-modeling-cloud-functions-as-detonation-chambers/
 session_slack:
 status       :            # draft, review-content, done
 description  : TBD
