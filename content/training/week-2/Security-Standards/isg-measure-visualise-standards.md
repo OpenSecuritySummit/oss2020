@@ -16,7 +16,7 @@ status       : draft           # draft, review-content, done
 description  : TBD
 organizers   : 
         - Dinis Cruz
-        - Luke Robbertse
+       
 
 ---
 

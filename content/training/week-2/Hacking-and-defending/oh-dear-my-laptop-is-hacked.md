@@ -14,6 +14,7 @@ description  : TBD
 organizers   : 
      - Dinis Cruz 
      - Petra Vukmirovic
+     - Sara Notaro
 
 
 

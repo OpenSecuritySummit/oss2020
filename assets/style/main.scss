@@ -15,6 +15,42 @@ body {
   }
 }
 
+#content, .container-managed, #sponsors {
+  background-image: url("#{$base-url}/img/backgrounds/shapes-xxl-bg.png");
+  background-position: center top;
+  background-repeat: repeat;
+  .container {
+    section, ul {
+      background-color: #fff;
+    }
+  }
+}
+
+@media screen and (max-width: $xl-breakpoint) {
+  #content, .container-managed, #sponsors {
+    background-image: url("#{$base-url}/img/backgrounds/shapes-xl-bg.png");
+  }
+}
+
+@media screen and (max-width: $lg-breakpoint) {
+  #content, .container-managed, #sponsors {
+    background-image: url("#{$base-url}/img/backgrounds/shapes-lg-bg.png");
+  }
+}
+
+@media screen and (max-width: $md-breakpoint) {
+  #content, .container-managed, #sponsors {
+    background-image: url("#{$base-url}/img/backgrounds/shapes-md-bg.png");
+  }
+}
+
+@media screen and (max-width: $sm-breakpoint) {
+  #content, .container-managed, #sponsors {
+    background-image: url("#{$base-url}/img/backgrounds/shapes-sm-bg.png");
+  }
+}
+
+
 .heading h1,
 .heading h2,
 .heading h3,

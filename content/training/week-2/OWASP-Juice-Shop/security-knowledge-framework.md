@@ -11,6 +11,5 @@ session_slack:
 status       :           # draft, review-content, done
 description  : TBD
 organizers   : 
-        - Daniel Cuthbert
-        - Andrew van der Stock
+       
 ---
