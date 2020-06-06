@@ -9,7 +9,7 @@ featured     : yes
 when_week    : two
 when_day     : 11th - Thursday
 when_time    : WS-2
-hey_summit   : 
+hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/what-security-exploits-are-prevented-by-implementing-isgs-2pm-bst/
 session_slack: 
 status       : draft           # draft, review-content, done
 description  : TBD

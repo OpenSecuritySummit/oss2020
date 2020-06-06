@@ -1,5 +1,5 @@
 ---
-title        : Wardley Maps
+title        : Wardley Mapping (intermediate)
 type         : training-session
 track        : Wardley Maps
 topics       : 

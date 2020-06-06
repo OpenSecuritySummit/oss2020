@@ -5,10 +5,10 @@ type         : training-session
 topics       :
     - Functions as a Service
     - Threat Modeling
-when_week    : 
+when_week    :
 when_day     : 
 when_time    : 
-hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/threat-modeling-cloud-functions-as-detonation-chambers/
+hey_summit   : 
 session_slack:
 status       :            # draft, review-content, done
 description  : TBD
