@@ -13,6 +13,8 @@ description  : TBD
 organizers   : 
        - Dinis Cruz
        - James Bore
+       - Didar Gelici
+       - Petra Vukmirovic
 ---
 
 ### This is the third section in a four-part exercise:
