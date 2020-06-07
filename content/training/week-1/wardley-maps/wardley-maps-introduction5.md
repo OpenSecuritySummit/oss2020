@@ -13,3 +13,6 @@ organizers   : Petra Vukmirovic
 description  : TBD
 ---
 
+### Training Session Video
+
+{{< youtube id="dQdQS4TaQ7U" autoplay="false" >}} 

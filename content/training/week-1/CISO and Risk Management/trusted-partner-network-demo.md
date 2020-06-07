@@ -14,3 +14,6 @@ organizers   :  Ben Schofield
 
 ---
 
+### Training Session Video
+
+{{< youtube id="jvK1TMUExZw" autoplay="false" >}} 
