@@ -1,7 +1,7 @@
 ---
 title        : O365 Security - Anti-Phishing best practises and Demo.md
 type         : training-session
-track        : Hacking and defending
+track        : Hacking-and-defending
 topics       : O365 Security - Anti-Phishing best practise
 when_week    : two
 when_day     : 11th - Thursday
