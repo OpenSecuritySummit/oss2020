@@ -11,7 +11,7 @@ when_day     : 9th - Tuesday
 when_time    : WS-2
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/threat-modeling-icap-2pm-bst/
 session_slack:
-status       : draft           # draft, review-content, done
+status       :            # draft, review-content, done
 description  : TBD
 organizers   : 
         - Dinis Cruz
