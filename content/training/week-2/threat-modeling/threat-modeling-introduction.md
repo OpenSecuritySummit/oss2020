@@ -5,7 +5,7 @@ track        : Threat Modeling
 topics       : 
 when_week    : two
 when_day     : 11am 
-when_time    : 8th - Monday
+when_time    : WS-1
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/threat-modelling-first-aid-an-introduction-to-threat-modelling-and-risk/
 session_slack:
 status       : draft           # draft, review-content, done
