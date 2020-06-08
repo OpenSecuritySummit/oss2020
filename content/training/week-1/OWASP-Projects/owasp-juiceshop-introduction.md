@@ -47,3 +47,6 @@ Please register for:
 ## Training Session Video
 
 {{< youtube id="Ry0mXz6ZPXc" autoplay="false" >}} 
+
+#### Resources
+https://bkimminich.github.io/juice-shop/#/
