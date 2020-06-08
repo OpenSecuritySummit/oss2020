@@ -11,7 +11,7 @@ when_day     : 11th - Thursday
 when_time    : WS-2
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/ncsc-safe-file-import-pattern/
 session_slack: 
-status       : draft           # draft, review-content, done
+status       :          # draft, review-content, done
 description  : 
 organizers   : 
         - Paul Burke
