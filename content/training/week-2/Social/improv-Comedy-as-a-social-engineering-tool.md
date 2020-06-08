@@ -1,5 +1,5 @@
 ---
-title        : SEMI-SOCIAL:Improv Comedy as a Social Engineering Tool
+title        : "SEMI-SOCIAL: Improv Comedy as a Social Engineering Tool"
 type         : training-session
 track        : Social
 topics       : 

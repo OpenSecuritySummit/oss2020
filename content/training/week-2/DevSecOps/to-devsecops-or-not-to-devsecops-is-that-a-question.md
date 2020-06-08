@@ -1,5 +1,5 @@
 ---
-title        : To DevSecOps or not to DevSecOps:is that a question?
+title        : "To DevSecOps or not to DevSecOps: is that a question?"
 type         : training-session
 track        : DevSecOps
 topics       : 
