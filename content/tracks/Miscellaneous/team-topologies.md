@@ -1,6 +1,6 @@
 ---
 title        : Team Topologies 
-track        : Miscellaneous
+track        : "Miscellaneous"
 type         : working-session      # working-session, user-session, product-session
 technology   :
 topics       :                    # for example ["GDPR"]
@@ -11,10 +11,12 @@ hey_summit   : https://open-security-summit-2020.heysummit.com/talks/team-topolo
 room_layout  :                    #
 room_id      :
 session_slack: 
-status       : draft              # draft, review-content, done
+status       :               # draft, review-content, done
 description  :
 participants :
-organizers   : Manuel Pais
+organizers   : 
+       - Manuel Pais
+
 ---
 
 
