@@ -2,6 +2,10 @@
 /** BREADCRUMBS PAGE styles **/
 /*****************************/
 
+$table-first-column-width-xxl: 194px;
+$table-first-column-width-xl: 170px;
+$table-first-column-width-lg: 130px;
+$table-first-column-width-md: 115px;
 .breadcrumb {
   text-align: center;
   background-color: $main-background-color;
@@ -38,10 +42,7 @@
 /**** SCHEDULE PAGE styles ***/
 /*****************************/
 
-$schedule-day-block-margin-top: 70px;
-$schedule-day-block-margin-top-xl: 50px;
-$schedule-day-block-margin-top-lg: 25px;
-$schedule-day-block-margin-top-md: 30px;
+$schedule-day-block-margin-top: 10px;
 $schedule-divider-top-padding: 20px;
 $schedule-divider-top-padding-md: 15px;
 $schedule-timing-padding: 2px 10px;
@@ -70,11 +71,11 @@ $schedule-timing-padding: 2px 10px;
       &:before {
         position: absolute;
         top: -$schedule-divider-top-padding;
-        left: 285px;
+        left: $table-first-column-width-xxl - 6px;
         content: ' ';
         display: block;
         height: calc(100% + #{$schedule-divider-top-padding} + #{$schedule-day-block-margin-top});
-        width: 1px;
+        width: 3px;
         background-color: $main-active-link-color;
       }
 
@@ -88,15 +89,35 @@ $schedule-timing-padding: 2px 10px;
         }
       }
     }
+    .person {
+      &-img {
+        width: 101px;
+        height: 101px;
+        border: 2px solid $main-active-link-color;
+        border-radius: 50%;
+        & img {
+          width: 100%;
+          z-index: -1;
+        }
+      }
+    }
 
+    &-group {
+      margin-top: 50px;
+      h2 {
+        text-align: center;
+        font-size: 50px;
+      }
+    }
 
-    margin: 20px 0;
+    margin: 30px 0;
     display: grid;
-    grid-template-columns: 1.2fr 3fr 11fr;
+    grid-template-columns: $table-first-column-width-xxl auto 100px;
+    align-items: center;
     //grid-column-gap: 20px;
     &-id, &-hours {
       padding: $schedule-timing-padding;
-      color: $main-action-text-color;
+      color: $tracks-paragraph-text-color;
     }
 
     &-id {
@@ -111,11 +132,24 @@ $schedule-timing-padding: 2px 10px;
     }
 
     &-title {
+      height: 100%;
       font-family: 'Roboto Slab', sans-serif;
       font-size: 24px;
-      background-color: $schedule-table-background-color;
+      // background-color: $schedule-table-background-color;
       color: $main-background-color;
-      padding: 5px 20px;
+      padding: 0 20px;
+      .track_badge {
+        padding: 8px 15px;
+        white-space: nowrap;
+        width: 280px;
+        margin-top: -10px;
+        //margin-left: 30px;
+        background-color: $title-bg2;
+        border-radius: 8px;
+        font-family: "Roboto", Helvetica, Arial, sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+      }
     }
 
     &__user-session {
@@ -186,13 +220,13 @@ $schedule-timing-padding: 2px 10px;
 @media screen and (max-width: $xl-breakpoint) {
   .schedule {
     &-session {
-      //grid-template-columns: 2fr 3fr 6fr;
+      grid-template-columns: $table-first-column-width-xl auto 100px;
       margin: 15px 0;
 
       &s {
         &:before {
-          left: 230px;
-          height: calc(100% + #{$schedule-divider-top-padding} + #{$schedule-day-block-margin-top-xl});
+          left: 157px;
+          height: calc(100% + #{$schedule-divider-top-padding} + #{$schedule-day-block-margin-top});
         }
       }
 
@@ -204,10 +238,10 @@ $schedule-timing-padding: 2px 10px;
 
     &-day {
       font-size: 32px;
-      margin-top: $schedule-day-block-margin-top-xl;
+      margin-top: $schedule-day-block-margin-top;
 
       &-block {
-        margin-top: $schedule-day-block-margin-top-xl;
+        margin-top: $schedule-day-block-margin-top;
         font-size: 24px;
       }
     }
@@ -228,13 +262,13 @@ $schedule-timing-padding: 2px 10px;
 
   .schedule {
     &-session {
-      //grid-template-columns: 2fr 3fr 10fr;
+      grid-template-columns: $table-first-column-width-lg auto 100px;
       margin: 15px 0;
 
       &s {
         &:before {
-          left: 180px;
-          height: calc(100% + #{$schedule-divider-top-padding} + #{$schedule-day-block-margin-top-lg});
+          left: 125px;
+          height: calc(100% + #{$schedule-divider-top-padding} + #{$schedule-day-block-margin-top});
         }
       }
 
@@ -247,10 +281,10 @@ $schedule-timing-padding: 2px 10px;
     &-day {
       font-size: 28px;
 
-      margin-top: $schedule-day-block-margin-top-lg;
+      margin-top: $schedule-day-block-margin-top;
 
       &-block {
-        margin-top: $schedule-day-block-margin-top-lg;
+        margin-top: $schedule-day-block-margin-top;
         font-size: 20px;
       }
     }
@@ -265,14 +299,15 @@ $schedule-timing-padding: 2px 10px;
 @media screen and (max-width: $md-breakpoint) {
   .schedule {
     &-session {
-      grid-template-columns: 55px 115px 11fr;
+      grid-template-columns: $table-first-column-width-md auto 100px;
       margin: 10px 0;
+
 
       &s {
         &:before {
-          left: 165px;
+          left: 115px;
           top: -$schedule-divider-top-padding-md;
-          height: calc(100% + #{$schedule-divider-top-padding-md} + #{$schedule-day-block-margin-top-md});
+          height: calc(100% + #{$schedule-divider-top-padding-md} + #{$schedule-day-block-margin-top});
         }
       }
 
@@ -280,17 +315,20 @@ $schedule-timing-padding: 2px 10px;
         font-size: 16px;
         padding: 3px 10px;
         margin-left: 5px;
-
+        .track_badge {
+          font-size: 16px;
+          width: 230px;
+        }
       }
     }
 
     &-day {
       font-size: 24px;
 
-      margin-top: $schedule-day-block-margin-top-lg;
+      margin-top: $schedule-day-block-margin-top;
 
       &-block {
-        margin-top: $schedule-day-block-margin-top-lg;
+        margin-top: $schedule-day-block-margin-top;
         font-size: 18px;
       }
     }
@@ -303,5 +341,13 @@ $schedule-timing-padding: 2px 10px;
 /*****************************/
 
 @media screen and (max-width: $sm-breakpoint) {
+  .schedule {
+    &-session {
+      grid-template-columns: $table-first-column-width-md auto;
+      &-person {
+        display: none;
+      }
+    }
+  }
 }
 

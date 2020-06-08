@@ -1,9 +1,8 @@
 ---
 title        : How to create specific test cases for ISGs requirements
-track        : Security Standards
+track        : ISG
 type         : training-session
 topics       :
-    - NSA ISGs
     - CDR
     - Glasswall
 featured     : yes
@@ -12,11 +11,11 @@ when_day     : 10th - Wednesday
 when_time    : WS-3
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/isgs-how-to-create-specfic-test-cases-for-its-requirements-5pm-bst
 session_slack: 
-status       : draft           # draft, review-content, done
+status       :          # draft, review-content, done
 description  : TBD
 organizers   : 
         - Dinis Cruz
-        - Luke Robbertse
+       
 zoom_host    : TBD
 
 ---

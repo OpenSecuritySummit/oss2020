@@ -1,22 +1,21 @@
 ---
 title        : JPG ISG - How to automate Inspection and Sanitization Guidance testing
-track        : Security Standards
+track        : ISG
 type         : training-session
 topics       :
-    - NSA ISGs
     - CDR
     - Glasswall
 featured     : yes
 when_week    : two
 when_day     : 12th - Friday
 when_time    : WS-2
-hey_summit   : https://open-security-summit-2020.heysummit.com/talks/jpg-isg-how-to-automate-inspection-and-sanitization-guidance-testing-2pm-bst/
+hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/jpg-isg-how-to-automate-inspection-and-sanitization-guidance-testing-2pm-bst/
 session_slack:
-status       : draft           # draft, review-content, done
+status       :          # draft, review-content, done
 description  : TBD
 organizers   : 
         - Dinis Cruz
-        - Luke Robbertse
+       
 ---
 
 

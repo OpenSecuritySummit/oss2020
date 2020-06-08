@@ -7,13 +7,14 @@ featured     : yes
 when_week    : two
 when_day     : 9th - Tuesday
 when_time    : WS-3
-hey_summit   : https://pre-summit-training-sessions.heysummit.com/manage/content/talks/
+hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/oh-dear-my-laptop-is-hacked/
 session_slack:
 status       :           # draft, review-content, done
 description  : TBD
 organizers   : 
      - Dinis Cruz 
      - Petra Vukmirovic
+     - Sara Notaro
 
 
 

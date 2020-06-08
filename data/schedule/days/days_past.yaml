@@ -18,3 +18,8 @@ day-4:
   day : "Thursday"
   key : "4th - Thursday"
   order: 4
+day-5:
+  date: "5th"
+  day : "Friday"
+  key : "5th - Friday"
+  order: 5
