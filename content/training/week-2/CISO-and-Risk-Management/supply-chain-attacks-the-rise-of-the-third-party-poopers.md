@@ -1,5 +1,5 @@
 ---
-title        : Supply Chain Attacks:The rise of the Third Party Poopers
+title        : "Supply Chain Attacks : The rise of the Third Party Poopers"
 type         : training-session
 track        : CISO and Risk Management
 topics       :                    # for example ["GDPR"]
