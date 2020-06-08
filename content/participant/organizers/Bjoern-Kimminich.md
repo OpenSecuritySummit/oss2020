@@ -1,17 +1,17 @@
 ---
 title:  Bjoern Kimminich
-image: https://media-exp1.licdn.com/dms/image/C5103AQFe6pFWqwxHlw/profile-displayphoto-shrink_800_800/0?e=1596672000&v=beta&t=6qbW3YtMxLFjnAf6nyCGc5Q8P-DHB0HLUZxmC297x2Q
-company: Kühne + Nagel (AG & Co.) KG
+image: https://pbs.twimg.com/profile_images/1269649524039004161/thpWClK9_400x400.jpg
+company: Kuehne + Nagel (AG & Co.) KG
 job_title: Product Group Lead Architecture Governance + Application
 facebook: bjoern.kimminich
 linkedin: bkimminich
 twitter: bkimminich
-website:
+website: https://kimminich.de
 notes:
 status: add-details
 type: participant
 ---
 
-Senior Manager IT Architecture at Kuehne + Nagel
-
-<!-- put more details about participant here -->
+* Product Group Lead Architecture Governance + Application at Kuehne + Nagel (AG & Co.) KG
+* Lecturer for IT Security at University of Applied Sciences NORDAKADEMIE
+* OWASP Juice Shop Project Leader

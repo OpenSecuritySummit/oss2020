@@ -1,5 +1,5 @@
 ---
-title        : PSD & Squads & Tribes & Team Topologies
+title        : PST & Squads & Tribes & Team Topologies
 track        : "Wardley Maps"
 type         : working-session      # working-session, user-session, product-session
 technology   :

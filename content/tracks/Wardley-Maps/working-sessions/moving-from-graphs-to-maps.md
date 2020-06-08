@@ -1,6 +1,6 @@
 ---
 title        : Moving from Graphs to Maps 
-track        : "Wardley Maps"
+track        : Wardley-Maps
 type         : working-session      # working-session, user-session, product-session
 technology   :
 topics       :                    # for example ["GDPR"]
@@ -11,7 +11,7 @@ hey_summit   : https://open-security-summit-2020.heysummit.com/talks/moving-from
 room_layout  :                    #
 room_id      : 
 session_slack: 
-status       : draft              # draft, review-content, done
+status       :              # draft, review-content, done
 description  : 
 organizers   :  Simon Wardley
 ---
