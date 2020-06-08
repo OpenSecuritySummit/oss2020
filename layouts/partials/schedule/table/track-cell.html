@@ -23,9 +23,9 @@
                 <td>
                     {{ partial "participant/invited.html" (dict "page" . "name" $self.Params.title) }}
                     {{ partial "link.html" . }}
-                    <span id="cell_widgets">
-                        {{ partial "widgets/clues.html" .}}
-                    </span>
+<!--                    <span id="cell_widgets">-->
+<!--                        {{ partial "widgets/clues.html" .}}-->
+<!--                    </span>-->
                     <div class="schedule-by-track-cell-room-id">
                         {{ if .Params.room_id }}
                             {{ if in .Params.room_id "villa" }}

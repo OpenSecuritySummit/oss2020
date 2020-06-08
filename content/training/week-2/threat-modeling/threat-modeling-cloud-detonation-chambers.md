@@ -3,8 +3,7 @@ title        : Threat Modeling - Cloud Functions as Detonation Chambers
 track        : Threat Modeling
 type         : training-session
 topics       :
-    - Functions as a Service
-    - Threat Modeling
+    - Cloud
 when_week    :
 when_day     : 
 when_time    : 
