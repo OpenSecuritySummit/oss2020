@@ -6,8 +6,8 @@
     {{ range sort .sessions ".Params.when_time"}}
         {{ if .Params.hey_summit}}
 
-
             {{ $when_time := index $this.Site.Data.schedule.times .Params.when_time }}
+            {{ $organizers := partial "params/organizers.html" . }}
 
             <div class="schedule-session">
                 <a class="schedule-link how-many-participants-3" href="{{.Permalink}}">
@@ -15,10 +15,10 @@
                     <div class="schedule-session-title">
                         <div class="track_badge">{{.Params.track}}</div>
                         <span><h2>{{.Params.title}}</h2></span>
-                        <div>{{ partial "schedule/list/organizers-links.html" . }}</div>
+                        <div>{{ partial "schedule/list/organizers-links.html" ( dict "this" . "organizers" $organizers) }}</div>
                     </div>
                     <div class="schedule-session-person">
-                        {{ partial "schedule/list/organizers-images.html" . }}
+                        {{ partial "schedule/list/organizers-images.html" ( dict "this" . "organizers" $organizers) }}
                     </div>
                 </a>
             </div>
