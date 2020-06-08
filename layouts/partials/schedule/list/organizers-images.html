@@ -1,0 +1,18 @@
+{{ $organizers := partial "params/organizers.html" .  }}
+{{ if $organizers }}
+    {{range $organizers}}
+        <div class="person-img">
+            {{ if eq (printf "%T"  .) "*hugolib.pageState" }}
+                    <img src="{{ .Params.image }}" class="img-circle" alt="{{ .Title }}"/>
+            {{else}}
+                <img src="/img/pages/person/person-01.png" alt="Person" class="img-circle">
+            {{ end }}
+        </div>
+    {{ end }}
+{{ else}}
+    <div class="person-img">
+        <img src="/img/pages/person/person-01.png" alt="Person">
+    </div>
+{{ end}}
+
+

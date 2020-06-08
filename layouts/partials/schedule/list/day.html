@@ -1,8 +1,12 @@
+
 {{ $this := .this}}
+
 <div class="schedule-day-block">
     <p class="schedule-day">{{ .day }} - {{.date}} June</p>
     {{ range sort .sessions ".Params.when_time"}}
         {{ if .Params.hey_summit}}
+
+
             {{ $when_time := index $this.Site.Data.schedule.times .Params.when_time }}
 
             <div class="schedule-session">
@@ -10,12 +14,11 @@
                     <div class="schedule-session-hours">{{$when_time}}</div>
                     <div class="schedule-session-title">
                         <div class="track_badge">{{.Params.track}}</div>
-                        <span>{{.Params.title}}</span>
+                        <span><h2>{{.Params.title}}</h2></span>
+                        <div>{{ partial "schedule/list/organizers-links.html" . }}</div>
                     </div>
                     <div class="schedule-session-person">
-                        <div class="person-img"><img src="{{ .Site.BaseURL }}/img/pages/person/person-01.png" alt="Person"></div>
-                        <div class="person-img"><img src="{{ .Site.BaseURL }}/img/pages/person/person-01.png" alt="Person"></div>
-                        <div class="person-img"><img src="{{ .Site.BaseURL }}/img/pages/person/person-01.png" alt="Person"></div>
+                        {{ partial "schedule/list/organizers-images.html" . }}
                     </div>
                 </a>
             </div>
