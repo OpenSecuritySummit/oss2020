@@ -2,9 +2,12 @@
 
 <h1>{{ .Title }}</h1>
 
-<section class="schedule-section">
+<section class="session-section">
     <div class="container container-xl">
         <div class="table">
+            <div class="organizers-wrapper">
+                {{ partial "session/organizers-images.html" . }}
+            </div>
             <div class="table-title">
                 <div class="table-title-item">When (day):</div>
                 <div class="table-title-item">At:</div>
@@ -19,7 +22,6 @@
                 <div class="table-description-item">{{ partial "params/topics-links.html"         . }} </div>
                 <div class="table-organizers-item">{{ partial "session/register-hey-summit.html" . }} </div>
             </div>
-            {{ partial "session/organizers-images.html" . }}
         </div>
     </div>
 </section>

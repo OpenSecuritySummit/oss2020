@@ -6,8 +6,10 @@
         {{range $organizers}}
             <div class="table-organisers-item">
                 {{ if eq (printf "%T"  .) "*hugolib.pageState" }}
-                    <img src="{{ .Params.image }}"  class="img-circle img-responsive" />&nbsp;
-                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                <a href="{{ .Permalink }}">
+                    <img src="{{ .Params.image }}"  class="img-circle img-responsive" />
+                    {{ .Title }}
+                </a>
                 {{else}}
                     {{ . }}
                 {{ end }}
