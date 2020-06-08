@@ -1,5 +1,5 @@
 ---
-title        : O365 Security - Anti-Phishing best practises and Demo.md
+title        : O365 Security - Anti-Phishing best practises and Demo
 type         : training-session
 track        : Hacking and Defending
 topics       : O365 Security - Anti-Phishing best practise
