@@ -1,9 +1,9 @@
 .video {
     &-section {
         padding-top: 150px;
-        & .pagination {
+        .pagination {
             display: grid;
-            grid-template-columns: 52px 52px 52px 52px 52px;
+            grid-template-columns: repeat(5, 52px);
             grid-template-rows: 52px;
             justify-content: center;
             grid-gap: 10px;
@@ -14,7 +14,7 @@
                 background-color: $pag-main-bg;
                 transition: all 0.2s;
                 color: $session-content-text-color;
-                font-family: "Oswald Medium";
+                font-family: 'Oswald Medium', helvetica neue, helvetica, sans-serif;
                 font-size: 18px;
                 font-weight: 400;
                 &:hover {
@@ -31,7 +31,7 @@
                     background-color: $pag-main-bg;
                     transition: all 0.2s;
                     color: #000;
-                    & img {
+                    img {
                         margin: auto;
                         filter: invert(0.5);
                         transition: all 0.2s;
@@ -41,7 +41,7 @@
                     &:hover {
                         background-color: $main-action-text-color;
                         cursor: pointer;
-                        & img {
+                        img {
                             filter: invert(0);
                         }
                     }
@@ -51,7 +51,7 @@
                     &:hover {
                         background-color: $main-action-text-color;
                         cursor: pointer;
-                        & img {
+                        img {
                             filter: invert(0);
                         }
                     }
@@ -62,9 +62,9 @@
             &-title {
                 margin-bottom: 60px;
                 text-align: center;
-                font-family: 'Oswald Medium';
+                font-family: 'Oswald Medium', helvetica neue, helvetica, sans-serif;
                 font-size: 56px;
-                font-weight: 400;                
+                font-weight: 400;
                 text-transform: uppercase;
                 color: $main-background-color;
             }
@@ -73,7 +73,7 @@
     &-gallery {
         display: grid;
         justify-content: center;
-        grid-template-columns: 31% 31% 31%;
+        grid-template-columns: repeat(3, 31%);
         grid-gap: 34px;
     }
     &-item {
@@ -82,29 +82,28 @@
         justify-content: space-between;
         margin-bottom: 40px;
         height: 240px;
-        // width: 33%;
-        & .source {
+        .source {
             margin-bottom: 20px;
             height: 80%;
-            & iframe {
-                
+            iframe {
+
             }
         }
-        & .words {
+        .words {
             display: flex;
             flex-direction: column;
             align-items: center;
-            & .author {  
+            .author {
                 margin-bottom: 10px;
-                color: $main-header-color;              
-                font-family: Oswald;
+                color: $main-header-color;
+                font-family: 'Oswald', helvetica neue, helvetica, sans-serif;
                 font-size: 24px;
                 font-weight: 500;
                 text-transform: uppercase;
             }
-            & .description {
+            .description {
                 text-align: center;
-                font-family: "Roboto - Light Italic";
+                font-family: "Roboto", Helvetica, Arial, sans-serif;
                 font-size: 18px;
                 font-weight: 400;
                 font-style: italic;
@@ -113,7 +112,9 @@
     }
 }
 
-
+.pagination {
+    display: none !important;
+}
 
 /************
 *** MEDIA ***
@@ -123,41 +124,40 @@
 
 @media screen and (max-width: $xl-breakpoint) {
 
-    
-    
-  }
-  
-  /*** LG-Breakpoint ***/
-  
-  @media screen and (max-width: $lg-breakpoint) {
-  
-    .video {
-        &-gallery {
-            grid-template-columns: 42% 42%;
-            grid-gap: 24px;
-        }
-    }
-  
-  }
-  
-  
-  /*** MD-Breakpoint ***/
-  
-  @media screen and (max-width: $md-breakpoint) {
-    
-    .video {
-        &-gallery {
-            grid-template-columns: 85%;
-            grid-gap: 24px;
-        }
-        &-item {
-            display: flex;
-            align-items: center;
-            & .source {
-                max-width: 540px;
-            }
-        }
-    }
+
 
   }
-  
+
+  /*** LG-Breakpoint ***/
+
+  @media screen and (max-width: $lg-breakpoint) {
+
+      .video {
+          &-gallery {
+              grid-template-columns: repeat(2, 42%);
+              grid-gap: 24px;
+          }
+      }
+
+  }
+
+
+  /*** MD-Breakpoint ***/
+
+  @media screen and (max-width: $md-breakpoint) {
+
+      .video {
+          &-gallery {
+              grid-template-columns: 85%;
+              grid-gap: 24px;
+          }
+          &-item {
+              display: flex;
+              align-items: center;
+              .source {
+                  max-width: 540px;
+              }
+          }
+      }
+
+  }
