@@ -6,8 +6,12 @@
 <section class="session-section">
     <div class="container container-xl">
         <div class="table">
-            {{ $how_many := len $organizers }}
-            {{ if gt ($how_many) 3 }}
+            {{ .Scratch.Set "how_many" 1 }}
+            {{ if $organizers }}
+                {{ .Scratch.Set "how_many" ( len $organizers ) }}
+            {{ end }}
+            {{ $how_many := .Scratch.Get "how_many" }}
+            {{ if gt ($how_many) 2 }}
                 <div class="gt3">
                     <div class="table-organizers">
                         {{ partial "session/organizers-images.html" . }}

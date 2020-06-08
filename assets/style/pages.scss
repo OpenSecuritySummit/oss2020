@@ -6,6 +6,7 @@ $table-first-column-width-xxl: 194px;
 $table-first-column-width-xl: 170px;
 $table-first-column-width-lg: 130px;
 $table-first-column-width-md: 115px;
+$session-organiser-icon-size: 100px;
 .breadcrumb {
   text-align: center;
   background-color: $main-background-color;
@@ -92,7 +93,7 @@ $schedule-timing-padding: 2px 10px;
         height: 101px;
         border: 2px solid $main-active-link-color;
         border-radius: 50%;
-        & img {
+        img {
           width: 100%;
           z-index: -1;
         }
@@ -203,9 +204,9 @@ $schedule-timing-padding: 2px 10px;
 
 .session {
   &-section {
-    & .table {
+    .table {
       padding: 43px 72px;
-      min-height: 410px;      
+      //min-height: 410px;
       background-color: $alt-background-color;
       font-family: Roboto;
       font-size: 20px;
@@ -220,19 +221,19 @@ $schedule-timing-padding: 2px 10px;
         margin-bottom: 20px;
         display: flex;
         align-items: center;
-        & .title {
+        .title {
           min-width: 200px;
         }
-        & .description {
+        .description {
           height: 48px;
           padding: 10px 20px;
           flex-basis: 70%;
           background-color: #fff;
         }
-        & .button {
+        .button {
           flex-basis: 70%;
           text-align: center;
-          & .label {
+          .label {
             padding: .95em 1.6em .90em;
             font-size: 85%;
             border-radius: 1em;
@@ -240,49 +241,48 @@ $schedule-timing-padding: 2px 10px;
           }
         }
       }
-      & .gt3 {
+      .gt3 {
         display: grid;
         grid-template-rows: auto 400px;
         grid-gap: 24px;
-        & .table-organisers {
+        .table-organisers {
           display: flex;
           flex-wrap: wrap;
           justify-content: space-around;
           &-item {
-            & a {
-              width: 140px;
+            min-width: 200px;
+            a {
               display: flex;
               flex-direction: column;
               text-align: center;
-              & img {
-                // display: none;
+              img {
                 margin-left: auto;
                 margin-right: auto;
               }
             }
           }
-          & img {
-            width: 85px;
-            height: 85px;
+          img {
+            width: $session-organiser-icon-size;
+            height: $session-organiser-icon-size;
           }
         }
       }
-      & .le3 {
+      .le3 {
         display: grid;
         grid-template-columns: auto 190px;
-        & .table-organisers {
+        .table-organisers {
           &-item {
             padding-top: 6px;
             padding-bottom: 6px;
-            & a {
+            a {
               display: flex;
               align-items: center;
             }
           }
-          & img {
+          img {
             margin-right: 10px;
-            width: 85px;
-            height: 85px;
+            width: $session-organiser-icon-size;
+            height: $session-organiser-icon-size;
           }
         }
       }
@@ -340,30 +340,30 @@ $schedule-timing-padding: 2px 10px;
   }
   .session {
     &-section {
-      & .table {
+      .table {
         &-line {
-          & .title {
+          .title {
             min-width: 160px;
           }
-          & .description {
+          .description {
             flex-basis: 80%;
           }
-          & .button {
-            & .label {
+          .button {
+            .label {
               font-size: 80%;
             }
           }
         }
-        & .gt3 {
-          & .table {
+        .gt3 {
+          .table {
             &-organisers {
               &-item {
                 padding: 15px;
-                & a {
-                  width: 220px !important; 
-                  & img {
-                    display: none;
-                  }
+                a {
+                  width: 220px !important;
+                  //img {
+                  //  display: none;
+                  //}
                 }
               }
             }
@@ -418,19 +418,32 @@ $schedule-timing-padding: 2px 10px;
 
   .session {
     &-section {
-      & .table {
+      .table {
         padding: 43px 16px;
         &-line {
-          & .title {
+          .title {
             min-width: 160px;
           }
-          & .description {
+          .description {
             flex-basis: 78%;
           }
-          & .button {
+          .button {
             flex-basis: 78%;
-            & .label {
+            .label {
               font-size: 75%;
+            }
+          }
+        }
+      }
+      .gt3 {
+        .table {
+          &-organisers {
+            &-item {
+              a {
+                img {
+                  display: none;
+                }
+              }
             }
           }
         }
@@ -485,22 +498,22 @@ $schedule-timing-padding: 2px 10px;
 
   .session {
     &-section {
-      & .table {
+      .table {
         padding: 43px 16px;
         &-line {
-          & .title {
+          .title {
             min-width: 134px;
             font-size: 16px;
           }
-          & .description {
+          .description {
             // flex-basis: 78%;
             height: 40px;
             padding: 7px 14px;
             font-size: 18px;
           }
-          & .button {
+          .button {
             flex-basis: 78%;
-            & .label {
+            .label {
               font-size: 70%;
             }
           }
@@ -538,26 +551,26 @@ $schedule-timing-padding: 2px 10px;
 
   .session {
     &-section {
-      & .table {
+      .table {
         padding: 20px 16px;
         &-line {
           flex-direction: column;
-          & .title {
+          .title {
             min-width: 280px;
           }
-          & .description {
+          .description {
             min-width: 280px;
             // flex-basis: 80%;
           }
-          & .button {
+          .button {
             flex-basis: 78%;
-            & .label {
+            .label {
               font-size: 60%;
             }
           }
         }
-        & .gt3 {
-          & .table {
+        .gt3 {
+          .table {
             &-line {
               height: 40px;
             }
