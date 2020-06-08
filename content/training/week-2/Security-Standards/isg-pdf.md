@@ -7,7 +7,7 @@ topics       :
     - Glasswall
 featured     : 
 when_week    : two
-when_day     : 11th - Thursday
+when_day     : 12th - Friday
 when_time    : WS-3
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/pdf-isg-how-to-automate-inspection-and-sanitization-guidance-testing-2pm-bst/
 session_slack: 
