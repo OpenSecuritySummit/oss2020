@@ -1,9 +1,8 @@
 ---
 title        : Office Documents ISG - How to automate Inspection and Sanitization Guidance testing
-track        : Security Standards
+track        : ISG
 type         : training-session
 topics       :
-    - NSA ISGs
     - CDR
     - Glasswall
 featured     : yes
@@ -12,7 +11,7 @@ when_day     : 11th - Thursday
 when_time    : WS-3
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/office-documents-isg-how-to-automate-inspection-and-sanitization-guidance-testing-5pm-bst/
 session_slack:
-status       : draft           # draft, review-content, done
+status       :            # draft, review-content, done
 description  : TBD
 organizers   : 
         - Dinis Cruz

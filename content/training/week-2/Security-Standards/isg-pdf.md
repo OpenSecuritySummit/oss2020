@@ -1,18 +1,17 @@
 ---
-title        : ISGs - Inspection and Santisation Guidance for Portable Document Format
-track        : Security Standards
+title        : PDF ISG - Inspection and Sanitisation Guidance for Portable Document Format
+track        : ISG
 type         : training-session
 topics       :
-    - NSA ISGs
     - CDR
     - Glasswall
-featured     : yes
+featured     : 
 when_week    : two
 when_day     : 12th - Friday
 when_time    : WS-3
-hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/isgs-how-to-measure-and-visualise-isg-standards-5pm-bst/
+hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/pdf-isg-how-to-automate-inspection-and-sanitization-guidance-testing-2pm-bst/
 session_slack: 
-status       : draft           # draft, review-content, done
+status       : done           # draft, review-content, done
 description  : TBD
 organizers   : 
         - Dinis Cruz

@@ -40,6 +40,7 @@
         {{ $week_two_days := .Site.Data.schedule.days.week_two}}
         {{ $summit_days   := .Site.Data.schedule.days.summit}}
 
+
         {{ $title := "Training - week one (1st - 5th June)" }}
         {{ partial "schedule/table/table.html" (dict "self" . "pages" $sessions "valid_days" $week_one_days "title" $title )}}
 

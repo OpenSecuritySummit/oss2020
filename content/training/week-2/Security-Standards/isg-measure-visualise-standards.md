@@ -1,9 +1,8 @@
 ---
 title        : How to measure and visualise ISG standards
-track        : Security Standards
+track        : ISG
 type         : training-session
 topics       :
-    - NSA ISGs
     - CDR
     - Glasswall
 featured     : yes
@@ -12,7 +11,7 @@ when_day     : 10th - Wednesday
 when_time    : WS-2
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/isgs-how-to-measure-and-visualise-isg-standards-5pm-bst/
 session_slack: 
-status       : draft           # draft, review-content, done
+status       :           # draft, review-content, done
 description  : TBD
 organizers   : 
         - Dinis Cruz

@@ -17,3 +17,7 @@ organizers   : Dinis Cruz
 
 ---
 
+
+### Training Session Video
+
+{{< youtube id="7Pvo20Af_p0" autoplay="false" >}} 

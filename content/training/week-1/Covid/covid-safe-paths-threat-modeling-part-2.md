@@ -16,6 +16,10 @@ organizers   :
 description  : 
 ---
 
+### Training Session Video
+
+{{< youtube id="B4F0uFhi83g" autoplay="false" >}} 
+
 ### Covid Safe Paths
 
 "COVID Safe Paths is a mobile app for digital contract tracing (DCT) sponsored by Path Check a nonprofit and developed by a growing global community of engineers, designers, and contributors. Safe Paths is based on research originally conducted at the MIT Media Lab."

@@ -5,10 +5,10 @@ track        : Social
 topics       : 
 when_week    : two
 when_day     : 12th - Friday
-when_time    : BK-3
+when_time    : WS-4
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/social-all-bad-cards/
 session_slack:
-status       : draft           # draft, review-content, done
+status       :           # draft, review-content, done
 organizers   : Tony Richards
 description  : 
 ---
