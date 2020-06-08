@@ -10,8 +10,7 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/infrastr
 session_slack:
 status       :            # draft, review-content, done
 description  : TBD
-organizers   : 
-         - Barak Schoster
+organizers   : Barak Schoster
 ---
 
 ### About this talk:
