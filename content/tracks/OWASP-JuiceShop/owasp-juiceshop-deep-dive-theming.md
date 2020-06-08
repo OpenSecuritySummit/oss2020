@@ -1,6 +1,6 @@
 ---
 title        : OWASP Juice Shop Deep Dive - Theming
-track        : OWASP-JuiceShop
+track        : "OWASP Juice Shop"
 type         : user-session      # working-session, user-session, product-session
 technology   :
 topics       : OWASP                   # for example ["GDPR"]
