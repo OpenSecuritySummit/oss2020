@@ -4,7 +4,7 @@ type         : training-session
 track        : CISO and Risk Management
 topics       :                    # for example ["GDPR"]
 when_week    : two
-when_day     : 1oth - Wednesday
+when_day     : 10th - Wednesday
 when_time    : WS-1
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/supply-chain-attacks-the-rise-of-the-third-party-poopers/
 session_slack:
