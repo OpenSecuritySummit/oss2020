@@ -6,10 +6,10 @@ topics       :
     - CDR
     - Glasswall
 featured     : 
-when_week    : 
-when_day     : 
-when_time    : 
-hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/inspection-and-santisation-guidance-for-portable-document-format-1700pm-bst/
+when_week    : two
+when_day     : 12th - Friday
+when_time    : WS-3
+hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/pdf-isg-how-to-automate-inspection-and-sanitization-guidance-testing-2pm-bst/format-1700pm-bst/
 session_slack: 
 status       : draft           # draft, review-content, done
 description  : TBD
