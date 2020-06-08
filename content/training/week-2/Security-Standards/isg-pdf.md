@@ -1,5 +1,5 @@
 ---
-title        : PDF ISG - Inspection and Santisation Guidance for Portable Document Format
+title        : PDF ISG - Inspection and Sanitisation Guidance for Portable Document Format
 track        : ISG
 type         : training-session
 topics       :
