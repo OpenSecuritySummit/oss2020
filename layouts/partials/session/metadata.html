@@ -1,29 +1,110 @@
 {{ partial "widgets/session-clues.html" . }}
+{{ $organizers := partial "params/organizers.html" .  }}
 
 <h1>{{ .Title }}</h1>
 
 <section class="session-section">
     <div class="container container-xl">
         <div class="table">
-            <div class="organizers-wrapper">
-                {{ partial "session/organizers-images.html" . }}
-            </div>
-            <div class="table-title">
-                <div class="table-title-item">When (day):</div>
-                <div class="table-title-item">At:</div>
-                <div class="table-title-item">Track:</div>
-                <div class="table-title-item">Topics:</div>
-                <div class="table-title-item">Register:</div>
-            </div>
-            <div class="table-description">
-                <div class="table-description-item">{{ .Params.when_day                             }} </div>
-                <div class="table-description-item">{{ partial "session/when-time.html"           . }} </div>
-                <div class="table-description-item">{{ partial "utils/track-to-link.html" (dict "this" . "track" .Params.track)  }}</div>
-                <div class="table-description-item">{{ partial "params/topics-links.html"         . }} </div>
-                <div class="table-organizers-item">{{ partial "session/register-hey-summit.html" . }} </div>
-            </div>
+            {{ $how_many := len $organizers }}
+            {{ if gt ($how_many) 3 }}
+                <div class="gt3">
+                    <div class="table-organizers">
+                        {{ partial "session/organizers-images.html" . }}
+                    </div>
+                    <div class="table-body">
+                        <div class="table-line">
+                            <div class="title">
+                                When (day):
+                            </div>
+                            <div class="description">
+                                {{ .Params.when_day  }}
+                            </div>
+                        </div>
+                        <div class="table-line">
+                            <div class="title">
+                                At:
+                            </div>
+                            <div class="description">
+                                {{ partial "session/when-time.html" . }}
+                            </div>
+                        </div>
+                        <div class="table-line">
+                            <div class="title">
+                                Track:
+                            </div>
+                            <div class="description">
+                                {{ partial "utils/track-to-link.html" (dict "this" . "track" .Params.track)  }}
+                            </div>
+                        </div>
+                        <div class="table-line">
+                            <div class="title">
+                                Topics:
+                            </div>
+                            <div class="description">
+                                {{ partial "params/topics-links.html" . }}
+                            </div>
+                        </div>
+                        <div class="table-line">
+                            <div class="title">
+                                Register:
+                            </div>
+                            <div class="button">
+                                {{ partial "session/register-hey-summit.html" . }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {{ else }}
+                <div class="le3">
+                    <div class="table-body">
+                        <div class="table-line">
+                            <div class="title">
+                                When (day):
+                            </div>
+                            <div class="description">
+                                {{ .Params.when_day  }}
+                            </div>
+                        </div>
+                        <div class="table-line">
+                            <div class="title">
+                                At:
+                            </div>
+                            <div class="description">
+                                {{ partial "session/when-time.html" . }}
+                            </div>
+                        </div>
+                        <div class="table-line">
+                            <div class="title">
+                                Track:
+                            </div>
+                            <div class="description">
+                                {{ partial "utils/track-to-link.html" (dict "this" . "track" .Params.track)  }}
+                            </div>
+                        </div>
+                        <div class="table-line">
+                            <div class="title">
+                                Topics:
+                            </div>
+                            <div class="description">
+                                {{ partial "params/topics-links.html" . }}
+                            </div>
+                        </div>
+                        <div class="table-line">
+                            <div class="title">
+                                Register:
+                            </div>
+                            <div class="button">
+                                {{ partial "session/register-hey-summit.html" . }}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table-organizers">
+                        {{ partial "session/organizers-images.html" . }}
+                    </div>
+                </div>
+
+            {{ end }}
         </div>
     </div>
 </section>
-
-

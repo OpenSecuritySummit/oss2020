@@ -201,111 +201,95 @@ $schedule-timing-padding: 2px 10px;
 /**** SESSION NEW  styles ****/
 /*****************************/
 
-
-.organizers {
-  &-wrapper {
-    grid-area: 1 / span 2;
-  }
-}
-
 .session {
   &-section {
-    padding-top: 24px;
-    .table {
+    & .table {
       padding: 43px 72px;
-      min-height: 410px;
-      display: grid;
-      grid-template-columns: 40% 50%;      
+      min-height: 410px;      
       background-color: $alt-background-color;
       font-family: Roboto;
       font-size: 20px;
       font-weight: 500;
       letter-spacing: 4px;
-      &-title{
+      &-body {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        &-item {
-          height: 48px;
-          display: flex;
-          align-items: center;
-        }
-      }
-      &-description {
-        display: flex;
-        flex-basis: 58%;
-        flex-direction: column;
-        justify-content: space-around;
-        &-item {
-          padding: 0 56px;
-          display: flex;
-          align-items: center;
-          height: 48px;
-          background-color: $main-inverse-text-color;
-        }
-      }
-      &-organisers {
-        display: flex;
         justify-content: space-between;
-        flex-basis: 20%;
-        justify-content: space-around;
-        &-item {
-          padding: 0 20px;
-          display: flex;
-          
-          flex-direction: column;
-          align-items: center;
-          //height: 48px;
+      }
+      &-line {
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        & .title {
+          min-width: 200px;
+        }
+        & .description {
+          height: 48px;
+          padding: 10px 20px;
+          flex-basis: 70%;
+          background-color: #fff;
+        }
+        & .button {
+          flex-basis: 70%;
           text-align: center;
-          background-color: $alt-background-color;
-          margin-top: 10px;
-          & img {
-            width: 80px;
-            height: 80px;
+          & .label {
+            padding: .95em 1.6em .90em;
+            font-size: 85%;
+            border-radius: 1em;
+            border: none;
           }
         }
       }
-    }
-    .description {
-      margin-top: 117px;
-      .title {
-        font-family: Oswald;
-        font-size: 56px;
-        color: $main-background-color;
-        font-weight: 700;
-        text-transform: uppercase;
-      }
-      .article {
-        color: $session-content-text-color;
-        font-family: Roboto;
-        font-size: 22px;
-        font-weight: 500;
-        line-height: 32px;
-      }
-      .approach {
-        margin-top: 100px;
-        &-title {
-          margin-bottom: 20px;
-          color: $main-action-text-color;
-          font-family: Oswald;
-          font-size: 36px;          
-          font-weight: 700;          
+      & .gt3 {
+        display: grid;
+        grid-template-rows: auto 400px;
+        grid-gap: 24px;
+        & .table-organisers {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          &-item {
+            & a {
+              width: 140px;
+              display: flex;
+              flex-direction: column;
+              text-align: center;
+              & img {
+                // display: none;
+                margin-left: auto;
+                margin-right: auto;
+              }
+            }
+          }
+          & img {
+            width: 85px;
+            height: 85px;
+          }
         }
-        &-predict {
-          margin-top: 75px;
-        }
-        &-list {
-          padding-left: 22px;
-          color: $session-content-text-color;
-          font-family: Roboto;
-          font-size: 22px;
-          font-weight: 500;
-          line-height: 32px;
+      }
+      & .le3 {
+        display: grid;
+        grid-template-columns: auto 190px;
+        & .table-organisers {
+          &-item {
+            padding-top: 6px;
+            padding-bottom: 6px;
+            & a {
+              display: flex;
+              align-items: center;
+            }
+          }
+          & img {
+            margin-right: 10px;
+            width: 85px;
+            height: 85px;
+          }
         }
       }
     }
   }
 }
+
 
 /* END SESSION Styles */
 
@@ -354,6 +338,40 @@ $schedule-timing-padding: 2px 10px;
       }
     }
   }
+  .session {
+    &-section {
+      & .table {
+        &-line {
+          & .title {
+            min-width: 160px;
+          }
+          & .description {
+            flex-basis: 80%;
+          }
+          & .button {
+            & .label {
+              font-size: 80%;
+            }
+          }
+        }
+        & .gt3 {
+          & .table {
+            &-organisers {
+              &-item {
+                padding: 15px;
+                & a {
+                  width: 220px !important; 
+                  & img {
+                    display: none;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 
@@ -396,6 +414,30 @@ $schedule-timing-padding: 2px 10px;
       }
     }
   }
+
+
+  .session {
+    &-section {
+      & .table {
+        padding: 43px 16px;
+        &-line {
+          & .title {
+            min-width: 160px;
+          }
+          & .description {
+            flex-basis: 78%;
+          }
+          & .button {
+            flex-basis: 78%;
+            & .label {
+              font-size: 75%;
+            }
+          }
+        }
+      }
+    }
+  }
+
 }
 
 
@@ -439,6 +481,34 @@ $schedule-timing-padding: 2px 10px;
       }
     }
   }
+
+
+  .session {
+    &-section {
+      & .table {
+        padding: 43px 16px;
+        &-line {
+          & .title {
+            min-width: 134px;
+            font-size: 16px;
+          }
+          & .description {
+            // flex-basis: 78%;
+            height: 40px;
+            padding: 7px 14px;
+            font-size: 18px;
+          }
+          & .button {
+            flex-basis: 78%;
+            & .label {
+              font-size: 70%;
+            }
+          }
+        }
+      }
+    }
+  }
+
 }
 
 
@@ -464,5 +534,44 @@ $schedule-timing-padding: 2px 10px;
       }
     }
   }
-}
 
+
+  .session {
+    &-section {
+      & .table {
+        padding: 20px 16px;
+        &-line {
+          flex-direction: column;
+          & .title {
+            min-width: 280px;
+          }
+          & .description {
+            min-width: 280px;
+            // flex-basis: 80%;
+          }
+          & .button {
+            flex-basis: 78%;
+            & .label {
+              font-size: 60%;
+            }
+          }
+        }
+        & .gt3 {
+          & .table {
+            &-line {
+              height: 40px;
+            }
+            &-organisers {
+              &-item {
+                padding-top: 6px;
+                padding-bottom: 6px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+}
