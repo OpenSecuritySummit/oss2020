@@ -1,0 +1,10 @@
+{{ $organizers := partial "params/organizers.html" .  }}
+{{ if $organizers }}
+    {{range $organizers}}
+        {{ if eq (printf "%T"  .) "*hugolib.pageState" }}
+            {{ .Title }}
+        {{ end }}
+    {{ end }}
+{{ end}}
+
+
