@@ -1,6 +1,6 @@
 ---
 title        : OWASP Juice Shop Cocktail Party - Ask us anything ( AUA )
-track        : OWASP-JuiceShop
+track        : OWASP Juice Shop
 type         : user-session      # working-session, user-session, product-session
 technology   :
 topics       : OWASP                 # for example ["GDPR"]

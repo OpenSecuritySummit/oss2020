@@ -7,6 +7,7 @@ topics       : OWASP                   # for example ["GDPR"]
 featured     : yes                  # review with summit team "yes"
 when_day     : Mon
 when_time    : WS-1
+hey_summit   : https://open-security-summit-2020.heysummit.com/talks/owasp-juice-shop-deep-dive-theming-1/
 room_layout  :                    #
 room_id      :
 session_slack: 
