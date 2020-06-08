@@ -1,23 +1,24 @@
 ---
 title        : OWASP Juice Shop Cocktail Party - Ask us anything ( AUA )
-track        : OWASP Juice Shop
+track        : OWASP-JuiceShop
 type         : user-session      # working-session, user-session, product-session
 technology   :
 topics       : OWASP                 # for example ["GDPR"]
 featured     : yes                  # review with summit team "yes"
 when_day     : Mon
 when_time    : WS-4
+hey_summit   : https://open-security-summit-2020.heysummit.com/talks/owasp-juice-shop-cocktail-party-ask-us-anything/
 room_layout  :                  #
 room_id      :
 session_slack:
 status       : done              # draft, review-content, done
 description  :
+participants :
 organizers   :
     - Bjoern Kimminich
     - Jannik Hollenbach
     - Timo Pagel
-    - Robert Seedorff
-participants :
+    
 ---
 
 ![](https://raw.githubusercontent.com/OWASP/owasp-swag/master/projects/juice-shop/logos/custom/JuicyBot_MedicalMask.png)
