@@ -1,19 +1,22 @@
 ---
 title        :  OWASP Juice Shop Deep Dive - Integration
-track        :  OWASP Juice Shop
+track        :  OWASP-JuiceShop
 type         :  user-session      # working-session, user-session, product-session
 technology   :
 topics       :  OWASP                  # for example ["GDPR"]
 featured     :  yes                   # review with summit team "yes"
 when_day     :  Mon
 when_time    :  WS-2
+hey_summit   : https://open-security-summit-2020.heysummit.com/talks/owasp-juice-shop-deep-dive-integration/
 room_layout  :                    #
 room_id      :
 session_slack:
 status       :  done              # draft, review-content, done
 description  :
-organizers   :  Bjoern Kimminich
 participants :
+organizers   :  
+       - Bjoern Kimminich    
+       
 ---
 
 ![](https://raw.githubusercontent.com/OWASP/owasp-swag/master/projects/juice-shop/logos/custom/JuicyBot_MedicalMask.png)
