@@ -5,7 +5,6 @@ type         : training-session
 topics       :
     - ICAP
     - Proxy
-    - Threat Modeling
 when_week    : two
 when_day     : 9th - Tuesday
 when_time    : WS-2
