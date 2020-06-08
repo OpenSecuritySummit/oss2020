@@ -1,6 +1,6 @@
 ---
 title        : OWASP Juice Shop Deep Dive - Theming
-track        : OWASP Juice Shop
+track        : OWASP-JuiceShop
 type         : user-session      # working-session, user-session, product-session
 technology   :
 topics       : OWASP                   # for example ["GDPR"]
@@ -15,6 +15,7 @@ status       : done              # draft, review-content, done
 description  :
 organizers   : Bjoern Kimminich
 participants :
+
 ---
 
 ![](https://raw.githubusercontent.com/OWASP/owasp-swag/master/projects/juice-shop/logos/custom/JuicyBot_MedicalMask.png)
