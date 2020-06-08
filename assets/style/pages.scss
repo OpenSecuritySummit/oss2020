@@ -6,6 +6,7 @@ $table-first-column-width-xxl: 194px;
 $table-first-column-width-xl: 170px;
 $table-first-column-width-lg: 130px;
 $table-first-column-width-md: 115px;
+$schedule-session-icon-width: 100px;
 .breadcrumb {
   text-align: center;
   background-color: $main-background-color;
@@ -62,7 +63,7 @@ $schedule-timing-padding: 2px 10px;
   &-link {
     margin: 30px 0;
     display: grid;
-    grid-template-columns: $table-first-column-width-xxl auto 100px;
+    grid-template-columns: $table-first-column-width-xxl auto $schedule-session-icon-width;
     align-items: center;
     &:hover {
       text-decoration: none;
@@ -72,6 +73,15 @@ $schedule-timing-padding: 2px 10px;
     .schedule-session-title {
       color: $main-background-color;
     }
+    &.how-many-participants- {
+      &2 {
+        grid-template-columns: $table-first-column-width-xxl auto 2 * $schedule-session-icon-width;
+      }
+      &3 {
+        grid-template-columns: $table-first-column-width-xxl auto 3 * $schedule-session-icon-width;
+      }
+    }
+
   }
   &-session {
     position: relative;
@@ -86,13 +96,16 @@ $schedule-timing-padding: 2px 10px;
       width: 3px;
       background-color: $main-active-link-color;
     }
+    &-person {
+      display: flex;
+    }
     .person {
       &-img {
         width: 101px;
         height: 101px;
-        border: 2px solid $main-active-link-color;
+        //border: 1px solid $main-active-link-color;
         border-radius: 50%;
-        & img {
+        img {
           width: 100%;
           z-index: -1;
         }
@@ -208,7 +221,7 @@ $schedule-timing-padding: 2px 10px;
 @media screen and (max-width: $xl-breakpoint) {
   .schedule {
     &-link {
-      grid-template-columns: $table-first-column-width-xl auto 100px;
+      grid-template-columns: $table-first-column-width-xl auto $schedule-session-icon-width;
       margin: 15px 0;
     }
 
@@ -250,7 +263,7 @@ $schedule-timing-padding: 2px 10px;
 
   .schedule {
     &-link {
-      grid-template-columns: $table-first-column-width-lg auto 100px;
+      grid-template-columns: $table-first-column-width-lg auto $schedule-session-icon-width;
     }
 
     &-session {
@@ -286,7 +299,7 @@ $schedule-timing-padding: 2px 10px;
 @media screen and (max-width: $md-breakpoint) {
   .schedule {
     &-link {
-      grid-template-columns: $table-first-column-width-md auto 100px;
+      grid-template-columns: $table-first-column-width-md auto $schedule-session-icon-width;
       margin: 10px 0;
     }
 

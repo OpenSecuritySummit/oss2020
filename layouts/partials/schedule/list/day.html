@@ -1,15 +1,3 @@
-
-<!--
-<script>
-    jQuery(".schedule-session").hover(function(){
-        $(this).addClass("schedule-session__user-session");
-    }, function(){
-        $(this).removeClass("schedule-session__user-session");
-    });
-</script>
--->
-
-
 {{ $this := .this}}
 <div class="schedule-day-block">
     <p class="schedule-day">{{ .day }} - {{.date}} June</p>
@@ -18,16 +6,16 @@
             {{ $when_time := index $this.Site.Data.schedule.times .Params.when_time }}
 
             <div class="schedule-session">
-                <a class="schedule-link" href="{{.Permalink}}">
+                <a class="schedule-link how-many-participants-3" href="{{.Permalink}}">
                     <div class="schedule-session-hours">{{$when_time}}</div>
                     <div class="schedule-session-title">
                         <div class="track_badge">{{.Params.track}}</div>
                         <span>{{.Params.title}}</span>
                     </div>
                     <div class="schedule-session-person">
-                        <div class="person-img">
-                            <img src="{{ .Site.BaseURL }}/img/pages/person/person-01.png" alt="Person">
-                        </div>
+                        <div class="person-img"><img src="{{ .Site.BaseURL }}/img/pages/person/person-01.png" alt="Person"></div>
+                        <div class="person-img"><img src="{{ .Site.BaseURL }}/img/pages/person/person-01.png" alt="Person"></div>
+                        <div class="person-img"><img src="{{ .Site.BaseURL }}/img/pages/person/person-01.png" alt="Person"></div>
                     </div>
                 </a>
             </div>
