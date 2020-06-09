@@ -251,7 +251,7 @@ $schedule-timing-padding: 2px 10px;
 .session {
   &-section {
     .table {
-      padding: 43px 72px;
+      padding: 43px 22px;
       background-color: $alt-background-color;
       font-family: Roboto;
       font-size: 20px;
@@ -314,13 +314,13 @@ $schedule-timing-padding: 2px 10px;
       }
       .le3 {
         display: grid;
-        grid-template-columns: auto 190px;
+        grid-template-columns: auto 230px;
         .table-organisers {
           &-item {
             padding-top: 6px;
             padding-bottom: 6px;
             a {
-              width: 220px;
+              //width: 220px;
               display: flex;
               flex-direction: column;
               display: flex;
