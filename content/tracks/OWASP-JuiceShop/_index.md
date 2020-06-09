@@ -16,5 +16,5 @@ application! (It's probably also the one with the most
 "flatten-the-curve"-aware bot!)
 
 
-{{<img src="https://raw.githubusercontent.com/OWASP/owasp-swag/master/projects/juice-shop/logos/custom/JuicyBot_MedicalMask_Upscaled.png"
+{{<img src="https://raw.githubusercontent.com/OWASP/owasp-swag/master/projects/juice-shop/avatars/JuicyBot_MedicalMask_Upscaled.png"
        width="300">}}

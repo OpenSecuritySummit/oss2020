@@ -1,17 +1,16 @@
-{{ $organizers := partial "params/organizers.html" .  }}
-{{ if $organizers }}
-    {{range $organizers}}
+{{ if .organizers }}
+    {{range .organizers}}
         <div class="person-img">
             {{ if eq (printf "%T"  .) "*hugolib.pageState" }}
-                    <img src="{{ .Params.image }}" class="img-circle" alt="{{ .Title }}"/>
+                <img src="{{ .Params.image }}" class="img-circle" alt="{{ .Title }} photo" data-url="{{.Permalink}}"/>
             {{else}}
-                <img src="/img/pages/person/person-01.png" alt="Person" class="img-circle">
+                <img src="/img/pages/person/person-01.png" alt="{{ . }}" class="img-circle"/>
             {{ end }}
         </div>
     {{ end }}
 {{ else}}
     <div class="person-img">
-        <img src="/img/pages/person/person-01.png" alt="Person">
+        <span class="label label-danger">needs organiser</span>
     </div>
 {{ end}}
 

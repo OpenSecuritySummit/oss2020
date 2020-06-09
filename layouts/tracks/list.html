@@ -32,9 +32,18 @@
           </div>
         </div>
 
-        <h2>Schedule</h2>
-        {{ $title := "" }}
+
+
+        <h1>Schedule(Daily View)</h1>
         {{ $sessions  := where .Site.Pages ".Params.track"  .Params.title  }}
+
+        {{ $days_next_training := .Site.Data.schedule.days.days_next_training }}
+        {{ $days_next_summit := .Site.Data.schedule.days.days_next_summit }}
+        {{ partial "schedule/list/days.html" (dict "this" . "pages" $sessions "days" $days_next_training "title" "Training") }}
+        {{ partial "schedule/list/days.html" (dict "this" . "pages" $sessions "days" $days_next_summit "title" "Summit") }}
+
+
+        <h1>Schedule (Weekly View)</h1>
         {{ $week_one :=  where $sessions ".Site.Pages.when_week" "one"}}
         {{ $week_one_days := .Site.Data.schedule.days.week_one}}
         {{ $week_two_days := .Site.Data.schedule.days.week_two}}
@@ -51,9 +60,7 @@
         {{ partial "schedule/table/table.html" (dict "self" . "pages" $sessions "valid_days" $summit_days "title" $title )}}
 
 
-<!--        {{ partial "schedule/track.html" (dict "self" . "title" .Params.title )}}-->
-
-        <h2>Sessions</h2>
+        <h1>Sessions</h1>
         <div class="hidden-print">
           <div class="row">
             <div class="col-xs-0"></div>

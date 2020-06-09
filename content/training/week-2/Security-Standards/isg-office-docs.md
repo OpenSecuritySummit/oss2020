@@ -20,7 +20,7 @@ organizers   :
 
 ### About this talk:
 
-In this session, we'll dive into the Inspection and Sanitization Guidance for Portable Document Format. PDF
+Once learning about the potential areas of concern that exist within office documents and exploring ISGs for them, it's now time to discover the testing strategies that will be oriented on validation of the requirements of the ISGs. This session will be dedicated to automation of ISG testing for Office documents.  
 
 [ISG for PDF](https://apps.nsa.gov/iaarchive/library/reports/pdf_inspection_and_sanitization_guidance_v1_0-20171206.cfm)  
 ISGs can be found in this publication repo:

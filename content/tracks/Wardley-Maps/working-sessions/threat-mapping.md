@@ -16,8 +16,7 @@ description  :
 organizers   :
     - Simon Wardley
     - Dinis Cruz
-    - Mario Platt
-    - Steven Wierckx
+   
 participants :
 ---
 

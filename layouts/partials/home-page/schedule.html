@@ -1,101 +1,75 @@
+{{ $today := .Site.Data.schedule.config.today}}
+{{ $this  := . }}
+
+{{ $day_sessions := where .Site.Pages ".Params.when_day" $today.key }}
+
+{{ range sort $day_sessions ".Params.when_time"  }}
+    {{ if .Params.when_time }}
+        {{ if .Params.hey_summit }}
+            {{ $this.Scratch.Add "pages" (slice .) }}
+        {{ end }}
+    {{ end}}
+{{ end}}
+
+{{ $sessions := $this.Scratch.Get "pages" }}
+
 <section class="schedule">
-  <div class="container container-xl">
-    <div class="schedule-wrapper">
-      <div class="schedule-header">
-        <h6 class="schedule-title">The training sessions have started!</h6>
-        <h2 class="schedule-subtitle">Monday 8th June - Schedule</h2>
-      </div>
-      <div class="__schedule-table__" style="display: flex; padding: 0; background-color: #f3f8ec;}">
-        <div class="schedule-days">
-          <div class="schedule-days-item">
-            <div class="rot-90">
-              <div class="day-subtitle">training</div>
-              <div class="day-title">session</div>
+    <div class="container container-xl">
+        <div class="schedule-wrapper">
+            <div class="schedule-header">
+                <h6 class="schedule-title">The training sessions have started!</h6>
+                <h2 class="schedule-subtitle">{{$today.day}} {{$today.date}} June - Schedule</h2>
             </div>
-          </div>
-          <div class="schedule-days-item">
-            <div class="rot-90">
-              <div class="day-subtitle">training</div>
-              <div class="day-title">session</div>
-            </div>
-          </div>
-          <div class="schedule-days-item">
-            <div class="rot-90">
-              <div class="day-subtitle">training</div>
-              <div class="day-title">session</div>
-            </div>
-          </div>
-          <div class="schedule-days-item">
-            <div class="rot-90">
-              <div class="day-subtitle">training</div>
-              <div class="day-title">session</div>
-            </div>
-          </div>
-        </div>
 
+            <div class="__schedule-table__" style="display: flex; padding: 0; background-color: #f3f8ec;}">
+                <div class="schedule-days">
+                    {{ range $sessions}}
+                        {{ if .Params.hey_summit }}
+                            <div class="schedule-days-item">
+                                <div class="rot-90">
+                                    <div class="day-subtitle">{{ humanize .Params.type}}</div>
+                                </div>
+                            </div>
+                        {{ end }}
+                    {{ end}}
+                </div>
 
-        <div class="schedule-description">
-          <div class="schedule-description-item">
-            <div class="schedule-point">
-              <a href="/participant/glasswall/petra-vukmirovic/"><img
-                src="https://pbs.twimg.com/profile_images/1232209537043763200/ILXPvwxO_400x400.jpg"
-                alt="Petra Vukmirovic photo"></a>
-            </div>
-            <div class="schedule-point-tag">
-              <div class="schedule-tag-time">11:00 - 13:00 (BST)</div>
-              <a class="author-link" href="/training/week-2/threat-modeling/threat-modeling-introduction/">
-                <div class="schedule-tag-title">Threat Modeling Introduction</div>
-              </a>
-              <div class="schedule-tag-author">by <a class="author-link" href="https://open-security-summit-2020.heysummit.com/speakers/dinis-cruz/">Dinis Cruz</a> and <a class="author-link" href="/participant/glasswall/petra-vukmirovic/">Petra Vukmirovic</a>
-              </div>
-            </div>
-          </div>
-          <div class="schedule-description-item">
-            <div class="schedule-point">
-              <a href="/participant/organizers/mario-platt/">
-                <img src="https://media-exp1.licdn.com/dms/image/C4D03AQFT1Fl0RAhWlg/profile-displayphoto-shrink_800_800/0?e=1596672000&v=beta&t=5N7woUfpABLtu3DEg3AXndwPQkM5ARlNwJ6qMFWmzMg" alt="Mario Platt photo"></a>
-            </div>
-            <div class="schedule-point-tag">
-              <div class="schedule-tag-time">14:00 - 16:00 (BST)</div>
-              <a class="author-link" href="/training/week-2/devsecops/to-devsecops-or-not-to-devsecops-is-that-a-question/">
-                <div class="schedule-tag-title">To DevSecOps or not to DevSecOps: is that a question?</div>
-              </a>
-              <div class="schedule-tag-author">by <a class="author-link" href="/participant/organizers/mario-platt/">Mario Platt</a></div>
-            </div>
-          </div>
-          <div class="schedule-description-item">
-            <div class="schedule-point">
-              <a href="/participant/organizers/stuart-peck/">
-                <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHVNpV-4GZFZQ/profile-displayphoto-shrink_800_800/0?e=1596672000&v=beta&t=UP66L56F55JBG1BroixdMLsQWxfOFgHwVGd_SrBqxGg" alt="Stuart Peck photo"></a>
-            </div>
-            <div class="schedule-point-tag">
-              <div class="schedule-tag-time">14:00 - 16:00 (BST)</div>
-              <a class="author-link" href="/training/week-2/hacking-and-defending/social-engineering/">
-                <div class="schedule-tag-title">Social Engineering - from recon to execution</div>
-              </a>
-              <div class="schedule-tag-author">by <a class="author-link" href="/participant/organizers/stuart-peck/">Stuart Peck</a></div>
-            </div>
-          </div>
-          <div class="schedule-description-item">
-            <div class="schedule-point">
-              <a href="/participant/organizers/dave-mattingly/">
-              <img src="https://media-exp1.licdn.com/dms/image/C4E03AQFbQkBdd6FnTg/profile-displayphoto-shrink_800_800/0?e=1596672000&v=beta&t=ajx56gIsfqQ2YTQSCpJiJEDWU4sH3aETd9HCy3y2YwU" alt="Dave Mattingly photo"></a>
-            </div>
-            <div class="schedule-point-tag">
-              <div class="schedule-tag-time">17:00 - 19:00 (BST)</div>
-              <a class="author-link" href="/training/week-2/social/improv-comedy-as-a-social-engineering-tool/">
-                <div class="schedule-tag-title">SEMI-SOCIAL: Improv Comedy as a Social Engineering Tool</div>
-              </a>
-              <div class="schedule-tag-author">by <a class="author-link" href="/participant/organizers/dave-mattingly/">Dave Mattingly</a></div>
-            </div>
-          </div>
+                <div class="schedule-description">
+                    {{ range $sessions}}
+                        {{ if .Params.hey_summit }}
+                            {{ $time  := index .Site.Data.schedule.times .Params.when_time }}
+                            {{ $title := .Params.title }}
+                            {{ $organizers := partial "params/organizers.html" .  }}
+                            <div class="schedule-description-item">
+                                <div class="schedule-point">
+                                    {{ range first 1 $organizers }}
+                                        <a href="{{.Permalink}}">
+                                            <img src="{{.Params.image}}"
+                                                 alt="{{.Params.title}}">
+                                        </a>
+                                    {{ end }}
+                                </div>
+                                <div class="schedule-point-tag">
+                                    <div class="schedule-tag-time">{{ $time }}</div>
+                                    <a class="author-link" href="{{.Permalink}}">
+                                        <div class="schedule-tag-title">{{ .Params.title }}</div>
+                                    </a>
+                                    <div class="schedule-tag-author">
+                                        by
+                                        {{range $index, $element :=  $organizers }}
+                                            {{ if $index }} , {{ end }}
+                                            <a class="author-link"
+                                               href="{{.Permalink}}">
+                                                {{.Params.title}}
+                                            </a>
+                                        {{ end }}
+                                    </div>
+                                </div>
+                            </div>
+                        {{ end }}
+                    {{ end }}
+                </div>
+            </div>>
         </div>
-      </div>
-      <a href="https:/open-security-summit.org/training/">
-        <button class="schedule-button">
-          Click here for Detailed Training Schedule
-        </button>
-      </a>
     </div>
-  </div>
 </section>

@@ -39,25 +39,5 @@
 
     {{ partial "outcomes/by-title-session.html" . }}
 
-<!--    <li class="pull-right"><a class="bg-default" href="https://2018.open-security-summit.org/outcomes/" target="_blank"><i class="fa"></i> 2018 Outcomes</a></li>-->
-
-    {{ with .Params.meet_url }}
-      <li class="pull-right bg-sucess"><a class="bg-success" href="{{ . }}" target="_blank"><i class="fa fa-phone"></i> Join Remotely</a></li>
-    {{ else }}
-      {{ with .Params.room_id }}
-        {{ if and (hasPrefix . "villa") (ne . "villa-1") }}
-          <li class="pull-right bg-danger"><a class="bg-danger" href="#"><i class="fa fa-phone"></i> No Video feed for villa sessions</a></li>
-        {{ else }}
-         {{ if hasPrefix . "table" }}
-            <li class="pull-right bg-danger"><a class="bg-danger" href="#"><i class="fa fa-phone"></i> No Video feed for table sessions</a></li>
-         {{ else }}
-           {{/* use configured remote url in data */}}
-           {{ $url := index $.Site.Data.schedule.meet_url . }}
-           <li class="pull-right bg-sucess"><a class="bg-success" href="{{ $url }}" target="_blank"><i class="fa fa-phone"></i> Join Remotely</a></li>
-        {{ end }}
-      {{ end }}
-      {{ end }}
-    {{ end }}
-
  </ul>
 </div>

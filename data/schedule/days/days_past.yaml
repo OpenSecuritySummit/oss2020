@@ -23,3 +23,8 @@ day-5:
   day : "Friday"
   key : "5th - Friday"
   order: 5
+day-6:
+  date: "8th"
+  day : "Monday"
+  key : "8th - Monday"
+  order: 6
