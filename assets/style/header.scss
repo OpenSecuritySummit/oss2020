@@ -126,12 +126,17 @@ header {
     right: 0;
 }
 
-div#navigation.navbar-collapse.collapse ul.nav.navbar-nav.navbar-right li.dropdown a {
-    font-family: 'Oswald', "Helvetica Neue", sans-serif !important;
-    font-weight: normal;
+div#navigation.navbar-collapse {
+    &.collapse {
+        background-color: #ddd;
+        ul.nav.navbar-nav.navbar-right li.dropdown a {
+            font-family: 'Oswald', "Helvetica Neue", sans-serif !important;
+            font-weight: normal;
+        }
+    }
 }
 
-.topbar-social {
+.topbar-socials {
     padding: 0;
     margin: 0;
     opacity: 1;
@@ -143,7 +148,15 @@ div#navigation.navbar-collapse.collapse ul.nav.navbar-nav.navbar-right li.dropdo
 
 // overrides theme setting: was -15px
 .navbar {
+    &-buttons {
+        .topbar-socials {
+            display: none;
+        }
+    }
     &-nav {
+        .topbar-socials {
+            display: inline-block;
+        }
         &.navbar-right {
             &:last-child {
                 margin-right: -20px;
@@ -157,18 +170,12 @@ nav > li > a {
 }
 
 
-.topbar-socials {
-    display: none;
-}
 
 /*****************************/
 /******* XL BREAKPOINT *******/
 /*****************************/
 
 @media screen and (max-width: $xl-breakpoint) {
-    .topbar-social {
-        font-size: 12px;
-    }
 }
 
 /*****************************/
@@ -176,15 +183,19 @@ nav > li > a {
 /*****************************/
 
 @media (max-width: $lg-breakpoint) {
-    .topbar-social {
-        display: none;
-    }
-    .topbar-socials {
-        display: inline-block;
-    }
-    .navbar-buttons {
-        display: flex;
-        align-items: center;
+    .navbar {
+        &-buttons {
+            display: flex;
+            align-items: center;
+            .topbar-socials {
+                display: inline-block;
+            }
+        }
+        &-nav {
+            .topbar-socials {
+                display: none;
+            }
+        }
     }
 }
 

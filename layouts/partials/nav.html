@@ -24,7 +24,7 @@
       <div class="navbar-collapse collapse" id="navigation">
         <ul class="nav navbar-nav navbar-right">
           {{ range .Site.Menus.topbar.ByWeight }}
-            <span class="topbar-social"><a href="{{ .URL }}" target="_blank">{{ .Pre }}</a></span>
+            <span class="topbar-socials"><a href="{{ .URL }}" target="_blank">{{ .Pre }}</a></span>
           {{ end }}
           {{ range .Site.Menus.main }}
           <li class="dropdown">
