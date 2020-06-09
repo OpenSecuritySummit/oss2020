@@ -11,7 +11,7 @@ https://blacklivesmatter.com/
 The Open Security Summit stands with members of our community and others worldwide in demanding
 equality for all humankind.
 
-The events of the past week and the associated demonstrations throughout the world are just the most recent examples
+The recent events and the associated demonstrations throughout the world are just the most recent examples
 of hateful violence aimed at the diverse communities of the world.
 
 We cannot stand by without expressing our support for freedom of speech, privacy, health, life, liberty and security.
@@ -21,10 +21,9 @@ the horrific unfolding of events being protested world-wide.
 
 As a global organization, The Open Security Summit is the embodiment of diversity.
 
-Not only are we a community that collaborates with people from all walks of life, all over the world, but we have also acknowledged and,
- in our own way, worked to address racial and gender disparity within the field of Software Security.
+Not only are we a community that collaborates with people from all walks of life, all over the world, but we have also acknowledged and, in our own way, worked to address racial and gender disparity within the field of Software Security.
 
-At every summit we dedicate significant resources in reaching out to diverse audiences and invite them to the Summit (providing support like sponsored tickets)
+At every summit we dedicate significant resources in reaching out to diverse audiences and invite them to the Summit (and providing support like sponsored tickets)
 
 The Open Security Summit believes in transparency and the ability to communicate and document safely and securely.
 
