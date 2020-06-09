@@ -11,7 +11,7 @@
                 {{ .Scratch.Set "how_many" ( len $organizers ) }}
             {{ end }}
             {{ $how_many := .Scratch.Get "how_many" }}
-            {{ if gt ($how_many) 2 }}
+            {{ if gt ($how_many) 7 }}
                 <div class="gt3">
                     <div class="table-organizers">
                         {{ partial "session/organizers-images.html" . }}
