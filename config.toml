@@ -36,7 +36,7 @@ paginate = 10
     name = "Merchandise"
     identifier = "Merchandise"
     pre = "<i class='fa fa-road'></i>&nbsp;"
-    weight = 8
+    weight = 9
     url = "https://pre-summit-training-sessions.heysummit.com/merchandise-3/"
 
 #    name = "Photo Gallery"
