@@ -7,7 +7,11 @@ $table-first-column-width-xl: 170px;
 $table-first-column-width-lg: 130px;
 $table-first-column-width-md: 115px;
 
-$schedule-session-icon-width-xxl: 105px;
+$schedule-session-icon-padding: 5px;
+
+$schedule-session-icon-width-xxl: 100px;
+$schedule-session-icon-width-xl: 95px;
+$schedule-session-icon-width-lg: 75px;
 
 
 .breadcrumb {
@@ -81,11 +85,11 @@ $schedule-timing-padding: 2px 10px;
 
     &.how-many-participants- {
       &2 {
-        grid-template-columns: $table-first-column-width-xxl auto 2 * $schedule-session-icon-width-xxl + 2px;
+        grid-template-columns: $table-first-column-width-xxl auto 2 * ($schedule-session-icon-width-xxl + $schedule-session-icon-padding) + 2px;
       }
 
       &3 {
-        grid-template-columns: $table-first-column-width-xxl auto 3 * $schedule-session-icon-width-xxl + 3px;
+        grid-template-columns: $table-first-column-width-xxl auto 3 * ($schedule-session-icon-width-xxl + $schedule-session-icon-padding) + 3px;
       }
     }
 
@@ -93,6 +97,7 @@ $schedule-timing-padding: 2px 10px;
 
   &-session {
     position: relative;
+    margin-top: 25px;
 
     &:before {
       position: absolute;
@@ -113,9 +118,10 @@ $schedule-timing-padding: 2px 10px;
 
     .person {
       &-img {
-        width: 101px;
+        width: $schedule-session-icon-width-xxl;
         border-radius: 50%;
-        margin-right: 5px;
+        margin-right: $schedule-session-icon-padding;
+        margin-bottom: $schedule-session-icon-padding;
         img {
           width: 100%;
           //z-index: -1;
@@ -153,12 +159,18 @@ $schedule-timing-padding: 2px 10px;
     }
 
     &-title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       height: 100%;
       font-family: 'Roboto Slab', sans-serif;
       font-size: 24px;
-      // background-color: $schedule-table-background-color;
       color: $main-background-color;
       padding: 0 20px;
+      h2 {
+        margin-top: 10px;
+        margin-bottom: 5px;
+      }
 
       .track_badge {
         padding: 8px 15px;
@@ -177,6 +189,9 @@ $schedule-timing-padding: 2px 10px;
     &-organizer {
       font-size: 0.8em;
       margin-right: 10px;
+      &s {
+        text-align: right;
+      }
 
       &:hover {
         color: $alt2-active-color;
@@ -239,8 +254,17 @@ $schedule-timing-padding: 2px 10px;
 @media screen and (max-width: $xl-breakpoint) {
   .schedule {
     &-link {
-      grid-template-columns: $table-first-column-width-xl auto $schedule-session-icon-width-xxl;
+      grid-template-columns: $table-first-column-width-xl auto $schedule-session-icon-width-xl;
       margin: 15px 0;
+      &.how-many-participants- {
+        &2 {
+          grid-template-columns: $table-first-column-width-xl auto 2 * ($schedule-session-icon-width-xl + $schedule-session-icon-padding) + 3px;
+        }
+
+        &3 {
+          grid-template-columns: $table-first-column-width-xl auto 3 * ($schedule-session-icon-width-xl + $schedule-session-icon-padding) + 5px;
+        }
+      }
     }
 
     &-session {
@@ -250,8 +274,20 @@ $schedule-timing-padding: 2px 10px;
       }
 
       &-title {
-        font-size: 20px;
+        h2 {
+          font-size: 26px;
+          margin-top: 13px;
+          margin-bottom: 13px;
+        }
         padding: 5px 15px;
+      }
+      .person {
+        &-img {
+          width: $schedule-session-icon-width-xl;
+        }
+      }
+      &-organizer {
+        font-size: 20px;
       }
     }
 
@@ -281,7 +317,16 @@ $schedule-timing-padding: 2px 10px;
 
   .schedule {
     &-link {
-      grid-template-columns: $table-first-column-width-lg auto $schedule-session-icon-width-xxl;
+      grid-template-columns: $table-first-column-width-lg auto $schedule-session-icon-width-lg;
+      &.how-many-participants- {
+        &2 {
+          grid-template-columns: $table-first-column-width-lg auto 2 * ($schedule-session-icon-width-lg  + $schedule-session-icon-padding) + 3px;
+        }
+
+        &3 {
+          grid-template-columns: $table-first-column-width-lg auto 3 * ($schedule-session-icon-width-lg  + $schedule-session-icon-padding) + 5px;
+        }
+      }
     }
 
     &-session {
@@ -291,8 +336,21 @@ $schedule-timing-padding: 2px 10px;
       }
 
       &-title {
-        font-size: 18px;
         padding: 3px 10px;
+        h2 {
+          font-size: 24px;
+          margin-top: 8px;
+          margin-bottom: 8px;
+
+        }
+      }
+      .person {
+        &-img {
+          width: $schedule-session-icon-width-lg;
+        }
+      }
+      &-organizer {
+        font-size: 16px;
       }
     }
 

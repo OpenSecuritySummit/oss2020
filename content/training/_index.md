@@ -4,6 +4,8 @@ type         : training
 featured     : yes
 description  : Learn
 organizers   : OSS
+manage-container : true
+container_type   : xxl
 ---
 
 
