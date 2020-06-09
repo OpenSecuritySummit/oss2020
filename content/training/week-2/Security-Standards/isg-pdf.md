@@ -14,9 +14,9 @@ session_slack:
 status       : done           # draft, review-content, done
 description  : TBD
 organizers   : 
+        - Vinh Tram
+        - Greg Mann
         - Elvin White
-       
-
 ---
 
 ### About this talk:

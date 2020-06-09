@@ -13,10 +13,10 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/isgs-how
 session_slack: 
 status       :           # draft, review-content, done
 description  : TBD
-organizers   : 
+organizers   :
         - Elvin White
-       
-
+        - Vinh Tram
+        - Greg Mann
 ---
 
 ### About this talk:

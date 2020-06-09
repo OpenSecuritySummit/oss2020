@@ -15,7 +15,8 @@ status       :          # draft, review-content, done
 description  : TBD
 organizers   : 
         - Elvin White
-       
+        - Vinh Tram
+        - Greg Mann
 ---
 
 

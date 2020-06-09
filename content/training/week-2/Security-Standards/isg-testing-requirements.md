@@ -14,7 +14,9 @@ session_slack:
 status       :          # draft, review-content, done
 description  : TBD
 organizers   : 
-        - Dinis Cruz
+        - Greg Mann
+        - Elvin White
+        - Vinh Tram
        
 zoom_host    : TBD
 

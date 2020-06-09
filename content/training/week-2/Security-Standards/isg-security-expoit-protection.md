@@ -15,6 +15,8 @@ status       :          # draft, review-content, done
 description  : TBD
 organizers   : 
         - Elvin White
+        - Greg Mann
+        - Vinh Tram
 zoom_host    : TBD
 
 ---
