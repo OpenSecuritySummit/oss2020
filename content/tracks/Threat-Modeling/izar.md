@@ -4,14 +4,17 @@ type         : user-session
 track        : Threat Modeling
 category     :
 featured     :                 # if  "yes" review with summit team
-when_day     : Mon
-when_time    : 
+when_day     : Wed
+when_time    : WS-1
 room_layout  :
 room_id      : 
 session_slack: 
 status       : draft
-description  : Introduction to LINDDUN for privacy threat modeling
-organizers   : Steven, Izar
+description  : Tool demos
+organizers   :
+    - Steven
+    - Izar
+    - zeroXten
 participants :
 ---
 
@@ -19,12 +22,10 @@ participants :
 When choosing a threat model tool, you first need to know what the tool can and cannot do. In order to facilitate this we are organising a number of demonstrations of tools, each 30 minutes long.
 
 ## What
-A Pythonic framework for threat modeling
+Tool 1: A Pythonic framework for threat modeling by Izar
 https://github.com/izar/pytm
 
-
-**Things to consider:**
-
+Tool 2: TENTATIVE by zeroXten
 
 
 ## Outcomes
