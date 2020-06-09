@@ -28,3 +28,8 @@ day-6:
   day : "Monday"
   key : "8th - Monday"
   order: 6
+day-7:
+  date: "9th"
+  day : "Tuesday"
+  key : "9th - Tuesday"
+  order: 7
