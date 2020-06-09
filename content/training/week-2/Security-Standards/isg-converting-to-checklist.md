@@ -16,10 +16,8 @@ description  : TBD
 organizers   :
         - Elvin White
         - Dinis Cruz
-
-       
 zoom_host    : TBD
-
+you_tube     : _2lSfuVOvPA
 ---
 
 ### About this talk:

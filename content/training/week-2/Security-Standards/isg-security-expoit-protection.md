@@ -14,8 +14,7 @@ session_slack:
 status       :          # draft, review-content, done
 description  : TBD
 organizers   : 
-        - Martin Brian
-        - Dinis Cruz
+        - Elvin White
 zoom_host    : TBD
 
 ---

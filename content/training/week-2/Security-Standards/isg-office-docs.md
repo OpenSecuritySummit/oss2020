@@ -13,8 +13,8 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/office-d
 session_slack:
 status       :            # draft, review-content, done
 description  : TBD
-organizers   : 
-        - Dinis Cruz
+organizers   :
+        - Elvin White
       
 ---
 
