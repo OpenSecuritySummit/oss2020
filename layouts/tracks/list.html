@@ -35,7 +35,6 @@
 
 
         <h1>Schedule(Daily View)</h1>
-        {{ $title := "" }}
         {{ $sessions  := where .Site.Pages ".Params.track"  .Params.title  }}
 
         {{ $days_next_training := .Site.Data.schedule.days.days_next_training }}

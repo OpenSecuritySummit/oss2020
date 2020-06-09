@@ -1,4 +1,5 @@
 {{ $this  := .this}}
+{{ $days  := .days}}
 {{ if .pages }}
     {{ $this.Scratch.Set "pages" .pages }}
 {{ else }}
@@ -6,17 +7,31 @@
 {{ end}}
 {{ $pages := $this.Scratch.Get "pages" }}
 
-{{ if .title}}
-  <div class="container schedule-session-group">
-    <div class="row">
-      <h2>{{upper .title}}</h2>
-    </div>
-  </div>
+{{ $this.Scratch.Set "has-session" false }}
+{{ range $pages }}
+    {{ $when_day := .Params.when_day }}
+
+    {{ range $days}}
+        {{ if eq .key $when_day }}
+          {{ $this.Scratch.Set "has-session" true }}
+      {{ end }}
+    {{ end }}
+
 {{ end }}
 
-  {{ with .days}}
-    {{ range sort . "order"}}
-      {{ $sessions := where $pages ".Params.when_day" .key }}
-      {{ partial "schedule/list/day.html" (dict "this" $this "sessions" $sessions "day" .day "date" .date) }}
+{{ if  $this.Scratch.Get "has-session" }}
+    {{ if .title}}
+        <div class="container schedule-session-group">
+            <div class="row">
+            <h2>{{upper .title}}</h2>
+        </div>
+      </div>
+    {{ end }}
+
+    {{ with .days}}
+        {{ range sort . "order"}}
+            {{ $sessions := where $pages ".Params.when_day" .key }}
+            {{ partial "schedule/list/day.html" (dict "this" $this "sessions" $sessions "day" .day "date" .date) }}
+        {{ end}}
     {{ end}}
-  {{ end}}
+{{ end}}

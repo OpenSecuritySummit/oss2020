@@ -43,21 +43,24 @@
       {{ partial "participant/contact-details.html" . }}
 
       {{ if .Params.sponsored_by }}
-        {{ partial "sponsors/participant-sponsored.html" (dict "sponsor" .Params.sponsored_by "this" .) }}
+          {{ partial "sponsors/participant-sponsored.html" (dict "sponsor" .Params.sponsored_by "this" .) }}
       {{ end }}
 
-<!--      {{ partial "participant/team.html"            . }}-->
-      {{ partial "participant/when-day.html"        . }}
-      {{ partial "participant/schedule.html"        . }}
-      {{ partial "participant/sessions.html"        . }}
+        <!-- schedule view-->
 
 
-      <!--<h3>(for Working Sessions organisers)</h3>-->
+        {{ $sessions := partial "params/participant-organiser.html" (dict "this" . "title" .Params.title )}}
 
-      <!--<p>To invite {{ .Title }} to your Working Session use &#32;-->
-          <!--<code class="highlighter-rouge">invited: {{ .Title }}</code>-->
+        {{ partial "schedule/in-rows/still-to-happen.html" (dict "this" . "pages" $sessions )}}
 
-      {{ partial "session/register-as-organizer.html" . }}
+        <br/>
+        <h1>Schedule (all sessions)</h1>
+        <!-- table view-->
+        {{ partial "participant/when-day.html"        . }}
+        {{ partial "participant/schedule.html"        . }}
+        {{ partial "participant/sessions.html"        . }}
+
+        {{ partial "session/register-as-organizer.html" . }}
 
         <hr />
         <div class="hidden-print">
