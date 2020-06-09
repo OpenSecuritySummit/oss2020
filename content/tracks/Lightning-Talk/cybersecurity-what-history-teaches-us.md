@@ -1,5 +1,5 @@
 ---
-title        : Lightning Talk - Cybersecurity: What history teaches us
+title        : "Lightning Talk - Cybersecurity: What history teaches us"
 track        : "Lightning Talk"
 type         : working-session
 topics       :
@@ -11,6 +11,5 @@ session_slack:
 status       : 
 description  :
 organizers   :  
-        - Naina Bhattacharya
-        
+        - Naina Bhattacharya        
 ---
