@@ -1,6 +1,6 @@
 ---
-title        : Topologies for Security
-track        : DecSecOps
+title        : "Beating the 1:100 Odds - Team Topologies for Security"
+track        : DevSecOps
 type         : working-session      # working-session, user-session, product-session
 technology   :
 topics       :                    # for example ["GDPR"]

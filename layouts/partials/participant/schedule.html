@@ -1,5 +1,6 @@
 {{ $title           := .Params.title }}
 {{ $site_Pages      := where .Site.Pages ".Params.type" "!=" "outcome" }}
+{{ $.Scratch.Delete "pages" }}
 
 <h3>{{ $title }} Daily Schedule </h3>
 
