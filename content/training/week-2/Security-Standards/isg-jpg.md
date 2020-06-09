@@ -21,7 +21,7 @@ organizers   :
 
 ### About this talk:
 
-In this session, we'll dive into the Inspection and Sanitization Guidance for JPEG
+As you probably know, we've got various sessions dedicated to ISG, including ISG explanation, measuring and visualisation of ISG standards, creation of specific test cases for ISG requirements, etc. Now it's time to dive into specific file formats, particularly JPG. Once learning about the potential areas of concern that exist within the JPG file format, addressing data attack, hiding, and disclosure risks, discover the automation of ISG testing for JPG file format. This session is the best chance for you to get the most detailed information on that topic. 
 
 ISGs can be found in this publication repo:
 https://nsacyber.github.io/publications.html  

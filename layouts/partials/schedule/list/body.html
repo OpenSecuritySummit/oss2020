@@ -14,3 +14,16 @@
 {{ partial "schedule/list/days.html" (dict "this" $this "days" $days_past          "title" $title) }}
 
 
+<script>
+    let gotoLink = (e) => {
+        e.preventDefault();
+        var target = e.target;
+        var url = target && target.getAttribute('data-url');
+        if (url) {
+            window.location.href = url;
+        }
+    };
+    $('.img-circle').click(gotoLink);
+    $('.schedule-session-organizer').click(gotoLink);
+</script>
+

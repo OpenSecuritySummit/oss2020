@@ -24,13 +24,13 @@ zoom_host    : TBD
 
 ### About this talk:
 
-In this session, we'll look at the ISGs (Inspection and Sanitization Guidance) published by the NSA.
+We live in an age where data has penetrated into all areas of our lives, where everything gets captured digitally. Data helps companies and businesses grow, expand and improve their products and services, constantly apply innovations, better serve their customers and gain new ones.  
 
-These are standards established by the NSA. There is a ISG for each file type.
+While more and more companies gather data and share, store and access various files, it becomes vital to analyze files, spot unknown threats and struggle with malicious content. Files inspection and sanitisation plays a significant role in reaching that goal. 
 
-In this session, we'll also look at how to convert an ISG into a checklist.
+In this session, we?ll look at the ISGs (Inspection and Sanitisation Guidance) published by the NSA. There is an ISG defined for each file type. We?re also going to learn how to convert an ISG into a checklist. Don't miss your chance to gain a lot of useful information and tips related to files inspection and sanitisation. 
 
-Once in table/graph form, we can start to consume them progrematically
+Once in table/graph form, we can start to consume them programmatically
 https://nsacyber.github.io/publications.html
 
 
