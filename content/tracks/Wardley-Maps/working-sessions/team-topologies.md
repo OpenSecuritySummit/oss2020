@@ -11,13 +11,14 @@ hey_summit   : https://open-security-summit-2020.heysummit.com/talks/team-topolo
 room_layout  :                    #
 room_id      : 
 session_slack: 
-status       : draft              # draft, review-content, done
+status       :               # draft, review-content, done
 description  :
 organizers   :
     - Simon Wardley
     - Dinis Cruz
-    - Luke Robbertse
+    - Tony Richards
 participants :
+
 ---
 
 
