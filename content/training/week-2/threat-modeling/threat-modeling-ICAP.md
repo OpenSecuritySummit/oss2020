@@ -6,12 +6,12 @@ topics       :
     - ICAP
     - Proxy
 when_week    : two
-when_day     : 9th - Tuesday
-when_time    : WS-2
+when_day     : 12th - Friday
+when_time    : WS-1
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/threat-modeling-icap-2pm-bst/
 session_slack:
 status       :            # draft, review-content, done
-description  : TBD
+description  : In this session, we'll dive into the Internet Content Adaption Protocol (ICAP) and how to integrate with it.
 organizers   : 
         - Dinis Cruz
         - Paul Gerard
