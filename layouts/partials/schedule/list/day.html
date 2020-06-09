@@ -18,21 +18,33 @@
             {{ if .Params.hey_summit}}
 
                 {{ $when_time := index $this.Site.Data.schedule.times .Params.when_time }}
+                {{ $organizers := partial "params/organizers.html" . }}
+                {{ $this.Scratch.Set "how_many" 1 }}
+                {{ if $organizers }}
+                    {{ $this.Scratch.Set "how_many" ( len $organizers ) }}
+                {{ end }}
+                {{ if gt ($this.Scratch.Get "how_many") 4 }}
+                    {{ $this.Scratch.Set "how_many" 3 }}
+                {{ else if gt ($this.Scratch.Get "how_many") 2 }}
+                {{ $this.Scratch.Set "how_many" 2 }}
+                {{ end }}
+                {{ $how_many := $this.Scratch.Get "how_many" }}
 
                 <div class="schedule-session">
-                    <a class="schedule-link" href="{{.Permalink}}">
+                    <a class="schedule-link how-many-participants-{{ $how_many }}" href="{{.Permalink}}">
                         <div class="schedule-session-hours">{{$when_time}}</div>
                         <div class="schedule-session-title">
                             <div class="track_badge">{{.Params.track}}</div>
                             <span><h2>{{.Params.title}}</h2></span>
-                            <div>{{ partial "schedule/list/organizers-links.html" . }}</div>
+                            <div>{{ partial "schedule/list/organizers-links.html" ( dict "this" . "organizers" $organizers) }}</div>
                         </div>
                         <div class="schedule-session-person">
-                            {{ partial "schedule/list/organizers-images.html" . }}
+                            {{ partial "schedule/list/organizers-images.html" ( dict "this" . "organizers" $organizers) }}
                         </div>
                     </a>
                 </div>
             {{ end }}
         {{ end }}
     </div>
+
 {{ end }}

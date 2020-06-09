@@ -1,8 +1,9 @@
-{{ $organizers := partial "params/organizers.html" .  }}
-{{ if $organizers }}
-    {{range $organizers}}
-        {{ if eq (printf "%T"  .) "*hugolib.pageState" }}
-            {{ .Title }}
+{{ if .organizers }}
+    {{range .organizers}}
+        {{ if eq (printf "%T" .) "*hugolib.pageState" }}
+            <span class="schedule-session-organizer" data-url="{{.Permalink}}">{{ .Title }}</span>
+        {{else}}
+            <span class="schedule-session-organizer">{{ . }}</span>
         {{ end }}
     {{ end }}
 {{ end}}
