@@ -6,6 +6,10 @@ $table-first-column-width-xxl: 194px;
 $table-first-column-width-xl: 170px;
 $table-first-column-width-lg: 130px;
 $table-first-column-width-md: 115px;
+
+$schedule-session-icon-width-xxl: 105px;
+
+
 .breadcrumb {
   text-align: center;
   background-color: $main-background-color;
@@ -56,65 +60,86 @@ $schedule-timing-padding: 2px 10px;
     &-block {
       margin-top: $schedule-day-block-margin-top;
       font-size: 30px;
+      background-color: #fff;
     }
   }
 
-  &-section {
-    //background: url("#{$base-url}/img/backgrounds/shapes-xxl-bg.png") center center repeat;
-    //background-position-x: 100em;
+  &-link {
+    margin: 30px 0;
+    display: grid;
+    grid-template-columns: $table-first-column-width-xxl auto $schedule-session-icon-width-xxl;
+    align-items: center;
+
+    &:hover {
+      text-decoration: none;
+      background-color: $title-bg3;
+    }
+
+    .schedule-session-title {
+      color: $main-background-color;
+    }
+
+    &.how-many-participants- {
+      &2 {
+        grid-template-columns: $table-first-column-width-xxl auto 2 * $schedule-session-icon-width-xxl + 2px;
+      }
+
+      &3 {
+        grid-template-columns: $table-first-column-width-xxl auto 3 * $schedule-session-icon-width-xxl + 3px;
+      }
+    }
+
   }
 
   &-session {
-    &s {
-      position: relative;
+    position: relative;
 
-      &:before {
-        position: absolute;
-        top: -$schedule-divider-top-padding;
-        left: $table-first-column-width-xxl - 6px;
-        content: ' ';
-        display: block;
-        height: calc(100% + #{$schedule-divider-top-padding} + #{$schedule-day-block-margin-top});
-        width: 3px;
-        background-color: $main-active-link-color;
-      }
-
-      a {
-        &:hover {
-          text-decoration: none;
-        }
-
-        .schedule-session-title {
-          color: $main-background-color;
-        }
-      }
+    &:before {
+      position: absolute;
+      top: -$schedule-divider-top-padding;
+      left: $table-first-column-width-xxl - 6px;
+      content: ' ';
+      display: block;
+      height: calc(100% + #{$schedule-divider-top-padding} + #{$schedule-day-block-margin-top});
+      width: 3px;
+      background-color: $main-active-link-color;
     }
+
+    &-person {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
     .person {
       &-img {
         width: 101px;
-        height: 101px;
-        border: 2px solid $main-active-link-color;
         border-radius: 50%;
-        & img {
+        margin-right: 5px;
+        img {
           width: 100%;
-          z-index: -1;
+          //z-index: -1;
+          &:hover {
+            filter: brightness(115%);
+          }
+        }
+
+        .label {
+          font-size: 14px;
+          margin-left: -60px;
         }
       }
     }
 
     &-group {
       margin-top: 50px;
+
       h2 {
         text-align: center;
         font-size: 50px;
       }
     }
 
-    margin: 30px 0;
-    display: grid;
-    grid-template-columns: $table-first-column-width-xxl auto 100px;
-    align-items: center;
-    //grid-column-gap: 20px;
     &-id, &-hours {
       padding: $schedule-timing-padding;
       color: $tracks-paragraph-text-color;
@@ -127,10 +152,6 @@ $schedule-timing-padding: 2px 10px;
       padding-left: 0;
     }
 
-    &-hours {
-      //padding: $schedule-timing-padding;
-    }
-
     &-title {
       height: 100%;
       font-family: 'Roboto Slab', sans-serif;
@@ -138,6 +159,7 @@ $schedule-timing-padding: 2px 10px;
       // background-color: $schedule-table-background-color;
       color: $main-background-color;
       padding: 0 20px;
+
       .track_badge {
         padding: 8px 15px;
         white-space: nowrap;
@@ -152,18 +174,12 @@ $schedule-timing-padding: 2px 10px;
       }
     }
 
-    &__user-session {
-      color: $main-action-text-color;
+    &-organizer {
+      font-size: 0.8em;
+      margin-right: 10px;
 
-      .schedule-session {
-        &-id, &-hours {
-          color: $main-active-link-color;
-        }
-
-      &-title {
-        color: $main-inverse-text-color;
-        background-color: $main-active-link-color;
-      };
+      &:hover {
+        color: $alt2-active-color;
       }
     }
   }
@@ -181,6 +197,7 @@ $schedule-timing-padding: 2px 10px;
       font-weight: 500;
       line-height: 32px;
     }
+
     h2 {
       font-family: 'Oswald Medium', helvetica neue, helvetica, sans-serif;
       font-weight: bold;
@@ -188,6 +205,7 @@ $schedule-timing-padding: 2px 10px;
       color: $main-background-color;
       text-transform: uppercase;
     }
+
     h3 {
       margin-bottom: 20px;
       color: $main-action-text-color;
@@ -205,6 +223,7 @@ $schedule-timing-padding: 2px 10px;
     }
   }
 }
+
 /*****************************/
 /****** XXL BREAKPOINT *******/
 /*****************************/
@@ -219,15 +238,15 @@ $schedule-timing-padding: 2px 10px;
 
 @media screen and (max-width: $xl-breakpoint) {
   .schedule {
-    &-session {
-      grid-template-columns: $table-first-column-width-xl auto 100px;
+    &-link {
+      grid-template-columns: $table-first-column-width-xl auto $schedule-session-icon-width-xxl;
       margin: 15px 0;
+    }
 
-      &s {
-        &:before {
-          left: 157px;
-          height: calc(100% + #{$schedule-divider-top-padding} + #{$schedule-day-block-margin-top});
-        }
+    &-session {
+      &:before {
+        left: 157px;
+        height: calc(100% + #{$schedule-divider-top-padding} + #{$schedule-day-block-margin-top});
       }
 
       &-title {
@@ -261,15 +280,14 @@ $schedule-timing-padding: 2px 10px;
   }
 
   .schedule {
-    &-session {
-      grid-template-columns: $table-first-column-width-lg auto 100px;
-      margin: 15px 0;
+    &-link {
+      grid-template-columns: $table-first-column-width-lg auto $schedule-session-icon-width-xxl;
+    }
 
-      &s {
-        &:before {
-          left: 125px;
-          height: calc(100% + #{$schedule-divider-top-padding} + #{$schedule-day-block-margin-top});
-        }
+    &-session {
+      &:before {
+        left: 125px;
+        height: calc(100% + #{$schedule-divider-top-padding} + #{$schedule-day-block-margin-top});
       }
 
       &-title {
@@ -298,23 +316,23 @@ $schedule-timing-padding: 2px 10px;
 
 @media screen and (max-width: $md-breakpoint) {
   .schedule {
-    &-session {
-      grid-template-columns: $table-first-column-width-md auto 100px;
+    &-link {
+      grid-template-columns: $table-first-column-width-md auto $schedule-session-icon-width-xxl;
       margin: 10px 0;
+    }
 
-
-      &s {
-        &:before {
-          left: 115px;
-          top: -$schedule-divider-top-padding-md;
-          height: calc(100% + #{$schedule-divider-top-padding-md} + #{$schedule-day-block-margin-top});
-        }
+    &-session {
+      &:before {
+        left: 115px;
+        top: -$schedule-divider-top-padding-md;
+        height: calc(100% + #{$schedule-divider-top-padding-md} + #{$schedule-day-block-margin-top});
       }
 
       &-title {
         font-size: 16px;
         padding: 3px 10px;
         margin-left: 5px;
+
         .track_badge {
           font-size: 16px;
           width: 230px;
@@ -342,8 +360,18 @@ $schedule-timing-padding: 2px 10px;
 
 @media screen and (max-width: $sm-breakpoint) {
   .schedule {
-    &-session {
+    &-link {
       grid-template-columns: $table-first-column-width-md auto;
+      margin: 40px 0;
+    }
+
+    &-session {
+      &:before {
+        left: 115px;
+        top: -40px;
+        height: calc(100% + 80px);
+      }
+
       &-person {
         display: none;
       }

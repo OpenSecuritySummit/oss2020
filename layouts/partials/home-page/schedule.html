@@ -1,101 +1,75 @@
+{{ $today := .Site.Data.schedule.config.today}}
+{{ $this  := . }}
+
+{{ $day_sessions := where .Site.Pages ".Params.when_day" $today.key }}
+
+{{ range sort $day_sessions ".Params.when_time"  }}
+    {{ if .Params.when_time }}
+        {{ if .Params.hey_summit }}
+            {{ $this.Scratch.Add "pages" (slice .) }}
+        {{ end }}
+    {{ end}}
+{{ end}}
+
+{{ $sessions := $this.Scratch.Get "pages" }}
+
 <section class="schedule">
-  <div class="container container-xl">
-    <div class="schedule-wrapper">
-      <div class="schedule-header">
-        <h6 class="schedule-title">The training sessions have started!</h6>
-        <h2 class="schedule-subtitle">Friday 5st June - Schedule</h2>
-      </div>
-      <div class="__schedule-table__" style="display: flex; padding: 0; background-color: #f3f8ec;}">
-        <div class="schedule-days">
-          <div class="schedule-days-item">
-            <div class="rot-90">
-              <div class="day-subtitle">training</div>
-              <div class="day-title">session</div>
+    <div class="container container-xl">
+        <div class="schedule-wrapper">
+            <div class="schedule-header">
+                <h6 class="schedule-title">The training sessions have started!</h6>
+                <h2 class="schedule-subtitle">{{$today.day}} {{$today.date}} June - Schedule</h2>
             </div>
-          </div>
-          <div class="schedule-days-item">
-            <div class="rot-90">
-              <div class="day-subtitle">training</div>
-              <div class="day-title">session</div>
-            </div>
-          </div>
-          <div class="schedule-days-item">
-            <div class="rot-90">
-              <div class="day-subtitle">user</div>
-              <div class="day-title">session</div>
-            </div>
-          </div>
-          <div class="schedule-days-item">
-            <div class="rot-90">
-              <div class="day-subtitle">training</div>
-              <div class="day-title">session</div>
-            </div>
-          </div>
-        </div>
 
+            <div class="__schedule-table__" style="display: flex; padding: 0; background-color: #f3f8ec;}">
+                <div class="schedule-days">
+                    {{ range $sessions}}
+                        {{ if .Params.hey_summit }}
+                            <div class="schedule-days-item">
+                                <div class="rot-90">
+                                    <div class="day-subtitle">{{ humanize .Params.type}}</div>
+                                </div>
+                            </div>
+                        {{ end }}
+                    {{ end}}
+                </div>
 
-        <div class="schedule-description">
-          <div class="schedule-description-item">
-            <div class="schedule-point">
-              <a href="/participant/organizers/adam-leon-smith/"><img
-                src="https://pbs.twimg.com/profile_images/535742481539665920/-sBVTmL9_400x400.jpeg"
-                alt="Adam Leon Smith photo"></a>
-            </div>
-            <div class="schedule-point-tag">
-              <div class="schedule-tag-time">11:00 - 13:00 (BST)</div>
-              <a class="author-link" href="/training/week-1/covid/covid-safe-paths-threat-modeling-part-2/">
-                <div class="schedule-tag-title">COVID SAFE PATHS - THREAT MODELING PART 2</div>
-              </a>
-              <div class="schedule-tag-author">by <a class="author-link" href="https://open-security-summit-2020.heysummit.com/speakers/dinis-cruz/">Dinis Cruz</a> and <a class="author-link" href="/participant/organizers/adam-leon-smith/">Adam Leon Smith</a>
-              </div>
-            </div>
-          </div>
-          <div class="schedule-description-item">
-            <div class="schedule-point">
-              <a href="participant/glasswall/dinis-cruz/">
-                <img src="https://s3.amazonaws.com/heysummit-production/media/thumbnails/uploads/events/open-security-summit-2020/2TpHAUjVvDQFcpBwmuHqSj_square_large.png" alt="Dinis Cruz photo"></a>
-            </div>
-            <div class="schedule-point-tag">
-              <div class="schedule-tag-time">14:00 - 16:00 (BST)</div>
-              <a class="author-link" href="/training/week-1/devsecops/jira-jupyter-integration-introduction/">
-                <div class="schedule-tag-title">Jira-Jupyter integration introduction</div>
-              </a>
-              <div class="schedule-tag-author">by <a class="author-link" href="participant/glasswall/dinis-cruz/">Dinis Cruz</a></div>
-            </div>
-          </div>
-          <div class="schedule-description-item">
-            <div class="schedule-point">
-              <a href="/participant/glasswall/petra-vukmirovic/">
-                <img src="https://pbs.twimg.com/profile_images/1232209537043763200/ILXPvwxO_400x400.jpg" alt="Petra Vukmirovic photo"></a>
-            </div>
-            <div class="schedule-point-tag">
-              <div class="schedule-tag-time">14:00 - 16:00 (BST)</div>
-              <a class="author-link" href="/training/week-1/wardley-maps/wardley-maps-introduction5/">
-                <div class="schedule-tag-title">Wardley Maps First Aid</div>
-              </a>
-              <div class="schedule-tag-author">by <a class="author-link" href="/participant/glasswall/petra-vukmirovic/">Petra Vukmirovic</a></div>
-            </div>
-          </div>
-          <div class="schedule-description-item">
-            <div class="schedule-point">
-              <a href="participant/glasswall/dinis-cruz/">
-              <img src="https://s3.amazonaws.com/heysummit-production/media/thumbnails/uploads/events/open-security-summit-2020/2TpHAUjVvDQFcpBwmuHqSj_square_large.png" alt="Dinis Cruz photo"></a>
-            </div>
-            <div class="schedule-point-tag">
-              <div class="schedule-tag-time">17:00 - 19:00 (BST)</div>
-              <a class="author-link" href="/training/week-1/hacking-and-defending/hacking-glasswall-sdk-and-cloud-friday/">
-                <div class="schedule-tag-title">Hacking Glasswall SDk & Cloud - Part 1</div>
-              </a>
-              <div class="schedule-tag-author">by <a class="author-link" href="participant/glasswall/dinis-cruz/">Dinis Cruz</a></div>
-            </div>
-          </div>
+                <div class="schedule-description">
+                    {{ range $sessions}}
+                        {{ if .Params.hey_summit }}
+                            {{ $time  := index .Site.Data.schedule.times .Params.when_time }}
+                            {{ $title := .Params.title }}
+                            {{ $organizers := partial "params/organizers.html" .  }}
+                            <div class="schedule-description-item">
+                                <div class="schedule-point">
+                                    {{ range first 1 $organizers }}
+                                        <a href="{{.Permalink}}">
+                                            <img src="{{.Params.image}}"
+                                                 alt="{{.Params.title}}">
+                                        </a>
+                                    {{ end }}
+                                </div>
+                                <div class="schedule-point-tag">
+                                    <div class="schedule-tag-time">{{ $time }}</div>
+                                    <a class="author-link" href="{{.Permalink}}">
+                                        <div class="schedule-tag-title">{{ .Params.title }}</div>
+                                    </a>
+                                    <div class="schedule-tag-author">
+                                        by
+                                        {{range $index, $element :=  $organizers }}
+                                            {{ if $index }} , {{ end }}
+                                            <a class="author-link"
+                                               href="{{.Permalink}}">
+                                                {{.Params.title}}
+                                            </a>
+                                        {{ end }}
+                                    </div>
+                                </div>
+                            </div>
+                        {{ end }}
+                    {{ end }}
+                </div>
+            </div>>
         </div>
-      </div>
-      <a href="https:/open-security-summit.org/training/">
-        <button class="schedule-button">
-          Click here for Detailed Training Schedule
-        </button>
-      </a>
     </div>
-  </div>
 </section>

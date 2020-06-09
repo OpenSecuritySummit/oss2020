@@ -4,18 +4,20 @@ track        : OWASP Juice Shop
 type         : user-session      # working-session, user-session, product-session
 technology   :
 topics       : OWASP                   # for example ["GDPR"]
-featured     :  yes                  # review with summit team "yes"
-when_day     :  Mon
-when_time    :  WS-3
+featured     : yes                  # review with summit team "yes"
+when_day     : Mon
+when_time    : WS-3
+hey_summit   : https://open-security-summit-2020.heysummit.com/talks/owasp-juice-shop-deep-dive-multijuicer/
 room_layout  :                    #
 room_id      :
 session_slack: 
-status       : draft              # draft, review-content, done
+status       :              # draft, review-content, done
 description  :
+participants :
 organizers   :
     - Jannik Hollenbach
     - Robert Seedorff
-participants :
+    
 ---
 
 OWASP Juice Shop is an incredible tool to learn and teach about web

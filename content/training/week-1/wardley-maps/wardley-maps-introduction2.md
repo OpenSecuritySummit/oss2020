@@ -1,5 +1,5 @@
 ---
-title        : Introduction to Wardley Mapping
+title        : Introduction to Wardley Mapping by Goher Mohammad
 type         : training-session
 track        : Wardley Maps
 topics       : 

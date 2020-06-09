@@ -1,17 +1,17 @@
 ---
-title        : PDF ISG - Inspection and Santisation Guidance for Portable Document Format
+title        : PDF ISG - Inspection and Sanitisation Guidance for Portable Document Format
 track        : ISG
 type         : training-session
 topics       :
     - CDR
     - Glasswall
 featured     : 
-when_week    : 
-when_day     : 
-when_time    : 
-hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/inspection-and-santisation-guidance-for-portable-document-format-1700pm-bst/
+when_week    : two
+when_day     : 12th - Friday
+when_time    : WS-3
+hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/pdf-isg-how-to-automate-inspection-and-sanitization-guidance-testing-2pm-bst/
 session_slack: 
-status       : draft           # draft, review-content, done
+status       : done           # draft, review-content, done
 description  : TBD
 organizers   : 
         - Dinis Cruz
@@ -20,6 +20,9 @@ organizers   :
 ---
 
 ### About this talk:
+
+Portable Document Format (PDF) is one of the most widely used file formats. In this session we're going to explore ISGs for PDF files which will include inspection and analysis on various elements and objects that are contained within the PDF file structure and how they can be a cause for concern for either hiding sensitive data or attempts to exploit a system. We'll analyze numerous features in PDF recommendations to mitigate these threats to provide a safer file. Don't miss your chance to join this fascinating journey!
+
 
 In this session, we'll dive into the Inspection and Sanitization Guidance for Portable Document Format. PDF
 

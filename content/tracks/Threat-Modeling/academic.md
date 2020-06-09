@@ -1,15 +1,16 @@
 ---
-title        : Academic research overview & feedback
+title        : Threat model academic research status
 type         : user-session
 track        : Threat Modeling
 category     :
-featured     :                 # if  "yes" review with summit team
-when_day     : Mon
-when_time    : 
+featured     : yes                # if  "yes" review with summit team
+when_day     : Tuesday
+when_time    : WS-1
+hey_summit   : https://open-security-summit-2020.heysummit.com/talks/threat-model-academic-research-status/
 room_layout  :
 room_id      : 
 session_slack: 
-status       : draft
+status       : 
 description  : 
 organizers   :
     - Steven
@@ -19,10 +20,10 @@ participants :
 ---
 
 ## Why
-The industry and the academic environments do not often talk to each other. We need to learn what researhcers are creating and the researching need feedback on what they should be looking for.
+The industry and the academic environments do not often talk to each other. We need to learn what researchers are creating and the researching need feedback on what they should be looking for.
 
 ## What
-Kim will go into LINDUNN GO as a way to look into privacy related threats from an academic point of view. She will also discuss how to use LINDUNN GO and will be asking for feedback from the community.
+Kim will go into LINDDUN GO (https://www.linddun.org/go) as a way to look into privacy related threats. She will also discuss how to use LINDDUN GO and will be asking for feedback from the community. 
 Koen will present his paper on DFD and a paper on maturity of threat modeling.
 
 https://lirias.kuleuven.be/retrieve/571819
