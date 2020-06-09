@@ -1,5 +1,5 @@
 ---
-title        : Security implications of the isolation and terrorism
+title        : Events example and security implications of the isolation and terrorism
 track        : "Wardley Maps"
 type         : working-session      # working-session, user-session, product-session
 technology   :
@@ -16,6 +16,7 @@ description  :
 organizers   :
 participants :
        - Simon Wardley
+       
 ---
 
 
