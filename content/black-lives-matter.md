@@ -38,7 +38,7 @@ While our voice and actions might seem small in noise, be assured that the Open 
 
 1. Created this page and linked it from the home page
 2. Sent message on Slack Channel about it
-3. Added a couple items to our merchendise store about BLM with all profits donated to a BLM charity
+3. Added a couple items to our merchandise store about BLM with all profits donated to a BLM charity
 
 {{<img src="https://user-images.githubusercontent.com/656739/84204239-bd905c80-aaa2-11ea-8e16-bbf1f725b103.png" >}}
 
