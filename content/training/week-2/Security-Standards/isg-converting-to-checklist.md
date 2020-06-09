@@ -13,9 +13,10 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/isgs-how
 session_slack: 
 status       :           # draft, review-content, done
 description  : TBD
-organizers   : 
-        - Dinis Cruz
+organizers   :
         - Elvin White
+        - Dinis Cruz
+
        
 zoom_host    : TBD
 
