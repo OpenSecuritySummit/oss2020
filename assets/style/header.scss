@@ -156,6 +156,11 @@ nav > li > a {
     padding: 10px 15px;
 }
 
+
+.topbar-socials {
+    display: none;
+}
+
 /*****************************/
 /******* XL BREAKPOINT *******/
 /*****************************/
@@ -166,12 +171,37 @@ nav > li > a {
     }
 }
 
+/*****************************/
+/******* LG BREAKPOINT *******/
+/*****************************/
+
 @media (max-width: $lg-breakpoint) {
     .topbar-social {
         display: none;
     }
-    .navbar {
-
+    .topbar-socials {
+        display: inline-block;
+    }
+    .navbar-buttons {
+        display: flex;
+        align-items: center;
     }
 }
 
+/*****************************/
+/******* MD BREAKPOINT *******/
+/*****************************/
+
+@media (max-width: $md-breakpoint) {
+    
+    .navbar {
+        &-nav {
+            &.navbar-right {
+                // width: 100vw;
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}

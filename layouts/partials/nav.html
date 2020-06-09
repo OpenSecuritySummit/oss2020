@@ -11,9 +11,9 @@
           <span class="sr-only">{{ .Title }} - {{ i18n "navHome" }}</span>
         </a>
         <div class="navbar-buttons">
-          {{/* range .Site.Menus.topbar.ByWeight }}
-            <span class="topbar-social"><a href="{{ .URL }}" target="_blank">{{ .Pre }}</a></span>
-          {{ end */}}
+            {{ range .Site.Menus.topbar.ByWeight }}
+              <span class="topbar-socials"><a href="{{ .URL }}" target="_blank">{{ .Pre }}</a></span>
+            {{ end }}
           <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
             <span class="sr-only">{{ i18n "navToggle" }}</span>
             <i class="fa fa-align-justify"></i>
