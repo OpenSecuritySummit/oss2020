@@ -20,29 +20,3 @@
 
 {{ end }}
 
-{{ define "full-content" }}
-
-<div class="container-fluid bg-sponsors">
-  <div class="container">
-    <div class="row sponsor-spacing">
-      <div class="col-md-12">
-        {{ .Content }}
-      </div>
-    </div>
-    <div class="row sponsor-spacing">
-      <div class="col-md-12">
-        {{ $sponsor_type := (slice "gold" "bronze") }}
-        {{ range $sponsor_type }}
-        {{ $sponsors := (index $.Site.Data.sponsors .) }}
-
-        {{ partial "sponsors/type-list.html" (dict "category" . "sponsors" $sponsors) }}
-
-        {{ end }}
-      </div>
-    </div>
-  </div>
-</div><!-- container-fluid -->
-
-{{ partial "sponsors/sponsorship-model.html"  . }}
-
-{{ end }}

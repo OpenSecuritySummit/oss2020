@@ -4,8 +4,8 @@ layout   : sponsors
 ---
 
 
-{{<img src="https://user-images.githubusercontent.com/656739/84130419-29d77580-aa3b-11ea-8434-219f3f860666.png" >}}
-
+{{<img src="/img/pages/black-lives-hand.png" >}}
+##### Black Lives MATTER
 https://blacklivesmatter.com/
 
 The Open Security Summit stands with members of our community and others worldwide in demanding
