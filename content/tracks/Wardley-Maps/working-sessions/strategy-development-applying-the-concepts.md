@@ -14,7 +14,6 @@ session_slack:
 status       :            # draft, review-content, done
 description  :
 organizers   :
-participants :
       - Mario Platt
       
 ---
