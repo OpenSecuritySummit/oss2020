@@ -21,7 +21,7 @@
                 <h2 class="schedule-subtitle">{{$today.day}} {{$today.date}} June - Schedule</h2>
             </div>
 
-            <div class="__schedule-table__" style="display: flex; padding: 0; background-color: #f3f8ec;}">
+            <div class="__schedule-table__" style="display: flex; padding: 0; background-color: #f3f8ec;">
                 <div class="schedule-days">
                     {{ range $sessions}}
                         {{ if .Params.hey_summit }}
@@ -42,7 +42,7 @@
                             {{ $organizers := partial "params/organizers.html" .  }}
                             <div class="schedule-description-item">
                                 <div class="schedule-point">
-                                    {{ range first 3 $organizers }}
+                                    {{ range first 2 $organizers }}
                                         <a href="{{.Permalink}}">
                                             <img src="{{.Params.image}}"
                                                  alt="{{.Params.title}}">
