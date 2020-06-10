@@ -1,6 +1,6 @@
 ---
 title        : Strategy Development - applying the concepts
-track        : Wardley-Maps
+track        : "Wardley Maps"
 type         : working-session      # working-session, user-session, product-session
 technology   :
 topics       :                    # for example ["GDPR"]
