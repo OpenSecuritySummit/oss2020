@@ -9,7 +9,7 @@ twitter: WallabyCurtis
 website:
 notes:
 status: Current
-type: organizer
+type: participant
 ---
 
 <!-- put more details about participant here -->
