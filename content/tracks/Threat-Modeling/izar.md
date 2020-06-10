@@ -1,5 +1,5 @@
 ---
-title        : PyTM demmo
+title        : Threatmodel tool demos - Wednesday WS-1
 type         : user-session
 track        : Threat Modeling
 category     :
