@@ -486,6 +486,16 @@ $summit-section-height: 350px;
     height: $schedule-point-size;
     background: $main-header-color;
     border-radius: 50%;
+    & a {
+      display: block;
+      margin-top: -110px;
+        &:nth-child(1) {
+          margin-top: 0;
+        }
+      &:hover {
+        z-index: 10;
+      }
+    }
 
     &-tag {
       width: 85%;

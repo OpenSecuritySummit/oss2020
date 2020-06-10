@@ -42,7 +42,7 @@
                             {{ $organizers := partial "params/organizers.html" .  }}
                             <div class="schedule-description-item">
                                 <div class="schedule-point">
-                                    {{ range first 1 $organizers }}
+                                    {{ range first 3 $organizers }}
                                         <a href="{{.Permalink}}">
                                             <img src="{{.Params.image}}"
                                                  alt="{{.Params.title}}">
@@ -69,7 +69,7 @@
                         {{ end }}
                     {{ end }}
                 </div>
-            </div>>
+            </div>
         </div>
     </div>
 </section>
