@@ -26,6 +26,7 @@ Tool 1: A Pythonic framework for threat modeling by Izar
 https://github.com/izar/pytm
 
 Tool 2: TENTATIVE by zeroXten
+https://threatspec.org/
 
 
 ## Outcomes
