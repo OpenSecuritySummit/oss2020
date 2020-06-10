@@ -4,10 +4,11 @@
   {{ partial "head.html" . }}
 
   <body>
-    <div id="all">
+    <div id="all" class="dark-mask">
             <header class="full-bg background-home">
 
-            {{ partial "nav.html" . }}
+<!--              <div class="dark-mask"></div>-->
+              {{ partial "nav.html" . }}
 
         </header>
 
@@ -17,8 +18,8 @@
             {{ partial "home-page/hero.html" . }}
             {{ partial "home-page/summit-dates.html" . }}
             {{ partial "home-page/schedule.html" . }}
-            {{ partial "home-page/attend-summit.html" . }}
             {{ partial "home-page/book-tickets.html" . }}
+            {{ partial "home-page/attend-summit.html" . }}
             {{ partial "home-page/speakers.html" . }}
             {{ partial "home-page/photo-gallery.html" . }}
             {{ partial "home-page/previous-summits-2020.html" . }}
