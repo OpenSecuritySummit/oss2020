@@ -28,6 +28,7 @@ zoom_host    : Didar Gelici
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQpTKLYMrHpt26P8J-c40PEQHHLyTmrlRxKAROEdIzPmqyX3t7JWWOD7k4U3BmOrAJp0yswsRg8dnAU/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
+
 ### Inspec
 
 See [https://www.inspec.io/](Inspec) website for more details on this tool
