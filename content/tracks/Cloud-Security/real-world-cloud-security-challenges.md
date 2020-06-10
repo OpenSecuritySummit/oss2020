@@ -6,16 +6,16 @@ technology   :
 topics       :
     - AWS
     - hardening
-featured     : yes                  # review with summit team "yes"
-when_day     : Wed
-when_time    : WS-1
+featured     :                 # review with summit team "yes"
+when_day     : 
+when_time    :
 hey_summit   : https://open-security-summit-2020.heysummit.com/talks/real-world-cloud-security-challenges-11pm-bst/
 room_layout  :                    #
 room_id      :
 session_slack: 
 status       : draft              # draft, review-content, done
 description  : AWS Security hardening
-organizers   : Dinis Cruz
+organizers   : 
 participants :
 ---
 

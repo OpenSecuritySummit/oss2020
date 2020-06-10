@@ -8,7 +8,7 @@ when_day     : Mon
 when_time    : WS-1
 hey_summit   : https://open-security-summit-2020.heysummit.com/talks/intro-wardley-maps/
 session_slack:
-status       : draft
+status       : 
 description  :
 organizers   :  Simon Wardley
 
