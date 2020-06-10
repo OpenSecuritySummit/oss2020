@@ -342,7 +342,66 @@ $schedule-timing-padding: 2px 10px;
 /* END SESSION Styles */
 
 
+/**************************************/
+/****** SCHEDULE (All sessions) *******/
+/**************************************/
 
+.table {
+  &-condensed {
+    & .tr-schedule {
+      & td {
+        max-width: 200px !important;
+      }
+      & .schedule {
+        &-cell {
+          & .schedule {
+            &-session {
+              &::before {
+                display: none;
+              }
+              & .schedule {
+                &-link {
+                  display: flex;
+                  align-items: start;
+                  & .schedule {
+                    &-session {
+                      &-title {
+                        & .schedule {
+                          &-session {
+                            &-description {
+                              font-size: 18px;
+                            }
+                            &-organizers {
+                              font-size: 16px;
+                            }
+                          }
+                        }
+                      }
+                      &-person {
+                        & .person-img {
+                          width: $sch-person-icon-w;
+                          height: $sch-person-icon-h;
+                          &:nth-child(2) {
+                            margin-top: -30px;
+                          }
+                          &:nth-child(3) {
+                            margin-top: -30px;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/******* END OF (All sessions) ********/
 
 
 /*****************************/
