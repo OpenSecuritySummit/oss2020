@@ -1,11 +1,11 @@
 ---
-title        : Threatmodel tool demos - Tuesday WS-2
+title        : Threatmodel tool demos - Tuesday - lunch break
 type         : user-session
 track        : Threat Modeling
 topcis       : OWASP
 featured     :                 # if  "yes" review with summit team
 when_day     : Tue
-when_time    : WS-2
+when_time    : LD-1
 room_layout  :
 room_id      : 
 session_slack: 
@@ -26,12 +26,6 @@ OWASP Threat Dragon is a tool used to create threat model diagrams and to record
 
 TD is both an online threat modelling web application and a desktop application. It includes system diagramming as well as a rule engine to auto-generate threats and their mitigations. The focus of TD is on great UX, a powerful rule engine and alignment with other development lifecycle tools.
 https://owasp.org/www-project-threat-dragon/
-
-
-Tool 2: 
-**Things to consider:**
-
-
 
 ## Outcomes
 A recording of the functionalities at the moment of the summit
