@@ -14,9 +14,10 @@ status       :
 description  : 
 organizers   :
     - Steven Wierckx
-    - Kim
-    - Koen
+    - Kim Wuyts
+    - Koen Yskout
 participants :
+
 ---
 
 ## Why
