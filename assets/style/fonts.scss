@@ -8,6 +8,15 @@
     unicode-range: U + 0000 -00FF, U + 0131, U + 0152 -0153, U + 02 C6, U + 02 DA, U + 02 DC, U + 2000 -206F, U + 2074, U + 20 AC, U + 2212, U + 2215;
 }
 
+
+
+@font-face {
+    font-family: 'Roboto Black';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Black Regular'), local('Roboto-Black'), url('#{$base-url}/fonts/Roboto-Black.woff') format('woff'), url('#{$base-url}/fonts/Roboto-Black.woff2') format('woff2');
+}
+
 @font-face {
     font-family: 'Open Sans';
     font-style: normal;

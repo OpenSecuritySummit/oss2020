@@ -112,6 +112,12 @@ a.nav {
   position: relative;
   background: url("#{$base-url}/img/pages/sponsors.jpg") no-repeat center bottom;
   background-size: cover;
+
+//changes regarding Black lives Matter (OSS June 2020 )
+  padding-top: 130px;
+  img {
+    margin-top: 100px;
+  }
 }
 
 .background-sponsors {
