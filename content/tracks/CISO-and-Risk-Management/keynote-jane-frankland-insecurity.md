@@ -15,7 +15,7 @@ status       :               # draft, review-content, done
 description  :
 organizers   : 
 participants :
-      - Jane Frankland Chief Impact Officer
+      - Jane Frankland 
 ---
 
 #### Topics to cover:
