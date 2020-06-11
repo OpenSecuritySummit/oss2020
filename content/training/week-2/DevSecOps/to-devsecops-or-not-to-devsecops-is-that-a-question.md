@@ -13,3 +13,6 @@ description  : TBD
 organizers   : Mario Platt
 ---
 
+### Training Session Video
+
+{{< youtube id="dHkptfSUWlo" autoplay="false" >}} 

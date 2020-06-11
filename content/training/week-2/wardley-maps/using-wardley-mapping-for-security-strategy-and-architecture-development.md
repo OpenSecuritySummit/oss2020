@@ -14,3 +14,7 @@ organizers   : Mario Platt
 
 ---
 
+
+### Training Session Video
+
+{{< youtube id="kDs23thv8VE" autoplay="false" >}} 

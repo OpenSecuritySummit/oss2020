@@ -13,3 +13,6 @@ description  : TBD
 organizers   : Mohammed A. Imran
 ---
 
+### Training Session Video
+
+{{< youtube id="mdUP1XtYTLI" autoplay="false" >}} 

@@ -16,6 +16,9 @@ organizers   :
        - Didar Gelici
        - Petra Vukmirovic
 ---
+### Training Session Video
+
+{{< youtube id="2Pw8oosbGas" autoplay="false" >}} 
 
 ### This is the third section in a four-part exercise:
 

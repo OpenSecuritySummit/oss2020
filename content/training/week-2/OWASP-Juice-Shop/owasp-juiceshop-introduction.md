@@ -13,6 +13,10 @@ description  :
 organizers   : Bjoern Kimminich
 ---
 
+### Training Session Video
+
+{{< youtube id="wCF08BdXdDg" autoplay="false" >}} 
+
 ### About this talk:
 
 ![](https://raw.githubusercontent.com/OWASP/owasp-swag/master/projects/juice-shop/logos/custom/JuicyBot_MedicalMask.png)

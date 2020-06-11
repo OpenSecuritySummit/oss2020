@@ -13,6 +13,11 @@ organizers   : Stuart Peck
 description  : 
 ---
 
+### Training Session Video
+
+{{< youtube id="-wXlB0CILWic" autoplay="false" >}} 
+
+
 ### About this talk:
 
 Stuart Peck - Director of Cyber Security Strategy for ZeroDayLab and 3 x winner of Tracelabs Missing Person Global CTF, will take you through the techniques used by attackers to social engineer targets. What you will learn:
@@ -21,3 +26,4 @@ Stuart Peck - Director of Cyber Security Strategy for ZeroDayLab and 3 x winner 
 - Case Studies learning from Physical Social Engineering, Telephone Social Engineering  (Vishng) and Phishing
 - Social Engineering Defense tactics
 - Q&A
+

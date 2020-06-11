@@ -12,3 +12,7 @@ status       :          # draft, review-content, done
 description  : TBD
 organizers   : Sasha Rosenbaum
 ---
+
+### Training Session Video
+
+{{< youtube id="zgNFQY820Os" autoplay="false" >}} 
