@@ -1,21 +1,23 @@
 ---
-title        : Threatmodel tool demos - Wednesday WS-1
+title        : Threatmodel tool demos - Wednesday 
 type         : user-session
-track        : Threat Modeling
+track        : "Threat Modeling"
 category     :
 featured     :                 # if  "yes" review with summit team
 when_day     : Wed
 when_time    : WS-1
+hey_summit   : https://open-security-summit-2020.heysummit.com/talks/threatmodel-tool-demos-wednesday-11am-bst/
 room_layout  :
 room_id      : 
 session_slack: 
-status       : draft
+status       : 
 description  : Tool demos
 organizers   :
-    - Steven
-    - Izar
-    - zeroXten
+    - Steven Wierckx
+    - Fraser Scott 
+    - Izar Tarandach
 participants :
+
 ---
 
 ## Why
