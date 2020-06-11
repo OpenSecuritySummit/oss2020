@@ -12,7 +12,9 @@ room_layout  :                    #
 room_id      :
 session_slack: 
 status       :               # draft, review-content, done
-description  : 
+
+description  : "Metrics, Measurements, risk & error budgeting"
+
 organizers   :
     - Phil Huggins
 participants :
