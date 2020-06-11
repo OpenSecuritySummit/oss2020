@@ -35,9 +35,8 @@ Information to be revealed throughout the exercise and groups work on their resp
 
 - **Part 4** - [Post-mortem for the Part 3](https://open-security-summit-2020.heysummit.com/talks/post-mortem-of-the-incident-exercise/)
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRL9XzLU759wNWvpdYz9WGFxHapDuNNjIVp2A1E2NqumVVDB8rdc5HwsDJAcSrMU9OYR9QzQP36mwze/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 
 ### Session Materials
 
-
-
+{{< gslides id="2PACX-1vRL9XzLU759wNWvpdYz9WGFxHapDuNNjIVp2A1E2NqumVVDB8rdc5HwsDJAcSrMU9OYR9QzQP36mwze" >}}
