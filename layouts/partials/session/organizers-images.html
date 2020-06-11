@@ -11,7 +11,11 @@
                     {{ .Title }}
                 </a>
                 {{else}}
+                  {{ if eq (printf "%T"  .) "[]string" }}
+                    {{ index . 0 }}
+                  {{else}}
                     {{ . }}
+                  {{ end }}
                 {{ end }}
             </div>
         {{ end }}
