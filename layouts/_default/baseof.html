@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 {{ $containerType := .Params.container_type }}
+{{ $contentClass := .Params.content_class }}
 
 <html lang="{{ .Site.LanguageCode }}">
 
@@ -26,7 +27,7 @@
       {{ end }}
     {{ end }}
 
-    <div id="content">
+    <div id="content" class="{{ $contentClass}}">
     {{ if isset .Params "id" }}
 
       {{ partial .Params.id . }}

@@ -415,6 +415,76 @@ $schedule-timing-padding: 2px 10px;
 /******* END OF track view cells ********/
 
 
+
+//
+/*****************************/
+/**** BLACK LIVES MATTER *****/
+/*****************************/
+.black-lives-matter {
+  .col-md-12 > div  {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #fff;
+    a {
+      font-family: "Oswald Bold", helvetica neue, helvetica, sans-serif;
+      font-weight: 700;
+      font-size: 24px;
+      color: $main-background-color;
+    }
+    p, ol li {
+      font-family: "Roboto Slab", helvetica neue, helvetica, sans-serif;
+      font-size: 24px;
+      line-height: 32px;
+      color: $main-text-color;
+    }
+    ol li {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    margin-top: 120px;
+    > {
+      img:nth-child(1), h2:nth-of-type(1) {
+        float: left;
+        margin-left: 20px;
+      }
+      p:nth-of-type(1){
+        clear: both;
+      }
+      img:nth-child(1) {
+        margin-bottom: 30px;
+        margin-right: 20px;
+      }
+
+      img:nth-of-type(2), img:nth-of-type(3) {
+        display: block;
+        margin: auto;
+        min-width: 70% !important;
+      }
+      h2:nth-of-type(1){
+        margin: -15px 0 0 0;
+        text-transform: uppercase;
+      }
+
+      h2:nth-of-type(1){
+        font-family: 'Roboto Balck', helvetica neue, helvetica, sans-serif;
+        font-size: 98px;
+        width: 400px;
+      }
+
+      h2:nth-of-type(2) {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        font-family: "Oswald Bold", helvetica neue, helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        color: $main-text-color-alt;
+      }
+    }
+
+  }
+}
+/******* END OF black lives matter ********/
+
 /*****************************/
 /****** XXL BREAKPOINT *******/
 /*****************************/
@@ -543,6 +613,7 @@ $schedule-timing-padding: 2px 10px;
   .schedule {
     &-link {
       grid-template-columns: $table-first-column-width-lg auto $schedule-session-icon-width-lg;
+
       &.how-many-participants- {
         &2 {
           grid-template-columns: $table-first-column-width-lg auto 2 * ($schedule-session-icon-width-lg  + $schedule-session-icon-padding) + 3px;
@@ -562,6 +633,7 @@ $schedule-timing-padding: 2px 10px;
 
       &-title {
         padding: 3px 10px;
+
         h2 {
           font-size: 24px;
           margin-top: 8px;
@@ -569,11 +641,13 @@ $schedule-timing-padding: 2px 10px;
 
         }
       }
+
       .person {
         &-img {
           width: $schedule-session-icon-width-lg;
         }
       }
+
       &-organizer {
         //font-size: 16px;
       }
@@ -595,21 +669,26 @@ $schedule-timing-padding: 2px 10px;
     &-section {
       .table {
         padding: 43px 16px;
+
         &-line {
           .title {
             min-width: 160px;
           }
+
           .description {
             flex-basis: 78%;
           }
+
           .button {
             flex-basis: 78%;
+
             .label {
               font-size: 75%;
             }
           }
         }
       }
+
       .gt3 {
         .table {
           &-organizers {
@@ -627,11 +706,28 @@ $schedule-timing-padding: 2px 10px;
   }
   .schedule-cell {
     .schedule-session {
-      .schedule-link{
+      .schedule-link {
         .schedule-session-person {
           display: none;
         }
       }
+    }
+  }
+
+  .black-lives-matter {
+    .col-md-12 > div {
+      margin-top: 80px;
+      h2:nth-of-type(1){
+        font-size: 78px;
+      }
+      p, ol li {
+        font-size: 18px;
+        line-height: 24px;
+      }
+      img:nth-child(1) {
+        width: 164px;
+      }
+
     }
   }
 }
@@ -707,6 +803,28 @@ $schedule-timing-padding: 2px 10px;
     }
   }
 
+  .black-lives-matter {
+    .col-md-12 > div {
+      margin-top: 40px;
+      > {
+        img:nth-child(1) {
+          //margin-right: 40px;
+          margin-left: 10px;
+          margin-top: -6px;
+          width: 140px;
+        }
+        img:nth-child(1), h2:nth-of-type(1) {
+          //float: none;
+          //display: inline-block;
+        }
+
+        h2:nth-of-type(1) {
+          font-size: 54px;
+          width: 200px;
+        }
+      }
+    }
+  }
 }
 //of md breakpoint
 

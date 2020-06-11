@@ -1,11 +1,12 @@
 ---
 title    : Black Lives Matter
 layout   : sponsors
+content_class: black-lives-matter
 ---
 
 
 {{<img src="/img/pages/black-lives-hand.png" >}}
-##### Black Lives MATTER
+## Black Lives MATTER
 https://blacklivesmatter.com/
 
 The Open Security Summit stands with members of our community and others worldwide in demanding
@@ -33,7 +34,7 @@ These tools and abilities were and continue to be crucial in exposing acts of vi
 
 While our voice and actions might seem small in noise, be assured that the Open Security Summit continues to endeavor to right race and gender wrongs.
 
-# How are we trying to help
+## How are we trying to help
 
 1. Created this page and linked it from the home page
 2. Sent message on Slack Channel about it
