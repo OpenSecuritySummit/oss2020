@@ -1,20 +1,22 @@
 ---
-title        : Threatmodel tool demos - Wednesday WS-2
+title        : Threatmodel tool demos - Wednesday 
 type         : user-session
-track        : Threat Modeling
+track        : "Threat Modeling"
 topcis       : OWASP
-featured     :                 # if  "yes" review with summit team
+featured     : yes                # if  "yes" review with summit team
 when_day     : Wed
 when_time    : WS-2
+hey_summit   : https://open-security-summit-2020.heysummit.com/talks/threatmodel-tool-demos-wednesday/
 room_layout  :
 room_id      : 
 session_slack: 
-status       : draft
+status       : 
 description  : 
 organizers   :
-    - Steven
+    - Steven Wierckx
     - Geoff Hill
 participants :
+
 ---
 
 ## Why
