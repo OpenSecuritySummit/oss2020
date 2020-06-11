@@ -6,6 +6,7 @@ topcis       : OWASP
 featured     : yes               # if  "yes" review with summit team
 when_day     : Thu
 when_time    : WS-1
+hey_summit   : https://open-security-summit-2020.heysummit.com/talks/threatmodel-tool-demos/
 room_layout  :
 room_id      : 
 session_slack: 

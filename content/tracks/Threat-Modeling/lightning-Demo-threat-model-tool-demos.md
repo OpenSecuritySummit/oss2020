@@ -1,20 +1,22 @@
 ---
-title        : Threatmodel tool demos - Tuesday - lunch break
+title        : Lightning Demo - Threatmodel tool demos  
 type         : user-session
-track        : Threat Modeling
-topcis       : OWASP
-featured     :                 # if  "yes" review with summit team
+track        : "Threat Modeling"
+topics       : OWASP
+featured     : yes               # if  "yes" review with summit team
 when_day     : Tue
 when_time    : LD-1
+hey_summit   : https://open-security-summit-2020.heysummit.com/talks/lightning-demo-threatmodel-tool-demos-1pm-bst/
 room_layout  :
 room_id      : 
 session_slack: 
-status       : draft
+status       : 
 description  : 
 organizers   :
-    - Steven
+    - Steven Wierckx
     - Mike Goodwin
 participants :
+
 ---
 
 ## Why
