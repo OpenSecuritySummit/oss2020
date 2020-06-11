@@ -11,7 +11,7 @@ hey_summit   : https://open-security-summit-2020.heysummit.com/talks/cloud-nativ
 room_layout  :                    #
 room_id      :
 session_slack: 
-status       : draft              # draft, review-content, done
+status       :               # draft, review-content, done
 description  : Reliance on cloud providers brings pain in resilience goals
 organizers   : Dinis Cruz
 participants :
