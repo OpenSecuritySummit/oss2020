@@ -510,7 +510,7 @@ $summit-section-height: 350px;
     }
     img {
       width: $schedule-point-size;
-      filter: grayscale(1);
+      //filter: grayscale(1);
       border-radius: 50%;
     }
   }
@@ -1041,6 +1041,7 @@ $summit-section-height: 350px;
     &-tag {
       &-title {
         font-size: 26px;
+        line-height: 36px;
       }
       &-author {
         font-size: 18px;
@@ -1221,6 +1222,7 @@ $summit-section-height: 350px;
     &-tag {
       &-title {
         font-size: 20px;
+        line-height: 28px;
       }
     }
   }

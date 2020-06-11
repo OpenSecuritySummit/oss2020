@@ -42,11 +42,8 @@
                             {{ $organizers := partial "params/organizers.html" .  }}
                             <div class="schedule-description-item">
                                 <div class="schedule-point">
-                                    {{ range first 2 $organizers }}
-                                        <a href="{{.Permalink}}">
-                                            <img src="{{.Params.image}}"
-                                                 alt="{{.Params.title}}">
-                                        </a>
+                                    {{ range $organizers }}
+                                        <a href="{{.Permalink}}"><img src="{{.Params.image}}" alt="{{.Params.title}}"></a>
                                     {{ end }}
                                 </div>
                                 <div class="schedule-point-tag">
@@ -55,13 +52,10 @@
                                         <div class="schedule-tag-title">{{ .Params.title }}</div>
                                     </a>
                                     <div class="schedule-tag-author">
-                                        by
+                                        <span>by</span>
                                         {{range $index, $element :=  $organizers }}
-                                            {{ if $index }} , {{ end }}
-                                            <a class="author-link"
-                                               href="{{.Permalink}}">
-                                                {{.Params.title}}
-                                            </a>
+                                            {{ if $index }}<span>, </span>{{ end }}
+                                            <a class="author-link" href="{{.Permalink}}">{{.Params.title}}</a>
                                         {{ end }}
                                     </div>
                                 </div>
