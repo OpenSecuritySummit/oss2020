@@ -11,7 +11,7 @@ hey_summit   : https://open-security-summit-2020.heysummit.com/talks/show-tell-h
 room_layout  :                    #
 room_id      :
 session_slack: 
-status       : draft              # draft, review-content, done
+status       :               # draft, review-content, done
 description  : DataDog for example
 organizers   :
     - Tony Richards

@@ -20,6 +20,10 @@ organizers   :
 
 ## About this talk: 
 
-One of the more curious aspects of Wardley Mapping is the Doctrine — what we *choose* to believe are universally-applicable principles. The doctrine is essentially values-based ideas like putting users first and being open to challenge.  While Simon’s doctrine is a great place to start, it’s also true that you can begin to discover and choose principles of your own. 
+In this talk we'll discuss  4 Problems for Cyber Security for the next Decade using Doctrine and Climatic patterns as the basis to discuss and develop potential solutions for it.
+- The Communications problem
+- The Management problem
+- The Engineering problem
+- The Skills and Structure problem
 
-Attend this session, learn more about the doctrine and develop your own strategy for reaching your own goals.
+We will then break out into groups, to continue discussion on these and/or other problems and use Climatic Patterns and Doctrine to discuss and propose solutions for them.
