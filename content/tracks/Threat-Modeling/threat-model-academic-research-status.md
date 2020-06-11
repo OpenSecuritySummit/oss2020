@@ -1,10 +1,10 @@
 ---
 title        : Threat model academic research status
 type         : user-session
-track        : Threat Modeling
+track        : "Threat Modeling"
 category     :
 featured     : yes                # if  "yes" review with summit team
-when_day     : Tuesday
+when_day     : Tue
 when_time    : WS-1
 hey_summit   : https://open-security-summit-2020.heysummit.com/talks/threat-model-academic-research-status/
 room_layout  :
@@ -13,7 +13,7 @@ session_slack:
 status       : 
 description  : 
 organizers   :
-    - Steven
+    - Steven Wierckx
     - Kim
     - Koen
 participants :

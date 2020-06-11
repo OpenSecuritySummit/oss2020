@@ -481,11 +481,26 @@ $summit-section-height: 350px;
   }
 
   &-point {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin-right: 47px;
     min-width: $schedule-point-size;
     height: $schedule-point-size;
     background: $main-header-color;
     border-radius: 50%;
+    & a {
+      position: relative;
+      display: block;
+      margin-top: -110px;
+        &:nth-child(1) {
+          margin-top: 0;
+        }
+      &:hover {
+        z-index: 10;
+      }
+    }
 
     &-tag {
       width: 85%;
@@ -495,7 +510,7 @@ $summit-section-height: 350px;
     }
     img {
       width: $schedule-point-size;
-      filter: grayscale(1);
+      //filter: grayscale(1);
       border-radius: 50%;
     }
   }
@@ -1012,6 +1027,28 @@ $summit-section-height: 350px;
       min-width: 350px;
     }
   }
+
+  .schedule {
+    &-description {
+      &-item {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+    &-point {
+      margin-right: 20px;
+    }
+    &-tag {
+      &-title {
+        font-size: 26px;
+        line-height: 36px;
+      }
+      &-author {
+        font-size: 18px;
+        line-height: 24px;
+      }
+    }
+  }
 }
 
 
@@ -1154,6 +1191,42 @@ $summit-section-height: 350px;
     }
 
   }
+
+  .schedule {
+    &-description {
+      &-item {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    }
+    &-point {
+      background-color: transparent;
+      margin-right: 10px;
+      & a {
+        margin-top: -70px;
+        & img {
+          width: 80px;
+          height: 80px;
+        }
+      }
+      &-tag {
+        padding-left: 18px;
+        &-author {
+          & .author-link {
+            font-size: 16px;
+            line-height: 20px;
+          }
+        }
+      }
+    }
+    &-tag {
+      &-title {
+        font-size: 20px;
+        line-height: 28px;
+      }
+    }
+  }
+
 }
 
 
@@ -1180,5 +1253,50 @@ $summit-section-height: 350px;
   .booking {
 
   }
+
+  .schedule {
+    &-days {
+      &-item {
+        width: 70px;
+      }
+    }
+    &-description {
+      &-item {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    }
+    &-point {
+      display: none;
+      background-color: transparent;
+      margin-right: 10px;
+      & a {
+        margin-top: -70px;
+        & img {
+          width: 80px;
+          height: 80px;
+        }
+      }
+      &-tag {
+        width: 100%;
+        padding-left: 18px;
+        padding-top: 20px;
+        padding-bottom: 60px;
+        &-author {
+          & .author-link {
+            font-size: 16px;
+            line-height: 20px;
+          }
+        }
+      }
+    }
+    &-tag {
+      &-title {
+        font-size: 18px;
+        line-height: 30px;
+      }
+    }
+  }
+
 }
 

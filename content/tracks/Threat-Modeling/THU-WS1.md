@@ -21,7 +21,8 @@ participants :
 When choosing a threat model tool, you first need to know what the tool can and cannot do. In order to facilitate this we are organising a number of demonstrations of tools, each 30 minutes long.
 
 ## What
-Tool 1: TENTATIVE CAIRIS
+Tool 1: CAIRIS by Duncan Ki-Aries
+https://cairis.org/
 
 Tool 2: IriusRisk by Stephen De Vries
 https://iriusrisk.com/threat-modeling-tool/
