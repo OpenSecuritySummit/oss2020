@@ -13,3 +13,19 @@
 
 <!-- owl carousel -->
 <script src="{{ .Site.BaseURL }}js/owl.carousel.min.js"></script>
+
+<script>
+  // this hooks is being used for handling session entries like personal pages, or session description inside of <a> tag
+  // see ie. /schedule
+    let gotoLink = (e) => {
+        var target = e.target;
+        var url = target && target.getAttribute('data-url');
+        if (url) {
+            window.location.href = url;
+        }
+        e.preventDefault();
+    };
+    $('.img-circle').click(gotoLink);
+    $('.schedule-session-organizer').click(gotoLink);
+</script>
+
