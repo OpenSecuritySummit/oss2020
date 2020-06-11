@@ -11,7 +11,7 @@ hey_summit   : https://open-security-summit-2020.heysummit.com/talks/risk-error-
 room_layout  :                    #
 room_id      :
 session_slack: 
-status       : draft              # draft, review-content, done
+status       :              # draft, review-content, done
 description  : "Metrics, Measurements, risk & error budgeting"
 organizers   :
     - Dinis Cruz
