@@ -14,3 +14,7 @@ organizers   :
     - Petra Vukmirovic
 description  : 
 ---
+
+### Training Session Video
+
+{{< youtube id="4IcIIfsqAvM" autoplay="false" >}} 

@@ -19,6 +19,10 @@ organizers   :
         - Greg Mann
 ---
 
+### Training Session Video
+
+{{< youtube id="PGZCHxwZ82c" autoplay="false" >}} 
+
 ### About this talk:
 
 Inspection and Sanitisation Guidance standards allow us to analyze elements and objects contained within the file structures, reveal the data hiding, data attack, and data disclosure risks. They show how identified elements can be a cause for concern for hiding sensitive data to ensure that files are safer for users to open and conform to the specification. Whilst getting acquainted to ISG standards in details in one of our sessions, it's now time to measure and visualise these standards. 

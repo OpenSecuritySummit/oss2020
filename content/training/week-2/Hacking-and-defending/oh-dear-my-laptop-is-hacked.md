@@ -15,3 +15,7 @@ organizers   :
      - Petra Vukmirovic
      - Sara Notaro
 ---
+
+### Training Session Video
+
+{{< youtube id="m24es4ATIhk" autoplay="false" >}} 
