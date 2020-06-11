@@ -342,7 +342,78 @@ $schedule-timing-padding: 2px 10px;
 /* END SESSION Styles */
 
 
+/**************************************/
+/****** SCHEDULE (All sessions) *******/
+/**************************************/
 
+.table {
+  &-condensed {
+    & .tr-schedule {
+      & td {
+        max-width: 200px !important;
+      }
+      & .schedule {
+        &-cell {
+          & td {
+            padding: 0;
+          }
+          & .schedule {
+            &-session {
+              margin: 0;
+              &::before {
+                display: none;
+              }
+              & .schedule {
+                &-link {
+                  margin: 3px 0;
+                  display: flex;
+                  align-items: start;
+                  & .schedule {
+                    &-session {
+                      &-title {
+                        padding: 0;
+                        & .schedule {
+                          &-session {
+                            &-description {
+                              font-size: 18px;
+                            }
+                            &-organizers {
+                              font-size: 16px;
+                              line-height: 1;
+                            }
+                          }
+                        }
+                      }
+                      &-person {
+                        display: block;
+                        & .person-img {
+                          margin-top: -38px;
+                          width: $sch-person-icon-w;
+                          height: $sch-person-icon-h;
+                          transition: all 0.2s;
+                          &:nth-child(1) {
+                            margin-top: 14px;
+                          }
+                        }
+                        .hovered {
+                            width: $sch-person-icon-w * 1.5;
+                            height: $sch-person-icon-w * 1.5;
+                            z-index: 10;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/******* END OF (All sessions) ********/
 
 
 /*****************************/
