@@ -1,20 +1,21 @@
 ---
-title        : Threatmodel tool demos - Thursday WS-1
+title        : Threatmodel tool demos 
 type         : user-session
-track        : Threat Modeling
+track        : "Threat Modeling"
 topcis       : OWASP
-featured     :                 # if  "yes" review with summit team
+featured     : yes               # if  "yes" review with summit team
 when_day     : Thu
 when_time    : WS-1
 room_layout  :
 room_id      : 
 session_slack: 
-status       : draft
+status       : 
 description  : 
 organizers   :
-    - Steven
+    - Steven Wierckx
     - Stephen De Vries
 participants :
+
 ---
 
 ## Why
