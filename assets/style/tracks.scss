@@ -1,6 +1,246 @@
 /****************************
 ***** TRACKS STYLES *********
 *****************************/
+
+$ciso-fore-color: #00559e;                   // 207
+$ciso-back-color: #d9e5f0;
+$cloud-security-fore-color: #23c3f3;         // 193
+$cloud-security-back-color: #def6fd;
+$covid-fore-color: #86ba40;                  // 85
+$covid-back-color: #edf5e2;
+$devsecops-fore-color: #C2402F;              // 6
+$devsecops-back-color: #F2DDDA;
+$hacking-fore-color: #1EABC2;                // 188
+$hacking-back-color: #CEEDF2;
+$isg-fore-color: #C2A020;                   // 47
+$isg-back-color: #FFF4CC;
+$lightning-fore-color: #993D1F;             // 14
+$lightning-back-color: #FFECE6;
+$misc-fore-color: #76991F;                  // 77
+$misc-back-color: #F7FCE8;
+$owasp-juice-shop-fore-color: #7062B3;      // 250
+$owasp-juice-shop-back-color: #E1DCFC;
+$owasp-projects-fore-color: #DDE639;       // 63
+$owasp-projects-back-color: #F8FADC;
+$security-standards-fore-color: #E869E4;   // 301
+$security-standards-back-color: #F2D0F2;
+$social-fore-color: #28F2C7;               // 167
+$social-back-color: #E1FAF4;
+$threat-modeling-fore-color: #7DCD3A;      // 92
+$threat-modeling-back-color: #EDFAE1;
+$wardleymaps-fore-color: #549954;          // 120
+$wardleymaps-back-color: #E8FCE8;
+
+
+.tracks-wrapper {
+  .ciso {
+    a, .fa, .overtitle {
+      color: $ciso-fore-color;
+    }
+    .button button {
+      background-color: $ciso-fore-color;
+      color: $ciso-back-color;
+    }
+    .title {
+      background-color: $ciso-back-color;
+    }
+  }
+
+  .cloud-security {
+    a, .fa, .overtitle {
+      color: $cloud-security-fore-color;
+    }
+    .button button {
+      background-color: $cloud-security-fore-color;
+      color: $cloud-security-back-color;
+    }
+    .title {
+      background-color: $cloud-security-back-color;
+    }
+  }
+
+  .covid {
+    a, .fa, .overtitle {
+      color: $covid-fore-color;
+    }
+    .button button {
+      background-color: $covid-fore-color;
+      color: $covid-back-color;
+    }
+    .title {
+      background-color: $covid-back-color;
+    }
+  }
+
+  .devsecops {
+    color: $devsecops-fore-color;
+    background-color: $devsecops-back-color;
+    a, .fa, .overtitle {
+      color: $devsecops-fore-color;
+    }
+    .button button {
+      background-color: $devsecops-fore-color;
+      color: $devsecops-back-color;
+    }
+    .title {
+      background-color: $devsecops-back-color;
+    }
+  }
+
+  .hacking {
+    color: $hacking-fore-color;
+    background-color: $hacking-back-color;
+    a, .fa, .overtitle {
+      color: $hacking-fore-color;
+    }
+    .button button {
+      background-color: $hacking-fore-color;
+      color: $hacking-back-color;
+    }
+    .title {
+      background-color: $hacking-back-color;
+    }
+  }
+
+  .isg {
+    color: $isg-fore-color;
+    background-color: $isg-back-color;
+    a, .fa, .overtitle {
+      color: $isg-fore-color;
+    }
+    .button button {
+      background-color: $isg-fore-color;
+      color: $isg-back-color;
+    }
+    .title {
+      background-color: $isg-back-color;
+    }
+  }
+
+  .lightning {
+    color: $lightning-fore-color;
+    background-color: $lightning-back-color;
+    a, .fa, .overtitle {
+      color: $lightning-fore-color;
+    }
+    .button button {
+      background-color: $lightning-fore-color;
+      color: $lightning-back-color;
+    }
+    .title {
+      background-color: $lightning-back-color;
+    }
+  }
+
+  .misc {
+    color: $misc-fore-color;
+    background-color: $misc-back-color;
+    a, .fa, .overtitle {
+      color: $misc-fore-color;
+    }
+    .button button {
+      background-color: $misc-fore-color;
+      color: $misc-back-color;
+    }
+    .title {
+      background-color: $misc-back-color;
+    }
+  }
+
+  .owasp-juice-shop {
+    color: $owasp-juice-shop-fore-color;
+    background-color: $owasp-juice-shop-back-color;
+    a, .fa, .overtitle {
+      color: $owasp-juice-shop-fore-color;
+    }
+    .button button {
+      background-color: $owasp-juice-shop-fore-color;
+      color: $owasp-juice-shop-back-color;
+    }
+    .title {
+      background-color: $owasp-juice-shop-back-color;
+    }
+  }
+
+  .owasp-projects {
+    color: $owasp-projects-fore-color;
+    background-color: $owasp-projects-back-color;
+    a, .fa, .overtitle {
+      color: $owasp-projects-fore-color;
+    }
+    .button button {
+      background-color: $owasp-projects-fore-color;
+      color: $owasp-projects-back-color;
+    }
+    .title {
+      background-color: $owasp-projects-back-color;
+    }
+  }
+
+  .security-standards {
+    color: $security-standards-fore-color;
+    background-color: $security-standards-back-color;
+    a, .fa, .overtitle {
+      color: $security-standards-fore-color;
+    }
+    .button button {
+      background-color: $security-standards-fore-color;
+      color: $security-standards-back-color;
+    }
+    .title {
+      background-color: $security-standards-back-color;
+    }
+  }
+
+  .social {
+    color: $social-fore-color;
+    background-color: $social-back-color;
+    a, .fa, .overtitle {
+      color: $social-fore-color;
+    }
+    .button button {
+      background-color: $social-fore-color;
+      color: $social-back-color;
+    }
+    .title {
+      background-color: $social-back-color;
+    }
+  }
+
+  .threat-modeling {
+    color: $threat-modeling-fore-color;
+    background-color: $threat-modeling-back-color;
+    a, .fa, .overtitle {
+      color: $threat-modeling-fore-color;
+    }
+    .button button {
+      background-color: $threat-modeling-fore-color;
+      color: $threat-modeling-back-color;
+    }
+    .title {
+      background-color: $threat-modeling-back-color;
+    }
+  }
+
+  .wardleymaps {
+    color: $wardleymaps-fore-color;
+    background-color: $wardleymaps-back-color;
+    a, .fa, .overtitle {
+      color: $wardleymaps-fore-color;
+    }
+    .button button {
+      background-color: $wardleymaps-fore-color;
+      color: $wardleymaps-back-color;
+    }
+    .title {
+      background-color: $wardleymaps-back-color;
+    }
+  }
+
+}
+
+
+
 .tracks {
   &-section {
     font-family: 'Oswald', "Helvetica Neue", sans-serif;
@@ -13,10 +253,6 @@
     align-items: center;
 
     .title {
-      color: $main-background-color;
-      a {
-        color: $alt-active-color;
-      }
       font-size: 56px;
       font-weight: 700;
       text-transform: uppercase;
@@ -29,7 +265,6 @@
       grid-template-columns: 33% 33% 33%;
 
       .fa {
-        color: $alt-active-color;
         padding-top: 3px;
         font-size: 1.2em;
       }
@@ -74,7 +309,7 @@
             font-weight: 500;
             text-transform: uppercase;
             border-radius: 30px;
-            color: $main-inverse-text-color;
+            //color: $main-inverse-text-color;
             outline: none;
 
             &:hover {
@@ -92,27 +327,19 @@
           top: -35px;
           margin-left: auto;
           margin-right: auto;
-          color: $alt-active-color;
           text-align: center;
           font-size: 34px;
           font-weight: 700;
           text-transform: uppercase;
-          background-color: $title-bg1;
           transform: translateY(-30px);
         }
 
         .overtitle {
           text-align: center;
-          color: $alt-active-color;
           font-size: 20px;
           font-weight: 500;
         }
 
-        .button {
-          button {
-            background-color: $alt-active-color;
-          }
-        }
       }
     }
   }
