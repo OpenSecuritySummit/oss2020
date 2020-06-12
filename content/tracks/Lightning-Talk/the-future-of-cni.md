@@ -1,6 +1,6 @@
 ---
-title        : Lightning Talk - The Future of CNI 
-track        : "Lightning Talk"
+title        : The Future of CNI 
+track        : "Lightning Talks"
 type         : working-session
 topics       :
 featured     : Yes

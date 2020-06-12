@@ -1,20 +1,20 @@
 ---
-title        : Keynote - Security from the CEO Point of view and Modern Team structures
-track        : "CISO and Risk Management"
+title        : Netflix Party
+track        : Social
 type         : working-session      # working-session, user-session, product-session
 technology   :
 topics       :                    # for example ["GDPR"]
 featured     : yes                # review with summit team "yes"
-when_day     : Wed
-when_time    : KN-1
-hey_summit   : https://open-security-summit-2020.heysummit.com/talks/investing-in-security/
+when_day     : Wednesday
+when_time    : WS-4-2
 room_layout  :                    #
 room_id      :
 session_slack: 
-status       :             # draft, review-content, done
+hey_summit   : https://open-security-summit-2020.heysummit.com/talks/netflix-party/
+status       :              # draft, review-content, done
 description  :
-organizers   :
-    - Danny Lopez
+organizers   : 
+participants :  all
 ---
 
 

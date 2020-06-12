@@ -1,6 +1,6 @@
 ---
-title        : Lightning Talk - Why your corporate IT needs to look a lot more like consumer IT 
-track        : "Lightning Talk"
+title        : Why your corporate IT needs to look a lot more like consumer IT 
+track        : "Lightning Talks"
 type         : working-session
 topics       :
 featured     : Yes

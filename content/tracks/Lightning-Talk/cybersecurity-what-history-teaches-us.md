@@ -1,6 +1,6 @@
 ---
-title        : "Lightning Talk - Cybersecurity: What history teaches us"
-track        : "Lightning Talk"
+title        : "Cybersecurity: What history teaches us"
+track        : "Lightning Talks"
 type         : working-session
 topics       :
 featured     : Yes

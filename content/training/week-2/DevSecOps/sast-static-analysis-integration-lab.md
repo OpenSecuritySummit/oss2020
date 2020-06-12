@@ -12,8 +12,15 @@ status       :            # draft, review-content, done
 description  : TBD
 organizers   : Mohammed A. Imran
 ---
+### Training Session Video
+
+{{< youtube id="h37zp5g5tO4" autoplay="false" >}} 
 
 ### About this talk:
 
 Lab attendance is first come first served for 30 people due to platform restrictions. 
 Later participants can still join and watch as a demo.
+
+
+
+

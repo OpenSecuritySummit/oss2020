@@ -13,6 +13,6 @@ session_slack:
 status       : draft           # draft, review-content, done
 description  : TBD
 organizers   :
-        - TBD
+        - Elvin White
 zoom_host    : TBD
 ---

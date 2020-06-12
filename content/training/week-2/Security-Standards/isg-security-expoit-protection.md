@@ -21,6 +21,10 @@ zoom_host    : TBD
 
 ---
 
+### Training Session Video
+
+{{< youtube id="_2lSfuVOvPA" autoplay="false" >}} 
+
 ### About this talk:
 
 Cyber attackers want access to the user's sensitive information or intellectual property for strategic advantage, or more commonly, for monetary gain. They commonly attempt to exploit vulnerabilities in the user's computer system and network by using malware delivered via email or web servers. 
