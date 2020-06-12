@@ -3,7 +3,6 @@ title        : Office Documents ISG - How to automate Inspection and Sanitizatio
 track        : ISG
 type         : training-session
 topics       :
-    - CDR
     - Glasswall
 featured     : yes
 when_week    : two
@@ -18,6 +17,10 @@ organizers   :
         - Vinh Tram
         - Elvin White
 ---
+
+### Training Session Video
+
+{{< youtube id="C3wn6F-P4yU" autoplay="false" >}} 
 
 ### About this talk:
 

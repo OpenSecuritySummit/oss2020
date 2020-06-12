@@ -13,6 +13,10 @@ description  : TBD
 organizers   : Mohammed A. Imran
 ---
 
+### Training Session Video
+
+{{< youtube id="j184Av-LJvI" autoplay="false" >}} 
+
 ### About this talk
 
 Lab attendance is first come first served for 30 people due to platform restrictions. 

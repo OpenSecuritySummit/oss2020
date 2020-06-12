@@ -3,7 +3,6 @@ title        : What security exploits are prevented by implementing ISGs
 track        : ISG
 type         : training-session
 topics       :
-    - CDR
     - Glasswall
 featured     : yes
 when_week    : two
@@ -23,7 +22,7 @@ zoom_host    : TBD
 
 ### Training Session Video
 
-{{< youtube id="_2lSfuVOvPA" autoplay="false" >}} 
+{{< youtube id="ZI5X-oDnO8I" autoplay="false" >}} 
 
 ### About this talk:
 
