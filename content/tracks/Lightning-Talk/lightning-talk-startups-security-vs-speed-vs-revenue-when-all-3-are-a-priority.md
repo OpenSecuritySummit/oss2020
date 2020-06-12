@@ -4,7 +4,7 @@ track        : "Lightning Talks"
 type         : working-session
 topics       :
 featured     : Yes
-when_day     : Tue
+when_day     : Thu
 when_time    : LT-3 
 hey_summit   : https://open-security-summit-2020.heysummit.com/talks/startups-security-v-making-money/
 session_slack:
