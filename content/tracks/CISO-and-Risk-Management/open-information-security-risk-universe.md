@@ -11,7 +11,7 @@ hey_summit   : https://open-security-summit-2020.heysummit.com/talks/open-inform
 room_layout  :                    #
 room_id      :
 session_slack: 
-status       : draft              # draft, review-content, done
+status       :           # draft, review-content, done
 description  : "Introduction to risk universes, how they aid the identification of organisational cyber risk, and other use-cases!"
 organizers   : 
  - Phil Huggins

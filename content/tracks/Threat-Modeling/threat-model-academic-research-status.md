@@ -12,11 +12,11 @@ room_id      :
 session_slack: 
 status       : 
 description  : 
+participants :
 organizers   :
     - Steven Wierckx
     - Kim Wuyts
     - Koen Yskout
-participants :
 
 ---
 

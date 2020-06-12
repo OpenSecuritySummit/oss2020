@@ -14,8 +14,14 @@ organizers   : Chris Daniel
 description  : 
 ---
 
+### Training Session Video
+
+{{< youtube id="FsJ5-DN1gHc" autoplay="false" >}} 
+
 ### About this talk:
 
 You will get hands on experience with Wardley Mapping, which is a technique for building situational awareness.
 
 Unfortunately, I can describe what is it for in a reasonable number of words, so please watch this talk instead https://www.youtube.com/watch?v=NnFeIt-uaEc.
+
+
