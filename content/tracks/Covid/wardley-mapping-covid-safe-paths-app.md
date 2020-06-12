@@ -1,6 +1,6 @@
 ---
 title        : Wardley Mapping Covid Safe Paths App
-track        : "Wardley Maps"
+track        : Covid
 type         : working-session      # working-session, user-session, product-session
 technology   :
 topics       :                    # for example ["GDPR"]
