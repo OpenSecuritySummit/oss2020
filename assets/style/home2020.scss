@@ -1187,7 +1187,7 @@ $summit-section-height: 350px;
       //transform: none;
       //background-color: initial;
       &-text {
-        max-width: 440px;
+        max-width: 460px;
       }
     }
     &-buy {
@@ -1288,11 +1288,37 @@ $summit-section-height: 350px;
   }
 
   .booking {
+    &-blocks {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
     &-container {
-      width: 98%;
+      width: 99%;
+      padding-left: 4px;
+      padding-right: 4px;
+    }
+    &-banner {
+      max-width: 380px;
+      width: 100%;
+      &-text {
+        max-width: 100%;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 0 0 14px;
+      }
+    }
+    &-overtitle {
+      font-size: 13px;
+      letter-spacing: 1px;
+    }
+    &-book {
+      padding-left: 16px;
+      padding-right: 16px;
+      font-size: 14px;
     }
     &-buy {
-      max-width: 570px;
+      max-width: 400px;
       width: 100%;
       display: flex;
       align-items: center;
