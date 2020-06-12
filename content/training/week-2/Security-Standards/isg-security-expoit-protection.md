@@ -25,6 +25,7 @@ zoom_host    : TBD
 
 In this session, we'll review what exploits out there could be protected against by implementing ISGs.
 
-ISGs can be found in this publication repo:
-https://nsacyber.github.io/publications.html  
+ISGs can be found in this publication repo: https://nsacyber.github.io/publications.html  
+
+[What Security Exploits Are Prevented By Implementing ISGs](https://docs.google.com/presentation/d/1XB0gPCmZVu2nYwcV86ktXM94nPdvPzrj_HDlFRZoOAw/edit#slide=id.g80ca0e9a9c_4_0)
 
