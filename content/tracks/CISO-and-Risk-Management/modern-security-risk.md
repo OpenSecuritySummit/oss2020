@@ -1,5 +1,5 @@
 ---
-title        : Modenr Security Risk  
+title        : Modern Security Risk  
 track        : "CISO and Risk Management"
 type         : working-session      # working-session, user-session, product-session
 technology   :
