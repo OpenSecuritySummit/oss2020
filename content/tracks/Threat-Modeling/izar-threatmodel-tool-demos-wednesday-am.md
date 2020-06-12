@@ -1,5 +1,5 @@
 ---
-title        : Threatmodel tool demos - Wednesday 
+title        : Threatmodel tool demos - Wednesday AM
 type         : user-session
 track        : "Threat Modeling"
 category     :
