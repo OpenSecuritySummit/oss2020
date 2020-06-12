@@ -1,6 +1,6 @@
 ---
 title        : What OWASP tools/projects we already have and what are we missing to deliver secure devops pipelines
-track        : OWASP ASVS
+track        : OWASP Projects
 type         : working-session      # working-session, user-session, product-session
 technology   :
 topics       : OWASP, "ASVS requirements"    # for example ["GDPR"]
