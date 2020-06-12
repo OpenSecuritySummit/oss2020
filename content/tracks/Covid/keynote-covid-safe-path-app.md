@@ -1,18 +1,17 @@
 ---
-title        : Security Labels for Covid Apps
+title        : Keynote - Privacy by design at Covid Safe Paths App
 track        : Covid
 type         : working-session
 topics       :
 featured     :
-when_day     : Thu
-when_time    : WS-1
+when_day     : Fri
+when_time    : KN-1
 hey_summit   : TBD
 session_slack:
 status       : draft
 description  :
 organizers   :
     - Adam Leon Smith
-    - Dinis Cruz
 ---
 
 

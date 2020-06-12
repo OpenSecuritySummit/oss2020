@@ -1,18 +1,18 @@
 ---
-title        : Security Labels for Covid Apps
+title        : Using OWASP at Covid Safe Paths
 track        : Covid
 type         : working-session
 topics       :
 featured     :
-when_day     : Thu
-when_time    : WS-1
+when_day     : Fri
+when_time    : WS-3
 hey_summit   : TBD
 session_slack:
 status       : draft
 description  :
 organizers   :
-    - Adam Leon Smith
     - Dinis Cruz
+    - Adam Leon Smith
 ---
 
 
