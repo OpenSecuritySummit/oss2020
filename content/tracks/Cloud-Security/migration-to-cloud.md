@@ -15,23 +15,11 @@ status       : draft              # draft, review-content, done
 description  : Mistakes still being made
 organizers   :
     - David Prince
-    - Dinis Cruz
 participants :
 ---
 
-## "Refactor / Lift&Shift - why not realise"
+###Topics
 
-(...)
-
-## "The benefits of Re-platform"
-
-(...)
-
-## "Real-life examples from PBX"
-
-(...)
-
-## References
-
-(...)
+ - "Refactor / Lift&Shift - why not realise"
+ -  "The benefits of Re-platform"
 

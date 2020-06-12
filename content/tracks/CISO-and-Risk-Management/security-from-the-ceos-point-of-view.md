@@ -16,6 +16,7 @@ description  :
 organizers   :
     - Danny Lopez
     - Ante Gulam
+    - Kevin Fielder
     - Dinis Cruz
 participants :
 ---
