@@ -21,48 +21,44 @@
                 <h2 class="schedule-subtitle">{{$today.day}} {{$today.date}} June - Schedule</h2>
             </div>
 
-            <div class="__schedule-table__" style="display: flex; padding: 0; background-color: #f3f8ec;">
-                <div class="schedule-days">
-                    {{ range $sessions}}
-                        {{ if .Params.hey_summit }}
-                            <div class="schedule-days-item">
-                                <div class="rot-90">
-                                    <div class="day-subtitle">{{ humanize .Params.type}}</div>
-                                </div>
-                            </div>
-                        {{ end }}
-                    {{ end}}
-                </div>
-
-                <div class="schedule-description">
-                    {{ range $sessions}}
-                        {{ if .Params.hey_summit }}
+            <div class="__schedule-table__" style="display: flex; flex-direction: column; padding: 0; background-color: #f3f8ec;">
+                
+                        {{ range $sessions}}
+                            {{ if .Params.hey_summit }}
                             {{ $time  := index .Site.Data.schedule.times .Params.when_time }}
                             {{ $title := .Params.title }}
                             {{ $organizers := partial "params/organizers.html" .  }}
-                            <div class="schedule-description-item">
-                                <div class="schedule-point">
-                                    {{ range $organizers }}
-                                        <a href="{{.Permalink}}"><img src="{{.Params.image}}" alt="{{.Params.title}}"></a>
-                                    {{ end }}
-                                </div>
-                                <div class="schedule-point-tag">
-                                    <div class="schedule-tag-time">{{ $time }}</div>
-                                    <a class="author-link" href="{{.Permalink}}">
-                                        <div class="schedule-tag-title">{{ .Params.title }}</div>
-                                    </a>
-                                    <div class="schedule-tag-author">
-                                        <span>by</span>
-                                        {{range $index, $element :=  $organizers }}
-                                            {{ if $index }}<span>, </span>{{ end }}
-                                            <a class="author-link" href="{{.Permalink}}">{{.Params.title}}</a>
-                                        {{ end }}
+                                <div class="content-wrapper" style="display: flex; align-items: space-between;">
+                                    <div class="schedule-days-item">
+                                        <div class="rot-90">
+                                            <div class="day-subtitle">{{ humanize .Params.type}}</div>
+                                        </div>
+                                    </div>
+                                    <div class="schedule-description-item">
+                                        <div class="schedule-point">
+                                            {{ range $organizers }}
+                                                <a href="{{.Permalink}}"><img src="{{.Params.image}}" alt="{{.Params.title}}"></a>
+                                            {{ end }}
+                                        </div>
+                                        <div class="schedule-point-tag">
+                                            <div class="schedule-tag-time">{{ $time }}</div>
+                                            <a class="author-link" href="{{.Permalink}}">
+                                                <div class="schedule-tag-title">{{ .Params.title }}</div>
+                                            </a>
+                                            <div class="schedule-tag-author">
+                                                <span>by</span>
+                                                {{range $index, $element :=  $organizers }}
+                                                    {{ if $index }}<span>, </span>{{ end }}
+                                                    <a class="author-link" href="{{.Permalink}}">{{.Params.title}}</a>
+                                                {{ end }}
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+
+
+                            {{ end }}
                         {{ end }}
-                    {{ end }}
-                </div>
             </div>
         </div>
     </div>
