@@ -1,5 +1,5 @@
 ---
-title        : Cyber Risk Modeling 
+title        : Modenr Security Risk  
 track        : "CISO and Risk Management"
 type         : working-session      # working-session, user-session, product-session
 technology   :
