@@ -7,7 +7,7 @@ topics       :                    # for example ["GDPR"]
 featured     : yes                   # review with summit team "yes"
 when_day     : Mon
 when_time    : KN-1
-hey_summit   : https://open-security-summit-2020.heysummit.com/talks/key-note/
+hey_summit   : https://open-security-summit-2020.heysummit.com/talks/opening-keynote/
 room_layout  :                    #
 room_id      :
 session_slack: 
