@@ -1,8 +1,9 @@
 today :
-  date: "11th"
-  day: "Thursday"
-  key: "11th - Thursday"
-tomorrow :
   date: "12th"
   day: "Friday"
   key: "12th - Friday"
+tomorrow :
+  date: "15th"
+  day : "Monday"
+  key: "15th - Monday"
+
