@@ -1,5 +1,5 @@
 ---
-title        : Threatmodel tool demos - Wednesday 
+title        : Threatmodel tool demos - Wednesday PM
 type         : user-session
 track        : "Threat Modeling"
 topcis       : OWASP
