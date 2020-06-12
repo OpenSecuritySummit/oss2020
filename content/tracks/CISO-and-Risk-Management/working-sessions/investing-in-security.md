@@ -7,7 +7,7 @@ topics       :                    # for example ["GDPR"]
 featured     : yes                # review with summit team "yes"
 when_day     : Wed
 when_time    : KN-1
-hey_summit   : https://open-security-summit-2020.heysummit.com/talks/investing-in-security/
+hey_summit   : https://open-security-summit-2020.heysummit.com/talks/keynote-security-from-ceo-perspective-and-modern-team-structures/
 room_layout  :                    #
 room_id      :
 session_slack: 
@@ -16,25 +16,3 @@ description  :
 organizers   :
     - Danny Lopez
 ---
-
-
-<!--(add intro)
-
-## WHY
-
-(...)
-
-## What
-
-(...)
-
-## Outcomes
-
-(...)
-
-## References
-
-(...)
-
-
-## Previous-->
