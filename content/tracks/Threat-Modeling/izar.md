@@ -12,11 +12,11 @@ room_id      :
 session_slack: 
 status       : 
 description  : Tool demos
+participants :
 organizers   :
     - Steven Wierckx
     - Fraser Scott 
     - Izar Tarandach
-participants :
 
 ---
 
