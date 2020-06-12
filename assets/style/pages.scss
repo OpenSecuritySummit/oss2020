@@ -125,6 +125,10 @@ $schedule-timing-padding: 2px 10px;
         border-radius: 50%;
         margin-right: $schedule-session-icon-padding;
         margin-bottom: $schedule-session-icon-padding;
+        position: relative;
+        &:hover{
+          z-index: 10;
+        }
         img {
           width: 100%;
           &:hover {
@@ -341,6 +345,8 @@ $schedule-timing-padding: 2px 10px;
 /**** SESSION in track view cells *****/
 /**************************************/
 
+
+
 //Some overriding from oss2019.scss
 .time-col {
   width: 7.5%;
@@ -350,10 +356,8 @@ $schedule-timing-padding: 2px 10px;
   font-size: 12px;
 }
 
+
 //Some overriding from bootstrap.css
-
-
-
 .table {
   background-color: #fff;
   &-condensed {
@@ -373,7 +377,6 @@ $schedule-timing-padding: 2px 10px;
   .schedule-cell {
     margin-bottom: 0;
   }
-
 }
 
 .schedule-cell {
@@ -385,6 +388,10 @@ $schedule-timing-padding: 2px 10px;
     &::before {
       display: none;
     }
+    h2 {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
     .schedule-link {
       margin: 3px 0;
       display: flex;
@@ -394,15 +401,14 @@ $schedule-timing-padding: 2px 10px;
         &-session {
           &-title {
             padding: 0;
-            .schedule {
-              &-session {
-                &-description {
-                  font-size: 18px;
-                }
-                &-organizers {
-                  font-size: 16px;
-                  line-height: 1;
-                }
+            .schedule-session {
+              &-description {
+                font-size: 16px;
+                font-weight: 200;
+              }
+              &-organizers {
+                font-size: 16px;
+                line-height: 1;
               }
             }
           }
@@ -412,7 +418,10 @@ $schedule-timing-padding: 2px 10px;
           &-person {
             display: block;
             .person-img {
-              margin-top: -38px;
+              margin-top: -32px;
+              margin-left: 0;
+              margin-bottom: 0;
+              margin-right: 0;
               width: $schedule-cell-person-icon-width;
               height: $schedule-cell-person-icon-height;
               transition: all 0.2s;
@@ -420,23 +429,16 @@ $schedule-timing-padding: 2px 10px;
                 margin-top: 14px;
               }
             }
-            .hovered {
-              width: $schedule-cell-person-icon-width * 1.5;
-              height: $schedule-cell-person-icon-width * 1.5;
-              z-index: 10;
-            }
           }
         }
       }
     }
   }
 }
-
 /******* END OF track view cells ********/
 
 
 
-//
 /*****************************/
 /**** BLACK LIVES MATTER *****/
 /*****************************/
@@ -466,6 +468,7 @@ $schedule-timing-padding: 2px 10px;
       img:nth-child(1), h2:nth-of-type(1) {
         float: left;
         margin-left: 20px;
+        font-weight: 700;
       }
       p:nth-of-type(1){
         clear: both;

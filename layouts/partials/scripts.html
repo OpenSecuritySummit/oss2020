@@ -17,15 +17,61 @@
 <script>
   // this hooks is being used for handling session entries like personal pages, or session description inside of <a> tag
   // see ie. /schedule
-    let gotoLink = (e) => {
+    function gotoLink(e) {
         var target = e.target;
         var url = target && target.getAttribute('data-url');
         if (url) {
             window.location.href = url;
         }
         e.preventDefault();
-    };
+    }
+    function toggleInTableCell(e, doPop) {
+        var target = e.currentTarget;
+        var url = target && target.getAttribute('data-url');
+        var scope = target.parentNode.parentNode.parentNode;
+        var images = $.find('img', scope);
+        if ( images.length ) {
+            for ( let i = 0; i < images.length; i++ ) {
+                var image = images[i];
+                if (image.getAttribute('data-url') === url) {
+                    var imageContainer = image.parentNode;
+                    $(imageContainer)[doPop?'addClass':'removeClass']('organizer_icon_hovered');
+                }
+            }
+        }
+
+    }
+    function toggleInHomePage(e, doPop) {
+        var target = e.currentTarget;
+        var url = target && target.href;
+        var scope = target.parentNode.parentNode.parentNode;
+        var images = $.find('img', scope);
+        if ( images.length ) {
+            for ( let i = 0; i < images.length; i++ ) {
+                var image = images[i];
+                var imageContainer = image.parentNode;
+                if (imageContainer.href === url) {
+                    $(imageContainer)[doPop?'addClass':'removeClass']('organizer_icon_hovered');
+                }
+            }
+        }
+
+    }
+    function mouseEnterInTableCell(e) {
+        toggleInTableCell(e, true)
+    }
+    function mouseleave(e) {
+        toggleInTableCell(e, false)
+    }
+    function mouseEnterInHomePage(e) {
+        toggleInHomePage(e, true)
+    }
+    function mouseLeaveInHomePage(e) {
+        toggleInHomePage(e, false)
+    }
+
     $('.img-circle').click(gotoLink);
-    $('.schedule-session-organizer').click(gotoLink);
+    $('.schedule-session-organizer').click(gotoLink).mouseenter(mouseEnterInTableCell).mouseleave(mouseleave);
+    $('.author-link').mouseenter(mouseEnterInHomePage).mouseleave(mouseLeaveInHomePage);
 </script>
 

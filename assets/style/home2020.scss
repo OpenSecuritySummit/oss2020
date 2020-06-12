@@ -30,17 +30,13 @@ $summit-section-height: 350px;
 
 }
 
-.container-managed {
-  &.xxl {
-    section {
-      margin-top: -$main-menu-height;
-      margin-bottom: $main-menu-height;
-      font-family: 'Oswald', helvetica neue, helvetica, sans-serif;
+#content {
+  margin-top: -$main-menu-height;
+  margin-bottom: $main-menu-height;
+  font-family: 'Oswald', helvetica neue, helvetica, sans-serif;
 
-      h1, h2, h3, h4, h5, h6, button {
-        font-family: 'Oswald', helvetica neue, helvetica, sans-serif;
-      }
-    }
+  h1, h2, h3, h4, h5, h6, button {
+    font-family: 'Oswald', helvetica neue, helvetica, sans-serif;
   }
 }
 
@@ -499,7 +495,7 @@ $summit-section-height: 350px;
     & a {
       position: relative;
       display: block;
-      margin-top: -110px;
+      margin-top: -100px;
         &:nth-child(1) {
           margin-top: 0;
         }

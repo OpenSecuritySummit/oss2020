@@ -930,8 +930,8 @@ div.google-map {
   display: inline-block;
   border: #87bb40 7px solid;
   padding: 20px 20px;
-  font-family: 'Oswald', sans-serif;
-  font-weight: 600;
+  font-family: 'Oswald Medium', sans-serif;
+  //font-weight: 600;
   text-transform: uppercase;
   color: #87bb40;
   font-size: 40px;
@@ -2251,3 +2251,10 @@ p.home-outcome {
 .ids_session h2 {
   margin-top: 50px;
 }
+
+
+// is using for home page, and in table cell where session is shown.
+.organizer_icon_hovered {
+  z-index: 10;
+}
+
