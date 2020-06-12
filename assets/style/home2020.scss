@@ -1001,9 +1001,14 @@ $summit-section-height: 350px;
       transform: none;
       background-color: initial;
       &-text {
+        padding: 0 0 0 20px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 528px;
+        width: 100%;
         transform: none;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
       }
     }
@@ -1159,21 +1164,21 @@ $summit-section-height: 350px;
 
   .booking {
     &-section {
+      display: flex;
+      align-items: center;
     }
     &-blocks {
+      height: 200px;
     }
     &-title {
+      font-size: 24px;
+      line-height: 20px;
     }
     &-free {
-      //font-size: 24px;
-      //color: $main-header-color;
+      font-size: 20px;
     }
-    &-leader {
-      img {
-        width: 16px;
-      }
-    }
-    &-students {
+    &-leader, &-students {
+      font-size: 14px;
       img {
         width: 16px;
       }
@@ -1182,10 +1187,7 @@ $summit-section-height: 350px;
       //transform: none;
       //background-color: initial;
       &-text {
-        //transform: none;
-        //display: flex;
-        //justify-content: space-around;
-        //align-items: center;
+        max-width: 460px;
       }
     }
     &-buy {
@@ -1286,6 +1288,47 @@ $summit-section-height: 350px;
   }
 
   .booking {
+    &-blocks {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &-container {
+      width: 99%;
+      padding-left: 4px;
+      padding-right: 4px;
+    }
+    &-banner {
+      max-width: 380px;
+      width: 100%;
+      &-text {
+        max-width: 100%;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 0 0 14px;
+      }
+    }
+    &-overtitle {
+      font-size: 13px;
+      letter-spacing: 1px;
+    }
+    &-book {
+      padding-left: 16px;
+      padding-right: 16px;
+      font-size: 14px;
+    }
+    &-buy {
+      max-width: 400px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      & .booking {
+        &-summit {
+          margin-left: auto;
+        }
+      }
+    }
 
   }
 
