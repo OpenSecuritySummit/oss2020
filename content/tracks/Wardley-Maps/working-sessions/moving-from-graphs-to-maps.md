@@ -1,5 +1,5 @@
 ---
-title        : Moving from Graphs to Maps 
+title        : Wardley Mapping Covid Safe Paths App
 track        : "Wardley Maps"
 type         : working-session      # working-session, user-session, product-session
 technology   :
@@ -13,7 +13,10 @@ room_id      :
 session_slack: 
 status       :              # draft, review-content, done
 description  : 
-organizers   :  Simon Wardley
+organizers   :
+    - Simon Wardley
+    - Dinis Cruz
+    - Adam Leon Smith
 
 ---
 

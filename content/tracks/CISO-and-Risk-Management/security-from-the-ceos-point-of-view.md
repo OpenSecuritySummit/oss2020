@@ -15,6 +15,7 @@ status       :               # draft, review-content, done
 description  :
 organizers   :
     - Danny Lopez
+    - Ante Gulam
     - Dinis Cruz
 participants :
 ---

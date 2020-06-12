@@ -1,5 +1,5 @@
 ---
-title        : Threat Mapping (Social practice theory and applying maturity mapping) 
+title        : Threat Mapping (using Maps in Cyber Security)
 track        : "Wardley Maps"
 type         : working-session      # working-session, user-session, product-session
 technology   :
@@ -14,8 +14,9 @@ session_slack:
 status       :               # draft, review-content, done
 description  :
 organizers   :
-    - Simon Wardley
+    - Petra Vukmirovic
     - Dinis Cruz
+    - Simon Wardley
    
 participants :
 ---
