@@ -1,5 +1,5 @@
 ---
-title        : PDF ISG - Inspection and Sanitisation Guidance for Portable Document Format
+title        : PDF ISG - Inspection and Sanitisation Guidance for Portable Document Format plus JPG ISG - How to automate Inspection and Sanitization Guidance testing
 track        : ISG
 type         : training-session
 topics       :
