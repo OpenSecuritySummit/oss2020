@@ -9,9 +9,9 @@ when_day     : Thu
 when_time    : WS-4
 hey_summit   : https://open-security-summit-2020.heysummit.com/talks/bakeoff-anti-virus-vs-cdr-vs-sandboxing/
 session_slack: 
-status       : draft           # draft, review-content, done
+status       : done           # draft, review-content, done
 description  : TBD
 organizers   :
-        - TBD
+        - Paul Burke
 zoom_host    : TBD
 ---
