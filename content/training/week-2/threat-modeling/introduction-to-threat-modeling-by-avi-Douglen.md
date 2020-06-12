@@ -12,3 +12,7 @@ status       :           # draft, review-content, done
 organizers   : Avi Douglen
 description  : 
 ---
+
+### Training Session Video
+
+{{< youtube id="yjvSI755auM" autoplay="false" >}} 

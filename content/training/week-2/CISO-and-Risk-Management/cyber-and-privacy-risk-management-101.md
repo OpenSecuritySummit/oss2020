@@ -15,3 +15,6 @@ organizers   :
        - Dov Goldman
 ---
 
+### Training Session Video
+
+{{< youtube id="4SK-U-0FDnw" autoplay="false" >}} 
