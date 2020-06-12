@@ -53,9 +53,9 @@
                                     </a>
                                     <div class="schedule-tag-author">
                                         <span>by</span>
+                                        {{ $how_many := sub (len $organizers) 1 }}
                                         {{range $index, $element :=  $organizers }}
-                                            {{ if $index }}<span>, </span>{{ end }}
-                                            <a class="author-link" href="{{.Permalink}}">{{.Params.title}}</a>
+                                            <a class="author-link" href="{{.Permalink}}">{{.Params.title}}{{ if lt $index $how_many}},{{ end }}</a>
                                         {{ end }}
                                     </div>
                                 </div>
