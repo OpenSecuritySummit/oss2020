@@ -1,6 +1,6 @@
 ---
 title        : Securely Handling Fonts in PDFs - Part 2
-track        : ISG
+track        : Content Disarm & Reconstruction
 type         : working-session
 topics       :
     - CDR

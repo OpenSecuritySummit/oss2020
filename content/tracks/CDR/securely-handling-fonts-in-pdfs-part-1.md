@@ -1,6 +1,6 @@
 ---
 title        : Securely Handling Fonts in PDFs - Part 1
-track        : ISG
+track        : Content Disarm & Reconstruction
 type         : working-session
 topics       :
     - Glasswall
