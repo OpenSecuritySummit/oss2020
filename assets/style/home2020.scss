@@ -30,14 +30,17 @@ $summit-section-height: 350px;
 
 }
 
-#content {
-  margin-top: -$main-menu-height;
-  margin-bottom: $main-menu-height;
+#content, .container-managed.xxl {
   font-family: 'Oswald', helvetica neue, helvetica, sans-serif;
 
   h1, h2, h3, h4, h5, h6, button {
     font-family: 'Oswald', helvetica neue, helvetica, sans-serif;
   }
+}
+
+.container-managed.xxl {
+  margin-top: -$main-menu-height;
+  margin-bottom: $main-menu-height;
 }
 
 
