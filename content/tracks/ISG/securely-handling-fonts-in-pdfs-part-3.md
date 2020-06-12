@@ -3,7 +3,6 @@ title        : Securely Handling Fonts in PDFs - Part 3
 track        : ISG
 type         : working-session
 topics       :
-    - CDR
     - Glasswall
 featured     : yes
 when_day     : Wed

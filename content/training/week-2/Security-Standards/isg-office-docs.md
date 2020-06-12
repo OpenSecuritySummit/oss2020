@@ -3,7 +3,6 @@ title        : Office Documents ISG - How to automate Inspection and Sanitizatio
 track        : ISG
 type         : training-session
 topics       :
-    - CDR
     - Glasswall
 featured     : yes
 when_week    : two

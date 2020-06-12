@@ -3,7 +3,6 @@ title        : NCSC - Safe File Import Pattern
 track        : Security Standards
 type         : training-session
 topics       :
-    - CDR
     - Glasswall
 featured     : yes
 when_week    : two

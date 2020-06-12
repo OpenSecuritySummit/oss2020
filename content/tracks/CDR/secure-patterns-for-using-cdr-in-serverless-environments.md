@@ -1,9 +1,8 @@
 ---
 title        : Secure patterns for using CDR in Serverless Environments
-track        : Security Standards
+track        : Content Disarm & Reconstruction
 type         : working-session
 topics       :
-    - CDR
     - Glasswall
 featured     : yes
 when_day     : Fri

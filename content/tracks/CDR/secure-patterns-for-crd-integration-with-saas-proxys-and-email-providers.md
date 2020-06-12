@@ -1,9 +1,8 @@
 ---
 title        : Secure patterns for CDR integration with Web Proxys and Email Providers
-track        : Security Standards
+track        : Content Disarm & Reconstruction
 type         : working-session
 topics       :
-    - CDR
     - Glasswall
 featured     : yes
 when_day     : Fri
