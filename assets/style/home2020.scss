@@ -30,7 +30,7 @@ $summit-section-height: 350px;
 
 }
 
-#content {
+#content, .container-managed.xxl {
   margin-top: -$main-menu-height;
   margin-bottom: $main-menu-height;
   font-family: 'Oswald', helvetica neue, helvetica, sans-serif;
