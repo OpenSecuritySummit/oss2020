@@ -16,8 +16,8 @@ description  :
 organizers   : 
         - Paul Burke
         - Tim Lunn
-
 ---
+
 
 ### About this talk:
 
