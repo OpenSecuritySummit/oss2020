@@ -18,6 +18,10 @@ organizers   :
         - Elvin White
 ---
 
+### Training Session Video
+
+{{< youtube id="C3wn6F-P4yU" autoplay="false" >}} 
+
 ### About this talk:
 
 Once learning about the potential areas of concern that exist within office documents and exploring ISGs for them, it's now time to discover the testing strategies that will be oriented on validation of the requirements of the ISGs. This session will be dedicated to automation of ISG testing for Office documents.  
