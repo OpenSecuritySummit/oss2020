@@ -11,7 +11,7 @@ room_layout  :                    #
 room_id      :
 session_slack: 
 hey_summit   : https://open-security-summit-2020.heysummit.com/talks/summit-spiral-special/
-status       : draft              # draft, review-content, done
+status       :               # draft, review-content, done
 description  :
 organizers   : Leila Rao
 participants :
