@@ -23,7 +23,7 @@ zoom_host    : TBD
 
 ### Training Session Video
 
-{{< youtube id="_2lSfuVOvPA" autoplay="false" >}} 
+{{< youtube id="ZI5X-oDnO8I" autoplay="false" >}} 
 
 ### About this talk:
 

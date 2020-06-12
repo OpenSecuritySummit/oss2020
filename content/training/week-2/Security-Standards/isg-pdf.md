@@ -20,6 +20,11 @@ organizers   :
         
 ---
 
+### Training Session Video
+
+{{< youtube id="ixsyaPAcNw" autoplay="false" >}} 
+
+
 ### About this talk:
 
 Portable Document Format (PDF) is one of the most widely used file formats. In this session we're going to explore ISGs for PDF files which will include inspection and analysis on various elements and objects that are contained within the PDF file structure and how they can be a cause for concern for either hiding sensitive data or attempts to exploit a system. We'll analyze numerous features in PDF recommendations to mitigate these threats to provide a safer file. Don't miss your chance to join this fascinating journey!
