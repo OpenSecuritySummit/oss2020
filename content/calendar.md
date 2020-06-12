@@ -1,6 +1,6 @@
 ---
 title            : Schedule
-layout           : schedule
+layout           : calendar
 manage-container : true  
 container_type   : xxl
 ---
