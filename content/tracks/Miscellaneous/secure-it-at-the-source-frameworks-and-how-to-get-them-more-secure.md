@@ -1,6 +1,6 @@
 ---
 title        : Secure it at the source, frameworks and how to get them more secure
-track        : "Miscellaneous"
+track        : Misc
 type         : working-session      # working-session, user-session, product-session
 technology   :
 topics       :                    # for example ["GDPR"]
