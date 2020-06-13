@@ -11,7 +11,7 @@ hey_summit   : https://open-security-summit-2020.heysummit.com/talks/multi-cloud
 room_layout  :                    #
 room_id      :
 session_slack: 
-status       : draft              # draft, review-content, done
+status       :               # draft, review-content, done
 description  :
 organizers   :
     - Ben Schofield
