@@ -2254,7 +2254,11 @@ p.home-outcome {
 
 
 // is using for home page, and in table cell where session is shown.
-.organizer_icon_hovered {
-  z-index: 10;
+.organizer-icon {
+  &-hovered {
+    z-index: 10;
+  }
+  &-dimmed {
+    opacity: 0.01;
+  }
 }
-

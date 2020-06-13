@@ -25,38 +25,47 @@
         }
         e.preventDefault();
     }
+
     function toggleInTableCell(e, doPop) {
         var target = e.currentTarget;
         var url = target && target.getAttribute('data-url');
         var scope = target.parentNode.parentNode.parentNode;
         var images = $.find('img', scope);
+        var doAction = doPop?'addClass':'removeClass';
         if ( images.length ) {
             for ( let i = 0; i < images.length; i++ ) {
                 var image = images[i];
+                var imageContainer = image.parentNode;
                 if (image.getAttribute('data-url') === url) {
-                    var imageContainer = image.parentNode;
-                    $(imageContainer)[doPop?'addClass':'removeClass']('organizer_icon_hovered');
+                    $(imageContainer)[doAction]('organizer-icon-hovered');
+                } else {
+                    $(imageContainer)[doAction]('organizer-icon-dimmed');
                 }
             }
         }
-
     }
+
     function toggleInHomePage(e, doPop) {
         var target = e.currentTarget;
         var url = target && target.href;
         var scope = target.parentNode.parentNode.parentNode;
         var images = $.find('img', scope);
+        var doAction = doPop?'addClass':'removeClass';
+
         if ( images.length ) {
             for ( let i = 0; i < images.length; i++ ) {
                 var image = images[i];
                 var imageContainer = image.parentNode;
                 if (imageContainer.href === url) {
-                    $(imageContainer)[doPop?'addClass':'removeClass']('organizer_icon_hovered');
+                    $(imageContainer)[doAction]('organizer-icon-hovered');
+                } else {
+                    $(imageContainer)[doAction]('organizer-icon-dimmed');
                 }
             }
         }
 
     }
+
     function mouseEnterInTableCell(e) {
         toggleInTableCell(e, true)
     }
