@@ -1,0 +1,24 @@
+application:
+  name: 'OpenSecuritySummit Store'
+  logo: https://open-security-summit.org/img/logo.png
+  welcomeBanner:
+    showOnFirstStart: false
+  theme: blue-lightblue
+  cookieConsent:
+    backgroundColor: '#23527c'
+    textColor: '#ffffff'
+    message: 'We are not only using cookies but also recorded this session on YouTube!'
+    dismissText: "I've been there live, so thanks!"
+    linkText: 'I want to watch that!'
+    linkUrl: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+  social:
+    twitterUrl: 'https://twitter.com/opensecsummit'
+    facebookUrl: ~
+    slackUrl: 'https://join.slack.com/t/os-summit/shared_invite/zt-eptzb479-POZlYeYI1vaNNZzVatF2ag'
+    redditUrl: ~
+    pressKitUrl: ~
+  domain: oss2020-lockdo.wn
+  privacyContactEmail: donotreply@oss2020-lockdo.wn
+  favicon: https://open-security-summit.org/img/favicon.ico
+  challenges:
+    showSolvedNotifications: true

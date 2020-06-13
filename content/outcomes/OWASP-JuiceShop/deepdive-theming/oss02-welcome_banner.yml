@@ -1,0 +1,6 @@
+application:
+  name: 'OpenSecuritySummit Store'
+  logo: https://open-security-summit.org/img/logo.png
+  welcomeBanner:
+    title: 'Greetings from the Open Security Summit 2020!'
+    message: "<p>This is an <strong>OWASP Juice Shop</strong> custom theme created at the <strong>Open Security Summit 2020</strong>!</p><h4><a href='https://open-security-summit.org/tracks/owasp-juiceshop/owasp-juiceshop-deep-dive-theming' target='_blank'>https://open-security-summit.org/tracks/owasp-juiceshop/owasp-juiceshop-deep-dive-theming/</a></h4>"
