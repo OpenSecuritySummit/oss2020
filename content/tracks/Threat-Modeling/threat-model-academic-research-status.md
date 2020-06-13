@@ -15,8 +15,9 @@ description  :
 participants :
 organizers   :
     - Steven Wierckx
-    - Kim Wuyts
     - Koen Yskout
+    - Kim Wuyts
+
 
 ---
 
