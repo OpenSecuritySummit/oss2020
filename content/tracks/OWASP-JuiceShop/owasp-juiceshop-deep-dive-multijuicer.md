@@ -17,6 +17,7 @@ participants :
 organizers   :
     - Jannik Hollenbach
     - Robert Seedorff
+    - Timo Pagel 
     
 ---
 
