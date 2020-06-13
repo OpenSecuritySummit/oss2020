@@ -21,4 +21,4 @@ application:
   privacyContactEmail: donotreply@oss2020-lockdo.wn
   favicon: https://open-security-summit.org/img/favicon.ico
   challenges:
-    showSolvedNotifications: true
+    showSolvedNotifications: false
