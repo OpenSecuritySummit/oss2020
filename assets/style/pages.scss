@@ -135,10 +135,9 @@ $schedule-timing-padding: 2px 10px;
             filter: brightness(115%);
           }
         }
-
         .label {
-          font-size: 14px;
-          margin-left: -60px;
+          font-size: 8px;
+          margin-left: -30px;
         }
       }
     }
@@ -296,7 +295,8 @@ $schedule-timing-padding: 2px 10px;
         .table-organizers {
           display: flex;
           flex-wrap: wrap;
-          justify-content: space-around;
+          justify-content: space-evenly;
+          width: 100%;
           &-item {
             min-width: 200px;
             a {
