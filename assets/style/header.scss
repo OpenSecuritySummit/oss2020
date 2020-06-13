@@ -1,10 +1,11 @@
 $navbar-main-text-color: #87bb40;
-$navbar-dropdown-text-color: #fff;
+$navbar-dropdown-text-color: $navbar-main-text-color;
 
 $navbar-social-highlighted: lighten($navbar-main-text-color, 20%);
 
 $navbar-menu-background-light: rgba(135, 187, 64, .935);
 $navbar-menu-background-dark: transparentize($navbar-main-text-color, 0.5);
+$navbar-sub-menu-backgournd: #acd2b5;
 
 header {
     &.full-bg {
@@ -67,13 +68,13 @@ header {
                     border-top: 0 none;
 
                     &:hover {
+                        color: $main-inverse-text-color;
                         border-top: 0 none;
                         border-bottom: 4px solid $navbar-main-text-color;
                     }
                 }
 
                 &.open > a, &active > a {
-                    color: $navbar-dropdown-text-color;
                     text-decoration: none !important;
                     border-top: 0 none;
                     border-bottom: 4px solid $navbar-main-text-color;
@@ -88,7 +89,7 @@ header {
                 > li {
                     > a {
                         &:focus, :hover {
-                            //color: #ffffff;
+                            color: #ffffff;
                             background-color: $navbar-menu-background-light;
                             border-bottom: 4px solid $navbar-main-text-color;
                         }
@@ -101,14 +102,16 @@ header {
 
 
 .affix-top .navbar-default .navbar-nav > li > a {
-    &:focus, &:hover {
+    //color: #FFFFFF;
+    &:focus, &:hover, &:active {
         color: #FFFFFF;
     }
 }
 
 .affix .navbar-default .navbar-nav > li > a {
+    //color: #FFFFFF;
     &:focus, :hover {
-        color: $navbar-dropdown-text-color;
+        //color: $navbar-dropdown-text-color;
     }
 }
 
@@ -136,7 +139,7 @@ header {
 }
 
 .navbar ul.dropdown-menu li:hover {
-    background-color: #21424e;
+    background-color: $navbar-sub-menu-backgournd;
 }
 
 .navbar ul.dropdown-menu li a {
@@ -268,6 +271,14 @@ nav > li > a {
             margin-left: 30px;
         }
     }
+
+    .navbar ul.nav > li > a {
+        color: $main-inverse-text-color;
+
+        &:hover {
+            border-bottom: 4px solid $main-inverse-text-color;
+        }
+    }
 }
 
 /*****************************/
@@ -295,10 +306,11 @@ nav > li > a {
             border-top: 0;
 
             &:hover {
-                background-color: $navbar-menu-background-light;
-                border-bottom: 4px solid $navbar-main-text-color;
+                //background-color: $navbar-menu-background-light;
+                //border-bottom: 4px solid $main-inverse-text-color;
             }
         }
+
         &-header {
             .oss-logo {
                 max-width: 90px;
@@ -315,10 +327,10 @@ nav > li > a {
     }
 
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-        color: $navbar-dropdown-text-color;
+        color: $main-inverse-text-color;
 
         &:hover {
-            color: $navbar-dropdown-text-color;
+            color: $main-inverse-text-color;
         }
     }
 }
