@@ -64,6 +64,10 @@ Glasswall's first attempt: [Squads and Maps pt1](https://www.slideshare.net/Luke
 Team Topologies:  
 [Team Topologies Book Summary](https://markosrendell.wordpress.com/2020/02/04/team-topologies-book-summary-part-1-of-3-key-concepts/)  
 
+Pioneers, Settlers and Town Planners:  
+[3 Minute Video](https://www.youtube.com/watch?v=wNAyxSkjS_c)  
+[Wardleypedia](http://wardleypedia.org/mediawiki/index.php/Pioneers_settlers_town_planners)  
+
 Wardley Maps:   
 [Wardley Maps - Topographical intelligence in business](https://medium.com/wardleymaps)  
 [Wardley Maps - Doctrine](https://learnwardleymapping.com/home/doctrine/)  
