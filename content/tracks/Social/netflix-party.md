@@ -13,7 +13,7 @@ session_slack:
 hey_summit   : https://open-security-summit-2020.heysummit.com/talks/netflix-party/
 status       :              # draft, review-content, done
 description  :
-organizers   : 
+organizers   : Open Security Summit 2020
 participants :  all
 ---
 
