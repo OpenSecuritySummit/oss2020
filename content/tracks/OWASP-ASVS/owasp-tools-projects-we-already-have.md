@@ -3,7 +3,7 @@ title        : What OWASP tools/projects we already have and what are we missing
 track        : "OWASP ASVS"
 type         : working-session      # working-session, user-session, product-session
 technology   :
-topics       : OWASP, "ASVS requirements"    # for example ["GDPR"]
+topics       : [OWASP, "ASVS requirements"]    # for example ["GDPR"]
 featured     : yes                # review with summit team "yes"
 when_day     : Fri
 when_time    : WS-2
