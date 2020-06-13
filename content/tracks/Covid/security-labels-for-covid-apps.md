@@ -6,13 +6,14 @@ topics       :
 featured     :
 when_day     : Thu
 when_time    : WS-1
-hey_summit   : TBD
+hey_summit   : https://open-security-summit-2020.heysummit.com/talks/security-labels-for-covid-apps/
 session_slack:
-status       : draft
+status       : 
 description  :
 organizers   :
     - Adam Leon Smith
     - Dinis Cruz
+    
 ---
 
 
