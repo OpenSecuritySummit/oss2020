@@ -22,3 +22,9 @@ application:
   favicon: https://open-security-summit.org/img/favicon.ico
 challenges:
   showSolvedNotifications: false
+products:
+  -
+    name: 'OSS2020 - Lockdown Edition Enamel Mug'
+    price: 13
+    description: "Every happy camper needs a unique camper mug. It's lightweight, durable and multifunctional. Use it for your favorite beverage or a hot meal, and attach it to your bag for easy access on a hike."
+    image: 'https://cdn.shopify.com/s/files/1/0276/0474/6320/products/mockup-c4c074da_280x420.jpg?v=1590062996'
