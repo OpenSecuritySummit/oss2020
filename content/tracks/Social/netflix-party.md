@@ -5,7 +5,7 @@ type         : working-session      # working-session, user-session, product-ses
 technology   :
 topics       :                    # for example ["GDPR"]
 featured     : yes                # review with summit team "yes"
-when_day     : Wednesday
+when_day     : Wed
 when_time    : WS-4-2
 room_layout  :                    #
 room_id      :
