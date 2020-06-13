@@ -82,7 +82,7 @@ p.lead {
 }
 section,
 div.section {
-  margin-bottom: 40px;
+  /*margin-bottom: 40px;*/
 }
 .no-mb {
   margin-bottom: 0 !important;
@@ -3363,7 +3363,7 @@ h6,
 .h5,
 .h6 {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-weight: 900;
+  font-weight: 500;
   line-height: 1.1;
   color: #333333;
 }

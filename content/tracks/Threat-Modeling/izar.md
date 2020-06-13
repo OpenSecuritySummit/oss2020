@@ -1,5 +1,5 @@
 ---
-title        : Threatmodel tool demos - Wednesday 
+title        : Threatmodel tool demos - Wednesday AM
 type         : user-session
 track        : "Threat Modeling"
 category     :
@@ -12,11 +12,11 @@ room_id      :
 session_slack: 
 status       : 
 description  : Tool demos
+participants :
 organizers   :
     - Steven Wierckx
     - Fraser Scott 
     - Izar Tarandach
-participants :
 
 ---
 

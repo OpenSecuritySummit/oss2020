@@ -3,7 +3,6 @@ title        : What security exploits are prevented by implementing ISGs
 track        : ISG
 type         : training-session
 topics       :
-    - CDR
     - Glasswall
 featured     : yes
 when_week    : two
@@ -23,7 +22,7 @@ zoom_host    : TBD
 
 ### Training Session Video
 
-{{< youtube id="_2lSfuVOvPA" autoplay="false" >}} 
+{{< youtube id="ZI5X-oDnO8I" autoplay="false" >}} 
 
 ### About this talk:
 
@@ -32,6 +31,7 @@ Cyber attackers want access to the user's sensitive information or intellectual 
 This session will be dedicated to a discussion of the security exploits that can be prevented by applying ISGs. 
 
 
-ISGs can be found in this publication repo:
-https://nsacyber.github.io/publications.html  
+ISGs can be found in this publication repo: https://nsacyber.github.io/publications.html  
+
+[What Security Exploits Are Prevented By Implementing ISGs](https://docs.google.com/presentation/d/1XB0gPCmZVu2nYwcV86ktXM94nPdvPzrj_HDlFRZoOAw/edit#slide=id.g80ca0e9a9c_4_0)
 

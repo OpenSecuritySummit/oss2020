@@ -1,9 +1,8 @@
 ---
-title        : PDF ISG - Inspection and Sanitisation Guidance for Portable Document Format
+title        : PDF ISG - Inspection and Sanitization Guidance for Portable Document Format and JPG ISG - How to automate Inspection and Sanitization Guidance testing
 track        : ISG
 type         : training-session
 topics       :
-    - CDR
     - Glasswall
 featured     : 
 when_week    : two
@@ -17,7 +16,13 @@ organizers   :
         - Vinh Tram
         - Greg Mann
         - Elvin White
+        
 ---
+
+### Training Session Video
+
+{{< youtube id="ixsyaPAcNw" autoplay="false" >}} 
+
 
 ### About this talk:
 

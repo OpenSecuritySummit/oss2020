@@ -1,5 +1,5 @@
 ---
-title        : Strategy Development - applying the concepts
+title        : Strategy Development - applying the concepts (Wardley Maps)
 track        : "Wardley Maps"
 type         : working-session      # working-session, user-session, product-session
 technology   :
@@ -15,6 +15,7 @@ status       :            # draft, review-content, done
 description  :
 organizers   :
       - Mario Platt
+      - Simon Wardley
       
 ---
 

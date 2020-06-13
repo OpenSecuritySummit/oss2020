@@ -3,7 +3,6 @@ title        : How to create specific test cases for ISGs requirements
 track        : ISG
 type         : training-session
 topics       :
-    - CDR
     - Glasswall
 featured     : yes
 when_week    : two

@@ -13,8 +13,7 @@ room_id      :
 session_slack: 
 status       :               # draft, review-content, done
 description  :
-organizers   : 
-participants :
+organizers   :
       - Jane Frankland 
 ---
 

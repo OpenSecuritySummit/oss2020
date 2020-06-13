@@ -15,7 +15,6 @@ status       : draft              # draft, review-content, done
 description  :
 organizers   :
     - Ben Schofield
-    - David Prince
 participants :
 ---
 

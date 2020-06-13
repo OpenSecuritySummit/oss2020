@@ -10,7 +10,8 @@ hey_summit   : https://open-security-summit-2020.heysummit.com/talks/wardley-map
 session_slack:
 status       : done
 description  :
-organizers   :  Simon Wardley
+organizers   :
+    - Simon Wardley
 
 ---
 

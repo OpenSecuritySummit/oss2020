@@ -1,5 +1,5 @@
 ---
-title        : Security from the CEO’s point of view
+title        : CEOs and CISOs roundtable
 track        : "CISO and Risk Management"
 type         : working-session      # working-session, user-session, product-session
 technology   :
@@ -13,6 +13,10 @@ room_id      :
 session_slack: 
 status       :               # draft, review-content, done
 description  :
-organizers   :  Danny Lopez
+organizers   :
+    - Danny Lopez
+    - Ante Gulam
+    - Kevin Fielder
+    - Dinis Cruz
 participants :
 ---
