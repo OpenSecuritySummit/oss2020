@@ -7,7 +7,7 @@ topics       :                    # for example ["GDPR"]
 featured     :                    # review with summit team "yes"
 when_day     : Mon
 when_time    : WS-2
-hey_summit   : https://open-security-summit-2020.heysummit.com/talks/moving-from-graphs-to-maps/
+hey_summit   : https://open-security-summit-2020.heysummit.com/talks/wardley-mapping-covid-safe-paths-app/
 room_layout  :                    #
 room_id      : 
 session_slack: 
