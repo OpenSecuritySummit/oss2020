@@ -1,6 +1,6 @@
 ---
 title        : CDR Roundtable How to collaborate and increase adoption
-track        : Security Standards
+track        : CDR
 type         : working-session
 topics       :
     - CDR
