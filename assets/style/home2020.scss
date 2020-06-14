@@ -48,6 +48,24 @@ $summit-section-height: 350px;
 /******** HERO styles ********/
 /*****************************/
 
+
+.swiper {
+  &-container {
+    width: 100%;
+    height: calc(100% - #{$main-menu-height} - 25px);
+  }
+
+  &-pagination {
+    &-bullet {
+      &:not(&-active) {
+        background-color: rgb(255, 255, 255);
+        opacity: 0.6;
+      }
+    }
+  }
+}
+
+
 .hero-section {
   background-color: $main-background-color;
   color: $main-inverse-text-color;
@@ -61,7 +79,7 @@ $summit-section-height: 350px;
 
 .hero {
   &-block {
-    margin-top: 260px;
+    margin-top: 160px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -306,6 +324,8 @@ $summit-section-height: 350px;
 .section {
   &-speakers {
     background-color: $alt-background-color;
+    padding-top: 153px;
+    padding-bottom: 80px;
   }
 }
 
@@ -352,9 +372,6 @@ $summit-section-height: 350px;
   }
 
   &s {
-    //font-family: 'Oswald', helvetica neue, helvetica, sans-serif;
-    padding-top: 153px;
-    padding-bottom: 80px;
     text-align: left;
 
     &_overtitle {
@@ -796,7 +813,7 @@ $summit-section-height: 350px;
 @media screen and (max-width: $xxl-breakpoint) {
   .hero {
     &-block {
-      margin-top: 160px;
+      margin-top: 30px;
     }
 
     &-button {
@@ -871,7 +888,7 @@ $summit-section-height: 350px;
 
   .hero {
     &-block {
-      margin-top: 120px;
+      margin-top: 30px;
     }
 
     &-button {
@@ -1128,7 +1145,7 @@ $summit-section-height: 350px;
 
   .hero {
     &-block {
-      margin-top: 95px;
+      margin-top: 0;
     }
 
 
@@ -1311,7 +1328,6 @@ $summit-section-height: 350px;
 @media screen and (max-width: $sm-breakpoint) {
   .hero {
     &-block {
-      margin-top: 70px;
     }
 
     &-numbers {
