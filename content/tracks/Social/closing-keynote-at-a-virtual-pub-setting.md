@@ -1,5 +1,5 @@
 ---
-title        : 9 PM - OSS Closing Keynote at a virtual pub setting
+title        : 9:45 PM - OSS Closing Keynote at a virtual pub setting
 track        : Social
 type         : working-session      # working-session, user-session, product-session
 technology   :
