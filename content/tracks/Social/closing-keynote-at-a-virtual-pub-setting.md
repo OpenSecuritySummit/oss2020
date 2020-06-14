@@ -1,5 +1,5 @@
 ---
-title        : Closing Keynote at a virtual pub setting
+title        : 9 PM - OSS Closing Keynote at a virtual pub setting
 track        : Social
 type         : working-session      # working-session, user-session, product-session
 technology   :
@@ -15,29 +15,6 @@ status       :             # draft, review-content, done
 description  :
 participants :  all
 organizers   : 
-      - Dinis Cruz  
-      - Didar Gelici
+      - Open Security Summit
       
 ---
-
-
-<!--(add intro)
-
-## WHY
-
-(...)
-
-## What
-
-(...)
-
-## Outcomes
-
-(...)
-
-## References
-
-(...)
-
-
-## Previous-->
