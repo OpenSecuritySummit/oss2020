@@ -6,6 +6,7 @@
 {{ $all_sessions     := union (union $user_sessions $working_sessions) $keynotes }}
 
 {{ $this.Scratch.Delete "sessions" }}
+
 {{ range $all_sessions}}
     {{ if ne .Params.title ""}}
         {{ $this.Scratch.Add "sessions" (slice . )}}

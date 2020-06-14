@@ -8,7 +8,7 @@ when_day     : Wed
 when_time    : WS-2
 hey_summit   : https://open-security-summit-2020.heysummit.com/talks/threatmodel-tool-demos-wednesday/
 room_layout  :
-room_id      : 
+room_id      :
 session_slack: 
 status       : 
 description  : 
