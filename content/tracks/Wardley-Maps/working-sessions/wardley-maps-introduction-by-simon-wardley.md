@@ -10,7 +10,10 @@ hey_summit   : https://open-security-summit-2020.heysummit.com/talks/intro-wardl
 session_slack:
 status       : 
 description  :
-organizers   :  Simon Wardley
+organizers   : Simon Wardley
+hosted_by    : Tatevik Stepanyan
+zoom_link    : https://zoom.us/j/3037008530?pwd=NStFeUVZNW5xWDZiQTdLb20yb3NuZz09
+slide_id     :
 
 ---
 

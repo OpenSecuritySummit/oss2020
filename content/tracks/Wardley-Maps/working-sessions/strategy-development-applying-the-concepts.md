@@ -16,6 +16,9 @@ description  :
 organizers   :
       - Simon Wardley
       - Mario Platt
+hosted_by    : Dinis Cruz
+zoom_link    : https://zoom.us/j/6503444982?pwd=d1BuWStHNGVlVk53MjJUNW5aZEFuUT09
+slide_id     :
       
 ---
 

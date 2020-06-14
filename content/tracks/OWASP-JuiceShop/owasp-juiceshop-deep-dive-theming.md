@@ -14,6 +14,9 @@ session_slack:
 status       : done              # draft, review-content, done
 description  :
 organizers   : Bjoern Kimminich
+hosted_by    : Alona Reyes
+zoom_link    : https://zoom.us/j/7282391769?pwd=ZWlpTXlZZkxTMmwyK3diamJIemw5UT09
+slide_id     :
 participants :
 
 ---
