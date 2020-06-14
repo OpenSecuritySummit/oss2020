@@ -1,6 +1,6 @@
 ---
 title: Mark Miller
-image: https://media-exp1.licdn.com/dms/image/C4D03AQHKc1ydTRzBjw/profile-displayphoto-shrink_200_200/0?e=1596672000&v=beta&t=nuplhL4ZT36Sfz5bSnB848kBFYUhLzQGiq_sHzvxs-c
+image: https://www.alldaydevops.com/hubfs/2018%20All%20Day%20DevOps/Mark%20Miller%20-%20Headshot%20-%20750%20x%20750.jpg
 company: Overseas Development Institute
 job_title: Director of Programme, Public Finance at ODI
 facebook:
