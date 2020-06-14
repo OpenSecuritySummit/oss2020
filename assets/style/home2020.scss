@@ -1,5 +1,5 @@
 $xxl-hero-container-height: 1042px;
-$schedule-point-size: 122px;
+$schedule-organizer-icon-size: 122px;
 $booking-section-height: 332px;
 $summit-section-height: 350px;
 
@@ -134,7 +134,7 @@ $summit-section-height: 350px;
     &s {
       display: flex;
       justify-content: center;
-      & a {
+      a {
         &:first-child {
           margin-right: 40px;
         }
@@ -408,206 +408,148 @@ $summit-section-height: 350px;
 .schedule {
   padding-top: 110px;
   padding-bottom: 100px;
-  &-table {
+
+  &-entries {
     display: flex;
-    padding: 0;
-    height: 1468px;
+    flex-direction: column;
     background-color: $alt-background-color;
   }
 
-  &-wrapper {
+  &-day {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    .content-wrapper {
-      & .schedule-description-item {
-        background-color: $main-inverse-text-color;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding-top: 0;
-        padding-bottom: 0;
 
-      }
+    .schedule-entry {
+      display: flex;
       &:first-child {
-        .schedule {
-          &-description-item {
-            margin-top: 20px;
-          }
-          &-days-item {
-            margin-top: 20px;
-          }
+        .body {
+          margin-top: 20px;
+        }
+        .thumb {
+          margin-top: 20px;
         }
       }
       &:last-child {
-        .schedule {
-          &-description-item {
-            margin-bottom: 20px;
-            padding-bottom: 10px;
-          }
-          &-days-item {
-            margin-bottom: 20px;
-          }
+        .body {
+          margin-bottom: 20px;
+          padding-bottom: 20px;
+        }
+        .thumb {
+          margin-bottom: 20px;
         }
       }
+
       &:nth-child(2n) {
-        & .schedule-point-tag {
+        .body-texts {
           background-color: $alt-background-color;
         }
       }
+
+      .thumb {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 98px;
+        min-height: 150px;
+        background-color: $alt2-active-color;
+
+        &-name {
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 24px;
+          text-transform: uppercase;
+          color: $main-inverse-text-color;
+        }
+
+        &-rotated {
+          display: inline-block;
+          margin: 0;
+          text-align: center;
+          transform: rotate(-90deg);
+        }
+      }
+      .body {
+        background-color: $main-inverse-text-color;
+        margin-left: 20px;
+        margin-right: 20px;
+
+        display: flex;
+        width: 100%;
+        padding: 0;
+        padding-left: 38px;
+        &-organizers {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          margin-right: 47px;
+          min-width: $schedule-organizer-icon-size;
+          background-color: $main-inverse-text-color;
+          border-radius: 50%;
+          a {
+            position: relative;
+            display: block;
+            margin-top: -100px;
+            &:nth-child(1) {
+              margin-top: 0;
+            }
+            &:hover {
+              z-index: 10;
+            }
+          }
+
+          img {
+            width: $schedule-organizer-icon-size;
+            border-radius: 50%;
+          }
+        }
+        &-texts {
+          width: 100%;
+          padding: 10px 30px;
+          min-height: 160px;
+          align-items: center;
+          margin-right: 20px;
+        }
+        &-time {
+          font-size: 18px;
+          letter-spacing: 3.6px;
+          line-height: 50px;
+          color: $main-text-color-alt;
+        }
+        &-title {
+          font-size: 34px;
+          font-weight: 400;
+          line-height: 50px;
+          text-transform: uppercase;
+          color: $main-background-color;
+        }
+
+        &-author {
+          font-size: 20px;
+          line-height: 40px;
+          &-link {
+            color: $main-active-link-color;
+          }
+        }
+      }
+
     }
-  }
-
-  &-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .day {
+    &-header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
     &-title {
-      font-size: 14px;
-      font-weight: 400;
-      line-height: 24px;
       text-transform: uppercase;
+      font-size: 20px;
+      color: $main-action-text-color;
     }
-
     &-subtitle {
-      font-size: 18px;
-      font-weight: 400;
-      line-height: 24px;
       text-transform: uppercase;
-      color: $main-inverse-text-color;
-    }
-  }
-
-  &-days {
-    &-item {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 98px;
-      min-height: 150px;
-      background-color: $alt2-active-color;
-
-      .rot-90 {
-        display: inline-block;
-        margin: 0;
-        text-align: center;
-        transform: rotate(-90deg);
-      }
-    }
-  }
-
-  &-title {
-    text-transform: uppercase;
-    font-size: 20px;
-    color: $main-action-text-color;
-  }
-
-  &-subtitle {
-    text-transform: uppercase;
-    font-size: 56px;
-    color: $main-background-color;
-  }
-
-  &-description {
-    width: 100%;
-    margin: 21px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: $main-inverse-text-color;
-
-    &-item {
-      padding-left: 60px;
-      padding-right: 60px;
-      width: 100%;
-      min-height: 160px;
-      display: flex;
-      align-items: center;
-      &:nth-child(2n) {
-        .schedule-point-tag {
-        }
-      }
-    }
-
-  }
-
-  &-point {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-right: 47px;
-    min-width: $schedule-point-size;
-    height: $schedule-point-size;
-    background: $main-header-color;
-    border-radius: 50%;
-    & a {
-      position: relative;
-      display: block;
-      margin-top: -100px;
-        &:nth-child(1) {
-          margin-top: 0;
-        }
-      &:hover {
-        z-index: 10;
-      }
-    }
-
-    &-tag {
-      width: 85%;
-      padding: 18px 0;
-      padding-left: 38px;
-    }
-    img {
-      width: $schedule-point-size;
-      //filter: grayscale(1);
-      border-radius: 50%;
-    }
-  }
-
-  &-tag {
-    padding-left: 38px;
-
-    &-time {
-      font-size: 18px;
-      letter-spacing: 3.6px;
-      line-height: 50px;
-      color: $main-text-color-alt;
-    }
-
-    &-title {
-      font-size: 34px;
-      font-weight: 400;
-      line-height: 50px;
-      text-transform: uppercase;
+      font-size: 56px;
       color: $main-background-color;
     }
-
-    &-author {
-      font-size: 20px;
-      line-height: 40px;
-
-      & .author-link {
-        color: $main-active-link-color;
-      }
-    }
-  }
-
-  &-button {
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 40px;
-    margin-top: 40px;
-    padding: 16px 36px;
-    font-size: 24px;
-    font-weight: 400;
-    text-transform: uppercase;
-    background-color: $alt-active-color;
-    color: $main-inverse-text-color;
-    outline-style: outset;
-    outline-width: 0;
   }
 }
 
@@ -619,13 +561,10 @@ $summit-section-height: 350px;
 /*****************************/
 
 
-.container {
-  &-gallery {
-
-    margin: 0;
-    padding: 0;
-    width: 100%;
-  }
+.container-gallery {
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 .photo {
@@ -656,7 +595,7 @@ $summit-section-height: 350px;
       grid-template-columns: auto auto auto auto;
       grid-gap: 10px;
 
-      & > img {
+      > img {
         max-width: 100%;
       }
     }
@@ -675,7 +614,6 @@ $summit-section-height: 350px;
 /* end of GALLERY styles */
 
 
-
 /*****************************/
 /** PREV SUMMITS  styles **/
 /*****************************/
@@ -690,7 +628,7 @@ $summit-section-height: 350px;
     text-align: center;
   }
   &-button {
-    &-s{
+    &-s {
       display: flex;
     }
     font-size: 32px;
@@ -707,7 +645,6 @@ $summit-section-height: 350px;
   }
 }
 /* end of PREV SUMMITS styles */
-
 
 
 /*****************************/
@@ -775,7 +712,7 @@ $summit-section-height: 350px;
       }
 
       section {
-        & > .container {
+        > .container {
           width: $xxl-container-width;
 
           &.container-xl {
@@ -801,7 +738,6 @@ $summit-section-height: 350px;
         background-repeat: repeat-x;
       }
     }
-
   }
 }
 
@@ -814,10 +750,6 @@ $summit-section-height: 350px;
   .hero {
     &-block {
       margin-top: 30px;
-    }
-
-    &-button {
-
     }
 
     &-title {
@@ -981,14 +913,25 @@ $summit-section-height: 350px;
       min-width: 400px;
     }
   }
+
+
   .schedule {
     &-section {
-      & .table {
-        padding: 40px 10px;
-      }
-      & .description {
-        & .title {
+      .description {
+        .title {
           font-size: 40px;
+        }
+      }
+    }
+    &-day {
+      &-entries {
+        //padding: 40px 10px;
+      }
+      .schedule-entry {
+        .body {
+          &-title {
+            font-size: 28px;
+          }
         }
       }
     }
@@ -1004,7 +947,7 @@ $summit-section-height: 350px;
   .hero-section {
     .container {
       height: 539px;
-      & .hero {
+      .hero {
         &-title {
           max-width: 350px;
           font-size: 38px;
@@ -1096,32 +1039,58 @@ $summit-section-height: 350px;
     }
   }
 
+
   .schedule {
+    &-section {
+      .description {
+        .title {
+          font-size: 40px;
+        }
+      }
+    }
     &-subtitle {
       font-size: 38px;
     }
-    &-description {
-      &-item {
-        padding-left: 20px;
-        padding-right: 20px;
-      }
-    }
-    &-point {
-      margin-right: 20px;
-    }
-    &-tag {
-      &-title {
-        font-size: 26px;
-        line-height: 36px;
-      }
-      &-author {
-        font-size: 18px;
-        line-height: 24px;
+    &-day {
+      .schedule-entry {
+        .body {
+          padding-left: 0;
+          &-organizers {
+            margin-right: 10px;
+            margin-left: 10px;
+            min-width: inherit;
+            a {
+              img {
+                max-width: $schedule-organizer-icon-size * 0.8;
+                margin-top: 10px;
+              }
+            }
+          }
+          &-texts {
+            padding-left: 15px;
+            padding-right: 15px;
+          }
+          &-title {
+            font-size: 22px;
+            line-height: 28px;
+          }
+          &-author {
+            font-size: 18px;
+            line-height: 24px;
+          }
+        }
+        .thumb {
+          min-width: 60px;
+          width: 60px;
+          &-name {
+            font-size: 14px;
+            line-height: 18px;
+          }
+        }
       }
     }
   }
 }
-
 
 /*****************************/
 /***** MD BREAKPOINT *******/
@@ -1149,7 +1118,6 @@ $summit-section-height: 350px;
     }
 
 
-
     &-icon {
       margin: 0 8px;
     }
@@ -1162,7 +1130,7 @@ $summit-section-height: 350px;
       &s {
         flex-direction: column;
         align-items: center;
-        & a {
+        a {
           &:first-child {
             margin-right: 0;
           }
@@ -1248,21 +1216,6 @@ $summit-section-height: 350px;
     }
   }
 
-  .schedule {
-    &-point {
-      min-width: 92px;
-      height: 92px;
-    }
-    &-subtitle {
-      font-size: 36px;
-    }
-    &-days {
-      &-item {
-        display: none;
-      }
-    }
-  }
-
   .summitdates {
     &-section {
       height: 250px;
@@ -1284,36 +1237,63 @@ $summit-section-height: 350px;
   }
 
   .schedule {
-    &-description {
-      &-item {
-        padding-left: 10px;
-        padding-right: 10px;
-      }
+    &-subtitle {
+      font-size: 36px;
+      text-align: center;
     }
-    &-point {
-      background-color: transparent;
-      margin-right: 10px;
-      & a {
-        margin-top: -70px;
-        & img {
-          width: 80px;
-          height: 80px;
-        }
-      }
-      &-tag {
-        padding-left: 18px;
-        &-author {
-          & .author-link {
-            font-size: 16px;
-            line-height: 20px;
+    &-day {
+      .schedule-entry {
+        &:first-child {
+          .body {
+            margin-top: 10px;
           }
         }
-      }
-    }
-    &-tag {
-      &-title {
-        font-size: 20px;
-        line-height: 28px;
+        &:last-child {
+          .body {
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+          }
+        }
+        .thumb {
+          display: none;
+          min-height: inherit;
+        }
+        .body {
+          margin-left: 10px;
+          margin-right: 10px;
+          padding-left: 10px;
+          padding-right: 10px;
+          &-organizers {
+            background-color: transparent;
+            margin-right: 10px;
+            min-width: 80px;
+            //height: 80px;
+            a {
+              img {
+                margin-top: 20px;
+              }
+            }
+            &-time {
+              line-height: 36px;
+            }
+          }
+          &-texts {
+            padding-left: 10px;
+            margin-right: 0;
+            min-height: inherit;
+            padding-bottom: 15px;
+          }
+          &-author {
+            &-link {
+              font-size: 16px;
+              line-height: 20px;
+            }
+          }
+          &-title {
+            font-size: 20px;
+            line-height: 28px;
+          }
+        }
       }
     }
   }
@@ -1327,16 +1307,9 @@ $summit-section-height: 350px;
 
 @media screen and (max-width: $sm-breakpoint) {
   .hero {
-    &-block {
-    }
-
     &-numbers {
       font-size: 18px;
       letter-spacing: 1.5px;
-    }
-
-    &-section {
-      
     }
     &-title {
       font-size: 45px;
@@ -1379,7 +1352,7 @@ $summit-section-height: 350px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      & .booking {
+      .booking {
         &-summit {
           margin-left: auto;
         }
@@ -1390,47 +1363,36 @@ $summit-section-height: 350px;
 
   .schedule {
     &-subtitle {
-      font-size: 32px;
+      font-size: 28px;
     }
-    &-days {
-      &-item {
-        width: 70px;
-      }
-    }
-    &-description {
-      &-item {
-        padding-left: 10px;
-        padding-right: 10px;
-      }
-    }
-    &-point {
-      display: none;
-      background-color: transparent;
-      margin-right: 10px;
-      & a {
-        margin-top: -70px;
-        & img {
-          width: 80px;
-          height: 80px;
-        }
-      }
-      &-tag {
-        width: 100%;
-        padding-left: 18px;
-        padding-top: 2px;
-        padding-bottom: 32px;
-        &-author {
-          & .author-link {
-            font-size: 16px;
-            line-height: 20px;
+    &-day {
+      .schedule-entry {
+        .body {
+          padding-left: 10px;
+          padding-right: 10px;
+          &-organizers {
+            display: none;
           }
+          &-texts {
+            width: 100%;
+            padding-left: 18px;
+            padding-top: 2px;
+          }
+          &-time {
+            line-height: 36px;
+          }
+          &-author {
+            &-link {
+              font-size: 16px;
+              line-height: 20px;
+            }
+          }
+          &-title {
+            font-size: 18px;
+            line-height: 30px;
+          }
+
         }
-      }
-    }
-    &-tag {
-      &-title {
-        font-size: 18px;
-        line-height: 30px;
       }
     }
   }
