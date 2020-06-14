@@ -13,7 +13,7 @@ room_id      :
 session_slack: 
 status       :               # draft, review-content, done
 hosted_by    : Open Security Summit
-zoom_link    :
+zoom_link    : https://zoom.us/j/92523115763
 slide_id     :
 description  :
 organizers   :
