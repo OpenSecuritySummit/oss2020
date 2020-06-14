@@ -13,61 +13,58 @@
 
 {{ $sessions := $this.Scratch.Get "pages" }}
 
-<section class="schedule">
-    <div class="container container-xl">
-        <div class="schedule-wrapper">
-            <div class="schedule-header">
-                <h6 class="schedule-title">The training sessions have started!</h6>
-                <h2 class="schedule-subtitle">{{$today.day}} {{$today.date}} June - Schedule</h2>
+<section class="schedule-section">
+  <div class="container container-xl">
+    <div class="row schedule-day">
+      <div class="schedule-header">
+<!--        <h6 class="schedule-title">The training sessions have started!</h6>-->
+        <h2 class="schedule-subtitle">{{$today.day}} {{$today.date}} June - Schedule</h2>
+      </div>
+
+      <div class="schedule-entries">
+        {{ range $sessions}}
+          {{ if .Params.hey_summit }}
+            {{ $time := index .Site.Data.schedule.times .Params.when_time }}
+            {{ $title := .Params.title }}
+            {{ $organizers := partial "params/organizers.html" . }}
+            <div class="schedule-entry">
+              <div class="thumb">
+                <div class="thumb-rotated">
+                  <div class="thumb-name">{{ humanize .Params.type}}</div>
+                </div>
+              </div>
+              <div class="body">
+                <div class="body-organizers">
+                  {{ range $organizers }}
+                    {{ if eq (printf "%T"  .) "string" }}
+                      <img src="/img/blocks/avatar.jpg" >
+                    {{else }}
+                      <a href="{{.Permalink}}"><img src="{{.Params.image}}" alt="{{.Params.title}}"></a>
+                    {{end}}
+                  {{ end }}
+                </div>
+                <div class="body-texts">
+                  <div class="body-time">{{ $time }}</div>
+                  <a href="{{.Permalink}}">
+                    <div class="body-title">{{ .Params.title }}</div>
+                  </a>
+                  <div class="body-author">
+                    <span>by</span>
+                    {{ $how_many := sub (len $organizers) 1 }}
+                    {{range $index, $element := $organizers }}
+                      {{ if eq (printf "%T"  .) "string" }}
+                        {{.}}
+                      {{else }}
+                        <a class="body-author-link" href="{{.Permalink}}">{{.Params.title}}{{ if lt $index $how_many}},{{ end }}</a>
+                      {{ end }}
+                    {{ end }}
+                  </div>
+                </div>
+              </div>
             </div>
-
-            <div class="__schedule-table__" style="display: flex; flex-direction: column; padding: 0; background-color: #f3f8ec;">
-
-                        {{ range $sessions}}
-                            {{ if .Params.hey_summit }}
-                            {{ $time  := index .Site.Data.schedule.times .Params.when_time }}
-                            {{ $title := .Params.title }}
-                            {{ $organizers := partial "params/organizers.html" .  }}
-                                <div class="content-wrapper" style="display: flex; align-items: space-between;">
-                                    <div class="schedule-days-item">
-                                        <div class="rot-90">
-                                            <div class="day-subtitle">{{ humanize .Params.type}}</div>
-                                        </div>
-                                    </div>
-                                    <div class="schedule-description-item">
-                                        <div class="schedule-point">
-                                            {{ range $organizers }}
-                                                {{ if eq (printf "%T"  .) "string" }}
-                                                    <img src="/img/blocks/avatar.jpg" >
-                                                {{else }}
-                                                    <a href="{{.Permalink}}"><img src="{{.Params.image}}" alt="{{.Params.title}}"></a>
-                                                {{end}}
-                                            {{ end }}
-                                        </div>
-                                        <div class="schedule-point-tag">
-                                            <div class="schedule-tag-time">{{ $time }}</div>
-                                            <a href="{{.Permalink}}">
-                                                <div class="schedule-tag-title">{{ .Params.title }}</div>
-                                            </a>
-                                            <div class="schedule-tag-author">
-                                                <span>by</span>
-                                                {{ $how_many := sub (len $organizers) 1 }}
-                                                {{range $index, $element :=  $organizers }}
-                                                    {{ if eq (printf "%T"  .) "string" }}
-                                                        {{.}}
-                                                    {{else }}
-                                                        <a class="author-link" href="{{.Permalink}}">{{.Params.title}}{{ if lt $index $how_many}},{{ end }}</a>
-                                                    {{end}}
-                                                {{ end }}
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                            {{ end }}
-                        {{ end }}
-            </div>
-        </div>
+          {{ end }}
+        {{ end }}
+      </div>
     </div>
+  </div>
 </section>
