@@ -43,3 +43,8 @@ day-9:
   day : "Thursday"
   key : "11th - Thursday"
   order: 9
+day-10:
+  date: "12th"
+  day : "Friday"
+  key : "12th - Friday"
+  order: 10

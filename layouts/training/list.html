@@ -37,7 +37,14 @@
 
     <br/>
     <br/>
-    <h1>Current Week (calendar view)</h1>
+
+
+    <h3>Schedule (Week 1) - 1st to 5th of June</h3>
+    {{ $week_one := where .Data.Pages ".Params.when_week" "one" }}
+    {{ $week_one_days := .Site.Data.schedule.days.week_one}}
+
+    {{ partial "schedule/table/table.html" (dict "self" . "pages" $week_one "valid_days" $week_one_days  )}}
+
 
     <h3>Schedule (Week 2) - 8th to 12th of June</h3>
 
@@ -47,20 +54,11 @@
 
     {{ partial "schedule/table/table.html" (dict "self" . "pages" $week_two "valid_days" $week_two_days  )}}
 
-    <h1>Current Week (table view)</h1>
-    {{ partial "training/table-scheduled" $week_two }}
-
-<!--    <h4>Sessions Currently not Scheduled during week two</h4>-->
-<!--    {{ partial "training/table-not-scheduled" $week_two }}-->
-
-    <h1>Previous week</h1>
-
-    <h3>Schedule (Week 1) - 1st to 5th of June</h3>
-    {{ $week_one := where .Data.Pages ".Params.when_week" "one" }}
-    {{ $week_one_days := .Site.Data.schedule.days.week_one}}
-
-    {{ partial "schedule/table/table.html" (dict "self" . "pages" $week_one "valid_days" $week_one_days  )}}
+    <h2>Schedule - Table view</h2>
+    <h3>Week 1 -  1st to 5th of June</h3>
     {{ partial "training/table-scheduled" $week_one }}
+    <h3>Week 2 - 8th to 12th of June</h3>
+    {{ partial "training/table-scheduled" $week_two }}
 
 
   </div>

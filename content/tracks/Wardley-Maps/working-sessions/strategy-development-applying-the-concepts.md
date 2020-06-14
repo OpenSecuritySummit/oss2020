@@ -14,8 +14,8 @@ session_slack:
 status       :            # draft, review-content, done
 description  :
 organizers   :
-      - Mario Platt
       - Simon Wardley
+      - Mario Platt
       
 ---
 

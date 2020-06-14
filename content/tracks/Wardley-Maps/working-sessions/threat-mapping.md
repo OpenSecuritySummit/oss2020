@@ -14,9 +14,9 @@ session_slack:
 status       :               # draft, review-content, done
 description  :
 organizers   :
+    - Simon Wardley
     - Petra Vukmirovic
     - Dinis Cruz
-    - Simon Wardley
    
 participants :
 ---
