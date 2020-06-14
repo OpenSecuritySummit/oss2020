@@ -16,7 +16,9 @@ description  :
 participants :
 organizers   :  
        - Bjoern Kimminich    
-       
+hosted_by    : Alona Reyes
+zoom_link    : https://zoom.us/j/7282391769?pwd=ZWlpTXlZZkxTMmwyK3diamJIemw5UT09
+slide_id     :
 ---
 
 ![](https://raw.githubusercontent.com/OWASP/owasp-swag/master/projects/juice-shop/logos/custom/JuicyBot_MedicalMask.png)

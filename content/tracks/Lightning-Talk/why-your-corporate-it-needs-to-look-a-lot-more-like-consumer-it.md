@@ -1,5 +1,5 @@
 ---
-title        : Lightning Talk - Why your corporate IT needs to look a lot more like consumer IT 
+title        : Lightning Talk - Why your corporate IT needs to look a lot more like consumer IT
 track        : "Lightning Talks"
 type         : working-session
 topics       :
@@ -12,4 +12,9 @@ status       :
 description  :
 organizers   :  
         - James Duncan
+
+hosted_by    : Open Security Summit
+zoom_link    :
+slide_id     :
+
 ---

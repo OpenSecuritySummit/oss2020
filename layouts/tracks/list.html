@@ -59,35 +59,4 @@
         {{ $title := "Summit Week (15th - 19th June)" }}
         {{ partial "schedule/table/table.html" (dict "self" . "pages" $sessions "valid_days" $summit_days "title" $title )}}
 
-
-        <h1>Sessions</h1>
-        <div class="hidden-print">
-          <div class="row">
-            <div class="col-xs-0"></div>
-            <div class="col-xs-12">
-
-              {{ partial "training/table-all" $sessions }}
-
-              <h3>Please help</h3>
-              <p>
-                If you want to be involved please make the changes on GitHub and send a Pull Request with your ideas.</p>
-              <p>If you feel that there is missing working session that we NEED to have at the Summit, please create it.</p>
-
-            </div>
-          </div>
-          <h3>Metadata</h3>
-          <table class="table table-condensed">
-            <tr>
-
-              <th>Organizers</th>
-              <td>
-                {{ partial "utils/titles-with-link.html" (dict "this" . "name" .Params.title "value" .Params.organizers)   }}
-              </td>
-            </tr>
-          </table>
-        </div>
-
-      </div>
-    </div><
-
 {{ end }}

@@ -36,7 +36,11 @@
               <div class="body">
                 <div class="body-organizers">
                   {{ range $organizers }}
-                  <a href="{{.Permalink}}"><img src="{{.Params.image}}" alt="{{.Params.title}}"></a>
+                    {{ if eq (printf "%T"  .) "string" }}
+                      <img src="/img/blocks/avatar.jpg" >
+                    {{else }}
+                      <a href="{{.Permalink}}"><img src="{{.Params.image}}" alt="{{.Params.title}}"></a>
+                    {{end}}
                   {{ end }}
                 </div>
                 <div class="body-texts">
@@ -48,7 +52,11 @@
                     <span>by</span>
                     {{ $how_many := sub (len $organizers) 1 }}
                     {{range $index, $element := $organizers }}
-                    <a class="body-author-link" href="{{.Permalink}}">{{.Params.title}}{{ if lt $index $how_many}},{{ end }}</a>
+                      {{ if eq (printf "%T"  .) "string" }}
+                        {{.}}
+                      {{else }}
+                        <a class="body-author-link" href="{{.Permalink}}">{{.Params.title}}{{ if lt $index $how_many}},{{ end }}</a>
+                      {{ end }}
                     {{ end }}
                   </div>
                 </div>

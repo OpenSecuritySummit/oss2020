@@ -1,7 +1,6 @@
 ---
 draft : true
 title : Identified Issues
-layout: identified-issues
 ---
 # Open Security Summit 2018 - Identified Weaknesses and Issues
 

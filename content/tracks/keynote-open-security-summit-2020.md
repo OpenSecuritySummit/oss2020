@@ -12,9 +12,12 @@ room_layout  :                    #
 room_id      :
 session_slack: 
 status       :               # draft, review-content, done
+hosted_by    : Open Security Summit
+zoom_link    :
+slide_id     :
 description  :
 organizers   :
-      - Dinis Cruz
+      - Open Security Summit
 ---
 
 #### Topics to cover:
