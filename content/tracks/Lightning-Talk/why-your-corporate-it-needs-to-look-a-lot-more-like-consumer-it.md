@@ -14,7 +14,7 @@ organizers   :
         - James Duncan
 
 hosted_by    : Open Security Summit
-zoom_link    :
+zoom_link    : https://zoom.us/j/98641151154
 slide_id     :
 
 ---
