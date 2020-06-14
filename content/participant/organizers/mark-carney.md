@@ -4,7 +4,7 @@ image: https://media-exp1.licdn.com/dms/image/C5603AQEKe13o_cfqkw/profile-displa
 company: 
 job_title: 
 facebook:
-linkedin: https://www.linkedin.com/in/mark-carney-5849163b/
+linkedin: mark-carney-5849163b
 twitter:
 website: http://tractatus.co.uk/
 notes:

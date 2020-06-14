@@ -13,7 +13,8 @@ room_id      :
 session_slack: 
 status       : done              # draft, review-content, done
 description  :
-organizers   : Jakub Kaluzny
+organizers   :
+    - Jakub Kaluzny
 participants :
 ---
 
