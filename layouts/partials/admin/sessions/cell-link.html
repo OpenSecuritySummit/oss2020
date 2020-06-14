@@ -1,0 +1,14 @@
+{{ if  .value }}
+    <td><a target="_blank" href="{{ .value }}">{{.text}}</a></td>
+{{ else }}
+    {{ if  .error }}
+        <td>
+            <span class="label label-danger">{{.error}}</span>
+        </td>
+    {{ end}}
+    {{ if  .warning }}
+        <td>
+            <span class="label label-primary">{{.warning}}</span>
+        </td>
+    {{ end}}
+{{ end}}
