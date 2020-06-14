@@ -14,6 +14,8 @@
 <!-- owl carousel -->
 <script src="{{ .Site.BaseURL }}js/owl.carousel.min.js"></script>
 
+<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
 <script>
   // this hooks is being used for handling session entries like personal pages, or session description inside of <a> tag
   // see ie. /schedule
@@ -82,5 +84,21 @@
     $('.img-circle').click(gotoLink);
     $('.schedule-session-organizer').click(gotoLink).mouseenter(mouseEnterInTableCell).mouseleave(mouseleave);
     $('.author-link').mouseenter(mouseEnterInHomePage).mouseleave(mouseLeaveInHomePage);
+
+    $(document).ready(function () {
+        //initialize swiper when document ready
+        var mySwiper = new Swiper ('.swiper-container', {
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            autoplay: {
+                delay: 5000,
+
+            }
+        })
+    });
+
 </script>
 

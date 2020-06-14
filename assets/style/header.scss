@@ -51,6 +51,12 @@ header {
 .navbar {
     font-family: 'Oswald', "Helvetica Neue", sans-serif !important;
 
+    &-brand img {
+        &:hover {
+            filter: brightness(115%);
+        }
+    }
+
     &-affixed-top.affix {
         .navbar-default {
             background-color: #ffffff;
