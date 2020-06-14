@@ -1,0 +1,40 @@
+{{ $this := .this }}
+{{ $all_sessions := partial "params/all-summit-sessions.html" $this  }}
+{{ $all_sessions := where  $all_sessions ".Params.when_day" .day }}
+
+<h3>{{ .day }}</h3>
+
+<table class="table schedule-cell">
+    <thead>
+        <th>#         </th>
+        <th>title     </th>
+        <th>when day  </th>
+        <th>when time </th>
+        <th>organisers</th>
+        <th>hey summit</th>
+        <th>zoom host </th>
+        <th>zoom id   </th>
+        <th>slide id  </th>
+        <th>youtube   </th>
+    </thead>
+    <tbody>
+        {{ range $index, $element := sort $all_sessions ".Params.when_time"}}
+            {{ $organizers := partial "params/organizers.html" . }}
+            {{ if .Params.hey_summit}}
+                <tr>
+                    <td>{{ add $index 1}}</td>
+                    <td><a target="_blank" href="{{ .Permalink }}">{{ .Params.title }}..</a></td>
+                    {{ partial "admin/sessions/cell.html"      (dict "value" .Params.when_day  "error" "missing") }}
+                    {{ partial "admin/sessions/cell.html"      (dict "value" .Params.when_time "error" "missing") }}
+                    <td> {{ partial "schedule/list/organizers-links.html" ( dict "this" . "organizers" $organizers) }}</td>
+                    {{ partial "admin/sessions/cell-link.html" (dict "value" .Params.hey_summit "text" "hey summit" "error" "needs hey summit") }}
+                    {{ partial "admin/sessions/cell.html"      (dict "value" .Params.hosted_by "error" "missing") }}
+                    {{ partial "admin/sessions/cell-link.html" (dict "value" .Params.zoom_link "text" "zoom" "error" "missing") }}
+                    {{ partial "admin/sessions/cell-link.html" (dict "value" .Params.slide_id  "text" "slide" "warning" "missing") }}
+                    {{ partial "admin/sessions/cell-link.html" (dict "value" .Params.you_tube  "text" "you tube" "warning" "missing") }}
+
+                </tr>
+            {{ end}}
+        {{ end}}
+    </tbody>
+</table>
