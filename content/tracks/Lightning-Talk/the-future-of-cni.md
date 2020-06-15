@@ -12,7 +12,7 @@ status       :
 description  :
 organizers   :  
         - Jacqui Taylor
-zoom_link.   : https://zoom.us/j/99975990806
+zoom_link    : https://zoom.us/j/99975990806
 ---
 
 ## About this talk
