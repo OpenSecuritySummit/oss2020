@@ -2,7 +2,7 @@
 title        : Lightning Talk - The Future of CNI 
 track        : "Lightning Talks"
 type         : working-session
-topics       :
+topics       : 
 featured     : Yes
 when_day     : Tue
 when_time    : LT-1
@@ -12,5 +12,8 @@ status       :
 description  :
 organizers   :  
         - Jacqui Taylor
-        
 ---
+
+## About this talk
+
+A lightning tour of the G20 Digital Economy plan that utilises Smart Cities as a CNI delivery model. We will cover what Smart Cities are, why they matter and what changes this brings to the security landscape. Plus a nod to what I'm up to next!
