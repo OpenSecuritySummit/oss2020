@@ -254,7 +254,7 @@ $wardleymaps-back-color: #E8FCE8;
 
     .title {
       font-size: 56px;
-      font-weight: 500;
+      font-weight: 700;
       text-transform: uppercase;
     }
 
@@ -270,7 +270,7 @@ $wardleymaps-back-color: #E8FCE8;
       }
 
       &-item {
-        margin-bottom: 45px;
+        margin-bottom:12px;
         background-color: $main-inverse-text-color;
 
         .list {
@@ -331,7 +331,7 @@ $wardleymaps-back-color: #E8FCE8;
           margin-right: auto;
           text-align: center;
           font-size: 34px;
-          font-weight: 500;
+          font-weight: 700;
           text-transform: uppercase;
           transform: translateY(-30px);
         }

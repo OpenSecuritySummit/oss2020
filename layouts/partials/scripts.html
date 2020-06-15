@@ -27,7 +27,6 @@
         }
         e.preventDefault();
     }
-
     function toggleInTableCell(e, doPop) {
         var target = e.currentTarget;
         var url = target && target.getAttribute('data-url');
@@ -47,6 +46,11 @@
         }
     }
 
+
+
+
+    $('.schedule-session-organizer').click(gotoLink).mouseenter(mouseEnterInTableCell).mouseleave(mouseleave);
+    $('.body-author-link').mouseenter(mouseEnterInHomePage).mouseleave(mouseLeaveInHomePage);
     function toggleInHomePage(e, doPop) {
         var target = e.currentTarget;
         var url = target && target.href;
@@ -81,9 +85,12 @@
         toggleInHomePage(e, false)
     }
 
+    
+
     $('.img-circle').click(gotoLink);
     $('.schedule-session-organizer').click(gotoLink).mouseenter(mouseEnterInTableCell).mouseleave(mouseleave);
-    $('.body-author-link').mouseenter(mouseEnterInHomePage).mouseleave(mouseLeaveInHomePage);
+    $('.author-link').mouseenter(mouseEnterInHomePage).mouseleave(mouseLeaveInHomePage);
+
 
     $(document).ready(function () {
         //initialize swiper when document ready
