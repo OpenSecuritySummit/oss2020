@@ -1,4 +1,5 @@
-$xxl-hero-container-height: 1042px;
+$xxl-hero-container-height: 642px;
+//$xxl-hero-container-height: 435px;
 $schedule-organizer-icon-size: 122px;
 $booking-section-height: 332px;
 $summit-section-height: 350px;
@@ -71,7 +72,7 @@ $summit-section-height: 350px;
   color: $main-inverse-text-color;
 
   .container {
-    height: 655px;
+    height: 435px;
     background-position: top left;
     background-image: url("#{$base-url}/img/home/hero-medium-bg.png");
   }
@@ -79,7 +80,7 @@ $summit-section-height: 350px;
 
 .hero {
   &-block {
-    margin-top: 160px;
+    margin-top: 90px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -532,6 +533,23 @@ $summit-section-height: 350px;
             color: $main-active-link-color;
           }
         }
+        &-info {
+          display: flex;
+          justify-content: space-between;
+        }
+
+        .track-zoom {
+          font-family: 'Oswald', helvetica neue, helvetica, sans-serif;
+          font-size: $zoom-link-font-height;
+          color: $theme-green-main-text-color;
+          img {
+            height: 12px;
+            margin-left: 10px;
+          }
+          &:hover {
+            filter: brightness(115%);
+          }
+        }
       }
 
     }
@@ -813,7 +831,6 @@ $summit-section-height: 350px;
     background-image: url("#{$base-url}/img/home/hero-medium-bg.png");
 
     .container {
-      height: 660px;
       background: none;
     }
   }
@@ -946,7 +963,7 @@ $summit-section-height: 350px;
 @media screen and (max-width: $lg-breakpoint) {
   .hero-section {
     .container {
-      height: 539px;
+      height: 310px;
       .hero {
         &-title {
           max-width: 350px;

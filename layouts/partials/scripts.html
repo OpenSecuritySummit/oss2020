@@ -20,10 +20,23 @@
   // this hooks is being used for handling session entries like personal pages, or session description inside of <a> tag
   // see ie. /schedule
     function gotoLink(e) {
-        var target = e.target;
-        var url = target && target.getAttribute('data-url');
-        if (url) {
+        getUrlFromTarget(e, (url) => {
             window.location.href = url;
+        })
+    }
+
+    function gotoLinkBlank(e) {
+        getUrlFromTarget(e, (url) => {
+            window.open(url, '_blank')
+        })
+    }
+
+  function getUrlFromTarget(e, cb) {
+        var target = e.target;
+        var currentTarget = e.currentTarget;
+        var url = target && target.dataset.url || currentTarget && currentTarget.dataset.url;
+        if (url) {
+            cb.call(this, url);
         }
         e.preventDefault();
     }
@@ -32,9 +45,9 @@
         var target = e.currentTarget;
         var url = target && target.getAttribute('data-url');
         var scope = target.parentNode.parentNode.parentNode;
-        var images = $.find('img', scope);
-        var doAction = doPop?'addClass':'removeClass';
-        if ( images.length ) {
+        var images = $.find('img', scope).filter((img) => img.alt);
+        if ( images.length > 1 ) {
+            var doAction = doPop?'addClass':'removeClass';
             for ( let i = 0; i < images.length; i++ ) {
                 var image = images[i];
                 var imageContainer = image.parentNode;
@@ -51,10 +64,10 @@
         var target = e.currentTarget;
         var url = target && target.href;
         var scope = target.parentNode.parentNode.parentNode;
-        var images = $.find('img', scope);
-        var doAction = doPop?'addClass':'removeClass';
+        var images = $.find('img', scope).filter((img) => img.alt);
 
         if ( images.length ) {
+            var doAction = doPop?'addClass':'removeClass';
             for ( let i = 0; i < images.length; i++ ) {
                 var image = images[i];
                 var imageContainer = image.parentNode;
@@ -81,6 +94,7 @@
         toggleInHomePage(e, false)
     }
 
+    $('.track-zoom').click(gotoLinkBlank);
     // link to organizer page in table cell
     $('.img-circle').click(gotoLink);
     // another link to organizer page in table cell + hide/show organizer's avatar on links hover

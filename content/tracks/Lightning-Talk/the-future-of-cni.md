@@ -11,6 +11,6 @@ session_slack:
 status       : 
 description  :
 organizers   :  
-        - Dr. Jacqui Taylor Smart City Tsar
+        - Jacqui Taylor
         
 ---

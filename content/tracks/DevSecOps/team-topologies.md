@@ -19,7 +19,8 @@ organizers   :
        - Mario Platt
 hosted_by    : Didar Gelici
 zoom_link    : https://zoom.us/j/8135159752?pwd=enFReldYZkhpcUVrVnZyZGRoaXI1Zz09
-slide_id     :
+slide_id     : 2PACX-1vQ1T2jrwwZpErYWrf6-34ADGJNiPNrdjYanQcB4ZzTzeqm35hipGZ618b1jl7XTlEdoJxdD6LiDwsPQ
+slide_edit   : 1I609RB5trfBFlJ5_OSv_-oQAf47b17WGPqWRiLgVMWU
 ---
 
 There will be two short presentations, one by Manuel Pais and another one by Mario Platt, followed by a discussion with everyone on the topics presented.

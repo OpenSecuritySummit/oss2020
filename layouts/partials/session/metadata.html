@@ -51,6 +51,14 @@
                         </div>
                         <div class="table-line">
                             <div class="title">
+                                Watch
+                            </div>
+                            <div class="button">
+                                {{ partial "session/watch-zoom.html" .  }}
+                            </div>
+                        </div>
+                        <div class="table-line">
+                            <div class="title">
                                 Register:
                             </div>
                             <div class="button">
@@ -96,6 +104,15 @@
                         </div>
                         <div class="table-line">
                             <div class="title">
+                                Watch
+                            </div>
+                            <div class="button">
+                                {{ partial "session/watch-zoom.html" .  }}
+                            </div>
+                        </div>
+
+                        <div class="table-line">
+                            <div class="title">
                                 Register:
                             </div>
                             <div class="button">
@@ -123,4 +140,18 @@
         </iframe>
     </div>
     {{ end }}
+    {{ if .Params.slide_id }}
+        <div class="session-content">
+            <h3>Session Slides</h3>
+            <iframe src="https://docs.google.com/presentation/d/e/{{.Params.slide_id}}/embed?start=false&loop=false&delayms=3000"
+                    frameborder="0"
+                    width="960"
+                    height="569"
+                    allowfullscreen="true"
+                    mozallowfullscreen="true"
+                    webkitallowfullscreen="true">
+            </iframe>
+        </div>
+    {{ end}}
+
 </section>

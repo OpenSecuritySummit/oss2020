@@ -18,7 +18,8 @@ organizers   :
       - Mario Platt
 hosted_by    : Dinis Cruz
 zoom_link    : https://zoom.us/j/6503444982?pwd=d1BuWStHNGVlVk53MjJUNW5aZEFuUT09
-slide_id     :
+slide_id     : 2PACX-1vQ2-8tUBgvbM75rjTJRiM3PAfRQyLljc-DKEt4UMqchT7yMmeG4MuGSzTKhwzGufdOPBSu3GfcVz75m
+slide_edit   : 1jPQY-cWNXbGbBS8HEY9BvBqIaxUZAl6pRw2CiT2XfDE
       
 ---
 
