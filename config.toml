@@ -71,13 +71,14 @@ paginate = 10
     weight = 2
 #    parent = "sessions"
     url = "/schedule"
-[[menu.main]]
-    name = "Topics"
-    identifier = "topics"
-    pre = "<i class='fa fa-road'></i>&nbsp;"
-    weight = 6
+#[[menu.main]]
+#    name = "Topics"
+#    identifier = "topics"
+#    pre = "<i class='fa fa-road'></i>&nbsp;"
+#    weight = 6
 ##    parent = "sessions"
-    url = "/topics/"
+#    url = "/topics/"
+
 #[[menu.main]]
 #    name = "Working Sessions"
 #    identifier = "working-sessions"
