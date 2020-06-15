@@ -1,0 +1,19 @@
+{{ $this       := .this              -}}
+{{ $title      := $this.Params.title -}}
+{{ $track      := $this.Params.track -}}
+{{ $time       := index $this.Site.Data.schedule.times $this.Params.when_time }}
+{{ $organizers := .organizers        -}}
+
+Please join the @opensecsummit session
+"{{ $title }}"
+delivered by
+{{ partial "admin/social/twitter-handles.html" ( dict "this" $this "organizers" $organizers) }}
+
+{{ $this.Permalink }}
+
+Session happens at {{ $time }} BST
+
+Part of the "{{$track}}" Track {{ partial "params/link-from-title.html" ( dict "this" $this "title" $track) }}
+
+#oss2020
+
