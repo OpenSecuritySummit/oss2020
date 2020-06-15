@@ -1,24 +1,29 @@
-{{ if  .value }}
-
+{{ if .title }}
     <td>
-
-        <a target="_blank" href="{{ .value }}">
-            {{ if  .img }}
-                <img src="{{.img}}" width="60">
-            {{ else }}
-                {{.text}}
-            {{ end }}
-        </a>
+        {{ partial "utils/title-to-link.html" (dict "this" .this "title" .title )  }}
     </td>
-{{ else }}
-    {{ if  .error }}
+{{ else}}
+    {{ if  .value }}
         <td>
-            <span class="label label-danger">{{.error}}</span>
+
+            <a target="_blank" href="{{ .value }}">
+                {{ if  .img }}
+                    <img src="{{.img}}" width="60">
+                {{ else }}
+                    {{.text}}
+                {{ end }}
+            </a>
         </td>
-    {{ end}}
-    {{ if  .warning }}
-        <td>
-            <span class="label label-primary">{{.warning}}</span>
-        </td>
-    {{ end}}
+    {{ else }}
+        {{ if  .error }}
+            <td>
+                <span class="label label-danger">{{.error}}</span>
+            </td>
+        {{ end}}
+        {{ if  .warning }}
+            <td>
+                <span class="label label-primary">{{.warning}}</span>
+            </td>
+        {{ end}}
+    {{ end }}
 {{ end}}

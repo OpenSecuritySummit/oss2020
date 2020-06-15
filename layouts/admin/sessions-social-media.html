@@ -1,0 +1,10 @@
+
+{{ define "content" }}
+    <hr/>
+    <a href="/admin">Admin</a> | {{.Params.title}}
+    <hr/>
+    <p>{{.Content }}</p>
+
+    {{ partial "admin/social/day.html" (dict "this" . "day" "Mon" ) }}
+
+{{ end }}
