@@ -217,21 +217,6 @@ $summit-section-height: 350px;
 /**** BOOK TICKETS styles ****/
 /*****************************/
 
-/*
-.booktickets-section {
-  background-color: $tickets-bg;
-  //background-image: url("#{$base-url}/img/home/book-tickets-bg.jpg");
-  background-repeat: no-repeat;
-  background-size: auto;
-
-  .container {
-    height: 332px;
-    background-position: top left;
-  }
-}
-*/
-
-
 .booking {
   &-section {
     //background-color: $tickets-bg;
@@ -247,11 +232,14 @@ $summit-section-height: 350px;
     height: $booking-section-height;
     width: 85%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
   }
   &-buy {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+
   }
   &-title {
     margin-bottom: -25px;
@@ -265,18 +253,17 @@ $summit-section-height: 350px;
     font-size: 50px;
     color: $tickets-bg;
   }
-  &-leader {
+  &-leader, &-students {
     font-size: 30px;
     font-weight: 400;
     color: $main-inverse-text-color;
-  }
-  &-students {
-    font-size: 30px;
-    font-weight: 400;
-    color: $main-inverse-text-color;
+    img {
+      margin-right: 5px;
+      margin-top: -10px;
+    }
   }
   &-summit {
-    margin-left: 79px;
+    //margin-left: 79px;
   }
 
   &-banner {
@@ -315,6 +302,10 @@ $summit-section-height: 350px;
     font-size: 40px;
     text-transform: uppercase;
     border-radius: 50px;
+    text-align: center;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
@@ -671,7 +662,6 @@ $summit-section-height: 350px;
 
 
 .summitdates {
-
   &-section {
     background-image: url("#{$base-url}/img/home/summit-dates-bg.jpg");
     //background-repeat: repeat;
@@ -797,11 +787,10 @@ $summit-section-height: 350px;
       font-size: 30px;
       margin-bottom: 0;
     }
-    &-leader {
-      font-size: 22px;
-    }
-    &-students {
-      font-size: 22px;
+    &-leader, &-students {
+      //font-size: 26px;
+      img {
+      }
     }
     &-banner {
       padding-left: 0;
@@ -888,11 +877,11 @@ $summit-section-height: 350px;
     &-free {
       font-size: 24px;
     }
-    &-leader {
-      font-size: 18px;
-    }
-    &-students {
-      font-size: 18px;
+    &-leader, &-students {
+      font-size: 22px;
+      img {
+        width: 18px;
+      }
     }
     &-banner {
       &-text {
@@ -904,6 +893,7 @@ $summit-section-height: 350px;
       font-size: 20px;
       padding-top: 14px;
       padding-bottom: 14px;
+      width: 60%;
     }
     &-overtitle {
       font-size: 18px;
@@ -997,11 +987,8 @@ $summit-section-height: 350px;
       //font-size: 24px;
       color: $main-header-color;
     }
-    &-leader {
-      //font-size: 18px;
-    }
-    &-students {
-      //font-size: 18px;
+    &-leader, &-students {
+      font-size: 22px;
     }
     &-banner {
       transform: none;
@@ -1020,7 +1007,8 @@ $summit-section-height: 350px;
     }
     &-buy {
       margin-bottom: 30px;
-      justify-content: center;
+      //justify-content: center;
+      //width: 60%;
     }
     &-book {
       padding-left: 30px;
@@ -1184,18 +1172,6 @@ $summit-section-height: 350px;
     }
   }
 
-  /*
-  .booking {
-    &-countdown {
-      width: 75%;
-
-      img {
-        width: 100%;
-      }
-    }
-  }
-  */
-
   .booking {
     &-section {
       display: flex;
@@ -1212,22 +1188,22 @@ $summit-section-height: 350px;
       font-size: 20px;
     }
     &-leader, &-students {
-      font-size: 14px;
+      font-size: 18px;
       img {
         width: 16px;
       }
     }
     &-banner {
-      //transform: none;
-      //background-color: initial;
       &-text {
         max-width: 460px;
       }
     }
     &-buy {
-      justify-content: center;
+      //justify-content: center;
+      //font-size: 20px;
     }
     &-book {
+      width: 50%;
     }
     &-overtitle {
     }
