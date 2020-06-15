@@ -12,6 +12,6 @@ session_slack:
 status       : done           # draft, review-content, done
 description  : TBD
 organizers   :
-        - Paul Burke
+        - 
 zoom_host    : TBD
 ---
