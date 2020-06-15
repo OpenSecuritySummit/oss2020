@@ -3,12 +3,10 @@
 {{ $track      := $this.Params.track -}}
 {{ $time       := index $this.Site.Data.schedule.times $this.Params.when_time -}}
 {{ $organizers := .organizers        -}}
-Today at {{ $time }} BST the @opensecsummit session proudly hosts the
-"{{ $title }}" session delivered by {{ partial "admin/social/twitter-handles.html" ( dict "this" $this "organizers" $organizers) }}
+Today at {{ $time }} BST the @opensecsummit proudly hosts the "{{ $title }}" session delivered by {{ partial "admin/social/twitter-handles.html" ( dict "this" $this "organizers" $organizers) }}
 
 {{ $this.Permalink }}
 
 (part of the "{{$track}}" Track {{ partial "params/link-from-title.html" ( dict "this" $this "title" $track) }})
 
 #oss2020
-
