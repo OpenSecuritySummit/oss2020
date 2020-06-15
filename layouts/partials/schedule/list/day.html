@@ -12,7 +12,6 @@
 {{ if $this.Scratch.Get "has-session" }}
 
     <div class="schedule-day-block">
-        <br/>
         <p class="schedule-day">{{ .day }} - {{.date}} June</p>
         {{ range sort .sessions ".Params.when_time"}}
             {{ if .Params.hey_summit}}
@@ -34,16 +33,16 @@
                     <a class="schedule-link how-many-participants-{{ $how_many }}" href="{{.Permalink}}">
                         <div class="schedule-session-hours">{{$when_time}}</div>
                         <div class="schedule-session-title">
-                            <div class="track_badge">{{.Params.track}}</div>
+                            <div class="track">
+                                <div class="track-badge">{{.Params.track}}</div>
+                                {{ partial "home-page/schedule/zoom.html" ( dict "this" . "href" false )  }}
+                            </div>
                             <h2 class="schedule-session-description">{{.Params.title}}</h2>
 
                             <div class="schedule-session-organizers">{{ partial "schedule/list/organizers-links.html" ( dict "this" . "organizers" $organizers) }}</div>
                         </div>
                         <div class="schedule-session-person">
                             {{ partial "schedule/list/organizers-images.html" ( dict "this" . "organizers" $organizers) }}
-                        </div>
-                        <div class="schedule-session-person">
-                            {{ partial "home-page/schedule/zoom.html" .  }}
                         </div>
                     </a>
                 </div>

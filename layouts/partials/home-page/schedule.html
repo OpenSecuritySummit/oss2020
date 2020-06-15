@@ -47,7 +47,11 @@
                   {{ end }}
                 </div>
                 <div class="body-texts">
-                  <div class="body-time">{{ $time }}</div>
+                  <div class="body-info">
+                    <div class="body-time">{{ $time }}</div>
+                    {{ partial "home-page/schedule/zoom.html" ( dict "this" . "href" true ) }}
+                  </div>
+
                   <a href="{{.Permalink}}">
                     <div class="body-title">{{ .Params.title }}</div>
                   </a>
@@ -61,7 +65,6 @@
                         <a class="body-author-link" href="{{.Permalink}}">{{.Params.title}}{{ if lt $index $how_many}},{{ end }}</a>
                       {{ end }}
                     {{ end }}
-                    {{ partial "home-page/schedule/zoom.html" .  }}
                   </div>
                 </div>
               </div>
