@@ -11,7 +11,7 @@ session_slack:
 status       : 
 description  :
 organizers   :  
-        - Jacqui Taylor
+        - Dr Jacqui Taylor
 zoom_link    : https://zoom.us/j/99975990806
 ---
 
