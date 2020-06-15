@@ -1,5 +1,5 @@
 ---
-title        : "Cybersecurity: What history teaches us"
+title        : "Lightning Talk- Cybersecurity: What history teaches us"
 track        : "Lightning Talks"
 type         : working-session
 topics       :
