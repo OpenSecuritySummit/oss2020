@@ -14,6 +14,7 @@
         <th>organisers</th>
         <th>linkedIn</th>
         <th>twitter</th>
+        <th>PROMOTE</th>
     </thead>
     <tbody>
         {{ range $index, $element := sort $all_sessions ".Params.hosted_by"}}
@@ -28,9 +29,9 @@
                     {{ partial "admin/sessions/cell.html"      (dict "value" $time "error" "missing") }}
 
                     {{ partial "admin/sessions/cell-link.html"          (dict "title" .Params.track  "error" "missing" "this" . ) }}
-<!--                    {{ partial "admin/social/organizers-links.html"     ( dict "this" . "organizers" $organizers) }}-->
-<!--                    {{ partial "admin/social/organizers-linkedin.html"  ( dict "this" . "organizers" $organizers) }}-->
-<!--                    {{ partial "admin/social/organizers-twitter.html"   ( dict "this" . "organizers" $organizers) }}-->
+                    {{ partial "admin/social/organizers-links.html"     ( dict "this" . "organizers" $organizers) }}
+                    {{ partial "admin/social/organizers-linkedin.html"  ( dict "this" . "organizers" $organizers) }}
+                    {{ partial "admin/social/organizers-twitter.html"   ( dict "this" . "organizers" $organizers) }}
                     {{ partial "admin/social/twitter-message-link.html" ( dict "this" . "organizers" $organizers) }}
                 </tr>
             {{ end }}
