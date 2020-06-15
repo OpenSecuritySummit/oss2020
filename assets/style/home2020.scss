@@ -1,4 +1,4 @@
-$xxl-hero-container-height: 1042px;
+$xxl-hero-container-height: 435px;
 $schedule-organizer-icon-size: 122px;
 $booking-section-height: 332px;
 $summit-section-height: 350px;
@@ -813,7 +813,6 @@ $summit-section-height: 350px;
     background-image: url("#{$base-url}/img/home/hero-medium-bg.png");
 
     .container {
-      height: 660px;
       background: none;
     }
   }
@@ -946,7 +945,7 @@ $summit-section-height: 350px;
 @media screen and (max-width: $lg-breakpoint) {
   .hero-section {
     .container {
-      height: 539px;
+      height: 310px;
       .hero {
         &-title {
           max-width: 350px;
