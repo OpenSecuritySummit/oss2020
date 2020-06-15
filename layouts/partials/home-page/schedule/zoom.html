@@ -1,6 +1,11 @@
-{{if .Params.zoom_link}}
-
-    <a href="{{.Params.zoom_link}}" target="_blank">
-        watch using <img src="/img/logos/zoom-logo.png" height="12"/>
-    </a>
+{{ if .this.Params.zoom_link }}
+    {{ if .href }}
+        <a class="track-zoom" href="{{ .this.Params.zoom_link }}" target="_blank">
+            <span class="track-zoom-text">watch using</span><img src="/img/logos/zoom-logo.png" alt=""/>
+        </a>
+    {{ else}}
+        <div class="track-zoom" data-url="{{ .this.Params.zoom_link }}">
+            <span class="track-zoom-text">watch using</span><img src="/img/logos/zoom-logo.png" alt=""/>
+        </div>
+    {{ end}}
 {{ end}}

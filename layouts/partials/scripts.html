@@ -20,10 +20,23 @@
   // this hooks is being used for handling session entries like personal pages, or session description inside of <a> tag
   // see ie. /schedule
     function gotoLink(e) {
-        var target = e.target;
-        var url = target && target.getAttribute('data-url');
-        if (url) {
+        getUrlFromTarget(e, (url) => {
             window.location.href = url;
+        })
+    }
+
+    function gotoLinkBlank(e) {
+        getUrlFromTarget(e, (url) => {
+            window.open(url, '_blank')
+        })
+    }
+
+  function getUrlFromTarget(e, cb) {
+        var target = e.target;
+        var currentTarget = e.currentTarget;
+        var url = target && target.dataset.url || currentTarget && currentTarget.dataset.url;
+        if (url) {
+            cb.call(this, url);
         }
         e.preventDefault();
     }
@@ -81,9 +94,12 @@
         toggleInHomePage(e, false)
     }
 
+    $('.track-zoom').click(gotoLinkBlank);
     $('.img-circle').click(gotoLink);
     $('.schedule-session-organizer').click(gotoLink).mouseenter(mouseEnterInTableCell).mouseleave(mouseleave);
     $('.body-author-link').mouseenter(mouseEnterInHomePage).mouseleave(mouseLeaveInHomePage);
+
+
 
 </script>
 

@@ -533,6 +533,23 @@ $summit-section-height: 350px;
             color: $main-active-link-color;
           }
         }
+        &-info {
+          display: flex;
+          justify-content: space-between;
+        }
+
+        .track-zoom {
+          font-family: 'Oswald', helvetica neue, helvetica, sans-serif;
+          font-size: $zoom-link-font-height;
+          color: $theme-green-main-text-color;
+          img {
+            height: 12px;
+            margin-left: 10px;
+          }
+          &:hover {
+            filter: brightness(115%);
+          }
+        }
       }
 
     }
