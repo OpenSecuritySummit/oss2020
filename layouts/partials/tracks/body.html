@@ -4,7 +4,7 @@
             <div class="title">SUMMIT TRACKS</div>
 
             <div class="table">
-                {{ $styles := (slice "ciso" "cloud-security" "covid" "devsecops" "hacking" "isg" "lightning" "misc" "owasp-juice-shop" "owasp-projects" "security-standards" "social" "threat-modeling" "wardleymaps") }}
+                {{ $styles := (slice "ciso" "cloud-security" "content-disarm" "covid" "devsecops" "hacking" "isg" "lightning" "misc" "owasp-asvs" "owasp-juice-shop" "owasp-projects" "security-standards" "social" "threat-modeling" "wardleymaps") }}
                 {{ $tracks := where .Site.Pages ".Params.type" "track" }}
 
                 {{ range $index, $track := $tracks }}

@@ -95,11 +95,78 @@
     }
 
     $('.track-zoom').click(gotoLinkBlank);
+    // link to organizer page in table cell
     $('.img-circle').click(gotoLink);
+    // another link to organizer page in table cell + hide/show organizer's avatar on links hover
     $('.schedule-session-organizer').click(gotoLink).mouseenter(mouseEnterInTableCell).mouseleave(mouseleave);
+    // hide/show organizer's avatar on links hover on Home page
     $('.body-author-link').mouseenter(mouseEnterInHomePage).mouseleave(mouseLeaveInHomePage);
 
 
+    // Global variable keep all day's sessions
+    const dayScheduleMap = {};
+    let scheduleDay = undefined;
+    const LIVE_CHECK_INTERVAL_MS = 30000;
+    const reDoubleDigits = /(\d){2}/g;
+
+  /**
+   * Return
+   * @param sessionTime
+   * @returns {*[]|*}
+   */
+    function parseScheduleTime(sessionTime) {
+        const hoursMinutes = sessionTime.match(reDoubleDigits)
+        if (hoursMinutes.length === 4) {
+            return hoursMinutes
+        }
+
+        return [];
+    }
+
+    $(document).ready(function () {
+          //initialize swiper when document ready
+          var mySwiper = new Swiper ('.swiper-container', {
+              loop: true,
+              pagination: {
+                  el: '.swiper-pagination',
+                  clickable: true,
+              },
+              autoplay: {
+                  delay: 5000,
+
+              }
+          });
+
+          return;
+          // initialize
+          const entries = $.find('.schedule-entries .schedule-entry');
+          let inited = false;
+          entries.forEach((entry) => {
+              let dataset = entry.dataset;
+              if (dataset.link) {
+                  inited = true;
+                  dayScheduleMap[dataset.link] = parseScheduleTime(dataset.sessionTime)
+              }
+          })
+
+          if (inited) {
+              scheduleDay = getDate().getDay();
+              const timer = setInterval(() => {
+                  // check if
+                  if (scheduleDay + 1 < getDate().getDay()) {
+                      clearInterval( timer );
+                      return;
+                  }
+                  const currentlyLive = Object.keys(dayScheduleMap).filter( (key) => {
+                      const value = dayScheduleMap[key];
+                      if (true) {
+
+                      }
+
+                  })
+              }, LIVE_CHECK_INTERVAL_MS);
+          }
+      });
 
 </script>
 

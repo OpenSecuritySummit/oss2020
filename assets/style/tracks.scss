@@ -2,34 +2,54 @@
 ***** TRACKS STYLES *********
 *****************************/
 
-$ciso-fore-color: #00559e;                   // 207
+// 207
+$ciso-fore-color: #00559e;
 $ciso-back-color: #d9e5f0;
-$cloud-security-fore-color: #23c3f3;         // 193
+// 193
+$cloud-security-fore-color: #23c3f3;
 $cloud-security-back-color: #def6fd;
-$covid-fore-color: #86ba40;                  // 85
-$covid-back-color: #edf5e2;
-$devsecops-fore-color: #C2402F;              // 6
-$devsecops-back-color: #F2DDDA;
-$hacking-fore-color: #1EABC2;                // 188
-$hacking-back-color: #CEEDF2;
-$isg-fore-color: #C2A020;                   // 47
-$isg-back-color: #FFF4CC;
-$lightning-fore-color: #993D1F;             // 14
-$lightning-back-color: #FFECE6;
-$misc-fore-color: #76991F;                  // 77
-$misc-back-color: #F7FCE8;
-$owasp-juice-shop-fore-color: #7062B3;      // 250
-$owasp-juice-shop-back-color: #E1DCFC;
-$owasp-projects-fore-color: #DDE639;       // 63
-$owasp-projects-back-color: #F8FADC;
-$security-standards-fore-color: #E869E4;   // 301
-$security-standards-back-color: #F2D0F2;
-$social-fore-color: #28F2C7;               // 167
-$social-back-color: #E1FAF4;
-$threat-modeling-fore-color: #7DCD3A;      // 92
-$threat-modeling-back-color: #EDFAE1;
-$wardleymaps-fore-color: #549954;          // 120
-$wardleymaps-back-color: #E8FCE8;
+// 85
+$content-disarm-fore-color: #86ba40;
+$content-disarm-back-color: #edf5e2;
+// 6
+$covid-fore-color: #C2402F;
+$covid-back-color: #F2DDDA;
+// 188
+$devsecops-fore-color: #1EABC2;
+$devsecops-back-color: #CEEDF2;
+// 47
+$hacking-fore-color: #C2A020;
+$hacking-back-color: #FFF4CC;
+// 14
+$isg-fore-color: #993D1F;
+$isg-back-color: #FFECE6;
+// 77
+$lightning-fore-color: #76991F;
+$lightning-back-color: #F7FCE8;
+// 250
+$misc-fore-color: #7062B3;
+$misc-back-color: #E1DCFC;
+// 63
+$owasp-juice-shop-fore-color: #DDE639;
+$owasp-juice-shop-back-color: #F8FADC;
+// 301
+$owasp-projects-fore-color: #E869E4;
+$owasp-projects-back-color: #F2D0F2;
+// 167
+$owasp-asvs-fore-color: #28F2C7;
+$owasp-asvs-back-color: #E1FAF4;
+// 92
+$security-standards-fore-color: #7DCD3A;
+$security-standards-back-color: #EDFAE1;
+// 120
+$social-fore-color: #549954;
+$social-back-color: #E8FCE8;
+// 39
+$threat-modeling-fore-color: #FAA805;
+$threat-modeling-back-color: #F2F1DA;
+// 236
+$wardleymaps-fore-color: #0B0E89;
+$wardleymaps-back-color: #D4D7FA;
 
 
 .tracks-wrapper {
@@ -43,6 +63,19 @@ $wardleymaps-back-color: #E8FCE8;
     }
     .title {
       background-color: $ciso-back-color;
+    }
+  }
+
+  .content-disarm {
+    a, .fa, .overtitle {
+      color: $content-disarm-fore-color;
+    }
+    .button button {
+      background-color: $content-disarm-fore-color;
+      color: $content-disarm-back-color;
+    }
+    .title {
+      background-color: $content-disarm-back-color;
     }
   }
 
@@ -174,6 +207,21 @@ $wardleymaps-back-color: #E8FCE8;
     }
     .title {
       background-color: $owasp-projects-back-color;
+    }
+  }
+
+  .owasp-asvs {
+    color: $owasp-asvs-fore-color;
+    background-color: $owasp-asvs-back-color;
+    a, .fa, .overtitle {
+      color: $owasp-asvs-fore-color;
+    }
+    .button button {
+      background-color: $owasp-asvs-fore-color;
+      color: $owasp-asvs-back-color;
+    }
+    .title {
+      background-color: $owasp-asvs-back-color;
     }
   }
 
