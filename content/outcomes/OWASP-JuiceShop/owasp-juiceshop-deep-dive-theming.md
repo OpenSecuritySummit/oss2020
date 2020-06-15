@@ -1,7 +1,7 @@
 ---
 title        : OWASP Juice Shop Deep Dive - Theming                   # same as the corresponding user|working|product-session
 type         : outcome
-track        :
+track        : OWASP Juice Shop
 video        :                    #url i.e. youtube, vimeo, etc
 slides       :                    #url i.e. slideshare
 images       :
