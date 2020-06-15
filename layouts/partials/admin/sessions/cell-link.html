@@ -1,5 +1,15 @@
 {{ if  .value }}
-    <td><a target="_blank" href="{{ .value }}">{{.text}}</a></td>
+
+    <td>
+
+        <a target="_blank" href="{{ .value }}">
+            {{ if  .img }}
+                <img src="{{.img}}" height="25">
+            {{ else }}
+                {{.text}}
+            {{ end }}
+        </a>
+    </td>
 {{ else }}
     {{ if  .error }}
         <td>

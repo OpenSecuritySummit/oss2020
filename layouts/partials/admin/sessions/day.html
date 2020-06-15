@@ -21,14 +21,14 @@
         {{ range $index, $element := sort $all_sessions ".Params.hosted_by"}}
             {{ $organizers := partial "params/organizers.html" . }}
             {{ $time := index .Site.Data.schedule.times .Params.when_time }}
-            {{ if .Params.hey_summit}}
+            {{ if .Params.title}}
                 <tr>
                     <td>{{ add $index 1}}</td>
-                    <td><a target="_blank" href="{{ .Permalink }}">{{ .Params.title }}..</a></td>
+                    <td><a target="_blank" href="{{ .Permalink }}">{{ .Params.title }}</a></td>
                     {{ partial "admin/sessions/cell.html"      (dict "value" .Params.when_day  "error" "missing") }}
                     {{ partial "admin/sessions/cell.html"      (dict "value" $time "error" "missing") }}
                     <td> {{ partial "schedule/list/organizers-links.html" ( dict "this" . "organizers" $organizers) }}</td>
-                    {{ partial "admin/sessions/cell-link.html" (dict "value" .Params.hey_summit "text" "hey summit" "error" "needs hey summit") }}
+                    {{ partial "admin/sessions/cell-link.html" (dict "value" .Params.hey_summit "text" "hey summit" "error" "needs hey summit" "img" "/img/logos/heysummit-logo.png") }}
                     {{ partial "admin/sessions/cell.html"      (dict "value" .Params.hosted_by "error" "missing") }}
                     {{ partial "admin/sessions/cell-link.html" (dict "value" .Params.zoom_link "text" "zoom" "error" "missing") }}
                     {{ partial "admin/sessions/cell-link.html" (dict "value" .Params.slide_id  "text" "slide" "warning" "missing") }}

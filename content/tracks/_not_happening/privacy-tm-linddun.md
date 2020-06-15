@@ -4,11 +4,11 @@ type         : user-session
 track        : Threat Modeling
 category     :
 featured     :                 # if  "yes" review with summit team
-when_day     : Wed
-when_time    : WS-3
+when_day     :
+when_time    :
 room_layout  :
-room_id      : room-6
-session_slack: https://os-summit.slack.com/messages/CAURV0D09
+room_id      :
+session_slack:
 status       : draft
 description  : Introduction to LINDDUN for privacy threat modeling
 organizers   : Mario Platt

@@ -1,13 +1,12 @@
 ---
-title        : How can Business stakeholders contribute to Risk Management on Security
-track        : "CISO and Risk Management"
+title        : Post-mortem for the Security Incident Exercise we did - what are the outcomes
+track        : Misc
 type         : working-session      # working-session, user-session, product-session
 technology   :
 topics       :                    # for example ["GDPR"]
-featured     : yes                    # review with summit team "yes"
-when_day     : Thu
-when_time    : WS-1
-hey_summit   :
+featured     : yes                # review with summit team "yes"
+when_day     :
+when_time    :
 room_layout  :                    #
 room_id      :
 session_slack: 

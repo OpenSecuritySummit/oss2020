@@ -1,26 +1,26 @@
 ---
-title        : Power of wardley mapping when understanding risk
-track        : CISO and Risk Management
+title        : How to get Agile in Security
+track        : "DevSecOps"
 type         : working-session      # working-session, user-session, product-session
 technology   :
-topics       :                    # for example ["GDPR"]
-featured     : yes                # review with summit team "yes"
-when_day     : Thu
-when_time    : WS-1
+topics       : ["Agile"]     # for example ["GDPR"]
+featured     :
+when_day     :
+when_time    :
 hey_summit   :
 room_layout  :                    #
 room_id      :
 session_slack: 
 status       : draft              # draft, review-content, done
-description  :
-organizers   :
+description  : How to get Buy-in
+organizers   : Leila Rao
 participants :
 ---
 
 
 <!--(add intro)
 
-## WHY
+## What is expected of the business stakeholders
 
 (...)
 

@@ -1,26 +1,28 @@
 ---
-title        : How to get Agile in Security
-track        : "DevSecOps"
+title        : How to provision cloud platforms securely- AWS, CloudFormation, templates
+track        : "Cloud Security"
 type         : working-session      # working-session, user-session, product-session
 technology   :
-topics       : ["Agile"]     # for example ["GDPR"]
-featured     : yes                  # review with summit team "yes"
-when_day     : Tue
-when_time    : WS-4
+topics       :
+    - AWS
+    - CloudFormation
+featured     : yes                # review with summit team "yes"
+when_day     :
+when_time    :
 hey_summit   :
 room_layout  :                    #
 room_id      :
 session_slack: 
 status       : draft              # draft, review-content, done
-description  : How to get Buy-in
-organizers   : Leila Rao
+description  : "Cloudformation"
+organizers   :
 participants :
 ---
 
 
 <!--(add intro)
 
-## What is expected of the business stakeholders
+## Terraform
 
 (...)
 
