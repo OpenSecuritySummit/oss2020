@@ -1331,8 +1331,8 @@ $summit-section-height: 350px;
       }
     }
     &-overtitle {
-      font-size: 13px;
-      letter-spacing: 1px;
+      font-size: 16px;
+      letter-spacing: initial;
     }
     &-book {
       padding-left: 16px;
@@ -1345,11 +1345,9 @@ $summit-section-height: 350px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      .booking {
-        &-summit {
-          margin-left: auto;
-        }
-      }
+    }
+    &-summit {
+      width: 100%;
     }
 
   }
