@@ -22,12 +22,18 @@
       </div>
 
       <div class="schedule-entries">
-        {{ range $sessions}}
+        {{ range $session_id, $session := $sessions}}
           {{ if .Params.hey_summit }}
+            {{ .Scratch.Set "live" "" }}
+            {{ if le $session_id 3 }}
+              {{ .Scratch.Set "live" " live-stream" }}
+            {{ end }}
+            {{ $live_stream_class := .Scratch.Get "live" }}
             {{ $time := index .Site.Data.schedule.times .Params.when_time }}
             {{ $title := .Params.title }}
-            {{ $organizers := partial "params/organizers.html" . }}
-            <div class="schedule-entry">
+            {{ $organizers := partial "params/organizers.html" $session }}
+
+            <div class="schedule-entry{{ $live_stream_class }}" data-session-time="{{ $time }}" data-link="{{ .Permalink }}">
               <div class="thumb">
                 <div class="thumb-rotated">
                   <div class="thumb-name">{{ humanize .Params.type}}</div>
