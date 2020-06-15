@@ -1,5 +1,5 @@
 ---
-title        : OWASP Juice Shop Deep Dive - Integration
+title        : OWASP Juice Shop Cocktail Party - Ask us anything ( AUA )
 type         : outcome
 track        : OWASP Juice Shop
 video        :                    #url i.e. youtube, vimeo, etc
@@ -15,10 +15,4 @@ description  :
 ## References (recommend)
 
 - **Session page :**
-  https://open-security-summit.org/tracks/owasp-juiceshop/owasp-juice-shop-deep-dive-integration/
-
-### Additional/External References
-
-- _Integration_ appendix of the **Pwning OWASP Juice Shop** guide:
-  https://pwning.owasp-juice.shop/appendix/integration.html
-
+  https://open-security-summit-2020.heysummit.com/talks/owasp-juice-shop-cocktail-party-ask-us-anything/
