@@ -28,7 +28,7 @@
         {{ range $session_id, $session := $sessions}}
           {{ if .Params.hey_summit }}
             {{ .Scratch.Set "live" "" }}
-            {{ if le $session_id 3 }}
+            {{ if le $session_id -1 }}
               {{ .Scratch.Set "live" " live-stream" }}
             {{ end }}
             {{ $live_stream_class := .Scratch.Get "live" }}
