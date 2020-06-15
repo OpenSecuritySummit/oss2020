@@ -32,9 +32,9 @@
         var target = e.currentTarget;
         var url = target && target.getAttribute('data-url');
         var scope = target.parentNode.parentNode.parentNode;
-        var images = $.find('img', scope);
-        var doAction = doPop?'addClass':'removeClass';
-        if ( images.length ) {
+        var images = $.find('img', scope).filter((img) => img.alt);
+        if ( images.length > 1 ) {
+            var doAction = doPop?'addClass':'removeClass';
             for ( let i = 0; i < images.length; i++ ) {
                 var image = images[i];
                 var imageContainer = image.parentNode;
@@ -51,10 +51,10 @@
         var target = e.currentTarget;
         var url = target && target.href;
         var scope = target.parentNode.parentNode.parentNode;
-        var images = $.find('img', scope);
-        var doAction = doPop?'addClass':'removeClass';
+        var images = $.find('img', scope).filter((img) => img.alt);
 
         if ( images.length ) {
+            var doAction = doPop?'addClass':'removeClass';
             for ( let i = 0; i < images.length; i++ ) {
                 var image = images[i];
                 var imageContainer = image.parentNode;
