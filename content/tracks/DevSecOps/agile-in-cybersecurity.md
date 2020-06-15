@@ -14,6 +14,7 @@ session_slack:
 status       :               # draft, review-content, done
 description  : How to get Buy-in
 organizers   : Leila Rao
+hosted_by    : Didar Gelici
 participants :
 ---
 
