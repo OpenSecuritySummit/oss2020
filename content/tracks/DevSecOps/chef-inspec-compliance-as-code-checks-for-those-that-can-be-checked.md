@@ -13,7 +13,7 @@ room_id      :
 session_slack: 
 status       :               # draft, review-content, done
 description  :
-organizers   : Steven Wierckx
+organizers   :
 participants : Felipe Zipitria
 ---
 
