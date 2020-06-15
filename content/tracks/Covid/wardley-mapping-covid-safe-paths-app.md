@@ -19,7 +19,7 @@ organizers   :
     - Adam Leon Smith
 hosted_by    : Dinis Cruz
 zoom_link    : https://zoom.us/j/6503444982?pwd=d1BuWStHNGVlVk53MjJUNW5aZEFuUT09
-slide_id     : 2PACX-1vQxbUZHre9QQUzRo1N6kpqhsjEDkYpCnJi3RdzPnsu2matkRcwzX_NLD89DZRP2CkiaZGx3E0pcxMbZ
+#slide_id     : 2PACX-1vQxbUZHre9QQUzRo1N6kpqhsjEDkYpCnJi3RdzPnsu2matkRcwzX_NLD89DZRP2CkiaZGx3E0pcxMbZ
 slide_edit   : 1Yc2bo3oDrTWTtzE3dGuVkJz_HSUD9qXjt_7KVvvBRxI
 ---
 
