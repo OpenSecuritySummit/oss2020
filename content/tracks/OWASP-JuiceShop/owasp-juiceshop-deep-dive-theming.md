@@ -17,7 +17,6 @@ organizers   : Bjoern Kimminich
 hosted_by    : Alona Reyes
 zoom_link    : https://zoom.us/j/7282391769?pwd=ZWlpTXlZZkxTMmwyK3diamJIemw5UT09
 slide_id     : 1146nfYmUBxt0ixZny0Ndu69_CdCC4y5zUxTtC11p5HQ
-slide_edit   : 1146nfYmUBxt0ixZny0Ndu69_CdCC4y5zUxTtC11p5HQ
 participants :
 
 ---
