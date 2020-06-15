@@ -17,7 +17,7 @@ organizers   :
     - Steven Wierckx
     - Koen Yskout
     - Kim Wuyts
-
+hosted_by    : Didar Gelici
 
 ---
 
