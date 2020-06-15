@@ -15,7 +15,6 @@ status       :               # draft, review-content, done
 description  :
 organizers   :
     - Mario Platt
-    - Steven Wierckx
 participants :
 ---
 

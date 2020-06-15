@@ -7,13 +7,13 @@ topics       :                    # for example ["GDPR"]
 featured     : yes                # review with summit team "yes"
 when_day     : Fri
 when_time    : WS-2
-hey_summit   : https://open-security-summit-2020.heysummit.com/talks/chef-inspec-compliance-as-code-checks-for-those-that-can-be-checked-2pm-bst/
+#hey_summit   : https://open-security-summit-2020.heysummit.com/talks/chef-inspec-compliance-as-code-checks-for-those-that-can-be-checked-2pm-bst/
 room_layout  :                    #
 room_id      :
 session_slack: 
 status       :               # draft, review-content, done
 description  :
-organizers   : Steven Wierckx
+organizers   :
 participants : Felipe Zipitria
 ---
 
