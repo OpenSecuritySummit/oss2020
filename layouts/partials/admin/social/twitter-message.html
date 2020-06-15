@@ -1,7 +1,7 @@
 {{ $this       := .this              -}}
 {{ $title      := $this.Params.title -}}
 {{ $track      := $this.Params.track -}}
-{{ $time       := index $this.Site.Data.schedule.times $this.Params.when_time }}
+{{ $time       := index $this.Site.Data.schedule.times $this.Params.when_time -}}
 {{ $organizers := .organizers        -}}
 Today at {{ $time }} BST the @opensecsummit session proudly hosts the
 "{{ $title }}" session delivered by {{ partial "admin/social/twitter-handles.html" ( dict "this" $this "organizers" $organizers) }}
