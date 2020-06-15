@@ -20,7 +20,9 @@ organizers   :
     - Timo Pagel
 hosted_by    : Alona Reyes
 zoom_link    : https://zoom.us/j/7282391769?pwd=ZWlpTXlZZkxTMmwyK3diamJIemw5UT09
-slide_id     :
+
+slide_id     : 2PACX-1vTf_-CJm5eSp2HWNHm-O9QS2AnuM7afw5vIYnkFNkWqza7uprtLCCT3NLHLAuj2vKR6CSqOpnUMAben
+slide_edit   : 156WVzQ2kALGwMM9rkHrDJUHMQYjYdUqKzA_IwfchJMM
 ---
 
 ![](https://raw.githubusercontent.com/OWASP/owasp-swag/master/projects/juice-shop/logos/custom/JuicyBot_MedicalMask.png)
