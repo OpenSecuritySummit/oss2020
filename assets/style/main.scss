@@ -2262,3 +2262,24 @@ p.home-outcome {
     opacity: 0.01;
   }
 }
+
+
+.live-stream {
+  position: relative;
+  &:after {
+    display: block;
+    content: " ";
+    position: absolute;
+    height: 21px;
+    width: 80px;
+    //border: 1px solid chocolate;
+    right: 100px;
+    top: 30px;
+    //background-color: #{$main-active-link-color};
+    background-image: url("#{$base-url}/img/blocks/live-stream-1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    //background-position-y: center ;
+    z-index: 1;
+  }
+}
