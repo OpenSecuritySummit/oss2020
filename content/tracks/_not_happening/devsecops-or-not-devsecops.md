@@ -1,19 +1,18 @@
 ---
-title        : Security Standards of today 
-track        : "CISO and Risk Management"
+title        : DevSecOps or not DevSecOps 
+track        : Misc
 type         : working-session      # working-session, user-session, product-session
 technology   :
 topics       :                    # for example ["GDPR"]
-featured     : yes                # review with summit team "yes"
-when_day     : Thu
-when_time    : WS-2
-hey_summit   :
+featured     :                    # review with summit team "yes"
+when_day     :
+when_time    :
 room_layout  :                    #
 room_id      :
 session_slack: 
 status       : draft              # draft, review-content, done
 description  :
-organizers   :
+organizers   :  Mario Platt
 participants :
 ---
 

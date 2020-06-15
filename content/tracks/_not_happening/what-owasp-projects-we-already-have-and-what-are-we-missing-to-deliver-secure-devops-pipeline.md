@@ -5,8 +5,8 @@ type         : working-session      # working-session, user-session, product-ses
 technology   :
 topics       : OWASP,Playbooks
 featured     : yes                # review with summit team "yes"
-when_day     : Fri
-when_time    : WS-3
+when_day     :
+when_time    :
 room_layout  :                    #
 room_id      :
 session_slack: 

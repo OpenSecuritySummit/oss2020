@@ -1,13 +1,12 @@
 ---
-title        : How do I do it - CodeQL Security
-Track        : "DevSecOps"
+title        : Threat modeling Zoom and Remote Working Practices
+track        : Threat-modeling
 type         : working-session      # working-session, user-session, product-session
 technology   :
 topics       :                    # for example ["GDPR"]
 featured     : yes                # review with summit team "yes"
-when_day     : Tue
-when_time    : WS-3
-hey_summit   :
+when_day     :
+when_time    :
 room_layout  :                    #
 room_id      :
 session_slack: 

@@ -1,12 +1,13 @@
 ---
-title        : Cloud based threat models
-track        : "Threat Modeling"
+title        : Security Standards of today 
+track        : "CISO and Risk Management"
 type         : working-session      # working-session, user-session, product-session
 technology   :
 topics       :                    # for example ["GDPR"]
 featured     : yes                # review with summit team "yes"
-when_day     : Thu
-when_time    : WS-2
+when_day     :
+when_time    :
+hey_summit   :
 room_layout  :                    #
 room_id      :
 session_slack: 

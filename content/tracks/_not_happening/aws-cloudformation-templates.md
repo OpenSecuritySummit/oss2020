@@ -1,25 +1,28 @@
 ---
-title        : DevSecOps or not DevSecOps 
-track        : Misc
+title        : How to provision cloud platforms securely- AWS, CloudFormation, templates
+track        : "Cloud Security"
 type         : working-session      # working-session, user-session, product-session
 technology   :
-topics       :                    # for example ["GDPR"]
-featured     :                    # review with summit team "yes"
-when_day     : Mon
-when_time    : WS-1
+topics       :
+    - AWS
+    - CloudFormation
+featured     : yes                # review with summit team "yes"
+when_day     :
+when_time    :
+hey_summit   :
 room_layout  :                    #
 room_id      :
 session_slack: 
 status       : draft              # draft, review-content, done
-description  :
-organizers   :  Mario Platt
+description  : "Cloudformation"
+organizers   :
 participants :
 ---
 
 
 <!--(add intro)
 
-## WHY
+## Terraform
 
 (...)
 
