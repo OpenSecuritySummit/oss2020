@@ -14,7 +14,6 @@ description  :
 ---
 
 
-
 ### Training Session Video
 
-{{< youtube id="rKvEkEUqYc" autoplay="false" >}} 
+{{< youtube id="-rKvEkEUqYc" autoplay="false" >}} 
