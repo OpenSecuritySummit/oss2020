@@ -13,7 +13,7 @@ description  :
 organizers   :  
         - Dr Jacqui Taylor
 zoom_link    : https://zoom.us/j/99975990806
-zoom_host    : Didar Gelici
+hosted_by    : Didar Gelici
 ---
 
 ## About this talk
