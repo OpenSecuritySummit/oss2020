@@ -140,4 +140,18 @@
         </iframe>
     </div>
     {{ end }}
+    {{ if .Params.slide_id }}
+        <div class="session-content">
+            <h3>Session Slides</h3>
+            <iframe src="https://docs.google.com/presentation/d/e/{{.Params.slide_id}}/embed?start=false&loop=false&delayms=3000"
+                    frameborder="0"
+                    width="960"
+                    height="569"
+                    allowfullscreen="true"
+                    mozallowfullscreen="true"
+                    webkitallowfullscreen="true">
+            </iframe>
+        </div>
+    {{ end}}
+
 </section>
