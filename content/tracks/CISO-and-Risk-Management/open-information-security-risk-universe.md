@@ -16,6 +16,7 @@ description  : "Introduction to risk universes, how they aid the identification 
 organizers   : 
  - Phil Huggins
  - Robin Oldham
+ - Petra Vukmirovic
 participants :
 ---
 
