@@ -16,8 +16,9 @@
 {{ $days_next_summit   := $this.Site.Data.schedule.days.days_next_summit }}
 {{ $days_past          := $this.Site.Data.schedule.days.days_past }}
 
-{{ $title := "Training sessions"}}
-{{ partial "schedule/list/days.html" (dict "this" $this "days" $days_next_training "title" $title) }}
+
+<!--{{ $title := "Training sessions"}}-->
+<!--{{ partial "schedule/list/days.html" (dict "this" $this "days" $days_next_training "title" $title) }}-->
 
 {{ $title := "Summit sessions"}}
 {{ partial "schedule/list/days.html" (dict "this" $this "days" $days_next_summit   "title" $title) }}
