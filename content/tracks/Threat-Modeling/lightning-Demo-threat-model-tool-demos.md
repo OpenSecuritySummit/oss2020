@@ -16,7 +16,8 @@ organizers   :
     - Steven Wierckx
     - Mike Goodwin
 participants :
-
+hosted_by    : Wallaby Curtis
+zoom_link    : https://zoom.us/j/91597557649
 ---
 
 ## Why
