@@ -11,5 +11,7 @@ session_slack:
 status       : 
 description  :
 organizers   :  
-        - Naina Bhattacharya        
+        - Naina Bhattacharya
+hosted_by    : Wallaby Curtis
+zoom_link    : https://zoom.us/j/96819398503        
 ---
