@@ -17,4 +17,6 @@ zoom_link    : https://zoom.us/j/99975990806
 
 ## About this talk
 
-A lightning tour of the G20 Digital Economy plan that utilises Smart Cities as a CNI delivery model. We will cover what Smart Cities are, why they matter and what changes this brings to the security landscape. Plus a nod to what I'm up to next!
+A lightning tour of the G20 Digital Economy plan that utilises Smart Cities as a CNI delivery model.
+We will cover what Smart Cities are, why they matter and what changes this brings to the security landscape.
+Plus a nod to what I'm up to next!

@@ -2,7 +2,7 @@
 title: Dr Jacqui Taylor
 image: https://pbs.twimg.com/profile_images/1064537421864493056/9KUCemJ8_400x400.jpg
 company: FlyingBinary
-job_title: Founder, CEO FlyingBinary
+job_title: Founder & CEO
 facebook: jacquitaylor1MF
 linkedin: dr-jacqui-taylor
 twitter: jacquitaylorfb
