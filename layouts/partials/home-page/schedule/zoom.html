@@ -2,7 +2,7 @@
     {{ if .href }}
         <div class="track-zoom">
             <span class="track-zoom-text">watch using</span>
-            <a href="{{ .this.Params.zoom_link }}" target="_blank"><img src="/img/logos/zoom-logo.png" alt=""/></a>
+            <a class="track-zoom-link" href="{{ .this.Params.zoom_link }}" target="_blank"><img src="/img/logos/zoom-logo.png" alt=""/></a>
         </div>
     {{ else}}
         <div class="track-zoom" data-url="{{ .this.Params.zoom_link }}">
