@@ -537,8 +537,10 @@ $summit-section-height: 350px;
             height: 12px;
             margin-left: 10px;
           }
-          &:hover {
-            filter: brightness(115%);
+          &-link {
+            &:hover {
+              filter: brightness(130%);
+            }
           }
         }
       }
