@@ -1,5 +1,5 @@
 ---
-title        :  Making the business case for DevSecOps
+title        :  Making the business case for DevSecOps (8PM)
 track        : "DevSecOps"
 type         : working-session      # working-session, user-session, product-session
 technology   :
@@ -17,7 +17,7 @@ organizers   :
     - David Prince
     - Leila Rao
 participants :
-
+hosted_by    : Didar Gelici
 ---
 
 <!--(add intro)
