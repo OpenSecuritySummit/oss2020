@@ -23,4 +23,4 @@ zoom_host    : Alona Reyes
 
 ### Session Contents
 
-{{< pdf src="https://github.com/OpenSecuritySummit/oss2020/blob/master/content/outcomes/presentation/_2_Jun_Wardley_Maps_by_Goher_Mohammad.pptx" >}}
+{{< pdf src="https://github.com/OpenSecuritySummit/oss2020/raw/master/content/outcomes/presentation/_2_Jun_Wardley_Maps_by_Goher_Mohammad.pdf" >}}

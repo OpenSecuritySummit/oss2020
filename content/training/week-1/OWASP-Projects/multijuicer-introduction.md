@@ -67,3 +67,7 @@ Audience:
 ## Training Session Video
 
 {{< youtube id="6NMjZbfnTOU" autoplay="false" >}} 
+
+### Session Contents
+
+{{< pdf src="https://github.com/OpenSecuritySummit/oss2020/raw/master/content/outcomes/presentation/2%20Jun_MultiJuicer%20Intro%20by%20Jannik%20Hollenbach%20and%20Robert%20Seedorff.pdf" >}}

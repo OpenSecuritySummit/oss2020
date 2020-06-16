@@ -32,3 +32,10 @@ At the end of the training, the learning objectives are: Practicing Cloud Securi
 ### Training Session Video
 
 {{< youtube id="HIRbBm0klBQ" autoplay="false" >}} 
+
+### Session Contents
+
+{{< pdf src="https://github.com/OpenSecuritySummit/oss2020/raw/master/content/outcomes/presentation/2_Jun_CloudSecurity101_by_Kriti_Mohun.pdf" >}}
+
+
+{{< pdf src="https://github.com/OpenSecuritySummit/oss2020/raw/master/content/outcomes/presentation/2_Jun_CloudSecurity101_Dome9%20Training%20Lab%20Guide_kr_version%201.0.pdf" >}}

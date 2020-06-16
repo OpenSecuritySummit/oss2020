@@ -16,3 +16,7 @@ description  : TBD
 ### Training Session Video
 
 {{< youtube id="dQdQS4TaQ7U" autoplay="false" >}} 
+
+### Session Contents
+
+{{< pdf src="https://github.com/OpenSecuritySummit/oss2020/raw/master/content/outcomes/presentation/5%20Jun%20-%20Wardley%20Maps%20FIRST%20AID%20by%20Petra%20Vukmirovic.pdf" >}}

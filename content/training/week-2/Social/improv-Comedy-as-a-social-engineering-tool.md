@@ -25,3 +25,6 @@ The rules of improv comedy can apply to many social interactions, including bluf
 
 Dave Mattingly was a NASA rocket scientist while also a comedy and punk radio DJ. He led a sci-fi and RPG publishing company, while writing anti-terrorism software for DHS. He's an itinerant preacher, entrepreneur, award-winning speaker, and occasional improv comic. In short, he doesn't know what he wants to do when he grows up.
 
+### Session Contents
+
+{{< pdf src="https://github.com/OpenSecuritySummit/oss2020/raw/master/content/outcomes/presentation/8%20Jun%20-%20Improv%20Comedy%20as%20Social%20Engineering%20tool%20by%20Dave%20Mattingly.pdf" >}}
