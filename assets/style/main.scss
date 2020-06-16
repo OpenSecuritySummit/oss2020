@@ -2259,7 +2259,7 @@ p.home-outcome {
     z-index: 10;
   }
   &-dimmed {
-    opacity: 0.01;
+    opacity: 0.2;
   }
 }
 
@@ -2281,5 +2281,20 @@ p.home-outcome {
     background-size: 100%;
     //background-position-y: center ;
     z-index: 1;
+  }
+}
+
+.track-zoom {
+  font-family: 'Oswald', helvetica neue, helvetica, sans-serif;
+  font-size: $zoom-link-font-height;
+  color: $theme-green-main-text-color;
+  img {
+    height: 12px;
+    margin-left: 10px;
+  }
+  &-link {
+    &:hover {
+      filter: brightness(130%);
+    }
   }
 }

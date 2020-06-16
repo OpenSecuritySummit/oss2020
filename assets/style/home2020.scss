@@ -529,20 +529,6 @@ $summit-section-height: 350px;
           justify-content: space-between;
         }
 
-        .track-zoom {
-          font-family: 'Oswald', helvetica neue, helvetica, sans-serif;
-          font-size: $zoom-link-font-height;
-          color: $theme-green-main-text-color;
-          img {
-            height: 12px;
-            margin-left: 10px;
-          }
-          &-link {
-            &:hover {
-              filter: brightness(130%);
-            }
-          }
-        }
       }
 
     }
@@ -828,7 +814,7 @@ $summit-section-height: 350px;
 
   .hero {
     &-block {
-      margin-top: 30px;
+      margin-top: $main-menu-height;
     }
 
     &-button {
@@ -1121,7 +1107,7 @@ $summit-section-height: 350px;
 
   .hero {
     &-block {
-      margin-top: 0;
+      //margin-top: 0;
     }
 
 
