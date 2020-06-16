@@ -21,6 +21,22 @@ In this session you will learn the basics of Wardley Mapping and have an opportu
 
 Armed with a set of resources for continued learning and set of tools and aids for map making (including tools for facilitating a virtual mapping session!), you will leave the session ready to go forth and map! Come find out why our industry is buzzing about Wardley Maps!
 
+### Notable logs from the chat during the session
+
+Notes from the Cat Swetel session - it was an inspiring session:    \
+How do I determine if something is genesis or custom built or product or commodity?     \
+https://twitter.com/swardley/status/988334146954170368  \
+For more Social practice theory lens on Wardley Mapping (also adopting in different languages and for visually impaired): https://maturitymapping.com     \
+Collection of resources:     \
+learnwardleymapping.com      \
+onlinewardleymaps.com   - not for beginners       \
+miro.com/templates/wardley-map   - step by step     \
+Simon's book on Medium:     \
+https://medium.com/wardleymaps    \
+Don't aim a perfect map, even two versions of your own map about something can vary from day to day.    \
+Simon Wardley @swardley     \
+X: How do I determine if something is genesis or custom built or product or commodity?   \
+Me: Mapping applies to activities, practices, data and pretty much any form of capital. The stages of evolution are I to IV are defined by changing publication types. The cheat sheet helps. https://pbs.twimg.com/media/DbdEogvX4AAUxDZ.jpg
 
 ### Training Session Videos
 

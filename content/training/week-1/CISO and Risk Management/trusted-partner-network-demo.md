@@ -22,3 +22,7 @@ organizers   :  Ben Schofield
 ### Session Contents
 
 {{< pdf src="https://github.com/OpenSecuritySummit/oss2020/raw/master/content/outcomes/presentation/4%20Jun%20-%20Trusted%20Partner%20Network%20demo%20by%20Ben%20Schofield.pdf" >}}
+
+### Resources
+
+https://github.com/Path-Check/privacy-security/blob/master/principles/1_SecurityImplementation.md

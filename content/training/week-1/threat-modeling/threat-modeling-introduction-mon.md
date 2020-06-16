@@ -16,6 +16,11 @@ description  : "Threat modelling workshop applying various methodologies: STRIDE
 
 ---
 
+### Notable logs from the chat during the session
+• Spoofing • Tampering • Repudiation • Information disclosure • Denial of service • Elevation of privilege. \
+Didar Gelici : Adam Shostack - Threat Modeling
+James Bore :https://agilestationery.co.uk/products/elevation-of-privilege-game 
+
 ### Training Session Video
 
 {{< youtube id="PZnnCM-mVZ0" autoplay="false" >}} 

@@ -12,6 +12,28 @@ status       :            # draft, review-content, done
 description  : TBD
 organizers   : Barak Schoster
 ---
+
+
+### Notable logs from the chat during the session 
+
+14:35:52	 From evanjones : Q.) What about Pulumi in regards to being used a IaC?   \
+14:47:25	 From Barak Schoster : https://github.com/bridgecrewio/terragoat    \
+14:50:33	 From Corcoran Smith : Checkov is The Answer   \
+14:51:04	 From Barak Schoster : https://github.com/bridgecrewio/checkov  \
+14:51:10	 From Barak Schoster : brew tap bridgecrewio/checkov https://github.com/bridgecrewio/checkov  
+brew update   \
+brew install checkov  \
+14:51:13	 From Corcoran Smith : Checkov even works on Windows :wink:  \
+14:59:52	 From Corcoran Smith : Secrets in TF state are a massive headache, for sure. Sops, Hashi Vault both help here.
+15:07:10	 From Didar Gelici : can you show how to exit vim?  \
+15:07:12	 From Didar Gelici : lol   \
+15:07:38	 From evanjones : Or :wq if you want to save   \
+15:11:33	 From Didar Gelici : https://www.checkov.io/   \
+15:11:34	 From Didar Gelici : https://www.checkov.io/documentation   \
+15:12:06	 From Corcoran Smith : Custom rules and store them in a GitHub repo? :wink:  \
+15:36:21	 From evanjones : Twitter handle?   \
+15:36:31	 From Barak Schoster : @BarakSchoster 
+
 ### Training Session Video
 
 {{< youtube id="X1VsceDfntc&t=1s" autoplay="false" >}} 

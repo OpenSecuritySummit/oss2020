@@ -13,6 +13,14 @@ description  :
 organizers   : Bjoern Kimminich
 ---
 
+### Notable logs from the chat during the session 
+
+17:21:39	 From Jannik : Fun Fact: The Hacking Instructor was merged during last year's Open Security Summit :slightly_smiling_face:
+17:36:48	 From Rusty : He's using this framework   \
+17:36:49	 From Rusty : https://github.com/bkimminich/juice-shop-ctf/releases/tag/v8.1.0   \
+17:51:16	 From N/A : Bjorn (sorry no umlaut on my keyboard :) ) is there any official walkthrough with all vulnerabilities and how to exploit them?  \
+I'm asking this because sometimes, due to lack of time all I want is to spin a juice shop container and test/train a particular vulnerability.
+
 ### Training Session Video
 
 {{< youtube id="wCF08BdXdDg" autoplay="false" >}} 

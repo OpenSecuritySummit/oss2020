@@ -15,6 +15,20 @@ organizers   :
          - Mike Minchinton
 ---
 
+
+### Notable logs from the chat during the session
+
+https://twitter.com/matthewsgould             \
+https://github.com/nhsx/COVID-19-app-Android-BETA     \
+https://github.com/nhsx/COVID-19-app-iOS-BETA     \
+https://github.com/nhsx/COVID-19-app-Documentation-BETA   \
+https://hackerone.com/nhscovid19app    \
+hackerone can give a little feel of what has been found already...  \
+Also, we can get an idea of what is being looked for and what isn't.   \
+https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/MobSF/Mobile-Security-Framework-MobSF/master/scripts/stack/docker-compose.yml   \
+sudo docker run -it --name mobsf2 -p 8000:8000  opensecurity/mobile-security-framework-mobsf:latest  \
+adb shell am start -n uk.nhs.nhsx.colocate/uk.nhs.nhsx.sonar.android.app.debug.TesterActivity   
+
 ### This is section two of a three part exercise:
 - **PART 1** - [covid apps analysis](https://pre-summit-training-sessions.heysummit.com/talks/covid-apps-analysis) 1st June 5pm UK
 We will talk about the privacy and security concerns of three implementations of tracking apps.

@@ -35,3 +35,6 @@ ISGs can be found in this publication repo: https://nsacyber.github.io/publicati
 
 [What Security Exploits Are Prevented By Implementing ISGs](https://docs.google.com/presentation/d/1XB0gPCmZVu2nYwcV86ktXM94nPdvPzrj_HDlFRZoOAw/edit#slide=id.g80ca0e9a9c_4_0)
 
+### Session Materials
+
+{{< gslides id="1XB0gPCmZVu2nYwcV86ktXM94nPdvPzrj_HDlFRZoOAw" >}}

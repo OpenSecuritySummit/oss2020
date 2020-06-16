@@ -16,16 +16,16 @@ zoom_host    : Didar Gelici
 
 ### Notable logs from the chat during the session
 
-14:28:00	 From Joshua Jebaraj : https://www.inspec.io/docs/reference/install/
-14:34:29	 From Joshua Jebaraj : https://chef-workshop-oss.netlify.app/
-14:58:12	 From Mario : A Plan B, if someone wants it
-14:58:19	 From Mario : download the docker image
-14:58:23	 From Mario : Docker pull chef/inspec
-14:58:47	 From Mario : and then run commends as ‘docker run chef/inspec detect —chef-license=accept
-14:58:54	 From Mario : commands*
-14:59:41	 From Mario : You always need to append the —chef-license=accept to every command, otherwise it complains
-15:25:25	 From Phil Huggins : This has been very useful, you got me to install Inspec at home and run it! But I need to go now. Good luck with the session.
-15:47:53	 From Rostom Zouaghi : are there any open projects that cover CSA CCM, PCI DSS, CIS controls out there?
+14:28:00	 From Joshua Jebaraj : https://www.inspec.io/docs/reference/install/        \
+14:34:29	 From Joshua Jebaraj : https://chef-workshop-oss.netlify.app/                \
+14:58:12	 From Mario : A Plan B, if someone wants it                                  \
+14:58:19	 From Mario : download the docker image                                      \
+14:58:23	 From Mario : Docker pull chef/inspec                                        \
+14:58:47	 From Mario : and then run commends as ‘docker run chef/inspec detect —chef-license=accept   \
+14:58:54	 From Mario : commands                                                                      
+14:59:41	 From Mario : You always need to append the —chef-license=accept to every command, otherwise it complains   \
+15:25:25	 From Phil Huggins : This has been very useful, you got me to install Inspec at home and run it! But I need to go now. Good luck with the session.   \
+15:47:53	 From Rostom Zouaghi : are there any open projects that cover CSA CCM, PCI DSS, CIS controls out there?   
 
 ### Training Session Video
 
