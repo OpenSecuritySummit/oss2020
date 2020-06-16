@@ -1,10 +1,10 @@
 today :
-  date: "16th"
-  day: "Tuesday"
-  key: "Tue"
-tomorrow :
   date: "17th"
   day: "Wednesday"
   key: "Wed"
+tomorrow :
+  date: "18th"
+  day: "Thursday"
+  key: "Thu"
 
 
