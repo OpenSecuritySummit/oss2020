@@ -39,3 +39,6 @@ See [https://www.inspec.io/](Inspec) website for more details on this tool
  - [Chef Inspec Compliance as Code checks for those that can be checked](/tracks/devsecops/chef-inspec-compliance-as-code-checks-for-those-that-can-be-checked/)
 
 
+### Session Contents
+
+{{< pdf src="https://github.com/OpenSecuritySummit/oss2020/raw/master/content/outcomes/presentation/2_Jun_ChefInspec-Workshop_by_Joshua_Jebaraj.pdf" >}}

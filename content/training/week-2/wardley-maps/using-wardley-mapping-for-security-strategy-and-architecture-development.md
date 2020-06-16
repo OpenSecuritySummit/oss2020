@@ -18,3 +18,7 @@ organizers   : Mario Platt
 ### Training Session Video
 
 {{< youtube id="kDs23thv8VE" autoplay="false" >}} 
+
+### Session Contents
+
+{{< pdf src="https://github.com/OpenSecuritySummit/oss2020/raw/master/content/outcomes/presentation/10%20Jun%20-%20Wardley%20Mapping%20for%20Strategy%20and%20Architecture%20by%20Mario%20Platt.pdf" >}}

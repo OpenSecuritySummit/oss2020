@@ -26,3 +26,7 @@ In this talk:
 - From there we will continue to discuss best practices for writing, testing, and maintaining infrastructure at scale, keeping the infrastructure code secured using open source scanners. 
 
 - We will cover infrastructure security use cases like encryption, public facing data entities and plain text secrets, And will show how to find those using policy as code.
+
+### Session Contents
+
+{{< pdf src="https://github.com/OpenSecuritySummit/oss2020/raw/master/content/outcomes/presentation/11%20Jun%20-%20Infrastructure%20encryption%20by%20Barak%20Schoster.pdf" >}}

@@ -71,3 +71,6 @@ Audience:
 * Security Consultants
 * Juice Shop Fanboy
 
+### Session Contents
+
+{{< pdf src="https://github.com/OpenSecuritySummit/oss2020/raw/master/content/outcomes/presentation/15%20Jun%20-%20MultiJuicer%20DeepDive.pdf" >}}

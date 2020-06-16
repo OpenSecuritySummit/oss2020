@@ -40,3 +40,7 @@ Information to be revealed throughout the exercise and groups work on their resp
 ### Session Materials
 
 {{< gslides id="2PACX-1vRL9XzLU759wNWvpdYz9WGFxHapDuNNjIVp2A1E2NqumVVDB8rdc5HwsDJAcSrMU9OYR9QzQP36mwze" >}}
+
+### Session Contents
+
+{{< pdf src="https://github.com/OpenSecuritySummit/oss2020/raw/master/content/outcomes/presentation/1%20Jun%20-%20Threat%20Modeling%20-%20Training%20Session%20by%20James%20Bore.pdf" >}}

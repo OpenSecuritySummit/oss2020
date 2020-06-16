@@ -25,3 +25,7 @@ Armed with a set of resources for continued learning and set of tools and aids f
 ### Training Session Videos
 
 {{< youtube id="7TivdJABjJ0" autoplay="false" >}} 
+
+### Session Contents
+
+{{< pdf src="https://github.com/OpenSecuritySummit/oss2020/raw/master/content/outcomes/presentation/3%20Jun%20-%20Wardley%20Maps%20by%20Cat%20Swetel.pdf" >}}

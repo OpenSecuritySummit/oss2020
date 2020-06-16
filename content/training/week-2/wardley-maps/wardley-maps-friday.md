@@ -17,3 +17,7 @@ description  :
 ### Training Session Video
 
 {{< youtube id="-rKvEkEUqYc" autoplay="false" >}} 
+
+### Session Contents
+
+{{< pdf src="https://github.com/OpenSecuritySummit/oss2020/raw/master/content/outcomes/presentation/12%20Jun%20-%20Wardley%20Mapping%20Intermediate%20by%20Tony%20Richards.pdf" >}}
