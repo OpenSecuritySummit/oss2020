@@ -18,6 +18,13 @@ organizers   :
         - Greg Mann
 ---
 
+### Notable logs from the chat during the session
+
+00:58:58	WallabyCurtis:	Yara: https://github.com/VirusTotal/yara   \
+yextend: https://github.com/BayshoreNetworks/yextend     \
+"A curated list of awesome YARA rules, tools, and resources.": https://github.com/InQuest/awesome-yara   
+01:06:56	WallabyCurtis:	[yaraeditorweb](https://www.adlice.com/download/yaraeditorweb)      
+01:36:58	Vinh Tram:	[Exploit_presentation](https://docs.google.com/presentation/d/1XB0gPCmZVu2nYwcV86ktXM94nPdvPzrj_HDlFRZoOAw/edit#slide=id.g80ca0e9a9c_4_0) 
 ### Training Session Video
 
 {{< youtube id="PGZCHxwZ82c" autoplay="false" >}} 
@@ -30,3 +37,8 @@ Inspection and Sanitisation Guidance standards allow us to analyze elements and 
 In this session, we'll look at how to measure and visualise ISG standards
 https://nsacyber.github.io/publications.html  
 
+### Resources
+https://github.com/VirusTotal/yara  \
+https://github.com/BayshoreNetworks/yextend  \
+https://github.com/InQuest/awesome-yara  \
+https://www.adlice.com/download/yaraeditorweb   \

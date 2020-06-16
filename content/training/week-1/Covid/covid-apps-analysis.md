@@ -17,12 +17,13 @@ organizers   :
 zoom_host   : Didar Gelici       
 ---
 
+
+
 ### Training Session Video
 
 {{< youtube id="fwo-TryGQ6c" autoplay="false" >}} 
 
 ### Session Contents
-
 
 {{< gslides id="2PACX-1vR0wGU0e4Gn-XQwKbwUttdPhtCwB252klnbGZKxi9kIRZIRaR58vw8w0BWa0h1E5HC0_zZatFfkR3iA/embed?slide=id.p" >}}
 
@@ -37,3 +38,12 @@ This is the first section of a three part exercise:
 - **PART 2** - [Covid Apps](https://pre-summit-training-sessions.heysummit.com/talks/covid-apps/) 3rd June 5pm UK We will look at the vulnerabilities of one of the COVID tracing apps
 
 - **PART 3** - [Covid Apps -  Threat Modeling](https://open-security-summit-2020.heysummit.com/talks/covid-apps-threat-modeling-user-session) 18th June 8pm UK We will do a threat modeling exercise on contact tracing apps
+
+
+### Resources
+
+https://www.lexology.com/library/detail.aspx?g=99dca469-455d-4f7a-b025-00bf1d10ff6b
+https://www.grc.com/sqrl/sqrl.htm   \
+https://developer.android.com/about/versions/marshmallow/android-6.0-changes.html#behavior-hardware-id \
+https://www.grc.com/sqrl/sqrl.htm  \
+https://developer.android.com/about/versions/marshmallow/android-6.0-changes#behavior-hardware-id

@@ -19,6 +19,14 @@ organizers   :
 description  : 
 ---
 
+
+### Notable logs from the chat during the session
+
+Our central infra asset that governs approved HA's  \
+The publishing of points of concern               \
+The upload of data to the HA                    \
+The mobile app that holds raw data 
+
 ### Training Session Video
 
 {{< youtube id="IKHZXQfDHrA" autoplay="false" >}} 
@@ -70,3 +78,7 @@ Document from https://github.com/OpenSecuritySummit/covid-safe-paths-security/tr
 #### v2 Upload Flow
 
 {{<pdf src="https://github.com/OpenSecuritySummit/covid-safe-paths-security/raw/master/docs/v2%20Upload%20Flow%20-%20Safe%20Places%20-%20Confluence.pdf" >}}
+
+#### Private GP trail intersection
+
+{{<pdf src="https://github.com/PrivateKit/PrivacyDocuments/raw/master/GpsEncryption.pdf" >}}

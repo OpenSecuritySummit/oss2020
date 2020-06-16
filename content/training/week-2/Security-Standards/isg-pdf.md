@@ -19,6 +19,17 @@ organizers   :
         
 ---
 
+
+### Notable logs from the chat during the session 
+
+00:32:02	WallabyCurtis:	Yara: https://github.com/VirusTotal/yara   \
+yextend: https://github.com/BayshoreNetworks/yextend   \
+"A curated list of awesome YARA rules, tools, and resources.": https://github.com/InQuest/awesome-yara
+https://yara.readthedocs.io/en/stable/writingrules.html#regular-expressions   \
+https://www.cs.yale.edu/flint/cs422/doc/art-of-asm/pdf/CH16.PDF   \
+00:43:17	Vinh Tram:	http://giflib.sourceforge.net/whatsinagif/bits_and_bytes.html  \
+00:51:35	WallabyCurtis:	https://yara.readthedocs.io/en/stable/writingrules.html#regular-expressions
+
 ### Training Session Video
 
 {{< youtube id="ixsyaPAcNw" autoplay="false" >}} 

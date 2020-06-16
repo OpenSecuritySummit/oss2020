@@ -14,6 +14,14 @@ organizers   : Mark Miller
 zoom_host    : Didar Gelici   
 ---
 
+
+### Notable logs from the chat during the session
+
+Mark Miller (@EUSP) (aka Senior Storyteller) walks us through the adversary cards created so far.   \
+To create your character: go to https://docs.google.com/forms/d/e/1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHFdQc5z8ApwdQ/viewform
+and to visually build the character:  
+charactercreator.org
+
 ### About this talk
 
 Join us for a fun social "outing" where we'll introduce the people who created the personas
