@@ -22,9 +22,18 @@ organizers   :
     - Ben Schofield
 participants :
 hosted_by    : Dinis Cruz
-zoom_link    : https://zoom.us/j/94062615583
-
+zoom_link    : https://zoom.us/j/6503444982?pwd=d1BuWStHNGVlVk53MjJUNW5aZEFuUT09
 ---
+
+## Bring your own map and lets discuss it!
+1. Tony Richards - OSS 2020 Merchandise Map - the evolution of on-demand production of merchandise
+2. Mario Platt - China's cybersecurity - discussion on politics in China, Mario's Mapping project. China's politics and view on the approach - group/individual
+3. Petra's Map - personal goals, Universities as commodities.
+4. Ben Schofield - Discussion on his Map creation templete. Example on TV industry as users. Simon suggested not to ignore the public and it's needs. Refining the scope and describing the steps.
+Simon: sometimes the problem is that companies cannot differentiate innovaton
+Ben Schofield: Securty standards are not to be taken as religion but to be customised for the organisation that you are in
+
+
 
 ## About this talk: 
 
