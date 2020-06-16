@@ -13,6 +13,6 @@ status       :            # draft, review-content, done
 description  : TBD
 organizers   :
         - Elvin White
-zoom_host    : Alona Reyes
+hosted_by    : Alona Reyes
 
 ---
