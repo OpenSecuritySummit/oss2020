@@ -60,6 +60,10 @@ $schedule-divider-top-padding-md: 15px;
 $schedule-timing-padding: 2px 10px;
 
 .schedule {
+  &-page {
+    margin-top: $main-menu-height;
+    padding-top: 50px;
+  }
   &-day {
     color: $main-background-color;
     font-size: 36px;
@@ -192,18 +196,6 @@ $schedule-timing-padding: 2px 10px;
           font-family: "Roboto", Helvetica, Arial, sans-serif;
           font-size: 20px;
           font-weight: 500;
-        }
-        &-zoom {
-          font-family: 'Oswald', helvetica neue, helvetica, sans-serif;
-          font-size: $zoom-link-font-height;
-          color: $theme-green-main-text-color;
-          img {
-            height: 12px;
-            margin-left: 10px;
-          }
-          &:hover {
-            filter: brightness(115%);
-          }
         }
       }
     }
