@@ -1,12 +1,21 @@
-{{ if .this.Params.zoom_link }}
+{{ if or .this.Params.zoom_link .this.Params.youtube_link }}
     {{ if .href }}
-        <div class="track-zoom">
-            <span class="track-zoom-text">watch using</span>
-            <a class="track-zoom-link" href="{{ .this.Params.zoom_link }}" target="_blank"><img src="/img/logos/zoom-logo.png" alt=""/></a>
+        <div class="track-watch">
+            <span class="track-watch-text">watch using</span>
+            {{ if .this.Params.zoom_link }}
+                <a class="track-watch-zoom" href="{{ .this.Params.zoom_link }}" target="_blank"><img src="/img/logos/zoom-logo.png" alt=""/></a>
+            {{ end }} {{ if .this.Params.youtube_link }}
+                <a class="track-watch-youtube" href="{{ .this.Params.youtube_link }}" target="_blank"><img src="/img/logos/youtube-icon-red.png" alt=""/></a>
+            {{ end }}
         </div>
     {{ else}}
-        <div class="track-zoom" data-url="{{ .this.Params.zoom_link }}">
-            <span class="track-zoom-text">watch using</span><img class="track-zoom-link" src="/img/logos/zoom-logo.png" alt=""/>
+        <div class="track-watch" data-url="{{ .this.Params.zoom_link }}">
+            <span class="track-watch-text">watch using</span>
+            {{ if .this.Params.zoom_link }}
+                <div class="track-watch-zoom" data-url="{{ .this.Params.zoom_link }}"><img src="/img/logos/zoom-logo.png" alt=""/></div>
+            {{ end }} {{ if .this.Params.youtube_link }}
+                <div class="track-watch-youtube" data-url="{{ .this.Params.youtube_link }}"><img src="/img/logos/youtube-icon-red.png" alt=""/></div>
+            {{ end }}
         </div>
     {{ end}}
 {{ end}}

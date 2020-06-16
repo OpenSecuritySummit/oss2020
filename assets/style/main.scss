@@ -2284,17 +2284,29 @@ p.home-outcome {
   }
 }
 
-.track-zoom {
-  font-family: 'Oswald', helvetica neue, helvetica, sans-serif;
-  font-size: $zoom-link-font-height;
-  color: $theme-green-main-text-color;
-  img {
-    height: 12px;
-    margin-left: 10px;
-  }
-  &-link {
-    &:hover {
-      filter: brightness(130%);
+.track {
+  &-watch {
+    display: flex;
+    font-family: 'Oswald', helvetica neue, helvetica, sans-serif;
+    font-size: $zoom-link-font-height;
+    color: $theme-green-main-text-color;
+    img {
+      margin-left: 10px;
+    }
+    &-zoom, &-youtube {
+      img:hover {
+        filter: drop-shadow(0px 0px 6px) sepia(27%) brightness(135%) contrast(103%);
+      }
+    }
+    &-zoom {
+      img {
+        height: 12px;
+      }
+    }
+    &-youtube {
+      img {
+        height: 22px;
+      }
     }
   }
 }
