@@ -35,9 +35,10 @@
             {{ $time := index .Site.Data.schedule.times .Params.when_time }}
             {{ $title := .Params.title }}
             {{ $organizers := partial "params/organizers.html" $session }}
+            {{ $thumb_class := lower (replace .Params.type " " "-") }}
 
             <div class="schedule-entry{{ $live_stream_class }}" data-session-time="{{ $time }}" data-link="{{ .Permalink }}">
-              <div class="thumb">
+              <div class="thumb {{ $thumb_class }}">
                 <div class="thumb-rotated">
                   <div class="thumb-name">{{ humanize .Params.type}}</div>
                 </div>
