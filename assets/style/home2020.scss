@@ -445,6 +445,8 @@ $summit-section-height: 350px;
         width: 98px;
         min-height: 150px;
         background-color: $alt2-active-color;
+        margin-top: 5px;
+        margin-bottom: 5px;
 
         &-name {
           font-size: 18px;
@@ -459,6 +461,16 @@ $summit-section-height: 350px;
           margin: 0;
           text-align: center;
           transform: rotate(-90deg);
+        }
+
+        &.keynote {
+          background-color: $main-active-link-color;
+        }
+        &.working-session {
+
+        }
+        &.user-session {
+          background-color: $main-text-color-alt;
         }
       }
       .body {
