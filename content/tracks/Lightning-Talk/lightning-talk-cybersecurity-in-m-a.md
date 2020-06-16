@@ -12,6 +12,8 @@ status       :
 description  :
 organizers   :  
       - Paul Harragan 
+hosted_by    : Wallaby urtis
+zoom_link    :https://zoom.us/j/92329915635
 ---
 
 ## About This session
