@@ -6,7 +6,7 @@ technology   :
 topics       : ["Documentation", "stackPolicy"]   # for example ["GDPR"]
 featured     :  "yes"             # review with summit team "yes"
 when_day     :  Thu
-when_time    :  WS-2
+when_time    :  WS-2-2
 hey_summit   : https://open-security-summit-2020.heysummit.com/talks/multi-cloud-governance-2pm-bst/
 room_layout  :                    #
 room_id      :
