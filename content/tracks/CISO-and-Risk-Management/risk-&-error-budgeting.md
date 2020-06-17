@@ -16,7 +16,6 @@ description  : "Metrics, Measurements, risk & error budgeting"
 organizers   :
     - Dinis Cruz
     - Omer Levi Hevroni
-    - Tony Richards
     - Phil Huggins
 participants :
 ---
