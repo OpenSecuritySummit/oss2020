@@ -1,6 +1,6 @@
 ---
 title        : NCSC - Exercise in a box
-track        : Misc
+track        : "CISO and Risk Management"
 type         : working-session      # working-session, user-session, product-session
 technology   :
 topics       :
