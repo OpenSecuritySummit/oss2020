@@ -16,7 +16,11 @@ description  : How to get Buy-in
 organizers   : Leila Rao
 hosted_by    : Didar Gelici
 zoom_link    : https://zoom.us/j/8135159752?pwd=enFReldYZkhpcUVrVnZyZGRoaXI1Zz09
+youtube_link : d_aSWm3KbMk
 participants :
+slide_id     : 
+slide_edit   : 1vaRrWcBCiD7ACZdrvwPOnw3K9W1T2yib9VUQf6-0ghg
+
 ---
 
 ## About this talk:

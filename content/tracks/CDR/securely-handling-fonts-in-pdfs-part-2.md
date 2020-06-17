@@ -16,5 +16,7 @@ organizers   :
         - Elvin White
 hosted_by    : Alona Reyes
 zoom_link    : https://zoom.us/j/7282391769?pwd=ZWlpTXlZZkxTMmwyK3diamJIemw5UT09
+slide_id     : 2PACX-1vSbzZbHWxG-Eaw34cSVgxaVmnxq2w1lnRkVLDzLFcNN8ZB-Fhql7SFAmswm8uBlQ7WApeAKtiBY5Mnp
+slide_edit   : 1Cwc4IuFWnHxwUbaln32XP9YH8_Pyix_yKIfqZA3GrqE
 
 ---

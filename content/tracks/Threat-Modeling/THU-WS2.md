@@ -6,7 +6,7 @@ category     :
 featured     :                 # if  "yes" review with summit team
 when_day     : Thu
 when_time    : WS-2
-hey_summit   : 
+hey_summit   : https://open-security-summit-2020.heysummit.com/talks/threatmodel-tool-demos-thursday-pm-2pm-bst/
 room_layout  :
 room_id      : 
 session_slack: 
@@ -18,6 +18,7 @@ organizers   :
     - Stuart Winter-Tear
     - Alex Bauert
     - Nikunj Nagalia
+    
 ---
 
 ## Why
