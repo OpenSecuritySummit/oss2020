@@ -14,7 +14,6 @@ session_slack:
 status       :               # draft, review-content, done
 description  : DataDog for example
 organizers   :
-    - Tony Richards
     - Omer Levi Hevroni
 participants :
 ---
