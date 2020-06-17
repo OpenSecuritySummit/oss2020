@@ -16,7 +16,7 @@ status       :               # draft, review-content, done
 description  : "Metrics, Measurements, risk & error budgeting"
 
 organizers   :
-    - Phil Huggins
+#    - Phil Huggins
 hosted_by    : Tatevik Stepanyan
 zoom_link    : https://zoom.us/j/3037008530?pwd=NStFeUVZNW5xWDZiQTdLb20yb3NuZz09
 participants :
