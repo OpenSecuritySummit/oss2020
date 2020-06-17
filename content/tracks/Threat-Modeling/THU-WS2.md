@@ -18,7 +18,6 @@ organizers   :
     - Stuart Winter-Tear
     - Alex Bauert
     - Nikunj Nagalia
-    
 ---
 
 ## Why
