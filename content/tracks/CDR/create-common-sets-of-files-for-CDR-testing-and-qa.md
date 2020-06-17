@@ -13,5 +13,7 @@ status       : done           # draft, review-content, done
 description  : TBD
 organizers   :
         - Paul Burke
+        - Matt Green
+
 zoom_host    : TBD
 ---
