@@ -26,6 +26,10 @@ slide_edit   : 1zHvPFyZTu74Y0S2KG-jgWm9YZbgi7df5DFQ6Y0FjOYk
 
 ---
 
+and
+
+{{< pdf src="https://github.com/OpenSecuritySummit/oss2020/raw/master/content/outcomes/presentation/16%20June%20-%20Cell%20Structure%20for%20Organisations%20v2.5.pdf" >}}
+
 
 ### During this Session we'll explore combing the principles of:
 - Wardley Maps ; Pioneers, Settlers and Town Planners
