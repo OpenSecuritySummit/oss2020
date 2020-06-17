@@ -14,6 +14,7 @@ description  : TBD
 organizers   :
         - Paul Burke
         - Matt Green
+        - Greg Mann
 
 zoom_host    : TBD
 ---
