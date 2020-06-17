@@ -5,9 +5,9 @@ type         : working-session      # working-session, user-session, product-ses
 technology   :
 topics       :                    # for example ["GDPR"]
 featured     : yes                # review with summit team "yes"
-when_day     : Wed
-when_time    : WS-3
-hey_summit   : https://open-security-summit-2020.heysummit.com/talks/cyber-risk-modeling-5pm-bst/
+when_day     :
+when_time    :
+hey_summit   :
 room_layout  :                    #
 room_id      :
 session_slack: 

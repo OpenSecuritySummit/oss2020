@@ -5,7 +5,7 @@ track        : "CISO and Risk Management"
 technology   :
 topics       :                    # for example ["GDPR"]
 featured     : yes                   # review with summit team "yes"
-when_day     : Thu
+when_day     : Fri
 when_time    : KN-1
 hey_summit   : https://open-security-summit-2020.heysummit.com/talks/key-note/
 room_layout  :                    #
