@@ -5,7 +5,7 @@ company: Baringa Partners
 job_title: Director at Baringa Partners
 facebook: 
 linkedin: riskobscurity
-twitter: 
+twitter: RiskObscurity
 website:
 notes:
 status: 
