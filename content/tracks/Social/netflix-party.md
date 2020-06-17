@@ -17,7 +17,7 @@ organizers   :
     - Open Security Summit
 participants :  all
 hosted_by    : Open Secuity Summit
-zoom_link    : https://zoom.us/j/96621305199
+zoom_link    : https://zoom.us/webinar/register/WN_vpSt0joTQh-s6SbCiNR02Q
 
 ---
 
