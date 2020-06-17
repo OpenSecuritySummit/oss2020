@@ -23,8 +23,11 @@ zoom_host    : TBD
 
 Testing CDR solutions requires a lot of files, both good and bad, to validate the behaviour of the software. Techniques such as web site scraping can be used to collect “in the wild” examples but will not provide the breadth of data required.
 In this session we will look at:
-1)     Discussion: What data do we need?
-2)     Demonstration: What We currently do at Glasswall and how we use it?
-3)     Discussion: What ways can we automate the collection and/or creation of data?
+
+  -  Discussion: What data do we need?
+  
+  -  Demonstration: What We currently do at Glasswall and how we use it?
+  
+  -  Discussion: What ways can we automate the collection and/or creation of data?
 
 
