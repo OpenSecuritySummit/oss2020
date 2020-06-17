@@ -37,3 +37,8 @@ Juice Shop Introduction" training on either
 or
 [11.6.](https://pre-summit-training-sessions.heysummit.com/talks/owasp-juice-shop-introduction/)
 at 17:00!_
+
+
+### Session Contents
+
+{{< pdf src="https://github.com/OpenSecuritySummit/oss2020/raw/master/content/outcomes/presentation/15%20Jun%20-%20MultiJuicer%20DeepDive.pdf" >}}
