@@ -10,9 +10,11 @@ hey_summit   : https://open-security-summit-2020.heysummit.com/talks/keynote-pri
 session_slack:
 status       : 
 description  :
+hosted_by    : Didar Gelici
+zoom_link    : https://zoom.us/webinar/91424652677
 organizers   :
     - Adam Leon Smith
-    
 ---
+
 
 

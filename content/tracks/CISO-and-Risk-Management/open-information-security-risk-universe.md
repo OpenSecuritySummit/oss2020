@@ -17,8 +17,11 @@ organizers   :
  - Phil Huggins
  - Robin Oldham
  - Petra Vukmirovic
-participants :
+hosted_by    : Tatevik Stepanyan
+zoom_link    : https://zoom.us/j/3037008530?pwd=NStFeUVZNW5xWDZiQTdLb20yb3NuZz09
+
 ---
+
 
 <!--(add intro)
 

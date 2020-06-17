@@ -10,10 +10,10 @@ hey_summit   : https://open-security-summit-2020.heysummit.com/talks/security-la
 session_slack:
 status       : 
 description  :
+hosted_by    : Dinis Cruz
+zoom_link    : https://zoom.us/j/6503444982?pwd=d1BuWStHNGVlVk53MjJUNW5aZEFuUT09
 organizers   :
     - Adam Leon Smith
     - Dinis Cruz
     
 ---
-
-

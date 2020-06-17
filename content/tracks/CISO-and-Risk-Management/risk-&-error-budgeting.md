@@ -14,12 +14,11 @@ session_slack:
 status       :              # draft, review-content, done
 description  : "Metrics, Measurements, risk & error budgeting"
 organizers   :
-    - Dinis Cruz
     - Omer Levi Hevroni
     - Phil Huggins
-participants :
+hosted_by    : Tatevik Stepanyan
+zoom_link    : https://zoom.us/j/3037008530?pwd=NStFeUVZNW5xWDZiQTdLb20yb3NuZz09
 ---
-
 
 (below are draft sessions note, please add missing content and improve on them)
 

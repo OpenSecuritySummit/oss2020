@@ -11,7 +11,9 @@ session_slack:
 status       : 
 description  :
 organizers   :  
-        - Haydn Brooks      
+        - Haydn Brooks
+hosted_by    : Didar Gelici
+zoom_link    : https://zoom.us/webinar/98591070762
 ---
 
 ## About this talk:

@@ -11,7 +11,9 @@ room_layout  :
 room_id      : 
 session_slack: 
 status       : 
-description  : 
+description  :
+hosted_by    : Alona Reyes
+zoom_link    : https://zoom.us/j/7282391769?pwd=ZWlpTXlZZkxTMmwyK3diamJIemw5UT09
 organizers   :
     - Steven Wierckx
     - Stephen De Vries
