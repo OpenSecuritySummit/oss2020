@@ -58,3 +58,8 @@ day-12:
   day : "Tuesday"
   key : "Tue"
   order: 12
+day-13:
+  date: "17th"
+  day : "Wednesday"
+  key : "Wed"
+  order: 13
