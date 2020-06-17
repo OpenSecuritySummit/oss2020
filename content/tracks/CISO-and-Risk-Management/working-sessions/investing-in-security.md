@@ -18,3 +18,15 @@ organizers   :
 hosted_by    : Open Security Summit
 zoom_link    : https://zoom.us/j/97072700227
 ---
+
+### Session Contents
+
+{{<img src="https://github.com/OpenSecuritySummit/oss2020/raw/master/content/outcomes/presentation/map.png">}}
+
+
+{{< pdf src="https://github.com/OpenSecuritySummit/oss2020/raw/master/content/outcomes/presentation/16%20June%20-%20Cell%20Structure%20for%20Organisations%20v2.5.pdf" >}}
+
+
+
+
+

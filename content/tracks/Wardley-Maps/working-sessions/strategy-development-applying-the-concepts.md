@@ -32,3 +32,8 @@ In this talk we'll discuss  4 Problems for Cyber Security for the next Decade us
 - The Skills and Structure problem
 
 We will then break out into groups, to continue discussion on these and/or other problems and use Climatic Patterns and Doctrine to discuss and propose solutions for them.
+
+
+### Session Contents
+
+{{< pdf src="https://github.com/OpenSecuritySummit/oss2020/raw/master/content/outcomes/presentation/15%20Jun%20-%20Strategy%20Development%20with%20Wardley%20Mapping%20-%20Applying%20Concepts%20by%20Mario.pdf" >}}
