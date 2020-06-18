@@ -10,5 +10,7 @@ hey_summit   : https://open-security-summit-2020.heysummit.com/talks/lightning-t
 status       : 
 description  :
 organizers   :  
-        - Imran A. Mohammed       
+        - Imran A. Mohammed  
+hosted_by    : Wallaby
+zoom_link    : https://zoom.us/j/97030856957
 ---
