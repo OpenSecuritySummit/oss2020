@@ -1,7 +1,7 @@
 ---
 title        : Keynote - Security from the CEO Point of view and Modern Team structures
 track        : "CISO and Risk Management"
-type         : working-session      # working-session, user-session, product-session
+type         : keynote      # working-session, user-session, product-session
 technology   :
 topics       :                    # for example ["GDPR"]
 featured     : yes                # review with summit team "yes"
