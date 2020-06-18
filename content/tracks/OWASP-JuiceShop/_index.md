@@ -15,4 +15,8 @@ youtube_link : kP7jBM1t0Xc
 OWASP Juice Shop is probably the most sophisticated vulnerable web
 application!
 
+## Track Debrief Video
+
+{{< youtube id="kP7jBM1t0Xc" autoplay="false" >}}
+
 
