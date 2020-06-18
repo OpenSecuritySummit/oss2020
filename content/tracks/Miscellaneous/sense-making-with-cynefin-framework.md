@@ -17,6 +17,8 @@ organizers   :
     - Mario Platt
     - Phil Huggins
 participants :
+hosted_by    : Alona Reyes
+zoom_link    : https://zoom.us/j/7282391769?pwd=ZWlpTXlZZkxTMmwyK3diamJIemw5UT09
 ---
 
 
