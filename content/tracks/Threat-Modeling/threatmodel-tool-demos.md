@@ -17,7 +17,12 @@ zoom_link    : https://zoom.us/j/7282391769?pwd=ZWlpTXlZZkxTMmwyK3diamJIemw5UT09
 organizers   :
     - Steven Wierckx
     - Stephen De Vries
+hosted_by    : Alona Reyes
+slide_id     : 2PACX-1vSbCd4DHHajO1eOxG9Z6dHdWI4WTpN9l-kPQg7hgqqTYIZMuXkId4neqUpu1YaPez-hcJOjO-vKvd6N/
+slide_edit   : 1cuEOYfR_wxT42BvdTjWwg4lBocOWNIlR_RFe7ByVBYA/
 participants :
+youtube_link : 
+
 
 ---
 
