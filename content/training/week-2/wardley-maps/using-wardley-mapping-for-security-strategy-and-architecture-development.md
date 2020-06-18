@@ -11,13 +11,9 @@ session_slack:
 status       :           # draft, review-content, done
 description  : TBD
 organizers   : Mario Platt
-
+youtube_link : kDs23thv8VE
 ---
 
-
-### Training Session Video
-
-{{< youtube id="kDs23thv8VE" autoplay="false" >}} 
 
 ### Session Contents
 

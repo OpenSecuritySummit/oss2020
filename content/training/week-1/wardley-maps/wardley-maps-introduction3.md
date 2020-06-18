@@ -12,6 +12,7 @@ session_slack:
 status       : done          # draft, review-content, done
 organizers   : Cat Swetel
 description  : Join Cat for an introduction to Wardley Maps, a tool for thinking about the evolution of technology systems.
+youtube_link : 7TivdJABjJ0
 ---
 
 
@@ -37,10 +38,6 @@ Don't aim a perfect map, even two versions of your own map about something can v
 Simon Wardley @swardley     \
 X: How do I determine if something is genesis or custom built or product or commodity?   \
 Me: Mapping applies to activities, practices, data and pretty much any form of capital. The stages of evolution are I to IV are defined by changing publication types. The cheat sheet helps. https://pbs.twimg.com/media/DbdEogvX4AAUxDZ.jpg
-
-### Training Session Videos
-
-{{< youtube id="7TivdJABjJ0" autoplay="false" >}} 
 
 ### Session Contents
 

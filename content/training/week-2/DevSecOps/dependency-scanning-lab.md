@@ -11,6 +11,7 @@ session_slack:
 status       :            # draft, review-content, done
 description  : TBD
 organizers   : Mohammed A. Imran
+youtube_link : j184Av-LJvI
 ---
 
 
@@ -40,9 +41,6 @@ You are running those tools against a staging/dev server? Before deploying?  \
 12:53:15	 From N/A : Imran, where should we install the tools (retirees, niko, etc) in the machine that runs the runner?  \
 12:58:11	 From Manav : we should ask for root account.. never problem with permission ;)  
 
-### Training Session Video
-
-{{< youtube id="j184Av-LJvI" autoplay="false" >}} 
 
 ### About this talk
 

@@ -11,12 +11,9 @@ session_slack:
 status       :            # draft, review-content, done
 description  : TBD
 organizers   :  Ben Schofield
+youtube_link : jvK1TMUExZw
 
 ---
-
-### Training Session Video
-
-{{< youtube id="jvK1TMUExZw" autoplay="false" >}} 
 
 
 ### Session Contents

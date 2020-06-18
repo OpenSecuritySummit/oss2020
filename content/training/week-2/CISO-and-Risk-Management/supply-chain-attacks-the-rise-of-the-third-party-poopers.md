@@ -13,10 +13,8 @@ description  : TBD
 organizers   : 
        - Demi Ben-Ari 
        - Elad Shapira
+youtube_link : 5JRKSrlZ2ow          
 ---
-### Training Session Video
-
-{{< youtube id="5JRKSrlZ2ow" autoplay="false" >}} 
 
 ### About this talk:
 

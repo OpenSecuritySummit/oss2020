@@ -11,6 +11,7 @@ session_slack:
 status       :          # draft, review-content, done
 description  : TBD
 organizers   : Sasha Rosenbaum
+youtube_link : zgNFQY820Os
 ---
 
 ### Notable logs from the chat during the session 

@@ -17,6 +17,7 @@ organizers   :
     - Jay Harris
     - Adam Leon Smith
 description  : 
+youtube_link : IKHZXQfDHrA  
 ---
 
 
@@ -26,11 +27,6 @@ Our central infra asset that governs approved HA's  \
 The publishing of points of concern               \
 The upload of data to the HA                    \
 The mobile app that holds raw data 
-
-### Training Session Video
-
-{{< youtube id="IKHZXQfDHrA" autoplay="false" >}} 
-
 
 ### Covid Safe Paths
 

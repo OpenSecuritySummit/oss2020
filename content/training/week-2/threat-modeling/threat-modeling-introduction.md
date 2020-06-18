@@ -13,12 +13,8 @@ organizers   :
     - Dinis Cruz	
     - Petra Vukmirovic
 description  : 
+youtube_link : 4IcIIfsqAvM  	
 ---
-
-### Training Session Video
-
-{{< youtube id="4IcIIfsqAvM" autoplay="false" >}} 
-
 
 ### Session Contents
 
