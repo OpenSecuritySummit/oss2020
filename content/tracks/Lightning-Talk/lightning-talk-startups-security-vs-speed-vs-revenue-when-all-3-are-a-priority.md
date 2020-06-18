@@ -12,7 +12,7 @@ status       :
 description  :
 organizers   :  
         - Haydn Brooks
-hosted_by    : Didar Gelici
+hosted_by    : Wallaby Curtis
 zoom_link    : https://zoom.us/webinar/98591070762
 ---
 
