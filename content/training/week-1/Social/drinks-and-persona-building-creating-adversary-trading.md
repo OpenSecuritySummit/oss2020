@@ -13,6 +13,7 @@ description  : Join us for a fun social "outing" where we'll introduce the peopl
 you_tube     : 3roVZNwptOU
 organizers   : Mark Miller
 zoom_host    : Didar Gelici   
+youtube_link : 3roVZNwptOU 
 ---
 
 

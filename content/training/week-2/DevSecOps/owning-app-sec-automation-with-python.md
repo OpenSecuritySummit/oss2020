@@ -12,6 +12,7 @@ status       :            # draft, review-content, done
 description  : TBD
 you_tube     : 4SQtj82w5xI
 organizers   : Abhay Bhargav
+youtube_link : 4SQtj82w5xI
 ---
 
 

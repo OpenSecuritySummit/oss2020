@@ -12,6 +12,7 @@ status       : done           # draft, review-content, done
 description  :
 you_tube     : wCF08BdXdDg
 organizers   : Bjoern Kimminich
+youtube_link : wCF08BdXdDg
 ---
 
 ### Notable logs from the chat during the session 

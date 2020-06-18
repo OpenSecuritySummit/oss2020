@@ -23,23 +23,70 @@ youtube_link : https://www.youtube.com/watch?v=uVHEqNO68j0
 ---
 
 
-<!--(add intro)
+## OISRU
 
-## Graphing the GRC flow
+Robin:
+- What's the Universe?
+- Putting it into Practice
+- Use Cases
 
-(...)
+OISRU:
+Risk Framework for Risk Taxonomy and structured approach for risk identification.
 
-## How to keep it open license - CC 
+Sources + Events + Consequences
 
-(...)
+Sources: accidental insider, ineffective insider, criminal external...
+Events: abusive content, availability interruption, information gathering...
+Consequences: non-compliance, safety failure, slow recovery....
 
+# Use Cases
+
+- risk statements
+- risk scenarios
+- graphing
+
+Risk scenarios: 
+- narrative form
+- stakeholder communication
+- business-context
+
+Risk statements:
+- structure
+- comparison
+- practitioner comms
+
+Examples presented. 
+
+Scenarios in breakout rooms:
+Maersk/NotPetya
+Equifax
+TalkTalk
+German Steel Mill Cyber Attack
+
+Bow tie diagrams
+
+Incorporating OISRU in Risk Graphs
+ Risk vs Opportunity
+ Q&A - Where do the vulnerabilities come in
+     - Risk aggregation
+     - Risk titles
+     - Look out for same instances of the same risk
+     - Risk Registers
+     
+     
 ## Outcomes
 
-(...)
-
-## References
-
-(...)
+OISRU as a framework for risk identification
 
 
-## Previous-->
+ Objectives today: 
+ - Introduce participants to OISRU
+ - Incidents
+ - Use cases
+ 
+ 
+
+
+
+
+

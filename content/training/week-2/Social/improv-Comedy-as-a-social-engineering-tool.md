@@ -12,6 +12,7 @@ status       :            # draft, review-content, done
 description  : TBD
 you_tube     : ZneD_KQDWuk
 organizers   : Dave Mattingly
+youtube_link : ZneD_KQDWuk      
 ---
 
 ### About this talk:

@@ -25,6 +25,8 @@ zoom_link    : https://zoom.us/j/3037008530?pwd=NStFeUVZNW5xWDZiQTdLb20yb3NuZz09
 ---
 
 
+We had great session on NCSC , very impressive security exercising tool. Unfortunately no recording. but everyone can sign in and play with the tool: https://exerciseinabox.service.ncsc.gov.uk/app/
+
 
 ## About this talk
 

@@ -12,6 +12,7 @@ status       :          # draft, review-content, done
 description  : TBD
 you_tube     : zgNFQY820Os
 organizers   : Sasha Rosenbaum
+youtube_link : zgNFQY820Os
 ---
 
 ### Notable logs from the chat during the session 

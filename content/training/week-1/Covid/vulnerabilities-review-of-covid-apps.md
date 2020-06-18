@@ -14,6 +14,7 @@ description  : We will look at the vulnerabilities of one of the COVID tracing a
 you_tube     : mg1rnioktxk
 organizers   :
          - Mike Minchinton
+youtube_link : mg1rnioktxk           
 ---
 
 

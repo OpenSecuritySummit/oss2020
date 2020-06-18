@@ -19,7 +19,7 @@ organizers   :
     - Kim Wuyts
 hosted_by    : Didar Gelici
 zoom_link    : https://zoom.us/j/8135159752?pwd=enFReldYZkhpcUVrVnZyZGRoaXI1Zz09
-youtube_link : http://www.youtube.com/watch?v=8WZiwEVCoSQ
+youtube_link : 8WZiwEVCoSQ
 slide_id     : 2PACX-1vQaJ3sAFZW9q27rX94AltsAZe4KA1RymCG2Z9knsT3zBhGf8NB7R7YIXMqxhftMceZSO0tq8J9ilN5m
 slide_edit   : 13kcaW45to9-W-3sinsMc2XKbkOODkW0WE_Uhlj5jPfk
 

@@ -12,6 +12,7 @@ status       :           # draft, review-content, done
 you_tube     : yjvSI755auM
 organizers   : Avi Douglen
 description  : 
+youtube_link : yjvSI755auM   
 ---
 
 ### Notable logs from the chat during the session 

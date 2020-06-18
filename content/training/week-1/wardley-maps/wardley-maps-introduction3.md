@@ -13,6 +13,7 @@ status       : done          # draft, review-content, done
 you_tube     : 7TivdJABjJ0
 organizers   : Cat Swetel
 description  : Join Cat for an introduction to Wardley Maps, a tool for thinking about the evolution of technology systems.
+youtube_link : 7TivdJABjJ0
 ---
 
 

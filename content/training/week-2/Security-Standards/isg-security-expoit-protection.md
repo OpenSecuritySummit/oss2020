@@ -3,7 +3,7 @@ title        : What security exploits are prevented by implementing ISGs
 track        : ISG
 type         : training-session
 topics       :
-    - Glasswall
+        - CDR
 featured     : yes
 when_week    : two
 when_day     : 11th - Thursday
@@ -18,7 +18,7 @@ organizers   :
         - Greg Mann
         - Vinh Tram
 zoom_host    : TBD
-
+youtube_link : ZI5X-oDnO8I   
 ---
 
 ### About this talk:

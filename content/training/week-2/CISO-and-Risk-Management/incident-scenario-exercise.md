@@ -16,6 +16,7 @@ organizers   :
        - James Bore
        - Didar Gelici
        - Petra Vukmirovic
+youtube_link : 2Pw8oosbGas             
 ---
 
 ### This is the third section in a four-part exercise:

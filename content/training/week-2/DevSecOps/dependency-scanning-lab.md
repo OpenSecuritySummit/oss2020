@@ -12,6 +12,7 @@ status       :            # draft, review-content, done
 description  : TBD
 you_tube     : j184Av-LJvI
 organizers   : Mohammed A. Imran
+youtube_link : j184Av-LJvI
 ---
 
 

@@ -12,6 +12,7 @@ status       :           # draft, review-content, done
 you_tube     : -wXlB0CILWic
 organizers   : Stuart Peck
 description  : 
+youtube_link : -wXlB0CILWic    
 ---
 
 ### Notable logs from the chat during the session 

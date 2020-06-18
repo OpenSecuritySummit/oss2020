@@ -14,6 +14,7 @@ you_tube     : 5JRKSrlZ2ow
 organizers   : 
        - Demi Ben-Ari 
        - Elad Shapira
+youtube_link : 5JRKSrlZ2ow          
 ---
 
 ### About this talk:

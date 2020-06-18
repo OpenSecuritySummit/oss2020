@@ -3,7 +3,7 @@ title        : What are ISGs and how to convert ISGs into checklists?
 track        : ISG
 type         : training-session
 topics       :
-    - Glasswall
+        - CDR
 featured     : yes
 when_week    : two
 when_day     : 9th - Tuesday
@@ -16,7 +16,7 @@ organizers   :
         - Elvin White
         - Dinis Cruz
 zoom_host    : TBD
-you_tube     : _2lSfuVOvPA
+youtube_link : _2lSfuVOvPA
 ---
 
 ### About this talk:
@@ -29,9 +29,6 @@ In this session, we?ll look at the ISGs (Inspection and Sanitisation Guidance) p
 
 Once in table/graph form, we can start to consume them programmatically
 https://nsacyber.github.io/publications.html
-
-
-
 
 
 ### Inspection and Sanitization Guidance (ISG) published by NSA

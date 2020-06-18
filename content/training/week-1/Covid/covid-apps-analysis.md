@@ -15,7 +15,7 @@ you_tube     : fwo-TryGQ6c
 organizers   :
     - Mark Carney
     - Jay Harris
-zoom_host   : Didar Gelici       
+zoom_host   : Didar Gelici   
 ---
 
 

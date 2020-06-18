@@ -15,4 +15,5 @@ you_tube     : m24es4ATIhk
 organizers   :
      - Petra Vukmirovic
      - Sara Notaro
+youtube_link : m24es4ATIhk     
 ---

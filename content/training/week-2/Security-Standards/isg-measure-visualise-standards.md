@@ -3,7 +3,7 @@ title        : How to measure and visualise ISG standards
 track        : ISG
 type         : training-session
 topics       :
-    - Glasswall
+        - CDR
 featured     : yes
 when_week    : two
 when_day     : 10th - Wednesday
@@ -17,6 +17,7 @@ organizers   :
         - Elvin White
         - Vinh Tram
         - Greg Mann
+youtube_link : PGZCHxwZ82c        
 ---
 
 ### Notable logs from the chat during the session

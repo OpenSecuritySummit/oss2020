@@ -13,6 +13,7 @@ status       :            # draft, review-content, done
 you_tube     : FsJ5-DN1gHc
 organizers   : Chris Daniel
 description  : 
+youtube_link : FsJ5-DN1gHc   
 ---
 
 ### Notable logs from the chat during the session 
