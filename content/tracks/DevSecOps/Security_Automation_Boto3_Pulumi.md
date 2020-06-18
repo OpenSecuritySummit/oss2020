@@ -16,4 +16,6 @@ description  : How to automate security benchmarks, standards and tasks with Pyt
 organizers   : 
     - Petra Vukmirovic
 participants :
+hosted_by    : Didar Gelici
+zoom_link    : https://zoom.us/j/8135159752?pwd=enFReldYZkhpcUVrVnZyZGRoaXI1Zz09
 ---
