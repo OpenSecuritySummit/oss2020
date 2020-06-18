@@ -18,7 +18,7 @@ organizers   :
     - Fraser Scott 
     - Izar Tarandach
 hosted_by    : Didar Gelici
-zoom_link    : https://zoom.us/j/8135159752?pwd=enFReldYZkhpcUVrVnZyZGRoaXI1Zz09
+youtube_link : https://www.youtube.com/watch?v=2B1U1GR-jzU
 ---
 ### Notable logs from the chat during the session 
 

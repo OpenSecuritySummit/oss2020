@@ -18,7 +18,7 @@ organizers   :
        - Manuel Pais
        - Mario Platt
 hosted_by    : Didar Gelici
-zoom_link    : https://zoom.us/j/8135159752?pwd=enFReldYZkhpcUVrVnZyZGRoaXI1Zz09
+youtube_link : https://www.youtube.com/watch?v=WZAnnSmPG7c
 slide_id     : 2PACX-1vSCXPkwZgnq7G73LABTIkxlRb_FcilaWUKhkOwWT9eMEPq60t8iLOEza4rjU_KefBcE1nV_Pdxz7Cli
 slide_edit   : 15bIlJmOuzZi3JeTobxuLMu3nSkEW6WbS8G0_DnvTf_o
 

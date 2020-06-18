@@ -19,7 +19,7 @@ organizers   :
     - Robert Seedorff
     - Timo Pagel 
 hosted_by    : Tatevik Stepanyan
-zoom_link    : https://zoom.us/j/3037008530?pwd=NStFeUVZNW5xWDZiQTdLb20yb3NuZz09
+youtube_link : https://www.youtube.com/watch?v=1YHjkc3Xzd0
 slide_id     :
 ---
 

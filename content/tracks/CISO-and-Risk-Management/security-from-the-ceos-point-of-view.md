@@ -20,5 +20,5 @@ organizers   :
     - Dinis Cruz
 participants :
 hosted_by    : Tatevik Stepanyan
-zoom_link    : https://zoom.us/j/3037008530?pwd=NStFeUVZNW5xWDZiQTdLb20yb3NuZz09
+youtube_link : https://www.youtube.com/watch?v=V-Y6dF4_bhA
 ---

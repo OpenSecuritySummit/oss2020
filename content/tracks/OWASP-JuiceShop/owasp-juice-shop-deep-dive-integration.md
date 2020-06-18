@@ -17,7 +17,7 @@ participants :
 organizers   :  
        - Bjoern Kimminich    
 hosted_by    : Alona Reyes
-zoom_link    : https://zoom.us/j/7282391769?pwd=ZWlpTXlZZkxTMmwyK3diamJIemw5UT09
+youtube_link : https://www.youtube.com/watch?v=9SkUohiKgtU
 
 slide_id     : 2PACX-1vSMRkpKNTjFLr3okeNAtcpsONnSJhJHk8IPBY9DoXxB9vBPLnze7DjHlXzeLGG1MbV0oDY9ImD-XIKk
 slide_edit   : 1ZxuCu4PlWXzkTrG3QP-SBOxQN47iDw8HCkMEqpB6NsM

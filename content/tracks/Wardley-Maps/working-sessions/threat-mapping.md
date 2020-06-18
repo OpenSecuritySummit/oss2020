@@ -18,7 +18,6 @@ organizers   :
     - Petra Vukmirovic
     - Dinis Cruz
 hosted_by    : Dinis Cruz
-zoom_link    : https://zoom.us/j/6503444982?pwd=d1BuWStHNGVlVk53MjJUNW5aZEFuUT09
 slide_id     : 2PACX-1vQle2txX0AaqcLTfAqA4MfQXTe4hHfpgFMr2WmDsQ3kWl099bL3l8aFLDNY0PSxbvef_PK9X9nNnnEX
 slide_edit   : 1p8xp51WRN-C7qUjk95gSDCxlPlwIlh24DkxYdc0KWyk
 participants :
