@@ -1,6 +1,6 @@
 ---
 title        : Keynote - Jane Frankland InSecurity
-type         : working-session   
+type         : keynote   
 track        : "CISO and Risk Management"
 technology   :
 topics       :                    # for example ["GDPR"]

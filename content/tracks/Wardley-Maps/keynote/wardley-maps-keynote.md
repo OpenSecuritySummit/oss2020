@@ -13,7 +13,6 @@ description  :
 organizers   :
     - Simon Wardley
 hosted_by    : Didar Gelici
-zoom_link    : https://zoom.us/j/93422628443
 youtube_link : YESXU26LkRc
 ---
 
