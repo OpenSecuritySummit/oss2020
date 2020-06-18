@@ -3,12 +3,12 @@ title        : How to create specific test cases for ISGs requirements
 track        : ISG
 type         : training-session
 topics       :
-    - Glasswall
+        - CDR
 featured     : yes
-when_week    : two
-when_day     : 10th - Wednesday
-when_time    : WS-3
-hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/isgs-how-to-create-specfic-test-cases-for-its-requirements-5pm-bst
+when_week    :
+when_day     :
+when_time    :
+hey_summit   :
 session_slack: 
 status       :          # draft, review-content, done
 description  : TBD
@@ -16,7 +16,6 @@ organizers   :
         - Greg Mann
         - Elvin White
         - Vinh Tram
-       
 zoom_host    : TBD
 
 ---

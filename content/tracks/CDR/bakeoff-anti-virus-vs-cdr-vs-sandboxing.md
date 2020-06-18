@@ -3,7 +3,7 @@ title        : Bakeoff - Anti-virus vs CDR vs Sandboxing
 track        : Content Disarm & Reconstruction
 type         : working-session
 topics       :
-    - Glasswall
+    - CDR
 featured     : yes
 when_day     : Thu
 when_time    : WS-4

@@ -3,7 +3,7 @@ title        : How to measure and visualise ISG standards
 track        : ISG
 type         : training-session
 topics       :
-    - Glasswall
+        - CDR
 featured     : yes
 when_week    : two
 when_day     : 10th - Wednesday

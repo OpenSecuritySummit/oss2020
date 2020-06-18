@@ -3,7 +3,7 @@ title        : CDR Roundtable How to collaborate and increase adoption
 track        : Content Disarm & Reconstruction
 type         : working-session
 topics       :
-    - Glasswall
+    - CDR
 featured     : yes
 when_day     : Thu
 when_time    : WS-2

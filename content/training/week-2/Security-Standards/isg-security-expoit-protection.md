@@ -3,7 +3,7 @@ title        : What security exploits are prevented by implementing ISGs
 track        : ISG
 type         : training-session
 topics       :
-    - Glasswall
+        - CDR
 featured     : yes
 when_week    : two
 when_day     : 11th - Thursday

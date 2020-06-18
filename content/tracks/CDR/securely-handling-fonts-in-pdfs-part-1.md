@@ -3,7 +3,7 @@ title        : Securely Handling Fonts in PDFs - Part 1
 track        : Content Disarm & Reconstruction
 type         : working-session
 topics       :
-    - Glasswall
+    - CDR
 featured     : yes
 when_day     : Wed
 when_time    : WS-1

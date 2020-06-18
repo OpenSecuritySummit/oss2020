@@ -3,7 +3,7 @@ title        : What are ISGs and how to convert ISGs into checklists?
 track        : ISG
 type         : training-session
 topics       :
-    - Glasswall
+        - CDR
 featured     : yes
 when_week    : two
 when_day     : 9th - Tuesday

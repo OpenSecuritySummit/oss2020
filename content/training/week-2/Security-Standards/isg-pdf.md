@@ -3,7 +3,7 @@ title        : PDF ISG - Inspection and Sanitization Guidance for Portable Docum
 track        : ISG
 type         : training-session
 topics       :
-    - Glasswall
+        - CDR
 featured     : 
 when_week    : two
 when_day     : 12th - Friday

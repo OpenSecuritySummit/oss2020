@@ -3,7 +3,7 @@ title        : Create common sets of files for CDR Testing and QA
 track        : Content Disarm & Reconstruction
 type         : working-session
 topics       :
-    - Glasswall
+    - CDR
 featured     : yes
 when_day     : Thu
 when_time    : WS-3
