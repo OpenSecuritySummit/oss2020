@@ -2,6 +2,7 @@
 title        : Show & Tell - How I do it 
 track        : "Cloud Security"
 type         : working-session      # working-session, user-session, product-session
+draft        : true
 technology   :
 topics       : ["knowledgebase"]
 featured     :                    # review with summit team "yes"
