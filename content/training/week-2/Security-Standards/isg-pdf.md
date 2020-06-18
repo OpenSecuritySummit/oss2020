@@ -16,7 +16,7 @@ organizers   :
         - Vinh Tram
         - Greg Mann
         - Elvin White
-        
+you_tube     : ixsyaPAcNw
 ---
 
 
@@ -31,8 +31,6 @@ https://www.cs.yale.edu/flint/cs422/doc/art-of-asm/pdf/CH16.PDF   \
 00:51:35	WallabyCurtis:	https://yara.readthedocs.io/en/stable/writingrules.html#regular-expressions
 
 ### Training Session Video
-
-{{< youtube id="ixsyaPAcNw" autoplay="false" >}} 
 
 
 ### About this talk:

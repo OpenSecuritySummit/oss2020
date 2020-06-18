@@ -13,7 +13,8 @@ room_id      :
 session_slack: 
 status       : draft              # draft, review-content, done
 description  : How to get Buy-in
-organizers   : Leila Rao
+organizers   : 
+    - Leila Rao
 participants :
 ---
 

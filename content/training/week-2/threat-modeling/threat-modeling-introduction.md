@@ -9,15 +9,12 @@ when_time    : WS-1
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/threat-modelling-first-aid-an-introduction-to-threat-modelling-and-risk/
 session_slack:
 status       :            # draft, review-content, done
+you_tube     : 4IcIIfsqAvM
 organizers   :
     - Dinis Cruz	
     - Petra Vukmirovic
 description  : 
 ---
-
-### Training Session Video
-
-{{< youtube id="4IcIIfsqAvM" autoplay="false" >}} 
 
 
 ### Session Contents

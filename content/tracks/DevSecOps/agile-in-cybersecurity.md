@@ -13,7 +13,8 @@ room_id      :
 session_slack: 
 status       :               # draft, review-content, done
 description  : How to get Buy-in
-organizers   : Leila Rao
+organizers   : 
+    - Leila Rao
 hosted_by    : Didar Gelici
 zoom_link    : https://zoom.us/j/8135159752?pwd=enFReldYZkhpcUVrVnZyZGRoaXI1Zz09
 youtube_link : d_aSWm3KbMk

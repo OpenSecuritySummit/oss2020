@@ -10,15 +10,12 @@ when_time    : WS-1
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/threat-modeling-introduction/
 session_slack:
 status       : done           # draft, review-content, done
+you_tube     : B4F0uFhi83g
 organizers   : 
     - Dinis Cruz
     - Adam Leon Smith
 description  : 
 ---
-
-### Training Session Video
-
-{{< youtube id="B4F0uFhi83g" autoplay="false" >}} 
 
 ### Covid Safe Paths
 

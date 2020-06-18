@@ -1,4 +1,4 @@
-d---
+---
 title        : Cloud Security 101
 type         : training-session
 track        : Cloud Security
@@ -11,9 +11,12 @@ session_slack:
 status       : done           # draft, review-content, done
 description  : TBD
 zoom_host    : Alona Reyes
-organizers   : Kriti Mohun
-
+youtube_link : https://www.youtube.com/watch?v=HIRbBm0klBQ
+you_tube     : HIRbBm0klBQ
+organizers   : 
+    - Kriti Mohun
 ---
+
 
 ### About this talk
 
@@ -28,10 +31,6 @@ At the end of the training, the learning objectives are: Practicing Cloud Securi
 - To launch the lab as a user you may visit the lab registration page: https://bit.ly/2TFgaBt
 - For the activation code - please contact me/send me a message on Linkedin https://www.linkedin.com/in/kritim
 
-
-### Training Session Video
-
-{{< youtube id="HIRbBm0klBQ" autoplay="false" >}} 
 
 ### Session Contents
 

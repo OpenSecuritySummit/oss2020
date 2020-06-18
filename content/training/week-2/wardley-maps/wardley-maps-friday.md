@@ -9,14 +9,12 @@ when_time    : WS-2
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/introduction-to-wardley-mapping-3/
 session_slack:
 status       :            # draft, review-content, done
-organizers   : Tony Richards
+you_tube     : -rKvEkEUqYc
+organizers   : 
+    - Tony Richards
 description  : 
 ---
 
-
-### Training Session Video
-
-{{< youtube id="-rKvEkEUqYc" autoplay="false" >}} 
 
 ### Session Contents
 

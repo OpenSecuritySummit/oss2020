@@ -9,6 +9,7 @@ when_time    : WS-1
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/introduction-to-threat-modeling/
 session_slack:
 status       :           # draft, review-content, done
+you_tube     : yjvSI755auM
 organizers   : Avi Douglen
 description  : 
 ---
@@ -26,10 +27,6 @@ description  :
 01:45:02	InfosecMinion:	Q: I am interested to know your process aftwerdwards, like once we documented the findings, what now?
 01:46:59	Andreas Falk:	does it make sense to combine data flow models with attack trees, so create attack trees for possible threats found in the DFD    \
 02:23:52	Andreas Falk:	I like those Sorry points, so these actually reduce your achieved Story points if you do things really wrong   
-
-### Training Session Video
-
-{{< youtube id="yjvSI755auM" autoplay="false" >}} 
 
 ### Session Contents
 

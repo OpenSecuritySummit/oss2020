@@ -15,12 +15,8 @@ description  :
 organizers   : 
         - Paul Burke
         - Tim Lunn
-
+youtube_link : https://www.youtube.com/watch?v=6xgYy7X52rc
 ---
-
-### Training Session Video
-
-{{< youtube id="6xgYy7X52rc" autoplay="false" >}} 
 
 ### About this talk:
 
@@ -33,6 +29,3 @@ This has some significant differences to import processes typically in use in co
 
 The objective of this session is to raise the awareness of this pattern, highlight the differences in the pattern and the pros/cons of them, and to explore the practicalities of using this patter in commercial environments.  
 
-### Training Session Video
-
-{{< youtube id="C3wn6F-P4yU" autoplay="false" >}} 

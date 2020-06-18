@@ -9,6 +9,7 @@ when_time    : WS-2
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/threat-modeling/
 session_slack:
 status       : done           # draft, review-content, done
+you_tube     : PZnnCM-mVZ0
 organizers   :
     - James Bore
 zoom_host.   : Didar Gelici    
@@ -20,10 +21,6 @@ youtube_link : https://www.youtube.com/watch?v=PZnnCM-mVZ0
 • Spoofing • Tampering • Repudiation • Information disclosure • Denial of service • Elevation of privilege. \
 Didar Gelici : Adam Shostack - Threat Modeling
 James Bore :https://agilestationery.co.uk/products/elevation-of-privilege-game 
-
-### Training Session Video
-
-{{< youtube id="PZnnCM-mVZ0" autoplay="false" >}} 
 
 ### Session Contents
 

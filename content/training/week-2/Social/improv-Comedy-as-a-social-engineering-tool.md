@@ -10,12 +10,9 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/semi-soc
 session_slack:
 status       :            # draft, review-content, done
 description  : TBD
+you_tube     : ZneD_KQDWuk
 organizers   : Dave Mattingly
 ---
-
-### Training Session Video
-
-{{< youtube id="ZneD_KQDWuk" autoplay="false" >}} 
 
 ### About this talk:
 

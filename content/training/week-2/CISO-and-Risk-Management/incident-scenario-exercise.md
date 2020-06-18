@@ -10,15 +10,13 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/incident
 session_slack:
 status       :           # draft, review-content, done
 description  : TBD
+you_tube     : 2Pw8oosbGas
 organizers   : 
        - Dinis Cruz
        - James Bore
        - Didar Gelici
        - Petra Vukmirovic
 ---
-### Training Session Video
-
-{{< youtube id="2Pw8oosbGas" autoplay="false" >}} 
 
 ### This is the third section in a four-part exercise:
 

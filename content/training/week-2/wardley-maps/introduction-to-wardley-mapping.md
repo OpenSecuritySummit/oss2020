@@ -10,6 +10,7 @@ when_time    : WS-1
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/introduction-to-wardley-mapping/
 session_slack:
 status       :            # draft, review-content, done
+you_tube     : FsJ5-DN1gHc
 organizers   : Chris Daniel
 description  : 
 ---
@@ -25,10 +26,6 @@ description  :
 01:16:18	Kenneth Haugland:	Read the Strangler Pattern Martin Fowler regarding moving from monolith (sap with custom modifications)    \
 01:17:35	Kenneth Haugland:	https://martinfowler.com/bliki/StranglerFigApplication.html   \
 02:16:20	Kenneth Haugland:	https://www.ben-evans.com/benedictevans/2020/6/4/solving-online-events 
-
-### Training Session Video
-
-{{< youtube id="FsJ5-DN1gHc" autoplay="false" >}} 
 
 ### About this talk:
 

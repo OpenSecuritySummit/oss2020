@@ -8,7 +8,8 @@ when_time    :
 hey_summit   :
 session_slack:
 description  : Sessions focus on CDR (Content Disarm & Reconstruction)
-organizers   : Paul Burke
+organizers   : 
+    - Paul Burke
 ---
 
 

@@ -12,7 +12,8 @@ room_id      :
 session_slack: 
 status       : draft              # draft, review-content, done
 description  :
-organizers   :  Andrew van der Stock
+organizers   :  
+    - Andrew van der Stock
 participants :
 ---
 

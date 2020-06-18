@@ -12,7 +12,8 @@ room_id      :
 session_slack: 
 status       : draft              # draft, review-content, done
 description  : ZIP function SaaS as an example from Dinis
-organizers   : Tim Gelici
+organizers   : 
+    - Tim Gelici
 participants :
 ---
 

@@ -12,6 +12,7 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/isgs-wha
 session_slack: 
 status       :          # draft, review-content, done
 description  : TBD
+you_tube     : ZI5X-oDnO8I
 organizers   : 
         - Elvin White
         - Greg Mann
@@ -19,10 +20,6 @@ organizers   :
 zoom_host    : TBD
 
 ---
-
-### Training Session Video
-
-{{< youtube id="ZI5X-oDnO8I" autoplay="false" >}} 
 
 ### About this talk:
 

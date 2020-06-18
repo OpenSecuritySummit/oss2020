@@ -11,6 +11,7 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/covid-ap
 session_slack:
 status       : done
 description  : We will look at the vulnerabilities of one of the COVID tracing apps
+you_tube     : mg1rnioktxk
 organizers   :
          - Mike Minchinton
 ---
@@ -37,6 +38,3 @@ We will look at the vulnerabilities of one of the COVID tracing apps
 - **PART 3** - [covid apps threat modeling] {https://open-security-summit-2020.heysummit.com/talks/covid-apps-threat-modeling-user-session/) 18th June 8pm UK
 We will do a threat modeling exercise on contact tracing apps
 
-### Training Session Video
-
-{{< youtube id="mg1rnioktxk" autoplay="false" >}} 

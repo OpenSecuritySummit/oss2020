@@ -10,14 +10,11 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/using-wa
 session_slack:
 status       :           # draft, review-content, done
 description  : TBD
+you_tube     : kDs23thv8VE
 organizers   : Mario Platt
 
 ---
 
-
-### Training Session Video
-
-{{< youtube id="kDs23thv8VE" autoplay="false" >}} 
 
 ### Session Contents
 

@@ -10,6 +10,7 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/social-d
 session_slack:
 status       : done           # draft, review-content, done
 description  : Join us for a fun social "outing" where we'll introduce the people who created the personas for the first set of Adversary Trading Cards.
+you_tube     : 3roVZNwptOU
 organizers   : Mark Miller
 zoom_host    : Didar Gelici   
 ---
@@ -38,7 +39,3 @@ which might be chosen to be included in the "Official Set 02 Edition".
 
 The ultimate goal is to have a set of 100 trading cards printed,
 and available for trading, the next time we all get together.
-
-## Training Session Video
-
-{{< youtube id="3roVZNwptOU" autoplay="false" >}} 

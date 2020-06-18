@@ -12,6 +12,7 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/isgs-how
 session_slack: 
 status       :           # draft, review-content, done
 description  : TBD
+you_tube     : PGZCHxwZ82c
 organizers   :
         - Elvin White
         - Vinh Tram
@@ -25,9 +26,6 @@ yextend: https://github.com/BayshoreNetworks/yextend     \
 "A curated list of awesome YARA rules, tools, and resources.": https://github.com/InQuest/awesome-yara   
 01:06:56	WallabyCurtis:	[yaraeditorweb](https://www.adlice.com/download/yaraeditorweb)      
 01:36:58	Vinh Tram:	[Exploit_presentation](https://docs.google.com/presentation/d/1XB0gPCmZVu2nYwcV86ktXM94nPdvPzrj_HDlFRZoOAw/edit#slide=id.g80ca0e9a9c_4_0) 
-### Training Session Video
-
-{{< youtube id="PGZCHxwZ82c" autoplay="false" >}} 
 
 ### About this talk:
 

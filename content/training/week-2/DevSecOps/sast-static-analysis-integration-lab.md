@@ -10,6 +10,7 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/sast-sta
 session_slack:
 status       :            # draft, review-content, done
 description  : TBD
+you_tube     : h37zp5g5tO4
 organizers   : Mohammed A. Imran
 ---
 
@@ -34,9 +35,6 @@ organizers   : Mohammed A. Imran
 12:28:52	 From Vinod : https://github.com/find-sec-bugs/find-sec-bugs   \
 12:54:13	 From Imran Mohammed : semgrep   
 
-### Training Session Video
-
-{{< youtube id="h37zp5g5tO4" autoplay="false" >}} 
 
 ### About this talk:
 

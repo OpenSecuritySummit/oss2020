@@ -12,7 +12,8 @@ room_id      :
 session_slack: 
 status       : draft              # draft, review-content, done
 description  :
-organizers   :  Mario Platt
+organizers   :  
+    - Mario Platt
 participants :
 ---
 

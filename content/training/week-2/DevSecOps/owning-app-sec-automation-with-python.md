@@ -10,6 +10,7 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/owning-a
 session_slack:
 status       :            # draft, review-content, done
 description  : TBD
+you_tube     : 4SQtj82w5xI
 organizers   : Abhay Bhargav
 ---
 
@@ -36,9 +37,6 @@ organizers   : Abhay Bhargav
 15:46:48	 From Dharam Patel : Lambda will be good to show if you can  \
 15:48:24	 From LJ : sorry i lost connectivity and not sure if u already answered it..I just wanted to understand that is there a possible way to use encrypted password directly (like may be using function from library) instead of pulling the password from a file stored some where?..
 
-### Training Session Video
-
-{{< youtube id="4SQtj82w5xI" autoplay="false" >}} 
 
 ### About this talk
 In this talk, Ill be looking at leveraging Python Test Automation Frameworks like Robot Framework and Gauge to perform easy-to-use and powerful AppSec Automation for SAST, DAST, SCA and pretty much anything else. 

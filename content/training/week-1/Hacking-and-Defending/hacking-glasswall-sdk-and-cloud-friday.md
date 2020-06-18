@@ -13,9 +13,6 @@ session_slack:
 status       :           # draft, review-content, done
 description  : TBD
 organizers   : Dinis Cruz
+you_tube     : 17rkSmvnqas
 
 ---
-
-### Training Session Video
-
-{{< youtube id="17rkSmvnqas" autoplay="false" >}} 

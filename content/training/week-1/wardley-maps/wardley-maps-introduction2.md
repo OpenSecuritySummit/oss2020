@@ -10,6 +10,7 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/introduc
 session_slack:
 status       :           # draft, review-content, done
 description  : TBD
+you_tube     : yugHhSp5dbg
 organizers   : Goher Mohammad
 zoom_host    : Alona Reyes
 
