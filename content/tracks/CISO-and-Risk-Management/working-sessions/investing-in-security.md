@@ -16,7 +16,7 @@ description  :
 organizers   :
     - Danny Lopez
 hosted_by    : Open Security Summit
-youtube_link : https://www.youtube.com/watch?v=akYSR2DNdLQ
+youtube_link : akYSR2DNdLQ
 
 ---
 
