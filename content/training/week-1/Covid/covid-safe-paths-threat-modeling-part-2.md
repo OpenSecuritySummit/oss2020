@@ -38,3 +38,5 @@ During this session we will be doing a live Threat Modelingf review of the appli
  - Security and Privacy page: https://github.com/Path-Check/privacy-security 
  - [v2_upload_flow_-_safe_places_-_confluence.pdf](https://os-summit.slack.com/files/U014V5N4RLL/F014PAGSZ6X/v2_upload_flow_-_safe_places_-_confluence.pdf)
 
+
+{{<img src="https://github.com/OpenSecuritySummit/oss2020/raw/master/content/outcomes/presentation/Covid_img_safe_paths_part-2.png">}}

@@ -45,3 +45,6 @@ We need to do the same for DevSecOps and in this talk I will present a few possi
 In Security teams, we tend to adopt a static approach to team creation leading to all sorts of problems relating to org chart thinking and impact of Conway's law. Using Team Topologies, we can start being more deliberate in how we organise our security teams and also how we interact with other teams in the organisation.
 
 This section is an exploratory exercise where we'll all be participating, in applying Team Topologies concepts to the organisation of Cyber Security teams so we can document and share it with the community.
+
+
+
