@@ -30,6 +30,13 @@
             {{ if .Params.slide_edit  }}
                 {{ $this.Scratch.Set "gslides_edit" (add (add "https://docs.google.com/presentation/d/" .Params.slide_edit) "/edit" )}}
             {{ end }}
+            {{ if .Params.youtube_link }}
+                {{ .Scratch.Set "youtube_link" .Params.youtube_link }}
+            {{ end }}
+            {{ if .Params.you_tube }}
+                {{ .Scratch.Set "youtube_link" "https://www.youtube.com/embed/{{ .Params.you_tube }}" }}
+            {{ end }}
+            {{ $youtube_link := .Scratch.Get "youtube_link" }}
 
             {{ if .Params.title}}
                 <tr>
@@ -43,7 +50,7 @@
                     {{ partial "admin/sessions/cell-link.html" (dict "value" .Params.zoom_link "text" "zoom"                             "error"     "missing"           "img" "/img/logos/zoom-logo.png"           ) }}
                     {{ partial "admin/sessions/cell-link.html" (dict "value" ($this.Scratch.Get "gslides_link")     "text" "slide"       "warning"   "missing"           "img" "/img/logos/google-slides-logo.png"  ) }}
                     {{ partial "admin/sessions/cell-link.html" (dict "value" ($this.Scratch.Get "gslides_edit")     "text" "slide"       "warning"   "missing"           "img" "/img/logos/google-slides-logo.png"  ) }}
-                    {{ partial "admin/sessions/cell-link.html" (dict "value" .Params.you_tube  "text" "you tube"                         "warning"   "missing"                                                      ) }}
+                    {{ partial "admin/sessions/cell-link.html" (dict "value" $youtube_link "text" "you tube"                        "warning"   "missing"           "img" "/img/logos/youtube-icon-red.png"    ) }}
 
                 </tr>
             {{ end}}

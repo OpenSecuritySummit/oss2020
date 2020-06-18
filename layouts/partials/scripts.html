@@ -21,6 +21,7 @@
   // see ie. /schedule
     function gotoLink(e) {
         getUrlFromTarget(e, (url) => {
+            e.preventDefault();
             window.location.href = url;
         })
     }
@@ -38,8 +39,6 @@
         if (url) {
             cb.call(this, url);
         }
-        // debugger;
-        // e.preventDefault();
     }
 
     function toggleInTableCell(e, doPop) {

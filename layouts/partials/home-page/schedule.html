@@ -47,9 +47,9 @@
                 <div class="body-organizers">
                   {{ range $organizers }}
                     {{ if eq (printf "%T"  .) "string" }}
-                      <img src="/img/blocks/avatar.jpg" >
+                      <div class="body-organizer"><img src="/img/blocks/avatar.jpg"></div>
                     {{else }}
-                      <a href="{{.Permalink}}"><img src="{{.Params.image}}" alt="{{.Params.title}}"></a>
+                      <a class="body-organizer real" href="{{.Permalink}}"><img src="{{.Params.image}}" alt="{{.Params.title}}"></a>
                     {{end}}
                   {{ end }}
                 </div>
