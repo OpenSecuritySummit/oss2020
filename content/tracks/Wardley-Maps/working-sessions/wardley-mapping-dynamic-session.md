@@ -21,6 +21,6 @@ zoom_link    : https://zoom.us/j/7282391769?pwd=ZWlpTXlZZkxTMmwyK3diamJIemw5UT09
 slide_id     : 2PACX-1vTu6bRIvlkqe2G9KQCv7GfLelNlECf8UAHG54n2Zp0sHS023PuMYWmHvke75Zo6laeiKeZ3pBw2H9sH
 slide_edit   : 1RcBkCbrzXys0qRAH1WbkNMmjIkJsL3xSYirRG50NF3A
 participants :
-youtube_link : 
+youtube_link : http://www.youtube.com/watch?v=OyuHuNGGs18
 
 ---

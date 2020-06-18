@@ -9,9 +9,9 @@ when_time    : WS-2
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/introduction-to-wardley-mapping-1/
 session_slack:
 status       : done           # draft, review-content, done
+you_tube     : dQdQS4TaQ7U
 organizers   : Petra Vukmirovic
 description  : TBD
-youtube_link : dQdQS4TaQ7U
 ---
 
 ### Notable logs from the chat during the session
@@ -52,7 +52,6 @@ https://github.com/108bots/threatmodel-as-code    \
 1 - Do you (as a security engineer) call everyone into the same room (devs, devops, product owners maybe), and start asking the questions OR you start alone by understanding the maximum you can, and then create multiple meetings with different teams to improve your model ?   \
 2 - Assuming you are threat modeling a huge web application, with a variety of dependencies on different teams / third parties.  Do you start by a really high level threat model of all journeys, or you pick one specific journey until you feel confortable with the final result ?   \
 3 - A few times you mentioned you can zoom in on a specific process. How do you actually do this ? Does it mean you have a high level threat model and then multiple smal threat models ? are these all different files/ (edited) 
-
 
 ### Session Contents
 

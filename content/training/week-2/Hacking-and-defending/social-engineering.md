@@ -9,6 +9,7 @@ when_time    : WS-3
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/social-engineering/
 session_slack:
 status       :           # draft, review-content, done
+you_tube     : -wXlB0CILWic
 organizers   : Stuart Peck
 description  : 
 youtube_link : -wXlB0CILWic    
@@ -58,10 +59,6 @@ https://twitter.com/xxByte/status/1269619371409903616   \
 19:00:32	 From didymus : "disinfo addresses"   \
 19:01:18	 From WallabyCurtis : Perfect, thank you.   \
 19:04:38	 From didymus : https://drive.google.com/drive/folders/1QRYT7Aory-Lr_pUCRZxYXUhbHLrP3g9b   
-
-### Training Session Video
-
-{{< youtube id="-wXlB0CILWic" autoplay="false" >}} 
 
 
 ### About this talk:

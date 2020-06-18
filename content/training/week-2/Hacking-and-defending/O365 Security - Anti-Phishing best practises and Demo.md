@@ -10,8 +10,7 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/o365-sec
 session_slack:
 status       :            # draft, review-content, done
 description  : A live session on how to tune the O365 AntiPhishing Policies with a live demo
+you_tube     : LZk7s9bnCcA
 organizers   : Abbas Haidar
-youtube_link : LZk7s9bnCcA
 ---
-
 

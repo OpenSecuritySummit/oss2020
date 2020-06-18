@@ -9,6 +9,7 @@ when_time    : WS-1
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/introduction-to-threat-modeling/
 session_slack:
 status       :           # draft, review-content, done
+you_tube     : yjvSI755auM
 organizers   : Avi Douglen
 description  : 
 youtube_link : yjvSI755auM   

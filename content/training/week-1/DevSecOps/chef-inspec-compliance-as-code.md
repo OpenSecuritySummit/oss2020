@@ -12,7 +12,7 @@ status       : done           # draft, review-content, done
 description  : In this session we will learn problems with the traditional compliance and we will move on to the hands on part where attendes will work with Inspec and write its own custom profile for complinace
 organizers   : Joshua Jebaraj
 zoom_host    : Didar Gelici
-youtube_link : w8LGhPZp1w     
+you_tube     : -w8LGhPZp1w
 ---
 
 ### Notable logs from the chat during the session
@@ -27,7 +27,6 @@ youtube_link : w8LGhPZp1w
 14:59:41	 From Mario : You always need to append the —chef-license=accept to every command, otherwise it complains   \
 15:25:25	 From Phil Huggins : This has been very useful, you got me to install Inspec at home and run it! But I need to go now. Good luck with the session.   \
 15:47:53	 From Rostom Zouaghi : are there any open projects that cover CSA CCM, PCI DSS, CIS controls out there?   
-
 
 ### Supporting website 
 

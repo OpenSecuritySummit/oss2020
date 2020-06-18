@@ -13,6 +13,7 @@ room_id      :
 session_slack: 
 status       :               # draft, review-content, done
 description  : How to automate security benchmarks, standards and tasks with Python
-organizers   : Petra Vukmirovic
+organizers   : 
+    - Petra Vukmirovic
 participants :
 ---

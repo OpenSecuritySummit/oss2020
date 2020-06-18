@@ -12,7 +12,8 @@ status       : done           # draft, review-content, done
 description  :
 organizers   : Bjoern Kimminich
 zoom_host    : Dinis Cruz
-youtube_link : Ry0mXz6ZPXc 
+you_tube     : Ry0mXz6ZPXc
+
 ---
 
 ![](https://raw.githubusercontent.com/OWASP/owasp-swag/master/projects/juice-shop/logos/custom/JuicyBot_MedicalMask.png)
@@ -43,7 +44,6 @@ Please register for:
 
 - [OWASP Juice Shop Deep Dive: MultiJuicer](https://open-security-summit-2020.heysummit.com/talks/owasp-juice-shop-deep-dive-multijuicer/)
   if you want to learn more!
-
 
 #### Resources
 https://bkimminich.github.io/juice-shop/#/

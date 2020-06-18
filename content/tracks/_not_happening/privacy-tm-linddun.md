@@ -11,7 +11,8 @@ room_id      :
 session_slack:
 status       : draft
 description  : Introduction to LINDDUN for privacy threat modeling
-organizers   : Mario Platt
+organizers   : 
+    - Mario Platt
 participants :
     - Robin Oldham
 ---

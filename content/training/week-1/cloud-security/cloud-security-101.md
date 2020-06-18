@@ -1,4 +1,4 @@
-d---
+---
 title        : Cloud Security 101
 type         : training-session
 track        : Cloud Security
@@ -11,9 +11,12 @@ session_slack:
 status       : done           # draft, review-content, done
 description  : TBD
 zoom_host    : Alona Reyes
-organizers   : Kriti Mohun
-youtube_link : HIRbBm0klBQ
+youtube_link : https://www.youtube.com/watch?v=HIRbBm0klBQ
+you_tube     : HIRbBm0klBQ
+organizers   : 
+    - Kriti Mohun
 ---
+
 
 ### About this talk
 

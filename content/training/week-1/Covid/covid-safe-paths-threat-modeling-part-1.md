@@ -11,13 +11,13 @@ when_time    : WS-1
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/threat-modeling-on-covid-apps/
 session_slack:
 status       : done           # draft, review-content, done
+you_tube     : IKHZXQfDHrA
 organizers   : 
     - Dinis Cruz
     - Mark Carney
     - Jay Harris
     - Adam Leon Smith
 description  : 
-youtube_link : IKHZXQfDHrA  
 ---
 
 
@@ -27,6 +27,7 @@ Our central infra asset that governs approved HA's  \
 The publishing of points of concern               \
 The upload of data to the HA                    \
 The mobile app that holds raw data 
+
 
 ### Covid Safe Paths
 

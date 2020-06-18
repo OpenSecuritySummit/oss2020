@@ -12,6 +12,7 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/isgs-how
 session_slack: 
 status       :           # draft, review-content, done
 description  : TBD
+you_tube     : PGZCHxwZ82c
 organizers   :
         - Elvin White
         - Vinh Tram

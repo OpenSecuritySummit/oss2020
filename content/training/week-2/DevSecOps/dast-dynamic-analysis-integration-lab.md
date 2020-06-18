@@ -10,6 +10,7 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/dast-dyn
 session_slack:
 status       :         # draft, review-content, done
 description  : TBD
+you_tube     : mdUP1XtYTLI
 organizers   : Mohammed A. Imran
 youtube_link : mdUP1XtYTLI
 ---
@@ -40,7 +41,3 @@ youtube_link : mdUP1XtYTLI
 13:05:25	 From Taj : while implementing dast in DevSecOps , what the strategy to eliminate false positives. because human intervention is needed to get false Positives. But if everytime human intervention is there don't you think it doesn't do proper justice to dev ops.??   \
 13:07:33	 From Sam Stepanyan : Re: Desktop apps - SAST tools which analyse the source code of application can provide better value from security point of view. There are commercial DAST tools which will analyse the EXE & DLL files. On the Open-Source scale the primary DAST tools are fuzzers. This is how many vulnerabilities in desktop apps like Acrobat Reader etc are discovered
 13:09:06	 From Imran Mohammed : Awesome fuzzing
-
-### Training Session Video
-
-{{< youtube id="mdUP1XtYTLI" autoplay="false" >}} 

@@ -10,8 +10,8 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/to-devse
 session_slack:
 status       :          # draft, review-content, done
 description  : TBD
+you_tube     : dHkptfSUWlo
 organizers   : Mario Platt
-youtube_link : dHkptfSUWlo
 ---
 
 
@@ -19,7 +19,6 @@ youtube_link : dHkptfSUWlo
 
 14:45:15	 From Didar Gelici : https://twitter.com/cyetain     \
 14:46:06	 From Didar Gelici : https://www.slideshare.net/cyetain/three-frames-devopsdays-atl 
-
 
 ### Session Contents
 

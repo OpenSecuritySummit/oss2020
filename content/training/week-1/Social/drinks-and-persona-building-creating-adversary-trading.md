@@ -10,6 +10,7 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/social-d
 session_slack:
 status       : done           # draft, review-content, done
 description  : Join us for a fun social "outing" where we'll introduce the people who created the personas for the first set of Adversary Trading Cards.
+you_tube     : 3roVZNwptOU
 organizers   : Mark Miller
 zoom_host    : Didar Gelici   
 youtube_link : 3roVZNwptOU 

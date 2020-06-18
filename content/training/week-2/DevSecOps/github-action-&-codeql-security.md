@@ -10,6 +10,7 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/github-a
 session_slack:
 status       :          # draft, review-content, done
 description  : TBD
+you_tube     : zgNFQY820Os
 organizers   : Sasha Rosenbaum
 youtube_link : zgNFQY820Os
 ---
@@ -60,7 +61,3 @@ https://github.com/github/codeql/blob/master/CONTRIBUTING.md   \
 16:01:59	 From Yazid Boukerroui : Are you guys using all the 1700 open source queries?   \
 16:02:09	 From Yazid Boukerroui : For the public github   \
 16:03:50	 From jaxley : Did OWASP SAST benchmark run to get CodeQL metrics?   
-
-### Training Session Video
-
-{{< youtube id="zgNFQY820Os" autoplay="false" >}} 

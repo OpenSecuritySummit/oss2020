@@ -1,5 +1,5 @@
 ---
-title        : Open control frameworks in Media and Entertainment 
+title        : Multi-cloud governance 
 type         : working-session      # working-session, user-session, product-session
 track        : "Cloud Security"
 technology   :
@@ -16,7 +16,8 @@ description  :
 organizers   :
     - Ben Schofield
 hosted_by    : Wallaby Curtis
-zoom_link    : https://zoom.us/j/6691335189?pwd=UzgxK05lQThMem1razZjT0EvamhtUT09
+zoom_link    : https://zoom.us/j/98963709159?pwd=YVMzR1RtT1Vlb2R2Tm9tVHBGeno2QT09
+youtube_link : http://www.youtube.com/watch?v=OwQNaspKzzs
 ---
 
 

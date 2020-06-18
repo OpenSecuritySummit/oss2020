@@ -10,10 +10,8 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/cyber-an
 session_slack:
 status       :           # draft, review-content, done
 description  : TBD
+you_tube     : 4SK-U-0FDnw
 organizers   : 
        - Demi Ben-Ari 
        - Dov Goldman
-youtube_link : 4SK-U-0FDnw       
 ---
-
-

@@ -13,7 +13,8 @@ description  :
 organizers   :  
         - Haydn Brooks
 hosted_by    : Wallaby Curtis
-zoom_link    : https://zoom.us/webinar/register/WN_W2Ltpy6RRpK7Km7hT5AMpA
+zoom_link    : https://zoom.us/webinar/98591070762
+youtube_link : https://www.youtube.com/watch?v=MpqbL7Q6ftY
 ---
 
 ## About this talk:

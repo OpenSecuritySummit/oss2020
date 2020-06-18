@@ -13,7 +13,7 @@ session_slack:
 status       :           # draft, review-content, done
 description  : TBD
 organizers   : Dinis Cruz
-youtube_link : 7Pvo20Af_p0
+you_tube     : 7Pvo20Af_p0
 
 ---
 

@@ -10,6 +10,7 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/owasp-ju
 session_slack:
 status       : done           # draft, review-content, done
 description  :
+you_tube     : wCF08BdXdDg
 organizers   : Bjoern Kimminich
 youtube_link : wCF08BdXdDg
 ---
@@ -21,10 +22,6 @@ youtube_link : wCF08BdXdDg
 17:36:49	 From Rusty : https://github.com/bkimminich/juice-shop-ctf/releases/tag/v8.1.0   \
 17:51:16	 From N/A : Bjorn (sorry no umlaut on my keyboard :) ) is there any official walkthrough with all vulnerabilities and how to exploit them?  \
 I'm asking this because sometimes, due to lack of time all I want is to spin a juice shop container and test/train a particular vulnerability.
-
-### Training Session Video
-
-{{< youtube id="wCF08BdXdDg" autoplay="false" >}} 
 
 ### About this talk:
 

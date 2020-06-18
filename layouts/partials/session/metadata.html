@@ -129,10 +129,18 @@
         </div>
     </div>
 
+    {{ $this := . }}
     {{ if or .Params.youtube_link .Params.you_tube }}
         <div class="session-content">
             <h3>Training Session Video</h3>
-            {{ partial "utils/youtube-url-embed" . }}
+            {{ $you_tube := partial "utils/get-youtube-id" ( dict "this" . )}}
+            <iframe class="video"
+                    frameborder="0"
+                    width="100%"
+                    height="600"
+                    src="https://www.youtube.com/embed/{{ $you_tube }}"
+                    allowfullscreen>
+            </iframe>
         </div>
     {{ end }}
     {{ if .Params.slide_id }}

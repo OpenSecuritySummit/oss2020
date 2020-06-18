@@ -11,6 +11,7 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/covid-ap
 session_slack:
 status       : done
 description  : We will look at the vulnerabilities of one of the COVID tracing apps
+you_tube     : mg1rnioktxk
 organizers   :
          - Mike Minchinton
 youtube_link : mg1rnioktxk           

@@ -10,8 +10,8 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/infrastr
 session_slack:
 status       :            # draft, review-content, done
 description  : TBD
+you_tube     : X1VsceDfntc
 organizers   : Barak Schoster
-youtube_link : X1VsceDfntc
 ---
 
 
@@ -34,6 +34,7 @@ brew install checkov  \
 15:12:06	 From Corcoran Smith : Custom rules and store them in a GitHub repo? :wink:  \
 15:36:21	 From evanjones : Twitter handle?   \
 15:36:31	 From Barak Schoster : @BarakSchoster 
+
 
 ### About this talk:
 Planning, provisioning, and changing infrastructure are becoming vital to rapid cloud application development. Incorporating infrastructure-as-code into software development promotes transparency and immutability and helps prevent bad configurations upstream.
