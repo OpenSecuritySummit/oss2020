@@ -18,7 +18,7 @@ hosted_by    : Didar Gelici
 zoom_link    : https://zoom.us/j/8135159752?pwd=enFReldYZkhpcUVrVnZyZGRoaXI1Zz09
 youtube_link : d_aSWm3KbMk
 participants :
-slide_id     : 
+slide_id     : 2PACX-1vRc6j8tjUb6W4AuY7XXswHRpYISqj_GqqrykXKjh2Dhp7g3BFKYZKxn9l4qc1aM_JFUVzWRT0rVDpgG
 slide_edit   : 1vaRrWcBCiD7ACZdrvwPOnw3K9W1T2yib9VUQf6-0ghg
 
 ---
