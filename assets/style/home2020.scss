@@ -482,29 +482,34 @@ $summit-section-height: 350px;
         width: 100%;
         padding: 0;
         padding-left: 38px;
-        &-organizers {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          margin-right: 47px;
-          min-width: $schedule-organizer-icon-size;
-          background-color: $main-inverse-text-color;
-          border-radius: 50%;
-          a {
-            position: relative;
-            display: block;
-            margin-top: -100px;
-            &:nth-child(1) {
-              margin-top: 0;
-            }
-            &:hover {
-              z-index: 10;
-            }
-          }
+        padding-top: 5px;
+        padding-bottom: 5px;
 
+        &-organizer {
+          &.real {
+            z-index: 1;
+          }
+          position: relative;
+          display: block;
+          margin-top: -100px;
+          &:nth-child(1) {
+            margin-top: 0;
+          }
+          &:hover {
+            z-index: 10;
+          }
           img {
             width: $schedule-organizer-icon-size;
+            border-radius: 50%;
+          }
+          &-s {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-right: 47px;
+            min-width: $schedule-organizer-icon-size;
+            background-color: $main-inverse-text-color;
             border-radius: 50%;
           }
         }

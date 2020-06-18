@@ -13,7 +13,7 @@ organizers   :
     - James Bore
 zoom_host.   : Didar Gelici    
 description  : "Threat modelling workshop applying various methodologies: STRIDE, LINDDUN, Attack Trees, and PnG, to a MSP organisation and its key systems"
-
+youtube_link : https://www.youtube.com/watch?v=PZnnCM-mVZ0
 ---
 
 ### Notable logs from the chat during the session
