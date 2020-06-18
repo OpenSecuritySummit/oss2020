@@ -12,7 +12,7 @@ status       :
 description  :
 organizers   : Simon Wardley
 hosted_by    : Tatevik Stepanyan
-zoom_link    : https://zoom.us/j/3037008530?pwd=NStFeUVZNW5xWDZiQTdLb20yb3NuZz09
+youtube_link : https://www.youtube.com/watch?v=fq_4L-758N8
 slide_id     :
 
 ---
