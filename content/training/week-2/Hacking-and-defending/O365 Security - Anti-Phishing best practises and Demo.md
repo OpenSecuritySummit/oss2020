@@ -11,8 +11,7 @@ session_slack:
 status       :            # draft, review-content, done
 description  : A live session on how to tune the O365 AntiPhishing Policies with a live demo
 organizers   : Abbas Haidar
+youtube_link : LZk7s9bnCcA
 ---
 
-### Training Session Video
 
-{{< youtube id="LZk7s9bnCcA" autoplay="false" >}} 

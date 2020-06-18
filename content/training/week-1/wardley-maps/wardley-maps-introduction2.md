@@ -12,7 +12,7 @@ status       :           # draft, review-content, done
 description  : TBD
 organizers   : Goher Mohammad
 zoom_host    : Alona Reyes
-
+youtube_link : yugHhSp5dbg
 ---
 
 ### Notable logs from the chat during the session
@@ -35,11 +35,6 @@ zoom_host    : Alona Reyes
 15:40:49     From Michael Hidalgo (Costa Rica) : That’s quite interesting, because its quite simple to see how the process has improved!
 15:45:14     From Luke Robbertse : Thank you so much for the session Goher! Really enjoyed it and learnt a lot. Apologies I have to jump off now! See you all again soon!  \
 15:59:07     From Dinis Cruz : https://www.youtube.com/watch?v=7dia8WjP4Cc
-
-### Training Session Videos
-
-{{< youtube id="yugHhSp5dbg" autoplay="false" >}} 
-
 
 
 ### Session Contents

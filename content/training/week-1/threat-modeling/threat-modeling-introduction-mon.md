@@ -14,16 +14,13 @@ organizers   :
 zoom_host.   : Didar Gelici    
 description  : "Threat modelling workshop applying various methodologies: STRIDE, LINDDUN, Attack Trees, and PnG, to a MSP organisation and its key systems"
 youtube_link : https://www.youtube.com/watch?v=PZnnCM-mVZ0
+youtube_link : PZnnCM-mVZ0 
 ---
 
 ### Notable logs from the chat during the session
 • Spoofing • Tampering • Repudiation • Information disclosure • Denial of service • Elevation of privilege. \
 Didar Gelici : Adam Shostack - Threat Modeling
 James Bore :https://agilestationery.co.uk/products/elevation-of-privilege-game 
-
-### Training Session Video
-
-{{< youtube id="PZnnCM-mVZ0" autoplay="false" >}} 
 
 ### Session Contents
 

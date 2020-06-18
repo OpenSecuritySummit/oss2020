@@ -11,6 +11,7 @@ session_slack:
 status       :         # draft, review-content, done
 description  : TBD
 organizers   : Mohammed A. Imran
+youtube_link : mdUP1XtYTLI
 ---
 
 

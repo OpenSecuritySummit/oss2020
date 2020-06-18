@@ -13,8 +13,7 @@ description  : TBD
 organizers   : 
        - Demi Ben-Ari 
        - Dov Goldman
+youtube_link : 4SK-U-0FDnw       
 ---
 
-### Training Session Video
 
-{{< youtube id="4SK-U-0FDnw" autoplay="false" >}} 

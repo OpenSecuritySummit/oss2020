@@ -11,6 +11,7 @@ session_slack:
 status       :            # draft, review-content, done
 description  : TBD
 organizers   : Barak Schoster
+youtube_link : X1VsceDfntc&t=1s
 ---
 
 
@@ -33,10 +34,6 @@ brew install checkov  \
 15:12:06	 From Corcoran Smith : Custom rules and store them in a GitHub repo? :wink:  \
 15:36:21	 From evanjones : Twitter handle?   \
 15:36:31	 From Barak Schoster : @BarakSchoster 
-
-### Training Session Video
-
-{{< youtube id="X1VsceDfntc&t=1s" autoplay="false" >}} 
 
 ### About this talk:
 Planning, provisioning, and changing infrastructure are becoming vital to rapid cloud application development. Incorporating infrastructure-as-code into software development promotes transparency and immutability and helps prevent bad configurations upstream.

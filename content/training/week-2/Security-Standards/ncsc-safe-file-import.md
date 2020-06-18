@@ -15,12 +15,8 @@ description  :
 organizers   : 
         - Paul Burke
         - Tim Lunn
-
+youtube_link : 6xgYy7X52rc
 ---
-
-### Training Session Video
-
-{{< youtube id="6xgYy7X52rc" autoplay="false" >}} 
 
 ### About this talk:
 

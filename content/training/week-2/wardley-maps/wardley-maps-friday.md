@@ -11,12 +11,9 @@ session_slack:
 status       :            # draft, review-content, done
 organizers   : Tony Richards
 description  : 
+youtube_link : -rKvEkEUqYc
 ---
 
-
-### Training Session Video
-
-{{< youtube id="-rKvEkEUqYc" autoplay="false" >}} 
 
 ### Session Contents
 
