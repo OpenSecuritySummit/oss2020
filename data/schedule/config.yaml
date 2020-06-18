@@ -1,9 +1,7 @@
 today :
-  date: "18th"
-  day: "Thursday"
-  key: "Thu"
-tomorrow :
   date: "19th"
   day: "Friday"
   key: "Fri"
+#tomorrow :
+
 
