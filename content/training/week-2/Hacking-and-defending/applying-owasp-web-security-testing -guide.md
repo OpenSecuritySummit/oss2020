@@ -11,6 +11,7 @@ session_slack:
 status       :           # draft, review-content, done
 description  : TBD
 organizers   : Vandana Verma
+youtube_link : https://www.youtube.com/watch?v=7zs4wezbt8o
 ---
 
 

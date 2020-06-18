@@ -11,7 +11,7 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/oh-dear-
 session_slack:
 status       :           # draft, review-content, done
 description  : TBD
-you_tube     : m24es4ATIhk
+youtube_link : m24es4ATIhk
 organizers   :
      - Petra Vukmirovic
      - Sara Notaro

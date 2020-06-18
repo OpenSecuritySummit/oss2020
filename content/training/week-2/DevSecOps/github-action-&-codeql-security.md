@@ -10,7 +10,7 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/github-a
 session_slack:
 status       :          # draft, review-content, done
 description  : TBD
-you_tube     : zgNFQY820Os
+youtube_link : zgNFQY820Os
 organizers   : Sasha Rosenbaum
 youtube_link : zgNFQY820Os
 ---

@@ -10,7 +10,7 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/infrastr
 session_slack:
 status       :            # draft, review-content, done
 description  : TBD
-you_tube     : X1VsceDfntc
+youtube_link : X1VsceDfntc
 organizers   : Barak Schoster
 ---
 

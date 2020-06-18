@@ -10,7 +10,7 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/incident
 session_slack:
 status       :           # draft, review-content, done
 description  : TBD
-you_tube     : 2Pw8oosbGas
+youtube_link : 2Pw8oosbGas
 organizers   : 
        - Dinis Cruz
        - James Bore

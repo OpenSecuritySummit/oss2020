@@ -16,7 +16,7 @@ organizers   :
         - Greg Mann
         - Vinh Tram
         - Elvin White
-you_tube     : C3wn6F-P4yU
+youtube_link : C3wn6F-P4yU
 ---
 
 ### About this talk:

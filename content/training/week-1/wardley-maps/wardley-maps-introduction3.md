@@ -10,7 +10,7 @@ when_time    : WS-2
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/wardley-mappping/
 session_slack:
 status       : done          # draft, review-content, done
-you_tube     : 7TivdJABjJ0
+youtube_link : 7TivdJABjJ0
 organizers   : Cat Swetel
 description  : Join Cat for an introduction to Wardley Maps, a tool for thinking about the evolution of technology systems.
 youtube_link : 7TivdJABjJ0

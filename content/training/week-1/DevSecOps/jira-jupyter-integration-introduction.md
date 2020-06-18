@@ -11,7 +11,7 @@ session_slack:
 status       :           # draft, review-content, done
 description  : TBD
 organizers   : Dinis Cruz
-you_tube     : miAOOyseD-M
+youtube_link : miAOOyseD-M
 slides       :
 ---
 

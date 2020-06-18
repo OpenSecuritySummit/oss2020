@@ -12,7 +12,7 @@ status       : done           # draft, review-content, done
 description  : TBD
 zoom_host    : Alona Reyes
 youtube_link : https://www.youtube.com/watch?v=HIRbBm0klBQ
-you_tube     : HIRbBm0klBQ
+youtube_link : HIRbBm0klBQ
 organizers   : 
     - Kriti Mohun
 ---

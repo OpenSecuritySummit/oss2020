@@ -9,7 +9,7 @@ when_time    : WS-2
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/introduction-to-wardley-mapping-1/
 session_slack:
 status       : done           # draft, review-content, done
-you_tube     : dQdQS4TaQ7U
+youtube_link : dQdQS4TaQ7U
 organizers   : Petra Vukmirovic
 description  : TBD
 ---

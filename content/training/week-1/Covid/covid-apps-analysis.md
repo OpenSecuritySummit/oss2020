@@ -11,7 +11,7 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/covid-ap
 session_slack:
 status       : done
 description  : TBD
-you_tube     : fwo-TryGQ6c
+youtube_link : fwo-TryGQ6c
 organizers   :
     - Mark Carney
     - Jay Harris

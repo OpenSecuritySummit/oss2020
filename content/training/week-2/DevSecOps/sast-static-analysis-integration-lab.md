@@ -10,7 +10,7 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/sast-sta
 session_slack:
 status       :            # draft, review-content, done
 description  : TBD
-you_tube     : h37zp5g5tO4
+youtube_link : h37zp5g5tO4
 organizers   : Mohammed A. Imran
 ---
 

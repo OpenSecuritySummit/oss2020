@@ -10,7 +10,7 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/dast-dyn
 session_slack:
 status       :         # draft, review-content, done
 description  : TBD
-you_tube     : mdUP1XtYTLI
+youtube_link : mdUP1XtYTLI
 organizers   : Mohammed A. Imran
 youtube_link : mdUP1XtYTLI
 ---

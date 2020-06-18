@@ -10,7 +10,7 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/dependen
 session_slack:
 status       :            # draft, review-content, done
 description  : TBD
-you_tube     : j184Av-LJvI
+youtube_link : j184Av-LJvI
 organizers   : Mohammed A. Imran
 youtube_link : j184Av-LJvI
 ---
