@@ -16,6 +16,8 @@ description  :
 organizers   :
     - Mario Platt
 participants :
+hosted_by    : Didar Gelici
+zoom_link    : https://zoom.us/j/8135159752?pwd=enFReldYZkhpcUVrVnZyZGRoaXI1Zz09
 ---
 
 
