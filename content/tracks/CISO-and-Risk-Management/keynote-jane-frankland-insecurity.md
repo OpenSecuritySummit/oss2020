@@ -15,6 +15,9 @@ status       :               # draft, review-content, done
 description  :
 organizers   :
       - Jane Frankland 
+hosted_by    : Open Security Summit
+zoom_link    : https://zoom.us/j/92434238786
+
 ---
 
 #### Topics to cover:
