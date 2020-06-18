@@ -63,3 +63,8 @@ day-13:
   day : "Wednesday"
   key : "Wed"
   order: 13
+day-14:
+  date: "18th"
+  day : "Thursday"
+  key : "Thu"
+  order: 14
