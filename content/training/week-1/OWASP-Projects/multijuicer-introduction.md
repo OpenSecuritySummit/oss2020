@@ -14,7 +14,7 @@ organizers   :
         - Jannik Hollenbach
         - Robert Seedorff 
 zoom_host    : Dinis Cruz
-you_tube     : 6NMjZbfnTOU
+youtube_link : 6NMjZbfnTOU
 ---
 
 ### About this talk

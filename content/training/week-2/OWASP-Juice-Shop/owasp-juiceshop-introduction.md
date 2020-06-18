@@ -10,7 +10,7 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/owasp-ju
 session_slack:
 status       : done           # draft, review-content, done
 description  :
-you_tube     : wCF08BdXdDg
+youtube_link : wCF08BdXdDg
 organizers   : Bjoern Kimminich
 youtube_link : wCF08BdXdDg
 ---

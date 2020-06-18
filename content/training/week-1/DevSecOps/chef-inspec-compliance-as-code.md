@@ -12,7 +12,8 @@ status       : done           # draft, review-content, done
 description  : In this session we will learn problems with the traditional compliance and we will move on to the hands on part where attendes will work with Inspec and write its own custom profile for complinace
 organizers   : Joshua Jebaraj
 zoom_host    : Didar Gelici
-you_tube     : -w8LGhPZp1w
+youtube_link : -w8LGhPZp1w
+
 ---
 
 ### Notable logs from the chat during the session

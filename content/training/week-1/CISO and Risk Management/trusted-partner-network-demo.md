@@ -10,7 +10,7 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/trusted-
 session_slack:
 status       :            # draft, review-content, done
 description  : TBD
-you_tube     : jvK1TMUExZw
+youtube_link : jvK1TMUExZw
 organizers   :  
     - Ben Schofield
 

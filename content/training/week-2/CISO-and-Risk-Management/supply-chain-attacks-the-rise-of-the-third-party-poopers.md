@@ -10,7 +10,7 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/supply-c
 session_slack:
 status       :           # draft, review-content, done
 description  : TBD
-you_tube     : 5JRKSrlZ2ow
+youtube_link : 5JRKSrlZ2ow
 organizers   : 
        - Demi Ben-Ari 
        - Elad Shapira

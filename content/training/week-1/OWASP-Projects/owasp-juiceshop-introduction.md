@@ -12,7 +12,7 @@ status       : done           # draft, review-content, done
 description  :
 organizers   : Bjoern Kimminich
 zoom_host    : Dinis Cruz
-you_tube     : Ry0mXz6ZPXc
+youtube_link : Ry0mXz6ZPXc
 
 ---
 

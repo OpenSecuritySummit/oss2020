@@ -10,7 +10,7 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/to-devse
 session_slack:
 status       :          # draft, review-content, done
 description  : TBD
-you_tube     : dHkptfSUWlo
+youtube_link : dHkptfSUWlo
 organizers   : Mario Platt
 ---
 

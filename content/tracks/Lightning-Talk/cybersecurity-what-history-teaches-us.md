@@ -14,5 +14,5 @@ organizers   :
         - Naina Bhattacharya
 hosted_by    : Wallaby Curtis
 zoom_link    : https://zoom.us/j/96819398503
-you_tube     : SZdYrvUMX1Y        
+youtube_link : SZdYrvUMX1Y        
 ---

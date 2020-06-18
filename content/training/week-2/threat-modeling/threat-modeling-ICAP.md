@@ -15,6 +15,7 @@ description  : In this session, we'll dive into the Internet Content Adaption Pr
 organizers   : 
         - Dinis Cruz
         - Paul Gerard
+youtube_link : https://www.youtube.com/watch?v=f7trG4_InPk        
 ---
 
 ### About this talk:

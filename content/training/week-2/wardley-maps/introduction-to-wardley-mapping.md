@@ -10,7 +10,7 @@ when_time    : WS-1
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/introduction-to-wardley-mapping/
 session_slack:
 status       :            # draft, review-content, done
-you_tube     : FsJ5-DN1gHc
+youtube_link : FsJ5-DN1gHc
 organizers   : Chris Daniel
 description  : 
 youtube_link : FsJ5-DN1gHc   
