@@ -12,6 +12,8 @@ status       :
 description  :
 hosted_by    : Dinis Cruz
 zoom_link    : https://zoom.us/j/6503444982?pwd=d1BuWStHNGVlVk53MjJUNW5aZEFuUT09
+slide_id     : 2PACX-1vTaKC8YqGb4KXV1LmJT5RBL4zoZsVF1E3OmsXSk6MeHdfS5scGZ1s06Mcaj4hZyDon6a7yHRBKJZVAG
+slide_edit   : 1hgvrggXXVm4c3kA2QmuDGJQJrGIQcHYNkfwbeuIpD5U
 organizers   :
     - Adam Leon Smith
     - Dinis Cruz
