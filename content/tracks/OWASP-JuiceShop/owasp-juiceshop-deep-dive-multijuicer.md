@@ -21,6 +21,7 @@ organizers   :
 hosted_by    : Tatevik Stepanyan
 zoom_link    : https://zoom.us/j/3037008530?pwd=NStFeUVZNW5xWDZiQTdLb20yb3NuZz09
 slide_id     :
+youtube_link : 1YHjkc3Xzd0
 ---
 
 OWASP Juice Shop is an incredible tool to learn and teach about web
