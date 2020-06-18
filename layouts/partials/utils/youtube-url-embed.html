@@ -2,17 +2,10 @@
 {{ $you_tube := $this.Params.you_tube }}
 {{ $youtube_link := $this.Params.youtube_link }}
 
-{{ .Scratch.Set "you_tube" $you_tube }}
-{{ if $youtube_link }}
-  {{ $parsed := findRE "([-0-9[:alpha:]])+$" $this.Params.youtube_link }}
-  {{ .Scratch.Set "you_tube" (index $parsed 0) }}
-{{ end }}
-{{ $you_tube := .Scratch.Get "you_tube" }}
-
 <iframe class="video"
         frameborder="0"
         width="100%"
         height="600"
-        src="https://www.youtube.com/embed/{{ $you_tube }}"
+        src="https://www.youtube.com/embed/{{ $youtube_link }}"
         allowfullscreen>
 </iframe>

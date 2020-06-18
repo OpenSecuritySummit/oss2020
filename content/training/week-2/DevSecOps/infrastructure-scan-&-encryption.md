@@ -11,7 +11,7 @@ session_slack:
 status       :            # draft, review-content, done
 description  : TBD
 organizers   : Barak Schoster
-youtube_link : X1VsceDfntc&t=1s
+youtube_link : X1VsceDfntc
 ---
 
 
