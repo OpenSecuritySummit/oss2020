@@ -28,6 +28,12 @@ youtube_link :
 
 ---
 
+## Session content
+
+{{<pdf src="https://github.com/OpenSecuritySummit/oss2020/raw/master/content/outcomes/presentation/VAST%20ONE%20SHEET.pdf">}}
+    
+https://go.threatmodeler.com/process-flow-diagrams-vs-data-flow-diagrams-with-modern-threat-modeling
+
 ## Why
 When choosing a threat model tool, you first need to know what the tool can and cannot do. In order to facilitate this we are organising a number of demonstrations of tools, each 30 minutes long.
 
@@ -39,4 +45,4 @@ http://www.threatmodeler.com/
 ## Outcomes
 A recording of the functionalities at the moment of the summit
 
-## Who
+

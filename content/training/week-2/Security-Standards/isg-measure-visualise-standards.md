@@ -16,6 +16,7 @@ organizers   :
         - Elvin White
         - Vinh Tram
         - Greg Mann
+youtube_link : PGZCHxwZ82c        
 ---
 
 ### Notable logs from the chat during the session
@@ -25,9 +26,6 @@ yextend: https://github.com/BayshoreNetworks/yextend     \
 "A curated list of awesome YARA rules, tools, and resources.": https://github.com/InQuest/awesome-yara   
 01:06:56	WallabyCurtis:	[yaraeditorweb](https://www.adlice.com/download/yaraeditorweb)      
 01:36:58	Vinh Tram:	[Exploit_presentation](https://docs.google.com/presentation/d/1XB0gPCmZVu2nYwcV86ktXM94nPdvPzrj_HDlFRZoOAw/edit#slide=id.g80ca0e9a9c_4_0) 
-### Training Session Video
-
-{{< youtube id="PGZCHxwZ82c" autoplay="false" >}} 
 
 ### About this talk:
 

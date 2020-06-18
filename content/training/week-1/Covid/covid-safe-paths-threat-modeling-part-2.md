@@ -14,11 +14,9 @@ organizers   :
     - Dinis Cruz
     - Adam Leon Smith
 description  : 
+youtube_link : B4F0uFhi83g  	
 ---
 
-### Training Session Video
-
-{{< youtube id="B4F0uFhi83g" autoplay="false" >}} 
 
 ### Covid Safe Paths
 

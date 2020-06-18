@@ -11,11 +11,8 @@ session_slack:
 status       :            # draft, review-content, done
 description  : TBD
 organizers   : Dave Mattingly
+youtube_link : ZneD_KQDWuk      
 ---
-
-### Training Session Video
-
-{{< youtube id="ZneD_KQDWuk" autoplay="false" >}} 
 
 ### About this talk:
 

@@ -14,6 +14,7 @@ organizers   :
         - Jannik Hollenbach
         - Robert Seedorff 
 zoom_host    : Dinis Cruz
+youtube_link : 6NMjZbfnTOU 
 ---
 
 ### About this talk
@@ -63,10 +64,6 @@ Audience:
 * Security Consultants
 * Juice Shop Enthusiasts
 
-
-## Training Session Video
-
-{{< youtube id="6NMjZbfnTOU" autoplay="false" >}} 
 
 ### Session Contents
 

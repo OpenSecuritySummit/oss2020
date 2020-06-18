@@ -17,7 +17,7 @@ organizers   :
         - Greg Mann
         - Vinh Tram
 zoom_host    : TBD
-
+youtube_link : ZI5X-oDnO8I   
 ---
 
 ### Training Session Video

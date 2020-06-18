@@ -11,6 +11,7 @@ session_slack:
 status       : done           # draft, review-content, done
 description  :
 organizers   : Bjoern Kimminich
+youtube_link : wCF08BdXdDg
 ---
 
 ### Notable logs from the chat during the session 

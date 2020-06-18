@@ -14,14 +14,10 @@ description  : TBD
 organizers   :
     - Mark Carney
     - Jay Harris
-zoom_host   : Didar Gelici       
+zoom_host   : Didar Gelici   
+youtube_link : fwo-TryGQ6c    
 ---
 
-
-
-### Training Session Video
-
-{{< youtube id="fwo-TryGQ6c" autoplay="false" >}} 
 
 ### Session Contents
 

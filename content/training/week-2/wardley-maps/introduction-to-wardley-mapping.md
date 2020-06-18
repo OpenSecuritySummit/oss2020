@@ -12,6 +12,7 @@ session_slack:
 status       :            # draft, review-content, done
 organizers   : Chris Daniel
 description  : 
+youtube_link : FsJ5-DN1gHc   
 ---
 
 ### Notable logs from the chat during the session 
@@ -25,10 +26,6 @@ description  :
 01:16:18	Kenneth Haugland:	Read the Strangler Pattern Martin Fowler regarding moving from monolith (sap with custom modifications)    \
 01:17:35	Kenneth Haugland:	https://martinfowler.com/bliki/StranglerFigApplication.html   \
 02:16:20	Kenneth Haugland:	https://www.ben-evans.com/benedictevans/2020/6/4/solving-online-events 
-
-### Training Session Video
-
-{{< youtube id="FsJ5-DN1gHc" autoplay="false" >}} 
 
 ### About this talk:
 

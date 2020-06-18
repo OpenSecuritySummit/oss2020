@@ -14,8 +14,5 @@ description  : TBD
 organizers   :
      - Petra Vukmirovic
      - Sara Notaro
+youtube_link : m24es4ATIhk     
 ---
-
-### Training Session Video
-
-{{< youtube id="m24es4ATIhk" autoplay="false" >}} 

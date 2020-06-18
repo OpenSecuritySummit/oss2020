@@ -11,6 +11,7 @@ session_slack:
 status       :           # draft, review-content, done
 organizers   : Stuart Peck
 description  : 
+youtube_link : -wXlB0CILWic    
 ---
 
 ### Notable logs from the chat during the session 

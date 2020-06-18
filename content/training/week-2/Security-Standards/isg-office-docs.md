@@ -16,6 +16,7 @@ organizers   :
         - Greg Mann
         - Vinh Tram
         - Elvin White
+youtube_link : C3wn6F-P4yU           
 ---
 
 ### Training Session Video

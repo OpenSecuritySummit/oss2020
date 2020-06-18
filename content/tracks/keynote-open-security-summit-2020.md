@@ -13,8 +13,7 @@ room_id      :
 session_slack: 
 status       :               # draft, review-content, done
 hosted_by    : Open Security Summit
-zoom_link    : https://zoom.us/j/92523115763
-youtube_link : https://youtu.be/ph1etD8ooHM
+youtube_link : ph1etD8ooHM
 slide_id     : 2PACX-1vTgKr-rdrtCdivkNaZcsdO7d_WzEnZ_QwVnWxhQV-9eRN5sskeFWqvHQGuabiW6gIe76cOs0FfK3zwL
 slide_edit   : 1s6Z9KwiLaqRV_9nl_LEmO6VSTLMADp4vsm7QZ7bTwrY
 description  :
