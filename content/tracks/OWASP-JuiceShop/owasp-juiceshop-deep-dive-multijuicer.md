@@ -18,7 +18,6 @@ organizers   :
     - Jannik Hollenbach
     - Robert Seedorff
 hosted_by    : Tatevik Stepanyan
-youtube_link : https://www.youtube.com/watch?v=1YHjkc3Xzd0
 slide_id     :
 youtube_link : 1YHjkc3Xzd0
 ---

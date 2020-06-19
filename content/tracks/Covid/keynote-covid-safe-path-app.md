@@ -11,7 +11,7 @@ session_slack:
 status       : 
 description  :
 hosted_by    : Didar Gelici
-youtube_link : https://www.youtube.com/watch?v=_LhbwdQ7N_M
+youtube_link : _LhbwdQ7N_M
 organizers   :
     - Adam Leon Smith
 ---

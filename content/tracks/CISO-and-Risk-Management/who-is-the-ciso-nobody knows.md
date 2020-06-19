@@ -21,7 +21,7 @@ organizers   :
 participants :
     - Robin Oldham
 hosted_by    : Tatevik Stepanyan
-youtube_link : https://www.youtube.com/watch?v=ar6HSoMICRM    
+youtube_link : ar6HSoMICRM    
 ---
 
 

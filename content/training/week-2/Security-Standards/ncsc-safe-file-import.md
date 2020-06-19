@@ -15,7 +15,7 @@ description  :
 organizers   : 
         - Paul Burke
         - Tim Lunn
-youtube_link : https://www.youtube.com/watch?v=6xgYy7X52rc
+youtube_link : 6xgYy7X52rc
 ---
 
 ### About this talk:

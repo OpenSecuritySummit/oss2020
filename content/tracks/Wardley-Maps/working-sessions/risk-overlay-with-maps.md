@@ -20,7 +20,7 @@ organizers   :
     - Simon Wardley
 participants :
 hosted_by    : Tatevik Stepanyan
-youtube_link : https://www.youtube.com/watch?v=UKtz8rO8ne0
+youtube_link : UKtz8rO8ne0
     
 ---
 

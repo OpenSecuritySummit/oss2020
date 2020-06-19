@@ -15,7 +15,7 @@ status       :              # draft, review-content, done
 description  :
 organizers   : Simon Wardley
 hosted_by    : Dinis Cruz
-youtube_link : https://www.youtube.com/watch?v=TkctxmRJ8ME
+youtube_link : TkctxmRJ8ME
 participants :
 ---
 

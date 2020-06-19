@@ -19,7 +19,7 @@ organizers   :
     - Jannik Hollenbach
     - Timo Pagel
 hosted_by    : Alona Reyes
-youtube_link : https://www.youtube.com/watch?v=h5ApBfFMmao
+youtube_link : h5ApBfFMmao
 
 slide_id     : 2PACX-1vTf_-CJm5eSp2HWNHm-O9QS2AnuM7afw5vIYnkFNkWqza7uprtLCCT3NLHLAuj2vKR6CSqOpnUMAben
 slide_edit   : 156WVzQ2kALGwMM9rkHrDJUHMQYjYdUqKzA_IwfchJMM

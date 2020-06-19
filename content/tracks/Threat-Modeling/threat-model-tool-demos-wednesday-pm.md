@@ -17,7 +17,7 @@ organizers   :
     - Geoff Hill
 participants :
 hosted_by    : Didar Gelici
-youtube_link : https://www.youtube.com/watch?v=J7dTDKM9Z00
+youtube_link : J7dTDKM9Z00
 ---
 
 ## Why

@@ -16,7 +16,7 @@ description  :
 organizers   :
     - Ben Schofield
 hosted_by    : Wallaby Curtis
-youtube_link : http://www.youtube.com/watch?v=OwQNaspKzzs
+youtube_link : OwQNaspKzzs
 ---
 
 

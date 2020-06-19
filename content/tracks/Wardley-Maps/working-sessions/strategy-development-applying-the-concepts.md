@@ -17,7 +17,7 @@ organizers   :
       - Simon Wardley
       - Mario Platt
 hosted_by    : Dinis Cruz
-youtube_link : https://www.youtube.com/watch?v=ZcQQ7qxjDEI
+youtube_link : ZcQQ7qxjDEI
 slide_id     : 2PACX-1vQ2-8tUBgvbM75rjTJRiM3PAfRQyLljc-DKEt4UMqchT7yMmeG4MuGSzTKhwzGufdOPBSu3GfcVz75m
 slide_edit   : 1jPQY-cWNXbGbBS8HEY9BvBqIaxUZAl6pRw2CiT2XfDE
       
