@@ -13,7 +13,7 @@ description  :
 organizers   :  
       - Paul Harragan 
 hosted_by    : Wallaby Curtis
-youtube_link : https://www.youtube.com/watch?v=MpqbL7Q6ftY
+youtube_link : MpqbL7Q6ftY
 ---
 
 ## About This session

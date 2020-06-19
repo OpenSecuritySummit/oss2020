@@ -19,7 +19,7 @@ organizers   :
     - Demi Ben-Ari
     - Elad Shapira
 hosted_by    : Didar Gelici
-youtube_link : https://www.youtube.com/watch?v=X0ebMh0dzys
+youtube_link : X0ebMh0dzys
 ---
 
 ## Why

@@ -18,7 +18,7 @@ organizers   :
     - Leila Rao
 participants :
 hosted_by    : Didar Gelici
-youtube_link : https://www.youtube.com/watch?v=7g7jqU2YAn4
+youtube_link : 7g7jqU2YAn4
 ---
 
 <!--(add intro)
