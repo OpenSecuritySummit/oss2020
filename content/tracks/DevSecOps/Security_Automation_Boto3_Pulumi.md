@@ -14,7 +14,8 @@ session_slack:
 status       :               # draft, review-content, done
 description  : How to automate security benchmarks, standards and tasks with Python
 organizers   : 
-    - Petra Vukmirovic
+    - Petra Vukmirovic\
+    -Omas Pilvelis
 participants :
 hosted_by    : Didar Gelici
 zoom_link    : https://zoom.us/j/8135159752?pwd=enFReldYZkhpcUVrVnZyZGRoaXI1Zz09
