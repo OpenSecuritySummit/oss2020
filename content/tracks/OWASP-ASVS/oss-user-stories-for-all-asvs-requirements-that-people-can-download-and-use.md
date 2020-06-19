@@ -18,6 +18,8 @@ organizers   :
 participants :
 slide_id     : 2PACX-1vTvJgFL94hh0OVVlxfLQO3ZSnt0BwORjkN1Dh7ysu8I0WT6CrcGM9dUpSuHMROEIFb6n15IVkrKAplx
 slide_edit   : 1Ee5sOOaz0BjhCdyFhvIPxSFjPAGNByJXoONSrpinLWg
+hosted_by    : Didar Gelici
+zoom_link    : https://zoom.us/j/8135159752?pwd=enFReldYZkhpcUVrVnZyZGRoaXI1Zz09
 ---
 
 

@@ -11,8 +11,7 @@ session_slack:
 status       : 
 description  :
 hosted_by    : Didar Gelici
-zoom_link    : https://zoom.us/webinar/register/WN_NO-xxq_FR7KeNexlEY0FNw
-youtube_link : https://www.youtube.com/watch?v=_LhbwdQ7N_M
+youtube_link : _LhbwdQ7N_M
 organizers   :
     - Adam Leon Smith
 ---

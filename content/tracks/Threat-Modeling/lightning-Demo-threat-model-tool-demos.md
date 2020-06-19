@@ -17,7 +17,7 @@ organizers   :
     - Mike Goodwin
 participants :
 hosted_by    : Wallaby Curtis
-zoom_link    : https://zoom.us/j/91597557649
+youtube_link : n6JGcZGFq5o
 ---
 
 ## Why

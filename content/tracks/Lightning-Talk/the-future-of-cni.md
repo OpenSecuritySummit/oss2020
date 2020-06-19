@@ -12,7 +12,7 @@ status       :
 description  :
 organizers   :  
         - Dr Jacqui Taylor
-zoom_link    : https://zoom.us/j/99975990806
+youtube_link : 78meBnQODRY
 hosted_by    : Didar Gelici
 ---
 

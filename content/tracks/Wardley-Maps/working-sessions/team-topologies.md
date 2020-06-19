@@ -20,7 +20,7 @@ organizers   :
     - Luke Robbertse
 participants :
 hosted_by    : Dinis Cruz
-zoom_link    : https://zoom.us/j/6503444982?pwd=d1BuWStHNGVlVk53MjJUNW5aZEFuUT09
+youtube_link : YKHPUZJMkUs
 slide_id     : 2PACX-1vSFJIEzd6aMYmtKEasSiFP1aXupx7thwssyvAhMWatk8BV3xRVV9W94W5MMwbZYdEY-b6M78b1WqZ6x
 slide_edit   : 1zHvPFyZTu74Y0S2KG-jgWm9YZbgi7df5DFQ6Y0FjOYk
 

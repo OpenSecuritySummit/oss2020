@@ -16,5 +16,10 @@ description  :
 participants :
 organizers   : 
        - Andrew van der Stock
+hosted_by    : Alona Reyes
+zoom_link    : https://zoom.us/j/7282391769?pwd=ZWlpTXlZZkxTMmwyK3diamJIemw5UT09
+slide_id     : 2PACX-1vS1sfZTqTqyjzNTbfBarNjrU7_6-F1dq0yYerpwEFX394yVdrKSq3O9poLhdmCq-b62oUjsuY00C1NY
+slide_edit   : 1V_zc63xQzRuS1CSLyx1BKBbCi2I1KNyhWnWwigz_vbE
+youtube_link : 
 
 ---
