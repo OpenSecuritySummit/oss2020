@@ -19,6 +19,10 @@ organizers   :
 participants :
 hosted_by    : Alona Reyes
 zoom_link    : https://zoom.us/j/7282391769?pwd=ZWlpTXlZZkxTMmwyK3diamJIemw5UT09
+slide_id     : 2PACX-1vTYnvbD0MfLCxW_41GbtaThvEHtEGQlwPldwteSSMZKpEDSJqJw-HU6FLu_XHZmYne4cGt8T9R242it
+slide_edit   : 1FGq-zujyTQXiQFRm01nAoELWMqFiciwnNZFTjuiR4zQ
+youtube_link : 
+
 ---
 
 
