@@ -13,7 +13,8 @@ description  :
 organizers   :
     - Dinis Cruz
     - Adam Leon Smith
-    
+slide_id     :  2PACX-1vSyhNcsRDVEwefMBQ78knsRtVyfV7OxUUmePxGsPXSG520y9caRBHXfh5CyNUUR0O-Y2SMCICOwMsKl
+slide_edit   :  11efOf1IUfcQlw_bHTUxSs-R_cF0ml-bMjdT95BlVqOU
 ---
 
 

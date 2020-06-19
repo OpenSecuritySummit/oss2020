@@ -16,6 +16,8 @@ description  :
 organizers   :
     - Mario Platt
 participants :
+slide_id     : 2PACX-1vTvJgFL94hh0OVVlxfLQO3ZSnt0BwORjkN1Dh7ysu8I0WT6CrcGM9dUpSuHMROEIFb6n15IVkrKAplx
+slide_edit   : 1Ee5sOOaz0BjhCdyFhvIPxSFjPAGNByJXoONSrpinLWg
 ---
 
 
