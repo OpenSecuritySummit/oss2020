@@ -14,7 +14,7 @@ description  : TBD
 organizers   :
         - Dinis Cruz
 hosted_by    : Dinis Cruz
-zoom_link    : https://zoom.us/j/6503444982?pwd=d1BuWStHNGVlVk53MjJUNW5aZEFuUT09
+zoom_link    : 
 slide_id     : 2PACX-1vQm2DKAkD7Ra7V0C1uGW7U8GFVThhiU7lUNhuYwERvOFqvMUx-W5MD9WuQE-Y0Qw2gS0Yuhalvbu-ZO
 slide_edit   : 1WH6B4XqzApfgHHe-SAzqL5aGPGclQc79UVapL5XRrYM
 
