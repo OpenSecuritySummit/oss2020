@@ -22,7 +22,7 @@ hosted_by    : Alona Reyes
 slide_id     : 2PACX-1vTNzF_YmYAeqEf7Mv_j4xxFKPHupsYjf8gvok4QMNqEpNy1n1bSgWBBSz7OtYWqk6PDHSGJajlaDoL_
 slide_edit   : 1GJTZldlU_-ogevRNyfYGjbDf5_TKY8auAxU1jbptKC0
 participants :
-youtube_link : o-Qq3jQrkfs
+youtube_link : https://www.youtube.com/watch?v=EQ14YdYZt54
 
 
 ---
