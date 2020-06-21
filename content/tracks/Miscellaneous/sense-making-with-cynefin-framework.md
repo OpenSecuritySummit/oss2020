@@ -18,10 +18,10 @@ organizers   :
     - Phil Huggins
 participants :
 hosted_by    : Alona Reyes
-zoom_link    : https://zoom.us/j/99488751789?pwd=YU1tR1R1b0ZuYXRQODVWM3pncWJ5Zz09
+zoom_link    : 
 slide_id     : 2PACX-1vTYnvbD0MfLCxW_41GbtaThvEHtEGQlwPldwteSSMZKpEDSJqJw-HU6FLu_XHZmYne4cGt8T9R242it
 slide_edit   : 1FGq-zujyTQXiQFRm01nAoELWMqFiciwnNZFTjuiR4zQ
-youtube_link : https://www.youtube.com/watch?v=b7r_iunJJ8E 
+youtube_link : b7r_iunJJ8E
 
 ---
 
