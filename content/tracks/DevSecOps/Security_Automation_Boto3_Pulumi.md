@@ -18,5 +18,7 @@ organizers   :
     - Tomas Pilvelis
 participants :
 hosted_by    : Didar Gelici
-zoom_link    :  https://zoom.us/j/99485970261?pwd=Zm0wMENINlRaTVkxendyZ1AxMnZWUT09
+zoom_link    :  
+youtube_link : 4Hsz9szbz2Y
+
 ---
