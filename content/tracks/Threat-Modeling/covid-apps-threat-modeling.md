@@ -16,8 +16,9 @@ description  :
 organizers   :
     - Jakub Kaluzny
 hosted_by    : Didar Gelici
-zoom_link    : https://zoom.us/j/8135159752?pwd=enFReldYZkhpcUVrVnZyZGRoaXI1Zz09
-youtube_link : tCG1m9CmAPo
+zoom_link    : 
+youtube_link : https://www.youtube.com/watch?v=tCG1m9CmAPo
+
 ---
 
 ## Description
