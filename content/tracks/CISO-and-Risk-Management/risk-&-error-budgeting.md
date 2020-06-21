@@ -19,7 +19,8 @@ organizers   :
     - Aaron Rinehart
     
 hosted_by    : Tatevik Stepanyan
-zoom_link    : https://zoom.us/j/3037008530?pwd=NStFeUVZNW5xWDZiQTdLb20yb3NuZz09
+zoom_link    : 
+
 ---
 
 (below are draft sessions note, please add missing content and improve on them)
