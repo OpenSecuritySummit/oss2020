@@ -18,6 +18,6 @@ organizers   :
       - Open Security Summit
 hosted_by    : Didar Gelici
 zoom_link    :
-youtube_link : 
+youtube_link : https://www.youtube.com/watch?v=yyKLD3_FySQ
 
 ---
