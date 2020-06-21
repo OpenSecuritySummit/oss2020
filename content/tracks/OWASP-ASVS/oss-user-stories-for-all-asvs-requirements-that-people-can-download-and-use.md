@@ -19,7 +19,7 @@ participants :
 slide_id     : 2PACX-1vTvJgFL94hh0OVVlxfLQO3ZSnt0BwORjkN1Dh7ysu8I0WT6CrcGM9dUpSuHMROEIFb6n15IVkrKAplx
 slide_edit   : 1Ee5sOOaz0BjhCdyFhvIPxSFjPAGNByJXoONSrpinLWg
 hosted_by    : Didar Gelici
-zoom_link    : https://zoom.us/j/8135159752?pwd=enFReldYZkhpcUVrVnZyZGRoaXI1Zz09
+youtube_link : https://www.youtube.com/watch?v=3fxrHDhvcEw
 ---
 
 
@@ -43,3 +43,5 @@ zoom_link    : https://zoom.us/j/8135159752?pwd=enFReldYZkhpcUVrVnZyZGRoaXI1Zz09
 
 
 ## Previous-->
+
+https://zoom.us/j/97020380912?pwd=QUloOVRrQ25jL3ZZYWlsb05nMTdBQT09
