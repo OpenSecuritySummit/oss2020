@@ -17,7 +17,8 @@ organizers   :
     - David Prince
 participants :
 hosted_by    : Didar Gelici
-youtube_link : 7cEkbQ80CD8
+youtube_link : https://www.youtube.com/watch?v=7cEkbQ80CD8
+
 ---
 
 
