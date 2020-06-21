@@ -17,5 +17,7 @@ participants :  all
 organizers   : 
       - Open Security Summit
 hosted_by    : Didar Gelici
-zoom_link    : https://zoom.us/j/96954469706?pwd=L1ZCb3JjMkI2S3VQYXJNbG9xNGRUUT09    
+zoom_link    :
+youtube_link : 
+
 ---
