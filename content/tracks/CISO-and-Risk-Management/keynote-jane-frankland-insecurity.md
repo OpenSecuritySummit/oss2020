@@ -16,7 +16,7 @@ description  :
 organizers   :
       - Jane Frankland 
 hosted_by    : Open Security Summit
-zoom_link    : 
+youtube_link : https://www.youtube.com/watch?v=U1jMCmefITY
 
 ---
 

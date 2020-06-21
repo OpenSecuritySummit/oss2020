@@ -12,5 +12,5 @@ description  :
 organizers   :  
         - Imran A. Mohammed  
 hosted_by    : Wallaby
-zoom_link    : https://zoom.us/j/97030856957
+youtube_link : meVN1MqL8TY
 ---
