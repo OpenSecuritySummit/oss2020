@@ -17,7 +17,9 @@ organizers   :
     - Leila Rao
 participants :
 hosted_by    : Tatevik Stepanyan
-zoom_link    : https://zoom.us/j/97020380912?pwd=QUloOVRrQ25jL3ZZYWlsb05nMTdBQT09
+zoom_link    : 
+youtube_link : 
+
 ---
 
 
