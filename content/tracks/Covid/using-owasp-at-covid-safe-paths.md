@@ -16,7 +16,9 @@ organizers   :
 slide_id     : 2PACX-1vSyhNcsRDVEwefMBQ78knsRtVyfV7OxUUmePxGsPXSG520y9caRBHXfh5CyNUUR0O-Y2SMCICOwMsKl
 slide_edit   : 11efOf1IUfcQlw_bHTUxSs-R_cF0ml-bMjdT95BlVqOU
 hosted_by    : Tatevik Stepanyan
-zoom_link    : https://zoom.us/j/94754448835?pwd=L1VsaStpV2JvTEZkNFhPaHZZNEpKUT09
+zoom_link    : 
+youtube_link : 
+
 ---
 
 
