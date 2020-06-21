@@ -15,7 +15,9 @@ organizers   :
         - Matt Green
         - Greg Mann
 hosted_by    : Dinis Cruz
-zoom_link    : https://zoom.us/j/6503444982?pwd=d1BuWStHNGVlVk53MjJUNW5aZEFuUT09
+zoom_link    : 
+youtube_link : 
+
 ---
 
 
