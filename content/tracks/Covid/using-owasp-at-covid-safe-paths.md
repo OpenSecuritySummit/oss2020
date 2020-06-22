@@ -22,3 +22,9 @@ youtube_link :
 ---
 
 
+### Notable logs from the chat during the session
+
+17:11:38	 From Didar Gelici : https://github.com/Path-Check/privacy-security  \
+17:31:56	 From Dinis Cruz : https://github.com/fuzzdb-project/fuzzdb   \
+17:44:48	 From Dinis Cruz : https://github.com/OWASP/Maturity-Models-API/blob/ecb76ce04d48bf488bab1ede7033e0ef4f6c6f91/test/server/Server.test.coffee   \
+17:55:06	 From Dinis Cruz : https://docs.google.com/presentation/d/1Ee5sOOaz0BjhCdyFhvIPxSFjPAGNByJXoONSrpinLWg/edit#slide=id.g81ebbb15fa_0_57

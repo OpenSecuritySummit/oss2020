@@ -22,3 +22,10 @@ zoom_link    :
 youtube_link : 4Hsz9szbz2Y
 
 ---
+
+### Notable logs from the chat during the session
+
+01:08:27	Tomas Pilvelis:	https://github.com/tpilvelis-gw/pulumi-cis-dev/blob/master/CIS.yaml  \
+01:09:12	Tomas Pilvelis:	The official repo: https://github.com/awslabs/aws-security-benchmark  \
+01:23:57	Petra Vukmirović:	scikitlearn  \
+01:28:14	WallabyCurtis:	kaggle

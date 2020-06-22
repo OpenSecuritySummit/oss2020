@@ -39,4 +39,14 @@ https://iriusrisk.com/threat-modeling-tool/
 ## Outcomes
 A recording of the functionalities at the moment of the summit
 
-## Who
+### Notable logs from the chat during the session
+
+13:41:36     From  André Ferreira : At the start of the presentation I understood that CARIS offers a deviation in term of interpretation from standards like  ISO 29148 (system requirements) regarding what an environment is (thinking system), what was your racional as I believe it might go against ISO 2382 (IT vocabulary) don’t have it to check.  \
+14:01:34     From  dkiaries : dkiaries@bournemouth.ac.uk  \
+14:02:21     From  dkiaries : https://demo.cairis.org/   \
+https://www.youtube.com/watch?v=lN3ynhY4xUM    \
+arXiv Pre-print: https://arxiv.org/pdf/2006.04098.pdf    \
+14:02:58     From  dkiaries : Thank you all ;-)   \
+14:17:04     From  Avi Douglen : I love the new diagramming interface!   \
+14:42:24     From  Avi Douglen : Jira for threat models!   
+
