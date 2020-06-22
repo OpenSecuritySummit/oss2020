@@ -33,4 +33,3 @@ https://owasp.org/www-project-threat-dragon/
 ## Outcomes
 A recording of the functionalities at the moment of the summit
 
-## Who
