@@ -16,7 +16,7 @@ organizers   :
         - Greg Mann
 hosted_by    : Dinis Cruz
 zoom_link    : 
-youtube_link : 
+youtube_link : veRermhCn3k
 
 ---
 
