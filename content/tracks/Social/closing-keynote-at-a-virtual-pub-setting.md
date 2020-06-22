@@ -36,3 +36,8 @@ https://www.mirror.co.uk/news/uk-news/barnard-castle-means-pathetic-excuse-22086
 23:01:36	 From Tim Williams : https://www.youtube.com/channel/UCPW0hja0EcQWFRutx8mQJJg \
 23:04:22	 From Tim Williams : https://intranet.royalholloway.ac.uk/isg/documents/pdf/research/tim-williams-computer-weekly.pdf    \
 23:18:11	 From Tim Williams : https://cleanfeed.net
+
+
+{{< img src="https://github.com/OpenSecuritySummit/oss2020/raw/master/content/outcomes/presentation/Pub_session.png" >}}
+
+{{< img src="https://github.com/OpenSecuritySummit/oss2020/raw/master/content/outcomes/presentation/Pub_session_2.png" >}}
