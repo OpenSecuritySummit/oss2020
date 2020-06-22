@@ -24,7 +24,11 @@ youtube_link :
 
 ### Notable logs from the chat during the session
 
-17:11:38	 From Didar Gelici : https://github.com/Path-Check/privacy-security  \
-17:31:56	 From Dinis Cruz : https://github.com/fuzzdb-project/fuzzdb   \
-17:44:48	 From Dinis Cruz : https://github.com/OWASP/Maturity-Models-API/blob/ecb76ce04d48bf488bab1ede7033e0ef4f6c6f91/test/server/Server.test.coffee   \
-17:55:06	 From Dinis Cruz : https://docs.google.com/presentation/d/1Ee5sOOaz0BjhCdyFhvIPxSFjPAGNByJXoONSrpinLWg/edit#slide=id.g81ebbb15fa_0_57
+00:32:30    WallabyCurtis:  Can we drop the github here?  \
+00:34:22    Didar Gelici:   https://github.com/Path-Check/privacy-security   \
+00:38:32    Didar Gelici:   rate limiting?  \
+00:54:40    Dinis Cruz: https://github.com/fuzzdb-project/fuzzdb  \
+01:07:32    Dinis Cruz: https://github.com/OWASP/Maturity-Models-API/blob/ecb76ce04d48bf488bab1ede7033e0ef4f6c6f91/test/server/Server.test.coffee   \
+01:17:50    Dinis Cruz: https://docs.google.com/presentation/d/1Ee5sOOaz0BjhCdyFhvIPxSFjPAGNByJXoONSrpinLWg/edit#slide=id.g81ebbb15fa_0_57   \
+02:13:43    Abbas Haidar:   Great session, thank you everyone! Really good!!!  \
+02:24:35    Abbas Haidar:   thank you everyone, have a great weekend! this is great, big learning curve tbh
