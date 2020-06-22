@@ -20,7 +20,7 @@ organizers   :
     
 hosted_by    : Tatevik Stepanyan
 zoom_link    : 
-
+youtube_link : 8ECB6q8DsQ
 ---
 
 (below are draft sessions note, please add missing content and improve on them)

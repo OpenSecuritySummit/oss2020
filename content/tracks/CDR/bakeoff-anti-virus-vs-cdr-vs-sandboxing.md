@@ -15,6 +15,6 @@ organizers   :
         - Paul Burke
 hosted_by    : Dinis Cruz
 zoom_link    : 
-youtube_link : 
+youtube_link : I0esii6BrQ4
 ---
 
