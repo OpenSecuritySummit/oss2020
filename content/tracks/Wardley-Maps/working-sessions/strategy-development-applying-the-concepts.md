@@ -37,3 +37,7 @@ We will then break out into groups, to continue discussion on these and/or other
 ### Session Contents
 
 {{< pdf src="https://github.com/OpenSecuritySummit/oss2020/raw/master/content/outcomes/presentation/15%20Jun%20-%20Strategy%20Development%20with%20Wardley%20Mapping%20-%20Applying%20Concepts%20by%20Mario.pdf" >}}
+
+### Session Outcomes
+
+{{< pdf src="https://github.com/OpenSecuritySummit/oss2020/raw/master/content/outcomes/presentation/Outcomes_Mario_StrategyDev-Concepts-15%20Jun.pdf" >}}

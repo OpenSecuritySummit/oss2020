@@ -22,26 +22,6 @@ hosted_by    : Didar Gelici
 youtube_link : https://www.youtube.com/watch?v=3fxrHDhvcEw
 ---
 
+### Session Outcomes
 
-<!--(add intro)
-
-## WHY
-
-(...)
-
-## What
-
-(...)
-
-## Outcomes
-
-(...)
-
-## References
-
-(...)
-
-
-## Previous-->
-
-https://zoom.us/j/97020380912?pwd=QUloOVRrQ25jL3ZZYWlsb05nMTdBQT09
+{{< pdf src="https://github.com/OpenSecuritySummit/oss2020/raw/master/content/outcomes/presentation/Outcomes_Mario_UserStories-ASVS-19%20Jun.pdf" >}}
