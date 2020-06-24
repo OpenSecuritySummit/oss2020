@@ -47,4 +47,6 @@ In Security teams, we tend to adopt a static approach to team creation leading t
 This section is an exploratory exercise where we'll all be participating, in applying Team Topologies concepts to the organisation of Cyber Security teams so we can document and share it with the community.
 
 
+### Session Outcomes
 
+{{< pdf src="https://github.com/OpenSecuritySummit/oss2020/raw/master/content/outcomes/presentation/Outcomes_Mario%26Manuel_TeamTopo-15%20Jun.pdf" >}}
