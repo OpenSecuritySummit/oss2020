@@ -20,6 +20,9 @@ organizers   :
     - Elad Shapira
 hosted_by    : Didar Gelici
 youtube_link : X0ebMh0dzys
+slide_id     : 2PACX-1vTEUZEfz7wiWnTG0ersOlhH5GPDy015Gfm2DDWfK9VT1TdY7LeWN_sW8nqd3M5249RMgNX3puNNvkN5
+slide_edit   : 1-J1FEnNg1jFxEHxN9ZKdhy8u72zjbGS8q08frVDw8Ck
+
 ---
 
 ## Why
