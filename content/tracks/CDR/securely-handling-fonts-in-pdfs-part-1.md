@@ -14,7 +14,7 @@ description  : TBD
 organizers   :
         - Elvin White
 hosted_by    : Alona Reyes
-zoom_link    : https://zoom.us/j/7282391769?pwd=ZWlpTXlZZkxTMmwyK3diamJIemw5UT09
+zoom_link    : 
 slide_id     : 2PACX-1vTtLD9c8aKd9RXbOLNwGmGzaU38crYpbL5HU3hSKM0nFssmY67-AbZohOsYLZgV0Szf6STOd3w761Lg
 slide_edit   : 1HzDTLNVH9PxyeqP4K8pWp-fvruZ-QnkkdxmMPNjNsow
 youtube_link : u_Snj_z85kU
