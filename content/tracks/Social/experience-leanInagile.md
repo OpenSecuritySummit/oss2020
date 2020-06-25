@@ -21,3 +21,9 @@ zoom_link    :
 youtube_link : cq7QQkEtxq4
 
 ---
+
+### Notable logs from the chat during the session
+
+21:46:19     From Leila Rao : LeanInAgile — community service organization  \
+21:46:34     From Leila Rao : Spirals — groups of women   \
+22:12:56     From Leila Rao : Leila@agilextended.com
