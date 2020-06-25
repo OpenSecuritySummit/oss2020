@@ -1,5 +1,5 @@
 ---
-title        : Multi-cloud governance 
+title        : Open control frameworks in Media and Entertainment
 type         : working-session      # working-session, user-session, product-session
 track        : "Cloud Security"
 technology   :
