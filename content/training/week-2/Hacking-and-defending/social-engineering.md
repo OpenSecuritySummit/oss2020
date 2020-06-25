@@ -9,10 +9,10 @@ when_time    : WS-3
 hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/social-engineering/
 session_slack:
 status       :           # draft, review-content, done
-youtube_link : -wXlB0CILWic
 organizers   : Stuart Peck
 description  : 
-youtube_link : -wXlB0CILWic    
+youtube_link : wXlB0CILWic
+
 ---
 
 ### Notable logs from the chat during the session 
