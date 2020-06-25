@@ -18,28 +18,7 @@ organizers   :
 participants :
 hosted_by    : Tatevik Stepanyan
 zoom_link    : 
-youtube_link : https://www.youtube.com/watch?v=cq7QQkEtxq4
+
+youtube_link : cq7QQkEtxq4
 
 ---
-
-
-<!--(add intro)
-
-## WHY
-
-(...)
-
-## What
-
-(...)
-
-## Outcomes
-
-(...)
-
-## References
-
-(...)
-
-
-## Previous-->
