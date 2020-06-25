@@ -13,6 +13,6 @@ description  :
 organizers   :  
         - Naina Bhattacharya
 hosted_by    : Wallaby Curtis
-zoom_link    : https://zoom.us/j/96819398503
+zoom_link    : 
 youtube_link : SZdYrvUMX1Y        
 ---
