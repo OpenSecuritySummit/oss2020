@@ -18,6 +18,7 @@ organizers   :
 participants :
 hosted_by    : Tatevik Stepanyan
 zoom_link    : 
+
 youtube_link : cq7QQkEtxq4
 
 ---
