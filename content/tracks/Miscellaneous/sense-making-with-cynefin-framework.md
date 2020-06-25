@@ -19,11 +19,13 @@ organizers   :
 participants :
 hosted_by    : Alona Reyes
 zoom_link    : 
-slide_id     : 2PACX-1vTYnvbD0MfLCxW_41GbtaThvEHtEGQlwPldwteSSMZKpEDSJqJw-HU6FLu_XHZmYne4cGt8T9R242it
-slide_edit   : 1FGq-zujyTQXiQFRm01nAoELWMqFiciwnNZFTjuiR4zQ
+slide_id     : 
+slide_edit   : 
 youtube_link : https://www.youtube.com/watch?v=b7r_iunJJ8E
 ---
 
+### Session Slides
+{{< pdf src="https://github.com/OpenSecuritySummit/oss2020/raw/master/content/outcomes/presentation/Cynefin%20Framework.pptx" >}}
 
 ### Session Outcomes
 
