@@ -1,0 +1,265 @@
+-
+  video: 9TIfoQgMEzQ
+  author: James Duncan
+  description: Why your corporate IT needs to look a lot more like consumer IT
+  date: 15 Jun 2020
+-
+  video: ph1etD8ooHM
+  author: Phil Huggins and Robin Oldham
+  description: Threat Personas and Application Vulnerability Scoring
+  date: 15 Jun 2020
+-
+  video: ph1etD8ooHM
+  author: Dinis Cruz and Didar Gelici
+  description: Opening Keynote by Organiser Team
+  date: 15 Jun 2020
+-
+  video: f7trG4_InPk
+  author: Paul Harragan
+  description: Threat Modeling - ICAP
+  date: 12 Jun 2020
+-
+  video: rrnZNubshbQ
+  author: Elvin White and Vinh Tram
+  description: JPG & PDF ISG - How to automate Inspection and Sanitization Guidance testing
+  date: 12 Jun 2020
+-
+  video: 7zs4wezbt8o
+  author: Vandana Verma
+  description: Applying OWASP Web Security Testing Guide
+  date: 12 Jun 2020
+-
+  video: -rKvEkEUqYc
+  author: Tony Richards
+  description: Wardley Mapping (intermediate)
+  date: 12 Jun 2020
+-
+  video: VcmCrE8chJQ
+  author: Mohammed A. Imran
+  description: Secrets and Credentials scanning lab by Practical DevSecOps
+  date: 12 Jun 2020
+-
+  video: C3wn6F-P4yU
+  author: Elvin White and Greg Mann
+  description: Office Documents ISG How to automate Inspection and Sanitization Guidance testing
+  date: 12 Jun 2020
+-
+  video: 6xgYy7X52rc
+  author: Paul Burke, Tim Lunn
+  description: NCSC Safe File Import Pattern
+  date: 12 Jun 2020
+-
+  video: yjvSI755auM
+  author: Avi Douglen
+  description: Introduction to Threat Modeling
+  date: 11 Jun 2020
+-
+  video: j184Av-LJvI
+  author: Mohammed A. Imran
+  description: Dependency scanning lab by Practical DevSecOps
+  date: 11 Jun 2020
+-
+  video: 4SK-U-0FDnw
+  author: Demi Ben-Ari and Dov Goldman
+  description: Cyber and Privacy Risk Management 101
+  date: 11 Jun 2020
+-
+  video: -ixsyaPAcNw
+  author: Greg Mann and Vinh Tram
+  description: Office Documents ISG - How to automate Inspection and Sanitization Guidance testing
+  date: 11 Jun 2020
+-
+  video: X1VsceDfntc
+  author: Elvin White and Vinh Tram
+  description: What security exploits are prevented by implementing ISGs
+  date: 11 Jun 2020
+-
+  video: LZk7s9bnCcA
+  author: Abbas Haidar
+  description: O365 Security - Anti-Phishing best practises and Demo
+  date: 11 Jun 2020
+-
+  video: wCF08BdXdDg
+  author: Bjorn Kimminich
+  description: OWASP Juice Shop intro
+  date: 11 Jun 2020
+-
+  video: 2Pw8oosbGas
+  author: James Bore and Dinis Cruz
+  description: Incident Response Scenario Exercise
+  date: 10 Jun 2020
+-
+  video: X1VsceDfntc
+  author: Barak Schoster
+  description: Infrastructure scan & Encryption
+  date: 11 Jun 2020
+-
+  video: PGZCHxwZ82c
+  author: Dinis Cruz
+  description: How to measure and visualise ISG standards
+  date: 10 Jun 2020
+-
+  video: kDs23thv8VE
+  author: Mario Platt
+  description: Using Wardley mapping for Security Strategy and Architecture development
+  date: 10 Jun 2020
+-
+  video: 5JRKSrlZ2ow
+  author: Demi Ben-Ari and Elad Shapira
+  description: "Supply Chain Attacks: The rise of the Third Party Poopers"
+  date: 10 Jun 2020
+-
+  video: mdUP1XtYTLI
+  author: Didar Gelici
+  description: DAST Dynamic Analysis lab by Practical DevSecOps
+  date: 10 Jun 2020
+-
+  video: 4SQtj82w5xI
+  author: Abhay Bhargav
+  description: Owning AppSec automation in Pyhton
+  date: 10 Jun 2020
+-
+  video: m24es4ATIhk
+  author: Petra Vukmirovic and Sara Notaro
+  description: Oh dear, my laptop is hacked!
+  date: 9 Jun 2020
+-
+  video: zgNFQY820Os
+  author: Sasha Rosenbaum
+  description: GitHub Actions & code scanning with CodeQL
+  date: 9 Jun 2020
+-
+  video: _2lSfuVOvPA
+  author: Dinis Cruz
+  description: What are ISGs and how to convert ISGs into checklists?
+  date: 9 Jun 2020
+-
+  video: B4F0uFhi83g
+  author: Practical DevSecOps
+  description: SAST- Static Analysis with lab
+  date: 9 Jun 2020
+-
+  video: FsJ5-DN1gHc
+  author: Chris Daniel
+  description: Wardley Mapping introduction
+  date: 9 Jun 2020
+-
+  video: ZneD_KQDWuk
+  author: Dave Mattingly
+  description: Improv Comedy
+  date: 8 Jun 2020
+-
+  video: wXlB0CILWic
+  author: Stuart Peck
+  description: Social Engineering
+  date: 8 Jun 2020
+-
+  video: 4IcIIfsqAvM
+  author: Dinis Cruz and Petra Vukmirovic
+  description: Threat Modeling FIRS AID
+  date: 8 Jun 2020
+-
+  video: dHkptfSUWlo
+  author: Mario Platt
+  description: "To DevSecOps or not to DevSecOps: is that a question?"
+  date: 8 Jun 2020
+-
+  video: dQdQS4TaQ7U
+  author: Petra Vukmirovic
+  description: Wardley Maps First Aid
+  date: 5 Jun 2020
+-
+  video: 17rkSmvnqas
+  author: Dinis Cruz
+  description: Hacking GlassWall SDK & Cloud
+  date: 5 Jun 2020
+-
+  video: miAOOyseD-M
+  author: Tatevik Stepanyan
+  description: Jira & Jupyter notebooks integration
+  date: 5 Jun 2020
+-
+  video: B4F0uFhi83g
+  author: Adam Smith, Diarmid Mackenzie and Dinis Cruz
+  description: COVID Safe Paths - Threat Modeling Part 2
+  date: 5 Jun 2020
+-
+  video: 7Pvo20Af_p0
+  author: Dinis Cruz
+  description: Threat Modeling - Cloud Functions as Detonation Chambers
+  date: 4 Jun 2020
+-
+  video: jvK1TMUExZw
+  author: Ben Schofiled
+  description: Trusted Partner Network demo
+  date: 4 Jun 2020
+-
+  video: IKHZXQfDHrA
+  author: Adam Smith and Dinis Cruz
+  description: COVID Safe Paths Threat Modeling - part 1
+  date: 4 Jun 2020
+-
+  video: mg1rnioktxk
+  author: Mike Minchinton
+  description: NHS COVID App analysis
+  date: 3 Jun 2020
+-
+  video: 7TivdJABjJ0
+  author: Cat Swetel
+  description: Introduction to Wardley Mapping
+  date: 3 Jun 2020
+-
+  video: GbYwXCGVcGE
+  author: Diniz Cruz
+  description: Incident Response scenario planning
+  date: 3 Jun 2020
+-
+  video: -w8LGhPZp1w
+  author: Joshua Jebaraj
+  description: Compliance as Code intro and Inspec lab
+  date: 2 Jun 2020
+-
+  video: 6NMjZbfnTOU
+  author: Jannik Hollenbach and Robert Seedorff
+  description: MultiJuicer Introduction
+  date: 2 Jun
+-
+  video: Ry0mXz6ZPXcg
+  author: Bjoern Kimminich
+  description: OWASP Juice Shop Introduction
+  date: 2 Jun 2020
+-
+  video: yugHhSp5dbg
+  author: Goher Mohammad
+  description: Wardley Maps
+  date: 2 Jun 2020
+-
+  video: HIRbBm0klBQ
+  author: Kriti Mohun
+  description: Cloud Security 101
+  date: 2 Jun 2020
+-
+  video: 7L4twzz3N7A
+  author: Kriti Mohun
+  description: Demo of CloudGuard Dome9
+  date: 2 Jun 2020
+-
+  video: 3roVZNwptOU
+  author: Trading Cards by Mark Miller
+  description: "Drinks with Adversaries: Creating Adversary"
+  date: 1 Jun 2020
+-
+  video: fwo-TryGQ6c
+  author: Mark Carney and Jay Harris
+  description: COVID Apps Analysis by Mark Carney
+  date: 1 Jun 2020
+-
+  video: PZnnCM-mVZ0
+  author: James Bore
+  description: Training session - Threat Modeling
+  date: 1 Jun 2020
+-
+  video: pZ9PhJf4UyY
+  author: Dinis Cruz
+  description: Security Incident Exercise deep dive
+  date: 29 May 2020
