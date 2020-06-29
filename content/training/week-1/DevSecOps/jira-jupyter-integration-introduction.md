@@ -10,7 +10,7 @@ hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/jira-jup
 session_slack:
 status       :           # draft, review-content, done
 description  : TBD
-organizers   : Dinis Cruz
+organizers   : Tatevik Stepanyan
 youtube_link : miAOOyseD-M
 slides       :
 ---
