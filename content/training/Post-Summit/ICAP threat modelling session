@@ -8,7 +8,7 @@ topics       :
 when_week    :  1st July
 when_day     : 2nd - Thursday
 when_time    : WS-1
-hey_summit   : https://pre-summit-training-sessions.heysummit.com/talks/threat-modeling-icap-2pm-bst/
+hey_summit   : 
 session_slack:
 status       :            # draft, review-content, done
 description  : In this session, we'll dive into the Internet Content Adaption Protocol (ICAP) and how to integrate with it.
