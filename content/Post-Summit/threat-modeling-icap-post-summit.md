@@ -16,6 +16,7 @@ organizers   :
         - Dinis Cruz
         - Paul Gerard
         - Petra Vukmirovic
+        - Abbas Haider
 youtube_link : 
 zoom_link    : https://zoom.us/j/6503444982?pwd=Yk5TMUF6WTBLM0VtQksybDNZM0J2Zz09
 
