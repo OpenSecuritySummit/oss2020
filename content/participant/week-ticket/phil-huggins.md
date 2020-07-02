@@ -2,7 +2,7 @@
 chapter_leader: ''
 company: ''
 facebook: ''
-image: https://pbs.twimg.com/profile_images/1254128874289606670/94L-yvYL_400x400.jpg
+image: https://pbs.twimg.com/profile_images/1275469676362059779/hjHT-SC7_200x200.jpg
 job_title: CISO Mentor. Open Information Security Risk Universe
 linkedin: huggins
 notes: ''
