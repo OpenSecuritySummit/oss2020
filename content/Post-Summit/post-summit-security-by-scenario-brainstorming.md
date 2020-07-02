@@ -1,7 +1,7 @@
 ---
 title        : "Post-summit: Security by Scenario BRAINSTORMING"
 type         : working-session
-track        : "CISO and Risk Management"
+track        : Misc
 topics       : 
 when_week    : one
 when_day     : 3rd- Friday
