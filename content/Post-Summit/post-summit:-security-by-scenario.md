@@ -12,10 +12,11 @@ status       :            # draft, review-content, done
 description  :
 organizers   : 
         - James Bore
+        - Didar Gelici
         - Ben Schofield
         - Nick Drage
         - Wallaby Curtis
-        - Didar Gelici
+     
 youtube_link : 
 zoom_link    :  https://zoom.us/j/99192282044?pwd=MkV6TG9BU0pIRHZNZTQrdGxUaG9kZz09
 
