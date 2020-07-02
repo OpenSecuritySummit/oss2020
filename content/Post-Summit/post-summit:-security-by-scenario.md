@@ -1,6 +1,6 @@
 ---
 title        : "Post-summit: Security by Scenario"
-track        : "CISO and Risk Management"
+track        : Misc
 type         : training-session
 topics       :
 when_week    : two
