@@ -12,6 +12,7 @@ status       :            # draft, review-content, done
 description  :
 organizers   : 
         - James Bore
+        - Dinis Cruz
         - Didar Gelici
         - Ben Schofield
         - Nick Drage
