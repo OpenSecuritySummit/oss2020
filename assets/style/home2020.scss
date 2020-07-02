@@ -67,18 +67,19 @@ $summit-section-height: 350px;
 }
 
 
-.hero-section {
-  background-color: $main-background-color;
-  color: $main-inverse-text-color;
-
-  .container {
-    height: 435px;
-    background-position: top left;
-    background-image: url("#{$base-url}/img/home/hero-medium-bg.png");
-  }
-}
-
 .hero {
+  &-section {
+    background-color: $main-background-color;
+    color: $main-inverse-text-color;
+
+    .container {
+      height: $xxl-hero-container-height;
+      background-image: url("#{$base-url}/img/home/hero-bg.png");
+      background-position: top left;
+      background-repeat: no-repeat;
+    }
+  }
+
   &-block {
     margin-top: 90px;
     margin-left: auto;
@@ -157,6 +158,48 @@ $summit-section-height: 350px;
       background-color: $main-action-text-color;
     }
 
+  }
+
+  &-badge-next {
+    height: 50px;
+    width: 320px;
+    font-size: 20px;
+    line-height: 50px;
+    background: url("#{$base-url}/img/backgrounds/hero-new-summit-bg.png");
+    background-size: contain;
+    margin-bottom: 30px;
+  }
+
+  &-over-message {
+    font-size: 28px;
+    margin-bottom: 22px;
+  }
+
+  &-over {
+    &.hero {
+      &-section {
+        .container {
+          background-image: url("#{$base-url}/img/backgrounds/hero-bg.png");
+          height: 818px;
+        }
+      }
+    }
+    .hero {
+      &-block {
+        padding-top: 48px;
+        div {
+          text-align: center;
+          margin-left: auto;
+          margin-right: auto;
+
+        }
+      }
+      &-title {
+        font-size: 100px;
+        line-height: 120px;
+        min-width: 1100px;
+      }
+    }
   }
 
 }
@@ -734,13 +777,6 @@ $summit-section-height: 350px;
         }
       }
 
-      .hero-section {
-        .container {
-          height: $xxl-hero-container-height;
-          background-image: url("#{$base-url}/img/home/hero-bg.png");
-        }
-      }
-
       .attend-summit-section {
         .container {
           width: $xl-container-width;
@@ -761,10 +797,6 @@ $summit-section-height: 350px;
 
 @media screen and (max-width: $xxl-breakpoint) {
   .hero {
-    &-block {
-      //margin-top: 30px;
-    }
-
     &-title {
       font-size: 80px;
       line-height: 100px;
@@ -774,6 +806,43 @@ $summit-section-height: 350px;
     &-numbers {
       font-size: 26px;
     }
+
+    &-badge-next {
+      height: 42px;
+      width: 270px;
+      font-size: 18px;
+      line-height: 42px;
+      margin-bottom: 16px;
+    }
+
+    &-over-message {
+      font-size: 24px;
+      margin-bottom: 18px;
+    }
+
+    &-over {
+      &.hero {
+        &-section {
+          .container {
+            background-image: url("#{$base-url}/img/backgrounds/hero-xxl-bg.png");
+            height: 510px;
+          }
+        }
+      }
+      .hero {
+        &-block {
+          padding-top: 0;
+
+        }
+        &-title {
+          font-size: 64px;
+          line-height: 78px;
+          min-width: 700px;
+        }
+      }
+    }
+
+
   }
 
   .booking {
@@ -821,11 +890,37 @@ $summit-section-height: 350px;
 
 @media screen and (max-width: $xl-breakpoint) {
 
-  .hero-section {
-    background-image: url("#{$base-url}/img/home/hero-medium-bg.png");
+  .hero {
+    &-badge-next {
+      height: 32px;
+      width: 209px;
+      font-size: 14px;
+      line-height: 32px;
+      margin-bottom: 18px;
+    }
 
-    .container {
-      background: none;
+    &-over-message {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+
+    &-over {
+      &.hero {
+        &-section {
+          .container {
+            background-image: url("#{$base-url}/img/backgrounds/hero-xl-bg.png");
+            height: 450px;
+          }
+        }
+      }
+      .hero {
+        &-title {
+          font-size: 64px;
+          line-height: 78px;
+          min-width: 600px;
+        }
+      }
     }
   }
 
@@ -956,18 +1051,48 @@ $summit-section-height: 350px;
 /*****************************/
 
 @media screen and (max-width: $lg-breakpoint) {
-  .hero-section {
-    .container {
-      height: 310px;
-      .hero {
-        &-title {
-          max-width: 350px;
-          font-size: 38px;
-          line-height: 46px;
+  .hero {
+    &-section {
+      .container {
+        height: 310px;
+        .hero {
+          &-when-where {
+            font-size: 16px;
+            line-height: 34px;
+          }
         }
-        &-when-where {
-          font-size: 16px;
-          line-height: 34px;
+      }
+    }
+    &-badge-next {
+      height: 24px;
+      width: 157px;
+      font-size: 12px;
+      line-height: 24px;
+      margin-bottom: 14px;
+      margin-top: 0;
+    }
+    &-over-message {
+      font-size: 13px;
+      margin-bottom: 20px;
+    }
+    &-over {
+      &.hero {
+        &-section {
+          .container {
+            background-image: url("#{$base-url}/img/backgrounds/hero-lg-bg.png");
+            height: 320px;
+          }
+        }
+      }
+      .hero {
+        &-block {
+          padding-top: 0;
+        }
+        &-title {
+          font-size: 34px;
+          line-height: 44px;
+          min-width: 350px;
+          max-width: 200px;
         }
       }
     }
@@ -1123,11 +1248,6 @@ $summit-section-height: 350px;
 
 
   .hero {
-    &-block {
-      //margin-top: 0;
-    }
-
-
     &-icon {
       margin: 0 8px;
     }
@@ -1160,6 +1280,35 @@ $summit-section-height: 350px;
 
     &-where {
       margin-right: 0;
+    }
+    &-over {
+      &-badge-next {
+        //height: 24px;
+        //width: 157px;
+        //font-size: 12px;
+        //line-height: 24px;
+        margin-bottom: 10px;
+        //margin-top: 0;
+      }
+      &-over-message {
+        font-size: 13px;
+        margin-bottom: 0;
+      }
+      &.hero {
+        &-section {
+          .container {
+            background-image: url("#{$base-url}/img/backgrounds/hero-md-bg.png");
+            height: 270px;
+          }
+        }
+      }
+      .hero {
+        &-title {
+          font-size: 28px;
+          line-height: 38px;
+          min-width: 300px;
+        }
+      }
     }
   }
 
@@ -1311,6 +1460,34 @@ $summit-section-height: 350px;
     }
     &-title {
       font-size: 45px;
+    }
+    &-badge-next {
+      margin-bottom: 14px;
+    }
+    &-over-message {
+      //font-size: 13px;
+      margin-bottom: 5px;
+    }
+    &-over {
+      &.hero {
+        &-section {
+          .container {
+            background-image: url("#{$base-url}/img/backgrounds/hero-md-bg.png");
+            height: 270px;
+          }
+        }
+      }
+      .hero {
+        &-block {
+          padding-top: 0;
+        }
+        &-title {
+          font-size: 22px;
+          line-height: 32px;
+          min-width: 200px;
+          max-width: 180px;
+        }
+      }
     }
   }
 

@@ -6,6 +6,7 @@ defaultContentLanguage  = "en"
 googleAnalytics         = "UA-97001849-2"
 enableGitInfo           = true
 preserveTaxonomyNames   = true
+nextSummerYear          = 2022
 #disableKinds            = ["taxonomy"]
 
 # Define the number of posts per page
