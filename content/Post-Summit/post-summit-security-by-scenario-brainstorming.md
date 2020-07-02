@@ -14,11 +14,10 @@ youtube_link :
 zoom_link    : https://us02web.zoom.us/meeting/register/tZIud--prTguH9IZqw2bBuVchgYf5yJFNlYr
 organizers   : 
        - James Bore
+       - Didar Gelici
        - Ben Schofield
        - Nick Drage
        - Wallaby Curtis
-       - Didar Gelici
-
-
+      
 ---
 
