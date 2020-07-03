@@ -31,6 +31,33 @@ body {
   }
 }
 
+@media screen and (min-width: $md-breakpoint) {
+  .container {
+    //width: $md-container-width;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+}
+
+@media screen and (min-width: $sm-breakpoint) {
+  .container {
+    //width: $sm-container-width;
+  }
+}
+
+@media screen and (min-width: $xs-breakpoint) {
+  .container {
+    //width: $xs-container-width;
+  }
+}
+
+@media screen and (min-width: $xxs-breakpoint) {
+  .container {
+    //width: $xxs-container-width;
+  }
+}
+
 @media screen and (max-width: $xl-breakpoint) {
   #content, .container-managed, #sponsors {
     background-image: url("#{$base-url}/img/backgrounds/shapes-xl-bg.png");
@@ -54,7 +81,6 @@ body {
     background-image: url("#{$base-url}/img/backgrounds/shapes-sm-bg.png");
   }
 }
-
 
 .heading h1,
 .heading h2,

@@ -45,11 +45,6 @@ $summit-section-height: 350px;
 }
 
 
-/*****************************/
-/******** HERO styles ********/
-/*****************************/
-
-
 .swiper {
   &-container {
     width: 100%;
@@ -65,6 +60,11 @@ $summit-section-height: 350px;
     }
   }
 }
+
+
+/*****************************/
+/******** HERO styles ********/
+/*****************************/
 
 
 .hero {
@@ -202,6 +202,34 @@ $summit-section-height: 350px;
     }
   }
 
+}
+
+.joinnext {
+  &-section{
+    background-color: #78d3fa;
+  }
+
+  &-block {
+    div {
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center;
+    }
+  }
+  &-title {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-weight: 700;
+
+  }
+  &-badge-next {
+    color: #696969;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 90px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+  }
 }
 
 /* End of Hero section styles */
@@ -678,45 +706,43 @@ $summit-section-height: 350px;
 
 .prevsummits {
   &-section {
+    margin-bottom: -66px;
+    padding-bottom: 30px;
+    padding-top: 30px;
     background-color: $alt-background-color;
-    padding-top: 100px;
   }
   &-container {
     text-align: center;
   }
   &-button {
-    &-s {
+    &s {
       display: flex;
+      justify-content: center;
+      a:first-child {
+        margin-right: 20px;
+      }
     }
     font-size: 32px;
-    //width: 308px;
     line-height: 38px;
-    padding: 8px 50px;
+    padding: 12px 50px;
     letter-spacing: 6px;
     border-radius: 37px;
     background-image: linear-gradient(to top, $button-green-gradient-start 0%, $main-action-text-color 100%);
     color: $main-inverse-text-color;
-    &:first-child {
-      margin-left: 20px;
-    }
   }
 }
 /* end of PREV SUMMITS styles */
 
 
 /*****************************/
-/** PREV SUMMITS  styles **/
+/** SUMMITS DATES  styles **/
 /*****************************/
 
 
 .summitdates {
   &-section {
     background-image: url("#{$base-url}/img/home/summit-dates-bg.jpg");
-    //background-repeat: repeat;
-    //padding-top: 100px;
     height: $summit-section-height;
-    //margin-top: 0;
-    //margin-bottom: 0;
   }
   &-container {
     display: flex;
@@ -754,7 +780,7 @@ $summit-section-height: 350px;
     min-width: 460px;
   }
 }
-/* end of PREV SUMMITS styles */
+/* end of summits dates styles */
 
 
 /*****************************/
@@ -796,6 +822,12 @@ $summit-section-height: 350px;
 /*****************************/
 
 @media screen and (max-width: $xxl-breakpoint) {
+  .section {
+    &-title {
+      font-size: 48px;
+    }
+  }
+
   .hero {
     &-title {
       font-size: 80px;
@@ -881,6 +913,12 @@ $summit-section-height: 350px;
     }
   }
 
+  .prevsummits {
+    &-button {
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+  }
 }
 
 
@@ -889,6 +927,11 @@ $summit-section-height: 350px;
 /*****************************/
 
 @media screen and (max-width: $xl-breakpoint) {
+  .section {
+    &-title {
+      font-size: 42px;
+    }
+  }
 
   .hero {
     &-badge-next {
@@ -1043,6 +1086,23 @@ $summit-section-height: 350px;
       }
     }
   }
+
+  .joinnext {
+    &-badge-next {
+      font-size: 20px;
+      margin-bottom: 50px;
+    }
+    &-title {
+      margin-top: 50px;
+    }
+  }
+
+  .prevsummits {
+    &-button {
+      font-size: 30px;
+    }
+  }
+
 }
 
 
@@ -1051,6 +1111,12 @@ $summit-section-height: 350px;
 /*****************************/
 
 @media screen and (max-width: $lg-breakpoint) {
+  .section {
+    &-title {
+      font-size: 38px;
+    }
+  }
+
   .hero {
     &-section {
       .container {
@@ -1161,6 +1227,22 @@ $summit-section-height: 350px;
     }
   }
 
+  .joinnext {
+    &-badge-next {
+      font-size: 16px;
+      margin-bottom: 40px;
+    }
+    &-title {
+      margin-top: 40px;
+    }
+  }
+
+  .prevsummits {
+    &-button {
+      font-size: 26px;
+    }
+  }
+
   .summitdates {
     &-block {
       margin: 0 10px;
@@ -1242,10 +1324,9 @@ $summit-section-height: 350px;
     }
 
     &-title {
-      font-size: 40px;
+      font-size: 36px;
     }
   }
-
 
   .hero {
     &-icon {
@@ -1298,6 +1379,7 @@ $summit-section-height: 350px;
         &-section {
           .container {
             background-image: url("#{$base-url}/img/backgrounds/hero-md-bg.png");
+            background-position-x: center;
             height: 270px;
           }
         }
@@ -1360,6 +1442,35 @@ $summit-section-height: 350px;
       width: 50%;
     }
     &-overtitle {
+    }
+  }
+  .joinnext {
+    &-badge-next {
+      font-size: 12px;
+    }
+    &-title {
+      margin-top: 25px;
+    }
+    &-badge-next {
+      margin-bottom: 25px;
+    }
+  }
+
+  .prevsummits {
+    &-button {
+      font-size: 22px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      padding: 4px 30px;
+      &s {
+        flex-direction: column;
+        a {
+          &:first-child {
+            margin-right: 0;
+            margin-top: 10px;
+          }
+        }
+      }
     }
   }
 
@@ -1445,6 +1556,12 @@ $summit-section-height: 350px;
     }
   }
 
+  .joinnext {
+    &-title {
+      font-size: 32px;
+    }
+  }
+
 }
 
 
@@ -1453,6 +1570,12 @@ $summit-section-height: 350px;
 /*****************************/
 
 @media screen and (max-width: $sm-breakpoint) {
+  .section {
+    &-title {
+      font-size: 32px;
+    }
+  }
+
   .hero {
     &-numbers {
       font-size: 18px;
@@ -1534,6 +1657,23 @@ $summit-section-height: 350px;
 
   }
 
+  .joinnext {
+    &-badge-next {
+      font-size: 10px;
+    }
+    &-title {
+      font-size: 26px;
+    }
+  }
+
+  .prevsummits {
+    &-button {
+      font-size: 18px;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+
   .schedule {
     &-subtitle {
       font-size: 28px;
@@ -1572,3 +1712,48 @@ $summit-section-height: 350px;
 
 }
 
+
+@media screen and (max-width: $xs-breakpoint) {
+  .section {
+    &-title {
+      font-size: 22px;
+    }
+  }
+
+  .hero {
+    &-over {
+      &.hero {
+        &-section {
+          .container {
+            background-image: url("#{$base-url}/img/backgrounds/hero-md-bg.png");
+            height: 270px;
+          }
+        }
+      }
+      .hero {
+        &-block {
+          padding-top: 0;
+        }
+        &-title {
+          font-size: 22px;
+          line-height: 32px;
+          min-width: 200px;
+          max-width: 180px;
+        }
+      }
+    }
+  }
+
+  .joinnext {
+    &-badge-next {
+      font-size: 8px;
+      margin-bottom: 15px;
+    }
+    &-title {
+      font-size: 18px;
+      margin-top: 15px;
+      margin-bottom: 5px;
+    }
+  }
+
+}

@@ -21,6 +21,7 @@ $main-action-text-color: $theme-green-main-text-color;
 $button-green-gradient-start: #61872e;
 $schedule-table-background-color: lighten(desaturate($main-action-text-color, 1.11), 38.24);
 
+
 $main-text-color: #9696a3;
 $main-text-color-alt: #86ba40;
 $session-content-text-color: #8c8c9a;
@@ -35,12 +36,16 @@ $xl-breakpoint: 1200px;
 $lg-breakpoint: 992px;
 $md-breakpoint: 768px;
 $sm-breakpoint: 576px;
+$xs-breakpoint: 400px;
+$xxs-breakpoint: 320px;
 
 $xxl-container-width: 1894px;
 $xl-container-width: 1140px;
 $lg-container-width: 960px;
 $md-container-width: 720px;
-$sm-container-width: 540px;
+$sm-container-width: 546px;
+$xs-container-width: 370px;
+$xxs-container-width: 300px;
 
 $main-menu-height: 66px;
 
