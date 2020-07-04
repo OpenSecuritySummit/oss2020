@@ -47,10 +47,12 @@ $summit-section-height: 350px;
 
 .swiper {
   &-container {
-    width: 100%;
-    height: calc(100% - #{$main-menu-height} - 25px);
+    .video-item{
+      height: 600px;
+    }
   }
 
+  /*
   &-pagination {
     &-bullet {
       &:not(&-active) {
@@ -59,6 +61,7 @@ $summit-section-height: 350px;
       }
     }
   }
+  */
 }
 
 
