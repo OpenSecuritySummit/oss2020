@@ -15,10 +15,6 @@
 <!-- owl carousel -->
 <script src="{{ .Site.BaseURL }}js/owl.carousel.min.js"></script>
 
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-<script src="http://www.youtube.com/player_api"></script>
-
 
 <script>
     // this hooks is being used for handling session entries like personal pages, or session description inside of <a> tag
@@ -131,83 +127,6 @@
 
         return [];
     }
-
-    $(document).ready(function () {
-        //initialize swiper when document ready
-        var mySwiper = new Swiper('.swiper-container', {
-            loop: true,
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-            autoplay: {
-                delay: 15000,
-
-            },
-        });
-
-
-        // create youtube player
-        var player;
-
-        function onYouTubePlayerAPIReady() {
-            player = new YT.Player('player', {
-                width: '640',
-                height: '390',
-                videoId: '0Bmhjf0rKe8',
-                events: {
-                    onReady: onPlayerReady,
-                    onStateChange: onPlayerStateChange,
-                },
-            });
-        }
-
-        // autoplay video
-        function onPlayerReady(event) {
-            event.target.playVideo();
-        }
-
-        // when video ends
-        function onPlayerStateChange(event) {
-            if ( event.data === 0 ) {
-                alert('done');
-            }
-        }
-
-
-/*
-        return;
-          // initialize live streaming
-          // not finished, please don't remove from code maybe next year will be implemented :)
-          const entries = $.find('.schedule-entries .schedule-entry');
-          let inited = false;
-          entries.forEach((entry) => {
-              let dataset = entry.dataset;
-              if (dataset.link) {
-                  inited = true;
-                  dayScheduleMap[dataset.link] = parseScheduleTime(dataset.sessionTime)
-              }
-          })
-
-          if (inited) {
-              scheduleDay = getDate().getDay();
-              const timer = setInterval(() => {
-                  // check if
-                  if (scheduleDay + 1 < getDate().getDay()) {
-                      clearInterval( timer );
-                      return;
-                  }
-                  const currentlyLive = Object.keys(dayScheduleMap).filter( (key) => {
-                      const value = dayScheduleMap[key];
-                      if (true) {
-
-                      }
-
-                  })
-              }, LIVE_CHECK_INTERVAL_MS);
-          }
-*/
-    });
 
 </script>
 
