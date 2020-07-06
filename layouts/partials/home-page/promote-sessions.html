@@ -1,8 +1,8 @@
-<section class="section rewind-section">
+<section class="section promote-section">
   <div class="container container-xl">
     <div class="swiper-container">
       <div class="swiper-wrapper">
-        {{ range first 3 .Site.Data.videos.list }}
+        {{ range first 4 ( sort .Site.Data.videos.list ) }}
         <div class="swiper-slide">
           <div class="video-item">
             <div class="source" id="promote-{{- .video -}}"></div>
@@ -31,7 +31,7 @@
                   clickable: true,
               },
               autoplay: {
-                  delay: 10000,
+                  delay: 30000,
               },
               on: {
                   slideChange: (swiper) => {
@@ -67,7 +67,7 @@
       }
 
       function onYouTubePlayerAPIReady() {
-          initPlayers('.rewind-section .source');
+          initPlayers('.promote-section .source');
       }
 
       // when video ends
@@ -87,8 +87,7 @@
                           myIndex = index;
                       }
                   } else if ( myIndex >= 0 ) {
-                      let playerState = player.getPlayerState();
-                      if ( YT.PlayerState.ENDED !== playerState) {
+                      if ( YT.PlayerState.ENDED !== player.getPlayerState()) {
                           promoteSwiper.slideTo(index);
                           player.playVideo();
                           break;
@@ -100,8 +99,7 @@
 
       function stopAllPlayers() {
           promotePlayers.forEach((player) => {
-              let state = player.getPlayerState();
-              if ( YT.PlayerState.PLAYING === state) {
+              if ( YT.PlayerState.PLAYING === player.getPlayerState()) {
                   player.pauseVideo();
               }
           })

@@ -4,6 +4,10 @@ $schedule-organizer-icon-size: 122px;
 $booking-section-height: 332px;
 $summit-section-height: 350px;
 
+
+/**
+  Common sections' elements on the home
+ */
 .section {
   &-paragraph {
     font-size: 22px;
@@ -28,7 +32,6 @@ $summit-section-height: 350px;
     margin-top: 15px;
     margin-bottom: 15px;
   }
-
 }
 
 #content, .container-managed.xxl {
@@ -45,14 +48,9 @@ $summit-section-height: 350px;
 }
 
 
+/*
+in case the session background is not white, need to change inactive bullet color
 .swiper {
-  &-container {
-    .video-item{
-      height: 600px;
-    }
-  }
-
-  /*
   &-pagination {
     &-bullet {
       &:not(&-active) {
@@ -61,15 +59,13 @@ $summit-section-height: 350px;
       }
     }
   }
-  */
 }
+*/
 
 
 /*****************************/
 /******** HERO styles ********/
 /*****************************/
-
-
 .hero {
   &-section {
     background-color: $main-background-color;
@@ -206,9 +202,13 @@ $summit-section-height: 350px;
   }
 
 }
+/* End of Hero section styles */
 
+/*****************************/
+/** JOIN NEXT styles */
+/*****************************/
 .joinnext {
-  &-section{
+  &-section {
     background-color: #78d3fa;
   }
 
@@ -234,14 +234,31 @@ $summit-section-height: 350px;
     letter-spacing: 1.2px;
   }
 }
+/* End of JOIN NEXT section styles */
 
-/* End of Hero section styles */
+
+/*****************************/
+/** PROMOTE styles */
+/*****************************/
+.promote {
+  &-section {
+    .swiper-container {
+      .video-item {
+        margin-top: 100px;
+        height: 700px;
+        .source {
+          height: inherit;
+        }
+      }
+    }
+  }
+}
+/* End of JOIN NEXT section styles */
 
 
 /*****************************/
 /** ATTEND THE SUMMIT styles */
 /*****************************/
-
 .attend {
   &-block {
     text-align: center;
@@ -283,14 +300,12 @@ $summit-section-height: 350px;
   }
 
 }
-
 /* End of Attend the summit styles */
 
 
 /*****************************/
 /**** BOOK TICKETS styles ****/
 /*****************************/
-
 .booking {
   &-section {
     //background-color: $tickets-bg;
@@ -387,20 +402,12 @@ $summit-section-height: 350px;
 /*****************************/
 /***** SPEAKERS styles *******/
 /*****************************/
-.section {
-  &-speakers {
-    background-color: $alt-background-color;
-    padding-top: 153px;
-    padding-bottom: 80px;
-  }
-}
-
 .speaker {
-  &_tag {
+  &-speaker {
     text-align: center;
   }
 
-  &_name {
+  &-name {
     position: relative;
     display: inline-block;
     // text-align: center;
@@ -430,7 +437,7 @@ $summit-section-height: 350px;
     }
   }
 
-  &_description {
+  &-description {
     text-align: center;
     font-size: 18px;
     color: $session-content-text-color;
@@ -440,11 +447,17 @@ $summit-section-height: 350px;
   &s {
     text-align: left;
 
-    &_overtitle {
+    &-section {
+      background-color: $alt-background-color;
+      padding-top: 153px;
+      padding-bottom: 80px;
+    }
+
+    &-overtitle {
       margin-top: 0;
     }
 
-    &_title {
+    &-title {
       margin-top: 0;
     }
 
@@ -457,20 +470,18 @@ $summit-section-height: 350px;
     }
 
     .card {
-      &_speaker {
+      &-speaker {
         margin-bottom: 30px;
       }
     }
   }
 }
-
 /* End of Speakers styles */
 
 
 /*****************************/
 /***** SCHEDULE styles *******/
 /*****************************/
-
 .schedule {
   padding-top: 110px;
   padding-bottom: 100px;
@@ -640,21 +651,12 @@ $summit-section-height: 350px;
     }
   }
 }
-
 /* end of SCHEDULE styles */
 
 
 /*****************************/
 /** PHOTO GALLERY styles *****/
 /*****************************/
-
-
-.container-gallery {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
 .photo {
   &-gallery {
     &-header {
@@ -705,8 +707,6 @@ $summit-section-height: 350px;
 /*****************************/
 /** PREV SUMMITS  styles **/
 /*****************************/
-
-
 .prevsummits {
   &-section {
     margin-bottom: -66px;
@@ -740,8 +740,6 @@ $summit-section-height: 350px;
 /*****************************/
 /** SUMMITS DATES  styles **/
 /*****************************/
-
-
 .summitdates {
   &-section {
     background-image: url("#{$base-url}/img/home/summit-dates-bg.jpg");
@@ -823,7 +821,6 @@ $summit-section-height: 350px;
 /*****************************/
 /****** XXL BREAKPOINT *******/
 /*****************************/
-
 @media screen and (max-width: $xxl-breakpoint) {
   .section {
     &-title {
@@ -880,6 +877,7 @@ $summit-section-height: 350px;
 
   }
 
+
   .booking {
     &-section {
       height: 300px;
@@ -928,7 +926,6 @@ $summit-section-height: 350px;
 /*****************************/
 /******* XL BREAKPOINT *******/
 /*****************************/
-
 @media screen and (max-width: $xl-breakpoint) {
   .section {
     &-title {
@@ -1048,7 +1045,7 @@ $summit-section-height: 350px;
 
   .speakers {
     .card {
-      &_description {
+      &-description {
         text-align: center;
       }
     }
@@ -1100,6 +1097,17 @@ $summit-section-height: 350px;
     }
   }
 
+  .promote {
+    &-section {
+      .swiper-container {
+        .video-item {
+          margin-top: 80px;
+          height: 650px;
+        }
+      }
+    }
+  }
+
   .prevsummits {
     &-button {
       font-size: 30px;
@@ -1112,7 +1120,6 @@ $summit-section-height: 350px;
 /*****************************/
 /***** LG BREAKPOINT *******/
 /*****************************/
-
 @media screen and (max-width: $lg-breakpoint) {
   .section {
     &-title {
@@ -1166,24 +1173,13 @@ $summit-section-height: 350px;
       }
     }
   }
+
   .booking {
     &-blocks {
       flex-direction: column;
-    }
-  }
-  .booking {
-    &-section {
-      //height: 240px;
-    }
-    &-blocks {
-      //height: 240px;
       align-items: stretch;
     }
-    &-title {
-      //font-size: 30px;
-    }
     &-free {
-      //font-size: 24px;
       color: $main-header-color;
     }
     &-leader, &-students {
@@ -1206,8 +1202,6 @@ $summit-section-height: 350px;
     }
     &-buy {
       margin-bottom: 30px;
-      //justify-content: center;
-      //width: 60%;
     }
     &-book {
       padding-left: 30px;
@@ -1217,13 +1211,14 @@ $summit-section-height: 350px;
     &-overtitle {
     }
   }
+
   .speaker {
     &s {
       padding-top: 50px;
       padding-bottom: 20px;
 
       .card {
-        &_speaker {
+        &-speaker {
           text-align: center;
         }
       }
@@ -1237,6 +1232,17 @@ $summit-section-height: 350px;
     }
     &-title {
       margin-top: 40px;
+    }
+  }
+
+  .promote {
+    &-section {
+      .swiper-container {
+        .video-item {
+          margin-top: 60px;
+          height: 550px;
+        }
+      }
     }
   }
 
@@ -1258,7 +1264,6 @@ $summit-section-height: 350px;
       min-width: 350px;
     }
   }
-
 
   .schedule {
     &-section {
@@ -1310,12 +1315,13 @@ $summit-section-height: 350px;
       }
     }
   }
+
 }
 
-/*****************************/
-/***** MD BREAKPOINT *******/
-/*****************************/
 
+/*****************************/
+/******* MD BREAKPOINT *******/
+/*****************************/
 @media screen and (max-width: $md-breakpoint) {
   .section {
     &-paragraph {
@@ -1447,6 +1453,7 @@ $summit-section-height: 350px;
     &-overtitle {
     }
   }
+
   .joinnext {
     &-badge-next {
       font-size: 12px;
@@ -1457,21 +1464,17 @@ $summit-section-height: 350px;
     &-badge-next {
       margin-bottom: 25px;
     }
+    &-title {
+      font-size: 32px;
+    }
   }
 
-  .prevsummits {
-    &-button {
-      font-size: 22px;
-      margin-top: 5px;
-      margin-bottom: 5px;
-      padding: 4px 30px;
-      &s {
-        flex-direction: column;
-        a {
-          &:first-child {
-            margin-right: 0;
-            margin-top: 10px;
-          }
+  .promote {
+    &-section {
+      .swiper-container {
+        .video-item {
+          margin-top: 50px;
+          height: 470px;
         }
       }
     }
@@ -1559,9 +1562,21 @@ $summit-section-height: 350px;
     }
   }
 
-  .joinnext {
-    &-title {
-      font-size: 32px;
+  .prevsummits {
+    &-button {
+      font-size: 22px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      padding: 4px 30px;
+      &s {
+        flex-direction: column;
+        a {
+          &:first-child {
+            margin-right: 0;
+            margin-top: 10px;
+          }
+        }
+      }
     }
   }
 
@@ -1571,8 +1586,8 @@ $summit-section-height: 350px;
 /*****************************/
 /***** SM BREAKPOINT *******/
 /*****************************/
-
 @media screen and (max-width: $sm-breakpoint) {
+
   .section {
     &-title {
       font-size: 32px;
@@ -1669,6 +1684,17 @@ $summit-section-height: 350px;
     }
   }
 
+  .promote {
+    &-section {
+      .swiper-container {
+        .video-item {
+          margin-top: 40px;
+          height: 410px;
+        }
+      }
+    }
+  }
+
   .prevsummits {
     &-button {
       font-size: 18px;
@@ -1716,6 +1742,9 @@ $summit-section-height: 350px;
 }
 
 
+/*****************************/
+/***** XS BREAKPOINT *******/
+/*****************************/
 @media screen and (max-width: $xs-breakpoint) {
   .section {
     &-title {
@@ -1756,6 +1785,17 @@ $summit-section-height: 350px;
       font-size: 18px;
       margin-top: 15px;
       margin-bottom: 5px;
+    }
+  }
+
+  .promote {
+    &-section {
+      .swiper-container {
+        .video-item {
+          margin-top: 20px;
+          height: 350px;
+        }
+      }
     }
   }
 
