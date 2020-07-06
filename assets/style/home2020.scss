@@ -32,6 +32,15 @@ $summit-section-height: 350px;
     margin-top: 15px;
     margin-bottom: 15px;
   }
+
+}
+
+.container {
+  &-centric {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
 }
 
 #content, .container-managed.xxl {
@@ -212,13 +221,6 @@ in case the session background is not white, need to change inactive bullet colo
     background-color: #78d3fa;
   }
 
-  &-block {
-    div {
-      margin-right: auto;
-      margin-left: auto;
-      text-align: center;
-    }
-  }
   &-title {
     margin-top: 100px;
     margin-bottom: 10px;
@@ -705,6 +707,59 @@ in case the session background is not white, need to change inactive bullet colo
 
 
 /*****************************/
+/** NEWSLETTER styles *****/
+/*****************************/
+.newsletter {
+  &-section {
+    background-image: url("#{$base-url}/img/home/summit-dates-bg.jpg");
+    padding: 40px 0;
+
+    .section {
+      &-overtitle {
+        color: $main-inverse-text-color;
+        letter-spacing: 4px;
+        font-weight: 500;
+      }
+      &-title {
+        font-weight: 700;
+        letter-spacing: 2.0px;
+      }
+    }
+  }
+  &-subscribe {
+    margin-top: 15px;
+  }
+  &-email {
+    width: 430px;
+    background-color: #c1dc9e;
+    margin-right: 10px;
+    &::placeholder {
+      font-weight: 500;
+      letter-spacing: 4px;
+    }
+  }
+  &-button {
+    //width: 130px;
+    font-weight: 400;
+    text-transform: uppercase;
+    background-color: $main-background-color;
+    color: $main-inverse-text-color;
+    outline: none;
+  }
+  &-email, &-button {
+    padding: 15px 25px;
+    font-size: 16px;
+    border-width: 0;
+    outline-width: 0;
+    &:focus{
+      border-width: 0;
+      outline-width: 0;
+    }
+  }
+}
+/* end of NEWSLETTER styles */
+
+/*****************************/
 /** PREV SUMMITS  styles **/
 /*****************************/
 .prevsummits {
@@ -1118,7 +1173,7 @@ in case the session background is not white, need to change inactive bullet colo
 
 
 /*****************************/
-/***** LG BREAKPOINT *******/
+/******* LG BREAKPOINT *******/
 /*****************************/
 @media screen and (max-width: $lg-breakpoint) {
   .section {
@@ -1243,6 +1298,28 @@ in case the session background is not white, need to change inactive bullet colo
           height: 550px;
         }
       }
+    }
+  }
+
+  .newsletter {
+    &-section {
+      padding: 30px 0;
+    }
+    &-subscribe {
+      margin-top: 10px;
+    }
+    &-email {
+      width: 350px;
+      margin-right: 5px;
+      &::placeholder {
+        letter-spacing: 2px;
+      }
+    }
+    &-button {
+    }
+    &-email, &-button {
+      padding: 10px 15px;
+      font-size: 14px;
     }
   }
 
@@ -1584,7 +1661,7 @@ in case the session background is not white, need to change inactive bullet colo
 
 
 /*****************************/
-/***** SM BREAKPOINT *******/
+/******* SM BREAKPOINT *******/
 /*****************************/
 @media screen and (max-width: $sm-breakpoint) {
 
@@ -1695,6 +1772,22 @@ in case the session background is not white, need to change inactive bullet colo
     }
   }
 
+  .newsletter {
+    &-email {
+      width: 350px;
+      margin-right: 5px;
+      &::placeholder {
+        letter-spacing: 2px;
+      }
+    }
+    &-button {
+      margin-top: 10px;
+    }
+    &-email, &-button {
+      width: 100%;
+    }
+  }
+
   .prevsummits {
     &-button {
       font-size: 18px;
@@ -1743,7 +1836,7 @@ in case the session background is not white, need to change inactive bullet colo
 
 
 /*****************************/
-/***** XS BREAKPOINT *******/
+/******* XS BREAKPOINT *******/
 /*****************************/
 @media screen and (max-width: $xs-breakpoint) {
   .section {
