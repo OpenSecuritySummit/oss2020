@@ -1,0 +1,46 @@
+<section class="testimonials-section">
+  <div class="container container-xl testimonials-container container-centric">
+    <div class="section-overtitle">what they say</div>
+    <div class="section-title testimonials-title">our Testimonials</div>
+    <div class="swiper-container">
+      <div class="swiper-pagination"></div>
+      <div class="swiper-wrapper">
+        {{ range first 5 ( sort .Site.Data.testimonials ) }}
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <div class="testimonial-text">{{- .text | markdownify -}}</div>
+            <div><span class="testimonial-author">{{- .name -}}</span><span> - {{ .position -}}</span></div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<script>
+    let testimonialSwiper = window.testimonialSwiper = null;
+    $(document).ready(function () {
+        // create youtube player
+        //initialize swiper when document ready
+
+        let allTestimonialElements = $.find('.testimonial-section .testimonial-item');
+
+        testimonialSwiper = new Swiper('.testimonials-section .swiper-container', {
+            loop: true,
+            pagination: {
+                el: '.testimonials-section .swiper-pagination',
+                clickable: true,
+                renderBullet: function (index, className) {
+                    return '<div class="testimonial-image ' + className + '"><img src="img/testimonials/person-' + ( index + 1 ) + '.jpg" alt="Go to testimonial ' + ( index + 1 ) + '"/></div>';
+                },
+            },
+            autoplay: {
+                delay: 10000,
+            },
+        });
+    });
+
+
+</script>

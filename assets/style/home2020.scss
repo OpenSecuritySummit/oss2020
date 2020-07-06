@@ -7,7 +7,7 @@ $articles-image-height: 384px;
 $articles-image-height-xl: $articles-image-height * 0.75;
 $articles-image-height-lg: $articles-image-height-xl * 0.9;
 $articles-image-height-md: $articles-image-height-xl;
-
+$testimonials-image-height: 100px;
 
 /**
   Common sections' elements on the home
@@ -60,21 +60,15 @@ $articles-image-height-md: $articles-image-height-xl;
   margin-bottom: $main-menu-height;
 }
 
-
-/*
-in case the session background is not white, need to change inactive bullet color
 .swiper {
   &-pagination {
     &-bullet {
-      &:not(&-active) {
-        background-color: rgb(255, 255, 255);
-        opacity: 0.6;
+      &:focus {
+        outline-width: 0;
       }
     }
   }
 }
-*/
-
 
 /*****************************/
 /******** HERO styles ********/
@@ -213,7 +207,6 @@ in case the session background is not white, need to change inactive bullet colo
       }
     }
   }
-
 }
 /* End of Hero section styles */
 
@@ -711,6 +704,89 @@ in case the session background is not white, need to change inactive bullet colo
 
 
 /*****************************/
+/** TESTIMONIALS styles *****/
+/*****************************/
+.testimonial {
+  &s {
+    &-section {
+      padding: 40px 0;
+      background-color: $alt-background-color;
+      background-image: url("#{$base-url}/img/backgrounds/testimonials-bg.png");
+      background-position-x: center;
+      .section {
+        &-overtitle {
+          letter-spacing: 4px;
+          font-weight: 500;
+        }
+        &-title {
+          font-weight: 700;
+          letter-spacing: 2.0px;
+        }
+      }
+
+      .swiper {
+        &-pagination {
+          position: initial;
+          margin-top: 75px;
+          margin-bottom: 75px;
+          &-bullet {
+            display: inline-block;
+            width: $schedule-organizer-icon-size;
+            height: $schedule-organizer-icon-size;
+            color: $main-inverse-text-color;
+            opacity: 0.4;
+            background: rgba(0, 0, 0, 0.2);
+            margin-top: 10px;
+            &-active {
+              opacity: 1;
+            }
+            img {
+              width: 100%;
+              border-radius: 50%;
+              height: 100%;
+            }
+            &s {
+              bottom: initial;
+            }
+          }
+        }
+        &-container-horizontal {
+          > .swiper-pagination-bullets {
+            .swiper-pagination-bullet {
+              margin-top: 8px;
+            }
+          }
+        }
+      }
+    }
+    &-title {
+      color: $main-header-color;
+    }
+  }
+
+  &-author {
+    color: $main-text-color-alt;
+  }
+
+  &-text {
+    font-size: 36px;
+    color: $main-header-color;
+    margin-bottom: 100px;
+  }
+
+  &-item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 24px;
+    color: $session-content-text-color;
+  }
+}
+/* end of TESTIMONIALS styles */
+
+
+/*****************************/
 /** ARTICLES styles *****/
 /*****************************/
 .articles {
@@ -767,7 +843,7 @@ in case the session background is not white, need to change inactive bullet colo
     border-width: 0;
     outline-width: 0;
     letter-spacing: 4px;
-    &:focus{
+    &:focus {
       border-width: 0;
       outline-width: 0;
     }
@@ -820,7 +896,7 @@ in case the session background is not white, need to change inactive bullet colo
     font-size: 16px;
     border-width: 0;
     outline-width: 0;
-    &:focus{
+    &:focus {
       border-width: 0;
       outline-width: 0;
     }
@@ -1203,6 +1279,28 @@ in case the session background is not white, need to change inactive bullet colo
           height: 650px;
         }
       }
+    }
+  }
+
+  .testimonial {
+    &s {
+      &-section {
+        padding: 30px 0;
+        .swiper {
+          &-pagination {
+            margin-top: 60px;
+            margin-bottom: 60px;
+          }
+        }
+      }
+    }
+    &-text {
+      font-size: 32px;
+      margin-bottom: 80px;
+    }
+
+    &-item {
+      font-size: 22px;
     }
   }
 
@@ -1730,6 +1828,28 @@ in case the session background is not white, need to change inactive bullet colo
     }
   }
 
+  .testimonial {
+    &s {
+      &-section {
+        padding: 20px 0;
+        .swiper {
+          &-pagination {
+            margin-top: 40px;
+            margin-bottom: 40px;
+          }
+        }
+      }
+    }
+    &-text {
+      font-size: 28px;
+      margin-bottom: 60px;
+    }
+
+    &-item {
+      font-size: 20px;
+    }
+  }
+
   .articles {
 
     &-body {
@@ -1885,6 +2005,32 @@ in case the session background is not white, need to change inactive bullet colo
     }
   }
 
+  .testimonial {
+    &s {
+      &-section {
+        .swiper {
+          &-pagination {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            &-bullet {
+              margin-top: 10px;
+              width: $schedule-organizer-icon-size - 20px;
+              height: $schedule-organizer-icon-size - 20px;
+            }
+          }
+        }
+      }
+    }
+    &-text {
+      font-size: 24px;
+      margin-bottom: 60px;
+    }
+
+    &-item {
+      font-size: 18px;
+    }
+  }
+
   .articles {
     &-body {
       grid-template-columns: auto;
@@ -2025,4 +2171,33 @@ in case the session background is not white, need to change inactive bullet colo
       }
     }
   }
+
+  .testimonial {
+    &s {
+      &-section {
+        .swiper {
+          &-pagination {
+            &-bullet {
+              margin-top: 10px;
+              width: $schedule-organizer-icon-size - 40px;
+              height: $schedule-organizer-icon-size - 40px;
+            }
+          }
+        }
+      }
+    }
+    &-text {
+      font-size: 22px;
+      margin-bottom: 30px;
+    }
+
+    &-image {
+      margin-top: 10px;
+    }
+
+    &-item {
+      font-size: 16px;
+    }
+  }
+
 }
