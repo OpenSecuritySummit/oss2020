@@ -3,6 +3,10 @@ $xxl-hero-container-height: 642px;
 $schedule-organizer-icon-size: 122px;
 $booking-section-height: 332px;
 $summit-section-height: 350px;
+$articles-image-height: 384px;
+$articles-image-height-xl: $articles-image-height * 0.75;
+$articles-image-height-lg: $articles-image-height-xl * 0.9;
+$articles-image-height-md: $articles-image-height-xl;
 
 
 /**
@@ -707,6 +711,72 @@ in case the session background is not white, need to change inactive bullet colo
 
 
 /*****************************/
+/** ARTICLES styles *****/
+/*****************************/
+.articles {
+  &-section {
+    padding: 40px 0;
+
+    .section {
+      &-overtitle {
+        letter-spacing: 4px;
+        font-weight: 500;
+      }
+      &-title {
+        font-weight: 700;
+        letter-spacing: 2.0px;
+      }
+    }
+  }
+  &-body {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 10px;
+    max-width: 100%;
+  }
+
+  &-title {
+    color: $main-header-color;
+  }
+  &-author {
+    color: $main-text-color-alt;
+  }
+
+  &-card {
+    font-size: 20px;
+    color: $session-content-text-color;
+  }
+  &-image {
+    img {
+      width: 100%;
+      //min-width: 100%;
+      height: $articles-image-height;
+      //max-height: $articles-image-height;
+    }
+  }
+
+  &-readmore {
+    margin-top: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    background-color: $main-text-color-alt;
+    color: $main-inverse-text-color;
+    padding: 6px 16px;
+    font-size: 14px;
+    border-radius: 20px;
+    border-width: 0;
+    outline-width: 0;
+    letter-spacing: 4px;
+    &:focus{
+      border-width: 0;
+      outline-width: 0;
+    }
+  }
+}
+/* end of ARTICLES styles */
+
+
+/*****************************/
 /** NEWSLETTER styles *****/
 /*****************************/
 .newsletter {
@@ -744,7 +814,6 @@ in case the session background is not white, need to change inactive bullet colo
     text-transform: uppercase;
     background-color: $main-background-color;
     color: $main-inverse-text-color;
-    outline: none;
   }
   &-email, &-button {
     padding: 15px 25px;
@@ -758,6 +827,7 @@ in case the session background is not white, need to change inactive bullet colo
   }
 }
 /* end of NEWSLETTER styles */
+
 
 /*****************************/
 /** PREV SUMMITS  styles **/
@@ -932,7 +1002,6 @@ in case the session background is not white, need to change inactive bullet colo
 
   }
 
-
   .booking {
     &-section {
       height: 300px;
@@ -1020,9 +1089,6 @@ in case the session background is not white, need to change inactive bullet colo
         }
       }
     }
-  }
-
-  .hero {
     &-block {
       margin-top: $main-menu-height;
     }
@@ -1119,29 +1185,6 @@ in case the session background is not white, need to change inactive bullet colo
     }
   }
 
-
-  .schedule {
-    &-section {
-      .description {
-        .title {
-          font-size: 40px;
-        }
-      }
-    }
-    &-day {
-      &-entries {
-        //padding: 40px 10px;
-      }
-      .schedule-entry {
-        .body {
-          &-title {
-            font-size: 28px;
-          }
-        }
-      }
-    }
-  }
-
   .joinnext {
     &-badge-next {
       font-size: 20px;
@@ -1163,9 +1206,39 @@ in case the session background is not white, need to change inactive bullet colo
     }
   }
 
+  .articles {
+    &-image {
+      img {
+        height: $articles-image-height-xl;
+      }
+    }
+  }
+
   .prevsummits {
     &-button {
       font-size: 30px;
+    }
+  }
+
+  .schedule {
+    &-section {
+      .description {
+        .title {
+          font-size: 40px;
+        }
+      }
+    }
+    &-day {
+      &-entries {
+        //padding: 40px 10px;
+      }
+      .schedule-entry {
+        .body {
+          &-title {
+            font-size: 28px;
+          }
+        }
+      }
     }
   }
 
@@ -1298,6 +1371,24 @@ in case the session background is not white, need to change inactive bullet colo
           height: 550px;
         }
       }
+    }
+  }
+
+  .articles {
+    &-image {
+      img {
+        height: $articles-image-height-lg;
+      }
+    }
+    &-card {
+      font-size: 16px;
+    }
+    &-title {
+      margin: 10px 0;
+      font-size: 22px;
+    }
+    &-readmore {
+      font-size: 12px;
     }
   }
 
@@ -1639,6 +1730,28 @@ in case the session background is not white, need to change inactive bullet colo
     }
   }
 
+  .articles {
+
+    &-body {
+      grid-template-columns: repeat(2, auto);
+    }
+    &-image {
+      img {
+        height: $articles-image-height-md;
+      }
+    }
+    &-card {
+      font-size: 16px;
+    }
+    &-title {
+      margin: 10px 0;
+      font-size: 22px;
+    }
+    &-readmore {
+      font-size: 12px;
+    }
+  }
+
   .prevsummits {
     &-button {
       font-size: 22px;
@@ -1772,6 +1885,27 @@ in case the session background is not white, need to change inactive bullet colo
     }
   }
 
+  .articles {
+    &-body {
+      grid-template-columns: auto;
+    }
+    &-image {
+      img {
+        height: $articles-image-height-md;
+      }
+    }
+    &-card {
+      font-size: 16px;
+    }
+    &-title {
+      margin: 10px 0;
+      font-size: 22px;
+    }
+    &-readmore {
+      font-size: 12px;
+    }
+  }
+
   .newsletter {
     &-email {
       width: 350px;
@@ -1891,5 +2025,4 @@ in case the session background is not white, need to change inactive bullet colo
       }
     }
   }
-
 }
