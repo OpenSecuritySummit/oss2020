@@ -1,6 +1,7 @@
 {{ template "_internal/google_analytics.html" . }}
 <!--<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>-->
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 
@@ -14,11 +15,10 @@
 <!-- owl carousel -->
 <script src="{{ .Site.BaseURL }}js/owl.carousel.min.js"></script>
 
-<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 
 <script>
-  // this hooks is being used for handling session entries like personal pages, or session description inside of <a> tag
-  // see ie. /schedule
+    // this hooks is being used for handling session entries like personal pages, or session description inside of <a> tag
+    // see ie. /schedule
     function gotoLink(e) {
         getUrlFromTarget(e, (url) => {
             e.preventDefault();
@@ -32,11 +32,11 @@
         })
     }
 
-  function getUrlFromTarget(e, cb) {
+    function getUrlFromTarget(e, cb) {
         var target = e.target;
         var currentTarget = e.currentTarget;
         var url = target && target.dataset.url || currentTarget && currentTarget.dataset.url;
-        if (url) {
+        if ( url ) {
             cb.call(this, url);
         }
     }
@@ -47,11 +47,11 @@
         var scope = target.parentNode.parentNode.parentNode;
         var images = $.find('img', scope).filter((img) => img.alt);
         if ( images.length > 1 ) {
-            var doAction = doPop?'addClass':'removeClass';
+            var doAction = doPop ? 'addClass' : 'removeClass';
             for ( let i = 0; i < images.length; i++ ) {
                 var image = images[i];
                 var imageContainer = image.parentNode;
-                if (image.getAttribute('data-url') === url) {
+                if ( image.getAttribute('data-url') === url ) {
                     $(imageContainer)[doAction]('organizer-icon-hovered');
                 } else {
                     $(imageContainer)[doAction]('organizer-icon-dimmed');
@@ -67,11 +67,11 @@
         var images = $.find('img', scope).filter((img) => img.alt);
 
         if ( images.length ) {
-            var doAction = doPop?'addClass':'removeClass';
+            var doAction = doPop ? 'addClass' : 'removeClass';
             for ( let i = 0; i < images.length; i++ ) {
                 var image = images[i];
                 var imageContainer = image.parentNode;
-                if (imageContainer.href === url) {
+                if ( imageContainer.href === url ) {
                     $(imageContainer)[doAction]('organizer-icon-hovered');
                 } else {
                     $(imageContainer)[doAction]('organizer-icon-dimmed');
@@ -84,12 +84,15 @@
     function mouseEnterInTableCell(e) {
         toggleInTableCell(e, true)
     }
+
     function mouseleave(e) {
         toggleInTableCell(e, false)
     }
+
     function mouseEnterInHomePage(e) {
         toggleInHomePage(e, true)
     }
+
     function mouseLeaveInHomePage(e) {
         toggleInHomePage(e, false)
     }
@@ -111,66 +114,19 @@
     const LIVE_CHECK_INTERVAL_MS = 30000;
     const reDoubleDigits = /(\d){2}/g;
 
-  /**
-   * Return
-   * @param sessionTime
-   * @returns {*[]|*}
-   */
+    /**
+     * Return
+     * @param sessionTime
+     * @returns {*[]|*}
+     */
     function parseScheduleTime(sessionTime) {
         const hoursMinutes = sessionTime.match(reDoubleDigits)
-        if (hoursMinutes.length === 4) {
+        if ( hoursMinutes.length === 4 ) {
             return hoursMinutes
         }
 
         return [];
     }
-
-    $(document).ready(function () {
-          //initialize swiper when document ready
-/*
-          var mySwiper = new Swiper ('.swiper-container', {
-              loop: true,
-              pagination: {
-                  el: '.swiper-pagination',
-                  clickable: true,
-              },
-              autoplay: {
-                  delay: 5000,
-
-              }
-          });
-*/
-
-        return;
-          // initialize live streaming
-          const entries = $.find('.schedule-entries .schedule-entry');
-          let inited = false;
-          entries.forEach((entry) => {
-              let dataset = entry.dataset;
-              if (dataset.link) {
-                  inited = true;
-                  dayScheduleMap[dataset.link] = parseScheduleTime(dataset.sessionTime)
-              }
-          })
-
-          if (inited) {
-              scheduleDay = getDate().getDay();
-              const timer = setInterval(() => {
-                  // check if
-                  if (scheduleDay + 1 < getDate().getDay()) {
-                      clearInterval( timer );
-                      return;
-                  }
-                  const currentlyLive = Object.keys(dayScheduleMap).filter( (key) => {
-                      const value = dayScheduleMap[key];
-                      if (true) {
-
-                      }
-
-                  })
-              }, LIVE_CHECK_INTERVAL_MS);
-          }
-      });
 
 </script>
 

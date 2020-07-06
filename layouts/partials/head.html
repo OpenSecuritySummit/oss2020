@@ -28,6 +28,9 @@
 
   <!-- Css animations  -->
   <link href="{{ .Site.BaseURL }}css/animate.css" rel="stylesheet">
+
+  <!--  Swiper styles-->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
   
   <!-- Theme stylesheet, if possible do not edit this stylesheet -->
   {{ if and (isset .Site.Params "style") .Site.Params.style }}
@@ -94,5 +97,12 @@
 
   <!--  moved from the body only jquery -->
   <script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+<!-- used in the home page for integration swiper with youtube player-->
+  <script src="http://www.youtube.com/player_api" async></script>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
 
 </head>
