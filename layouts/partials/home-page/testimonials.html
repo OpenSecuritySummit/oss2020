@@ -5,7 +5,7 @@
     <div class="swiper-container">
       <div class="swiper-pagination"></div>
       <div class="swiper-wrapper">
-        {{ range first 2 ( sort .Site.Data.testimonials ) }}
+        {{ range first 2 ( sort .Site.Data.testimonials.list ) }}
         <div class="swiper-slide">
           <div class="testimonial-item">
             <div class="testimonial-text">{{- .text | markdownify -}}</div>
