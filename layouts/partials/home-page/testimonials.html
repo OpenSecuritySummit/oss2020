@@ -7,7 +7,7 @@
       <div class="swiper-wrapper">
         {{ range first 2 ( sort .Site.Data.testimonials.list ) }}
         <div class="swiper-slide">
-          <div class="testimonial-item">
+          <div class="testimonial-item" data-avatar="{{- .avatar -}}">
             <div class="testimonial-text">{{- .text | markdownify -}}</div>
             <div><span class="testimonial-author">{{- .name -}}</span><span> - {{ .position -}}</span></div>
           </div>
@@ -22,10 +22,11 @@
 <script>
     let testimonialSwiper = window.testimonialSwiper = null;
     $(document).ready(function () {
+
         // create youtube player
         //initialize swiper when document ready
-
-        let allTestimonialElements = $.find('.testimonial-section .testimonial-item');
+        const allTestimonialElements = $.find('.testimonials-section .testimonial-item');
+        const avatars = allTestimonialElements.map( (el, index) => el.dataset.avatar || `/img/testimonials/person-${ index + 1 }.jpg`);
 
         testimonialSwiper = new Swiper('.testimonials-section .swiper-container', {
             loop: true,
@@ -33,7 +34,8 @@
                 el: '.testimonials-section .swiper-pagination',
                 clickable: true,
                 renderBullet: function (index, className) {
-                    return '<div class="testimonial-image ' + className + '"><img src="img/testimonials/person-' + ( index + 1 ) + '.jpg" alt="Go to testimonial ' + ( index + 1 ) + '"/></div>';
+                    const avatar = avatars[index];
+                    return `<div class="testimonial-image ${className}"><img src="${avatar}" alt="Go to testimonial ${index + 1}"/></div>`;
                 },
             },
             autoplay: {
