@@ -5,7 +5,7 @@ company: Practical Devsecops
 job_title: Founder
 facebook:
 linkedin: secfigo
-twitter:
+twitter: secfigo
 website: http://practical-devsecops.com
 notes:
 status: add-details
