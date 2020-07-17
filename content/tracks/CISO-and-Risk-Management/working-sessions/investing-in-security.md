@@ -44,12 +44,8 @@ Let me move very quickly to the more human side: the organisational design size 
 
 So just to sort of summarize overall, I think that we are at an extremely exciting juncture for our industry. The tragedy that obviously we have faced as a society over the last three months is very real. There is huge uncertainty about where we go from here. We keep talking about unprecedented times, but even having gone through these three months as a society we face these challenges and we're very proud that we've adapted so quickly. Yes, I think it's still fair to say that you're going to look at the next 6, 12, 18 months and who knows what's coming our way. Having said that the adaptability we've shown so far gives you a lot of reasons for hope. And us as an industry, we play a key role. I mean it's something that I think about a lot. It's not about whether we sell more, whether we grow more as a company, whether we become hugely profitable as a result of all of this now. It's the responsibility that we have to play a key role in securing the ecosystem that we're very proud to be a part of. And that to me is the key. A few trends that we have that bring us to where we are right now, a few learnings over the last three months, clearly a different way of doing things when it comes to people bring to having the right organisational design and then the role that we need to play. But for us as an industry I'd say the future is bright, but at the same time we have a massive responsibility, and that's not a bad thing to have.
 
-### Session Contents
-
-{{<img src="https://github.com/OpenSecuritySummit/oss2020/raw/master/content/outcomes/presentation/map.png">}}
 
 
-{{< pdf src="https://github.com/OpenSecuritySummit/oss2020/raw/master/content/outcomes/presentation/16%20June%20-%20Cell%20Structure%20for%20Organisations%20v2.5.pdf" >}}
 
 
 
