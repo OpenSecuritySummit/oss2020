@@ -17,6 +17,7 @@ organizers   :
     - Danny Lopez
 hosted_by    : Open Security Summit
 youtube_link : akYSR2DNdLQ
+content_class: investing-in-security
 
 ---
 ### Session Description
