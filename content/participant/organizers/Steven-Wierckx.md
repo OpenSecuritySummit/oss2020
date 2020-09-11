@@ -1,6 +1,6 @@
 ---
 title: Steven Wierckx
-image: https://media-exp1.licdn.com/dms/image/C4D03AQFOx1wIUdObAw/profile-displayphoto-shrink_800_800/0?e=1597276800&v=beta&t=6N_0XeXVN_35-cUEMc17q-CsNsByxMGL4LAZJc0W9kk
+image: https://media-exp1.licdn.com/dms/image/C4D03AQFOx1wIUdObAw/profile-displayphoto-shrink_800_800/0?e=1605139200&v=beta&t=eG3TXG-HkC0y_DTwl3zKK8nuW1R2Qxs3h8P41aIVTy4
 company: Toreon
 job_title: Security Consultant at Toreon
 facebook: 
