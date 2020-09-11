@@ -1,6 +1,6 @@
 ---
 title: Leila Rao
-image: https://media-exp1.licdn.com/dms/image/C4D03AQEKrBv3gxAwRw/profile-displayphoto-shrink_800_800/0?e=1597276800&v=beta&t=s_R9HfeyRefiBMPnF9pit51JA1txvu4d6zM-sYicWcs
+image: https://media-exp1.licdn.com/dms/image/C4D03AQEKrBv3gxAwRw/profile-displayphoto-shrink_800_800/0?e=1605139200&v=beta&t=ToMtxQ3UXIRWoX_kOTfPDOQs1x0K4AtXJvvqeNsLGOk
 company: AgileXtended
 job_title: Co-Founder of LeanInAgile | Facilitating business value delivery
 facebook: 
