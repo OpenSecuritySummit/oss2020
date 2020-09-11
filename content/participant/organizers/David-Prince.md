@@ -1,6 +1,6 @@
 ---
 title: David Prince
-image: https://media-exp1.licdn.com/dms/image/C4D03AQFMa39UaqTaVA/profile-displayphoto-shrink_800_800/0?e=1597276800&v=beta&t=-4_3BUaN1PJVtrydQ86o0bbybXaDmh4hO8xMuhNaRH4
+image: https://media-exp1.licdn.com/dms/image/C4D03AQFMa39UaqTaVA/profile-displayphoto-shrink_800_800/0?e=1605139200&v=beta&t=gZT0WvZ4dt8C3dwQm40jJYOVAxoRc-RQO72nWGfUeMU
 company: Baringa Partners
 job_title: Director at Baringa Partners
 facebook: 
