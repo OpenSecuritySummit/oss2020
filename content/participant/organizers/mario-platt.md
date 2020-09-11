@@ -1,6 +1,6 @@
 ---
 title: Mario Platt
-image: https://media-exp1.licdn.com/dms/image/C4D03AQFT1Fl0RAhWlg/profile-displayphoto-shrink_800_800/0?e=1596672000&v=beta&t=5N7woUfpABLtu3DEg3AXndwPQkM5ARlNwJ6qMFWmzMg
+image: https://media-exp1.licdn.com/dms/image/C4D03AQFT1Fl0RAhWlg/profile-displayphoto-shrink_800_800/0?e=1605139200&v=beta&t=Rnoedcc1O4n5yGzygzDA-jgZNU-U9xMpjCTyNNDB42Q
 company: Privacy Beacon
 job_title: Information Security Leader
 facebook: mario.platt
