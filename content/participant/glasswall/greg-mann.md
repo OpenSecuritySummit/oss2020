@@ -1,6 +1,6 @@
 ---
 company: Glasswall Solutions
-image: https://media-exp1.licdn.com/dms/image/C5603AQF3in2wMcjcig/profile-displayphoto-shrink_800_800/0?e=1597276800&v=beta&t=YyIRxCc-0iVm6CL_zQ82abSGqWS3hNq9Zg4GoManVqg
+image: https://media-exp1.licdn.com/dms/image/C5603AQF3in2wMcjcig/profile-displayphoto-shrink_800_800/0?e=1605139200&v=beta&t=s5QyUsGQXBsIvoVBxnMs__Le2rulk8-EXGK82G2llG4
 job_title: Test Team Lead
 linkedin: greg-mann-75a42812
 notes: ''
