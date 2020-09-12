@@ -1,6 +1,6 @@
 ---
 title: Omer Levi Hevroni
-image: https://media-exp1.licdn.com/dms/image/C4D03AQGJgXcQlyax9Q/profile-displayphoto-shrink_800_800/0?e=1597276800&v=beta&t=DeVaTnKRYRMkGleoIBk8T0O0mjGsQ0BJV4c81Ym0w4A
+image: https://media-exp1.licdn.com/dms/image/C4D03AQGJgXcQlyax9Q/profile-displayphoto-shrink_800_800/0?e=1605139200&v=beta&t=dRpwRZZPBdbS39q-GbBQBtekHQLgFVrV_YI8eUGoZuc
 company: Snyk
 job_title: AppSec Engineer 
 facebook: 
