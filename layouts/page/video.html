@@ -4,12 +4,14 @@
   {{ partial "nav.html" . }}
 
 </header>
-{{ end }} {{ define "breadcrumbs" }}
+{{ end }} 
+
 <div class="container-managed xxl">
-  {{ partial "breadcrumbs2020.html" . }}
+  {{ define "breadcrumbs" }}
+    {{ partial "breadcrumbs2020.html" . }}
+  {{ end }} 
 
-  {{ end }} {{ define "full-content" }}
-
-  {{ partial "video/body.html" . }}
+  {{ define "full-content" }}
+    {{ partial "video/body.html" . }}
+  {{ end }}
 </div>
-{{ end }}

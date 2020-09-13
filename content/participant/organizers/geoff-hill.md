@@ -4,7 +4,7 @@ image: https://media-exp1.licdn.com/dms/image/C4D03AQHP3jyOu8S9Bg/profile-displa
 company: Artis-Secure
 job_title: AppSec DevSecOps leader and Architect
 facebook:
-linkedin:geoffrey-hill
+linkedin: geoffrey-hill
 twitter: ghill_security
 website:
 notes:
