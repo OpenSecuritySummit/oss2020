@@ -1,6 +1,6 @@
 ---
 title: Matt Green
-image: https://media-exp1.licdn.com/dms/image/C5603AQFuTA71zvf_Lg/profile-displayphoto-shrink_400_400/0?e=1597881600&v=beta&t=paeXANuclkGfVoAstMOm_uMCWTlo_T-VisAcZaTnY5w
+image: https://media-exp1.licdn.com/dms/image/C5603AQFuTA71zvf_Lg/profile-displayphoto-shrink_800_800/0?e=1605744000&v=beta&t=aAu4XdFdc6kcy-BOmfuYHHVo8PCMY_pszUNt1bP9t1E
 company: Glasswall Solutions
 job_title: Test analyst
 facebook: 
