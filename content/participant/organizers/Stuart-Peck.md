@@ -1,6 +1,6 @@
 ---
 title: Stuart Peck
-image: https://media-exp1.licdn.com/dms/image/C4D03AQHVNpV-4GZFZQ/profile-displayphoto-shrink_800_800/0?e=1596672000&v=beta&t=UP66L56F55JBG1BroixdMLsQWxfOFgHwVGd_SrBqxGg
+image: https://media-exp1.licdn.com/dms/image/C4D03AQHVNpV-4GZFZQ/profile-displayphoto-shrink_800_800/0?e=1605744000&v=beta&t=coTpn6KxAnOmvd84ZF-jhYdf3BC0qksGtqJhRFIwK-c
 company: ZeoroDayLab
 job_title: Director of Cyber Security Strategy ZeroDayLab
 facebook:
