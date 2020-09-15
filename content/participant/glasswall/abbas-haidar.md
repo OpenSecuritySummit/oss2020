@@ -1,6 +1,6 @@
 ---
 company: 'Glasswall'
-image: https://media-exp1.licdn.com/dms/image/C4D03AQGbKTdE3-O0RQ/profile-displayphoto-shrink_200_200/0?e=1596672000&v=beta&t=lxdOqPXHDaTuYy3X0Ltu-bPnhLc6GQZIC5kU2_Gmsm4
+image: https://media-exp1.licdn.com/dms/image/C4D03AQGbKTdE3-O0RQ/profile-displayphoto-shrink_800_800/0?e=1605744000&v=beta&t=QKymlOVPghUWjbbi11RgQJaW67ZgpVzIMPB2KmLAzTw
 job_title: 'Head of IT and Customer Support at Glasswall Solutions Ltd.'
 linkedin: abbashaidar
 notes: ''
