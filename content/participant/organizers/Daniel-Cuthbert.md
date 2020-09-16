@@ -1,6 +1,6 @@
 ---
 title: Daniel Cuthbert
-image: https://media-exp1.licdn.com/dms/image/C5603AQFrg__u_LCafQ/profile-displayphoto-shrink_800_800/0?e=1596672000&v=beta&t=fQuebbxFBirT0R8Cr5f59SwHeIfQFQQfMWCIxUIBqoc
+image: https://media-exp1.licdn.com/dms/image/C5603AQFrg__u_LCafQ/profile-displayphoto-shrink_800_800/0?e=1605744000&v=beta&t=2Z9n93tOUSpmmjv984T8ncwo9YEjbWmo0ffxgfhSwoY
 company: Banco Santander
 job_title: Global Head of Cyber Security Research
 facebook:
