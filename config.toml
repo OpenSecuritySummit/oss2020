@@ -1,4 +1,4 @@
-baseurl                 = "https://open-security-summit.org/"
+baseurl                 = "https://2020.open-security-summit.org/"
 title                   = "Open Security Summit"
 theme                   = "oss-owasp"
 languageCode            = "en-us"
@@ -59,7 +59,7 @@ paginate = 10
     url = "/tracks/"
 
 [[menu.main]]
-    name = "Trainings"
+    name = "Training"
     identifier = "training"
     pre = "<i class='fa fa-road'></i>&nbsp;"
     weight = 4
